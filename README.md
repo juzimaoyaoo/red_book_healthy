@@ -4,7 +4,7 @@
 
 定位、操作授权和发布要求见 [AGENTS.md](AGENTS.md)，受众假设和实验见 [ACCOUNT_DNA.md](ACCOUNT_DNA.md)。
 
-迁移到新电脑请先读 [HANDOFF.md](HANDOFF.md)。误推到其他工作区的远程分支已撤销；当前仅保留本地交接工程，独立私有仓库尚待建立。
+迁移到新电脑请先读 [HANDOFF.md](HANDOFF.md)。独立仓库为 juzimaoyaoo/red_book_healthy；按用户最新授权上传，当前可见性为 public。
 
 ## 当前生产入口（v4）
 
@@ -97,7 +97,7 @@ python3 -m health_agent backtest --mode live
 
 回归结果见 [50篇逐篇报告](reports/backtest50.md)。第一轮最低哨兵覆盖40/42，修订后42/42；这是对已读样本的规则回归，不能当模型准确率。8篇未预设哨兵也不等于医学合格。没有独立盲测数据；图片未逐张核查；尚未完成真实API回测。
 
-50篇的正文在 `data/backtest-50.json`。按用户换电脑要求，原始资料已纳入本次私有迁移备份，不得将本仓库公开或对外全文转载。完整数据、标注、规则和结果都有hash，禁止用另一个样本覆盖后仍沿用旧结论。
+50篇的正文在 `data/backtest-50.json`。按用户换电脑及最新上传授权，原始资料纳入迁移工程；仓库当前为 public。完整数据、标注、规则和结果都有hash，禁止用另一个样本覆盖后仍沿用旧结论。
 
 `config/reference-playbook.json` 已接入选题、制作、审核的输入；`health_agent/editorial.py` 会预检标题、封面、正文与逐页文案。必须改写项不能被模型GO绕过；待核源项交给独立审核，不能直接判真或判假。
 

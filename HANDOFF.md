@@ -2,20 +2,18 @@
 
 此分支完整保存「许老师聊健康」工程、两批各50篇参考、原始截图和拆解、模型调用回执、两篇成品及公开发布证据。先读本文件，再读 AGENTS.md、ACCOUNT_DNA.md、LEARNINGS.md。
 
-## 获取工程（已撤销误推）
+## 获取工程
 
-2026-11-06：此前擅自将健康项目推送到另一工作区仓库 `juzimaoyaoo/redbook_ai`，目标选择错误。已删除误建的远程分支 `healthy-handoff-20261106`，删除前后 main 均为 `3195b954ee0f605c13473d11bd638bd136403c51`。本地 origin 已解除。
-
-当前完整工程保留在本地，尚未完成向健康项目独立 private 仓库的交接。旧的 redbook_ai 克隆命令已失效，不再使用。今后只允许推送到本项目独立且已核验为 private 的仓库，不能用其他工作区仓库或分支代替。
-
-本地验证：
+目标仓库：`https://github.com/juzimaoyaoo/red_book_healthy`，分支 `main`。2026-11-06 核验仓库为 public；用户在获知当前可见性后明确要求先上传，因此按最新授权执行公开上传。这不是 private 备份。此前误推到 redbook_ai 的远程分支已经删除。
 
 ```bash
+git clone https://github.com/juzimaoyaoo/red_book_healthy.git
+cd red_book_healthy
 python3 -m unittest discover -s tests -v
 python3 tools/verify_handoff.py
 ```
 
-不迁移 SSH 私钥、Codex 登录凭证或 API Key。参考原文仅用于用户私有研究。
+工程不包含 SSH 私钥、Codex 登录凭证或 API Key。后续推送仅使用本健康工程专属仓库。
 
 ## 运行条件
 

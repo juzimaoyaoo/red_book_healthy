@@ -1,14 +1,14 @@
 {
   "created_on": "2026-11-06",
-  "purpose": "Local handoff snapshot after removal of erroneous cross-project remote branch",
+  "purpose": "Cross-computer migration to red_book_healthy; public upload explicitly authorized after visibility disclosure",
   "files": {
     ".env.example": "6233a2a58765376caba32f20a0e571580a396d88fbb1f7e17499672be0e1af14",
     ".gitignore": "1e34abeaaa8be499cc33694ad2849e1e08ed84bc697dc91c51f5592f2489404d",
     "ACCOUNT_DNA.md": "80396718eb953b349a41afbefd182f4b3ddc1cf6a6e0755d1b8840b369394c23",
-    "AGENTS.md": "8054816680c760c0dd77cba84ca72ad7023c74f077deaf36345f4f27c3bb5bfb",
-    "HANDOFF.md": "266f9f3a02e2f112f3e40adc09cb17225cee92cef204facc1ca1fa1812ee6d1a",
+    "AGENTS.md": "d97f4362086b099dc9d9c06ea40c0fd4caa0782c9afdbe17c5188a29acaec66e",
+    "HANDOFF.md": "13c5b000fcc54527f198561a903b68af9aaf31703b1f8ed88b71078b13dbf05a",
     "LEARNINGS.md": "20747be0384984e30ed3b3b78b1d029065c4e6dbd967af51701ea47e8b439f68",
-    "README.md": "75c891ec76834f57206bd36693227729cdbb985bec4f9ab9de78a6586496eb1c",
+    "README.md": "9531b9df60e3e754b653dd40c88828d26b9040d2e8b7c54a6bc965429b23298c",
     "assets/profile/avatar-health-v1.png": "13b71641bc584b41870b6b8ad1fe8df47988e19cb4c032556f2bfe40b757ba56",
     "assets/profile/avatar-profile-verified.png": "c994b3e50b12ddc7be5cdff5f5dfbf8facabd3c93a514a85e74363e81255fb50",
     "assets/profile/avatar-update.json": "594514e3358bf5465b3b5ecc6887189092eab389a79bcffe20acecc8f270b312",

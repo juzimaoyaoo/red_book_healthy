@@ -1,7 +1,8 @@
 # 许老师聊健康：工作区运行约定
 
 ## 换电脑交接（2026-11-06）
-- 误推到 redbook_ai 的分支已撤销，本地 origin 已解除；当前状态与接续步骤见 HANDOFF.md。只允许使用本健康工程独立的 private 仓库，禁止以其他工作区仓库或分支替代。用户明确授权将完整工程与研究资料备份到自己的 GitHub private；原始参考不能对外全文转载，不能将此分支公开。
+- 正确远程仓库为 juzimaoyaoo/red_book_healthy，分支 main。误推到 redbook_ai 的分支已撤销，不得再以其他工程仓库或分支代替。
+- 用户获知新仓库当前为 public 后明确要求“先上传”，本次据此执行，不能称作 private 备份。接续步骤见 HANDOFF.md。
 - 新电脑先跑测试和 `python3 tools/verify_handoff.py`。历史回执的旧绝对路径不改写；参考库通过 capture_root 映射并校验，后续生产必须新建 run。
 
 ## 已确认的身份与授权
