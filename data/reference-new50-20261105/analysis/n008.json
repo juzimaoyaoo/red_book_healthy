@@ -1,0 +1,85 @@
+{
+  "time": "2026-11-05T11:19:38.672021+00:00",
+  "source_identity": {
+    "source_sha256": "1516e9efcddf3ce225783e2149f6948729d726721b52d69b6765abbe92cdfe88",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n008.png": "72b77fc8f9332eae38aa8302ebadf2c153a412d1989c575235f674d9895ba0e0"
+    }
+  },
+  "receipt": {
+    "call_id": "002-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 198.84,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 37198,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6103,
+          "reasoning_output_tokens": 93
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n008",
+    "title": "喝粥吃面真的不养胃！（建议转发家庭群）",
+    "usable_as": "exclude",
+    "completeness": "不完整：轮播共7页，仅提供第1页。正文明确指向未提供的误区解释和4项注意事项，现有文字不能替代其余实质页面。",
+    "reader_problem": "家庭成员对粥面是否适合胃部不适存在分歧，想知道该怎样判断饮食选择。",
+    "scene": "家庭群转发养胃说法，或为长辈安排日常饮食时。",
+    "title_mechanic": "用明确否定挑战常见观念，再指定家庭群作为转发场景。",
+    "title_promise_limits": "标题承诺纠错，正文还预告4项保护肠胃功能的注意事项；现有材料不足以检查这些答案是否兑现。",
+    "content_structure": [
+      "首图以拟人胃和面碗制造冲突。",
+      "封面标签提出蛋白质少、脂肪少、糖类过多及营养不均衡等判断。",
+      "正文先解释读者为什么相信养胃食疗。",
+      "正文概括否定相关方法，并回指未提供的误区说明和4项注意事项。"
+    ],
+    "answer_payoff": "现有材料只能识别纠错入口和预告，无法获得或评估完整替代方案。",
+    "visual_observation": "首图上半部为拟人胃、筷子和面碗，下半部为紫底超大否定标题；黄色与紫色标签围绕食物列出营养判断。图形把胃的反应与食物组成连接起来，但这只是封面表达，未展示支持该关系的证据。页码显示1/7。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "原文关于粥面不养胃、流传方法无效、胃病常见程度，以及首图营养组成的判断均待核；具体食物配方、份量、人群和疾病背景没有说明。不能从营养均衡问题直接推出特定胃部疾病的饮食结论。未见其余6页，不能推断作者如何限定观点。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "标题指定转发对象，会把读者任务从自己理解扩展为向家人解释，后文应提供适合转述的理由和条件。",
+        "observed_anchor": "建议转发家庭群",
+        "new_application": "制作家庭健康信息核对卡，让读者用三个问题讨论消息适用于谁、依据在哪、还缺什么。"
+      },
+      {
+        "stage": "visual",
+        "rule": "封面可用对象图与标签帮助读者迅速识别争议，但标签提出的每个判断都需要在内页获得解释。",
+        "observed_anchor": "营养不均衡",
+        "new_application": "做早餐标签阅读卡，封面标出待比较字段，内页用真实标签展示字段含义。"
+      },
+      {
+        "stage": "review",
+        "rule": "正文出现对前文结论和编号建议的回指时，必须取得对应页面才能评价答案结构。",
+        "observed_anchor": "4️⃣个",
+        "new_application": "采集轮播时按页记录新增答案；缺少建议页就保留为封面观察，不进入完整样本库。"
+      }
+    ],
+    "do_not_transfer": [
+      "不补写缺失的6页及4项注意事项。",
+      "不把封面的营养标签当成已证实的疾病机制。",
+      "不复用脱离人群和食物组成的绝对否定结论。"
+    ],
+    "transformations": [
+      "面向家庭照护者制作饮食讨论问题卡，以经核资料和具体餐食记录为依据，采用条件问答；改变受众、证据与决策方式。",
+      "面向学生制作一餐组成观察练习，用可核对的食品标签和配料信息替代器官拟人判断；改变受众、证据与形式。",
+      "面向健康编辑制作轮播采集完整性清单，以逐页截图为证据，判断材料能否进入参考库；改变受众、证据与决策方式。"
+    ],
+    "limitations": [
+      "只观察到第1页，不能评价后续论证、建议质量或完整视觉节奏。",
+      "输入正文虽完整采集，但承担的是引子和内容概述，实质答案位于缺失轮播。",
+      "不依据可见互动判断否定式标题是否有效。"
+    ]
+  }
+}

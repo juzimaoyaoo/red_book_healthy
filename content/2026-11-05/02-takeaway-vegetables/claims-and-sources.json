@@ -1,0 +1,34 @@
+{
+  "claims": [
+    {
+      "id": "c1",
+      "statement": "餐餐有蔬菜，每天不少于300克，深色蔬菜约占一半。",
+      "source_urls": [
+        "https://wjw.beijing.gov.cn/xwzx_20031/xwfb/202610/t20261021_4913349.html"
+      ]
+    },
+    {
+      "id": "c2",
+      "statement": "外卖按需购买，注意份量和荤素搭配，可向商家提出少油少盐诉求。",
+      "source_urls": [
+        "https://wjw.beijing.gov.cn/xwzx_20031/xwfb/202610/t20261021_4913349.html"
+      ]
+    },
+    {
+      "id": "c3",
+      "statement": "膳食应包含不同食物类别；蔬菜不替代全部主食及肉蛋豆类食物。",
+      "source_urls": [
+        "https://wjw.beijing.gov.cn/xwzx_20031/xwfb/202610/t20261021_4913349.html"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "V1",
+      "title": "北京市卫健委：《中国居民膳食指南（2022）》核心准则",
+      "url": "https://wjw.beijing.gov.cn/xwzx_20031/xwfb/202610/t20261021_4913349.html",
+      "checked_on": "2026-11-05"
+    }
+  ],
+  "editorial_actions_are_examples": true
+}

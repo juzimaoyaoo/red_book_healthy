@@ -1,0 +1,84 @@
+{
+  "time": "2026-11-05T11:57:01.156955+00:00",
+  "source_identity": {
+    "source_sha256": "f930b6f2384026904f0ec2352a1073a8b7581e0180cdf4a6449aad5768e1e2f7",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n029.png": "eb7ddaaa7e7796898d360c4ee17acaa1f0de6ff15f46ec5b8b2d51f60a2a1648"
+    }
+  },
+  "receipt": {
+    "call_id": "002-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 257.51,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 75839,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6148,
+          "reasoning_output_tokens": 88
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n029",
+    "title": "午睡20分钟VS1小时，哪个更解乏？脑电波来回答",
+    "usable_as": "exclude",
+    "completeness": "唯一图片已完整提供，但图片只有问题封面；截图正文停在引子，输入body为界面文字不喜欢，未提供实质答案。不能算完整内容样本。",
+    "reader_problem": "想在两种午睡时长之间作选择，希望知道醒后状态如何比较。",
+    "scene": "午间休息时间有限，读者纠结短睡还是较长睡眠。",
+    "title_mechanic": "用两个明确时长构成二选一，再用脑电波及数据暗示客观裁决。",
+    "title_promise_limits": "未见脑电波图、数据来源、比较条件、结果或解乏的定义，无法判断问题是否被回答。",
+    "content_structure": [
+      "封面提出两种时长的比较问题。",
+      "以脑电波宣称将提供判断依据。",
+      "截图下方只见纠结时长的引子，后续实质内容缺失。"
+    ],
+    "answer_payoff": "未观察到答案；只能分析问题呈现和证据承诺，不能沉淀午睡结论或完整答案结构。",
+    "visual_observation": "橙黄色外底搭配叠放的浅色圆角纸张，黑色大字分行排布；VS图标强调比较，青色底线突出脑电波。可观察到两种时长被并置，但没有图形展示它们与任何测量结果的关系。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "两种时长仅为标题提出的待比较条件，不是本轮认可的建议。脑电波数据这一承诺没有可见资料支持，任何时长与解乏效果的关系均待核。不喜欢是界面控件文字，不是文章正文。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "二选一标题需要明确比较维度，读者才能知道是在比较醒后感受、任务表现还是其他结果。",
+        "observed_anchor": "哪个更解乏",
+        "new_application": "制作信息辨读题，要求读者先识别结果指标，再判断材料是否足以作选择。"
+      },
+      {
+        "stage": "visual",
+        "rule": "强调证据名称只能提示阅读重点；解释比较关系还需要显示条件、指标和结果的对应。",
+        "observed_anchor": "脑电波",
+        "new_application": "在获得合格来源后，用条件与结果对照表呈现资料，并标注测量指标无法直接回答的部分。"
+      },
+      {
+        "stage": "review",
+        "rule": "逐项核对数据型标题是否交付数据，只有封面和引子时应退出完整样本库。",
+        "observed_anchor": "数据告诉你答案",
+        "new_application": "建立采集验收卡，检查来源、比较条件、结果和结论是否可读，缺项则标记待补。"
+      }
+    ],
+    "do_not_transfer": [
+      "不补写哪种午睡时长更好的答案。",
+      "不把脑电波术语当成已经展示科学证据。",
+      "不因单张图片齐全而误判实质内容完整。"
+    ],
+    "transformations": [
+      "面向健康信息读者，制作数据标题验收练习，用缺失项检查替代时长选择；改变受众、决策方式和形式。",
+      "面向内容编辑，制作证据承诺审稿表，以可追溯来源和实际图表作为验收材料；改变受众、证据和形式。",
+      "面向希望整理午间状态的人，制作供咨询使用的个人记录页，记录自身情况而不预设统一时长；改变受众、证据和决策方式。"
+    ],
+    "limitations": [
+      "全部1张图片可读，但没有实质比较结果。",
+      "输入title混入正文引子，不能视为干净的完整标题字段。",
+      "未见来源、数据或正文结尾，不能评价完整论证。"
+    ]
+  }
+}

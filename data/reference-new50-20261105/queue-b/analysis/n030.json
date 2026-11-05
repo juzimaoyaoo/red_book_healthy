@@ -1,0 +1,94 @@
+{
+  "time": "2026-11-05T11:57:01.157526+00:00",
+  "source_identity": {
+    "source_sha256": "001a58bb3028a58fceb6677df2b705a51a243e47d4e1ea268a816ef6f1c8040d",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n030.png": "c0b9417b99ecda2f74594328b3557b53add2e72f2caae472e5bf6a0bea5c8b1b"
+    }
+  },
+  "receipt": {
+    "call_id": "002-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 257.51,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 75839,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6148,
+          "reasoning_output_tokens": 88
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n030",
+    "title": "我发现工作日午休的一个小时其实能做很多事",
+    "usable_as": "positive_editorial",
+    "completeness": "完整正文及首图已提供，可作为完整正文样本；8张轮播仅观察首张，不能评价后7张。",
+    "reader_problem": "工作日午间常感到时间被工作占据，希望找到可以自行选择的小段生活空间。",
+    "scene": "作者在北京利用一个半小时午休，吃东西后乘公交去公园停留，再返回工作地点。",
+    "title_mechanic": "用个人发现和熟悉的午休时间窗口，提出日常安排仍有其他可能，正文以具体出行展开。",
+    "title_promise_limits": "标题写一个小时，正文实际午休一个半小时；很多事最后主要落在一次公园出行与时间自主感，没有多方案清单。",
+    "content_structure": [
+      "先给出地点、午休总时长、交通费用、单程时间和公园停留安排。",
+      "从具体行动转向主动做小选择的意义。",
+      "用主动选择与被动日常的对照，描述个人感受。",
+      "进一步讨论午间和周末以外的时间归属。",
+      "以度过自己的时间收束，补充公园名称及话题标签。"
+    ],
+    "answer_payoff": "给读者一个具体生活安排及重新理解午间时间的角度；没有证明所有人都能复制，也没有回答哪种休息方式更健康。",
+    "visual_observation": "首图是无叠加标题文字的公园绿景，近处地被、中部树干与远处开阔区域形成层次，界面标为实况。照片展示正文所说目的地的环境感受；不能证明往返时间、费用、恢复效果或后续工作状态。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "午休长度、公交费用、路程时间和停留时间均为作者的个人叙述，未经独立核验，也不代表通用安排。拒绝刷手机或趴睡属于个人态度，不能推导出这些方式普遍较差。出门、日晒或公园停留的健康收益未被本文验证。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "时间窗口型标题应与实际安排一致，让读者能先判断自己的时间是否容纳得下。",
+        "observed_anchor": "午休一个半小时",
+        "new_application": "在安排工作纸上明确可用总时间、往返、停留及预留时间，再让读者自主筛选方案。"
+      },
+      {
+        "stage": "content",
+        "rule": "先给可辨认的生活细节，再解释个人意义，使抽象感受有具体依托。",
+        "observed_anchor": "20分钟到公园",
+        "new_application": "采用明确署名并获授权的案例，先列实际条件，再写当事人感受，避免编辑代替当事人发言。"
+      },
+      {
+        "stage": "visual",
+        "rule": "环境图可帮助读者理解目的地体验；时间和可行性关系应由另一种信息形式解释。",
+        "observed_anchor": "四得公园好美呀",
+        "new_application": "将来源清楚的环境照片与时间分配图并置，分别回答那里怎样和是否来得及。"
+      },
+      {
+        "stage": "content",
+        "rule": "从个人行动引出价值讨论时，应保留选择权，避免把一种生活方式写成读者的责任。",
+        "observed_anchor": "主动做了一个很小的改变",
+        "new_application": "提供留在原地、短暂外出等可选记录栏，由读者依据当天条件选择，不给休息方式排名。"
+      }
+    ],
+    "do_not_transfer": [
+      "不把作者北京出行及公园体验写成本号亲历。",
+      "不把一个半小时案例压成人人可复制的一小时方案。",
+      "不贬低午睡、安静休息或无法外出的读者。",
+      "不把绿色环境照片当作恢复效果证明。"
+    ],
+    "transformations": [
+      "面向午间时间紧张的上班族，制作可用时间工作纸，依据自己的路程与工作要求选择活动；改变受众、证据和决策方式。",
+      "面向行动范围受限的人，制作个人偏好选择卡，比较地点、花费与参与条件，不设健康优劣排名；改变受众、决策方式和形式。",
+      "面向办公区周边探索者，制作实地核对的地点卡，记录交通、开放信息和可停留条件，配来源明确的照片；改变受众、证据和形式。"
+    ],
+    "limitations": [
+      "仅观察首图，无法判断其余7张是否提供路线或其他实质信息。",
+      "没有路线实测、费用凭据或午后状态记录。",
+      "标题和正文存在时间差异，正文未交代预留时间。",
+      "互动数量不能用于推断绿景或个人叙述带来的传播效果。"
+    ]
+  }
+}

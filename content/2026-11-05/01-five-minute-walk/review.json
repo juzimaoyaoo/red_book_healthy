@@ -1,0 +1,63 @@
+{
+  "status": "REVISE_EDITORIAL",
+  "written_on": "2026-11-05",
+  "content_hash": "b64d55ab2de8bf0a8af5865c1c8042c2e3689263a8f5a613a5a54505cd74ac4d",
+  "assets": [
+    {
+      "file": "01.png",
+      "sha256": "1d4dfacb8408c1a3f816976b61be8b31b07a801bfdf966ef32eece58b12fb30f"
+    },
+    {
+      "file": "02.png",
+      "sha256": "885da213960041a422e02e26397e259bedaad59d5cd137d465a99e0ccc499a60"
+    },
+    {
+      "file": "03.png",
+      "sha256": "4cb3decd7c63b861574d37b1573420a500ea838378077d78706b90117535f598"
+    },
+    {
+      "file": "04.png",
+      "sha256": "db0d05351ff6826b6494446513ab4af7dc5666a9e5dff3862f8967342c63a299"
+    },
+    {
+      "file": "05.png",
+      "sha256": "43b9372b0ba70af7817b9fe6780510fa4930f5d761b039516b98d191cc184aae"
+    }
+  ],
+  "scope": "本会话逐条对照已打开权威网页 + 文案规则检查 + 10图联系表检查 + 关键事实页原尺寸检查",
+  "independent_model_api_review": {
+    "status": "NOT_RUN_MISSING_KEY",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning": "medium",
+    "api_calls": 0
+  },
+  "deterministic_preflight": {
+    "version": "editorial-v2.1",
+    "signals": [],
+    "must_rewrite": [],
+    "status": "NEEDS_EVIDENCE_REVIEW",
+    "medical_accuracy_verified": false
+  },
+  "checks": {
+    "no_fake_credentials_or_personal_trials": true,
+    "cover_matches_body": true,
+    "source_claim_mapping_present": true,
+    "five_minutes_not_clinical_threshold": true,
+    "portion_not_daily_grams_equivalence": "not_applicable",
+    "no_clipped_text": true,
+    "phone_feed_headline_readable": true,
+    "all_images_1080x1440": true
+  },
+  "publication_status": "NOT_PUBLISHED",
+  "remaining_before_publication": [
+    "完成与作者分离的终审",
+    "核当轮平台健康内容规则与资质/AI标识要求",
+    "手机核目标账号、完整预览及单次提交后读回"
+  ],
+  "editorial_findings": [
+    "与s049的忙碌成年人/走路入口有主题联系，但没有记录生产前的逐项参考映射，也未证明5分钟入口更有吸引力。",
+    "标题只承诺开始，正文缺少足够新的执行细节；5分钟是编辑安排示例，并非来自效果试验。",
+    "第2、3页重复强调开始，第4页空白记录卡的使用收益解释不足，5页的新增信息不均。"
+  ],
+  "previous_checks_are_not_effectiveness_evidence": true
+}

@@ -1,0 +1,70 @@
+{
+  "status": "REVISE_EDITORIAL",
+  "written_on": "2026-11-05",
+  "content_hash": "0ae3e991b9c7e0ddb835c720134c3cc2f15419f7f85f9663eefab5c8719af14f",
+  "assets": [
+    {
+      "file": "01.png",
+      "sha256": "4aba156779e0a6a6d604e225b0fc615a02e7de5f08d2f8d840c93a19184de1ad"
+    },
+    {
+      "file": "02.png",
+      "sha256": "39a549183e60d5759eff058e379afbd4fbf7474e86387b4a4216eef4c6db4971"
+    },
+    {
+      "file": "03.png",
+      "sha256": "cd83a36557c541f6ba251af1f0bdab7cbc3296ff0454092a562684e2ff13f8cf"
+    },
+    {
+      "file": "04.png",
+      "sha256": "6a1b288ead912901ba49e2a17a1da207f5b6307bc6b527b494473ba3da319700"
+    },
+    {
+      "file": "05.png",
+      "sha256": "1d558ea63117c0b48ca99ed9544e6d7aa1c9868c9eff87466de55551fc205bf4"
+    }
+  ],
+  "scope": "本会话逐条对照已打开权威网页 + 文案规则检查 + 10图联系表检查 + 关键事实页原尺寸检查",
+  "independent_model_api_review": {
+    "status": "NOT_RUN_MISSING_KEY",
+    "model_requested": "gpt-6.1-sol",
+    "reasoning": "medium",
+    "api_calls": 0
+  },
+  "deterministic_preflight": {
+    "version": "editorial-v2.1",
+    "signals": [
+      {
+        "code": "numeric_claim",
+        "level": "check",
+        "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+        "matches": []
+      }
+    ],
+    "must_rewrite": [],
+    "status": "NEEDS_EVIDENCE_REVIEW",
+    "medical_accuracy_verified": false
+  },
+  "checks": {
+    "no_fake_credentials_or_personal_trials": true,
+    "cover_matches_body": true,
+    "source_claim_mapping_present": true,
+    "five_minutes_not_clinical_threshold": "not_applicable",
+    "portion_not_daily_grams_equivalence": true,
+    "no_clipped_text": true,
+    "phone_feed_headline_readable": true,
+    "all_images_1080x1440": true
+  },
+  "publication_status": "NOT_PUBLISHED",
+  "remaining_before_publication": [
+    "完成与作者分离的终审",
+    "核当轮平台健康内容规则与资质/AI标识要求",
+    "手机核目标账号、完整预览及单次提交后读回"
+  ],
+  "editorial_findings": [
+    "外卖补蔬菜来自账号定位和膳食指南，50篇样本中没有直接的外卖点单文章可作为该题的经验验证。",
+    "标题和正文解决的是读者已知的多吃蔬菜问题，缺少更具体的点单取舍与可核对实例。",
+    "第2、5页重复点单检查；没有菜单/餐盒/实际份量证据，卡片是文字排版，不能当作视觉经验落地。"
+  ],
+  "previous_checks_are_not_effectiveness_evidence": true
+}

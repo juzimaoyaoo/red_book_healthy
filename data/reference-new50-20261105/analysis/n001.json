@@ -1,0 +1,94 @@
+{
+  "time": "2026-11-05T11:16:19.807700+00:00",
+  "source_identity": {
+    "source_sha256": "3a64aaf7fd0ace23ce144f2b30608954f8629e6129dfddc5aaad6d1e28366cfd",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n001.png": "f4d040f7b3c9717d00614f9f22a9e9fddfaee64b876d867e63365aa7d0394df3"
+    }
+  },
+  "receipt": {
+    "call_id": "001-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 286.53,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 61463,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6520,
+          "reasoning_output_tokens": 85
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n001",
+    "title": "长期点外卖补膳食纤维的tips",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：已提供完整正文与唯一配图。截图只显示正文前两项，其余内容依据随附完整文字读取。",
+    "reader_problem": "经常点外卖，想在点单和办公室备食时增加选择，却不愿增加复杂准备。",
+    "scene": "外卖平台选套餐、填写备注、选择配菜，以及办公室早餐或加餐。",
+    "title_mechanic": "用长期行为锁定人群，以具体营养目标加tips承诺低门槛清单。",
+    "title_promise_limits": "正文确有11项方法，但从点单延伸到采购和备食；缺少按成本、准备条件和用途的排序，不能把整份清单理解为人人适用的补充方案。",
+    "content_structure": [
+      "用外卖蔬菜不足和状态不佳引出需求。",
+      "前两项直接对应点单界面：加配菜、填写备注。",
+      "第三项讨论沙拉基底选择。",
+      "第四至第十一项混合办公室储备、主食替换、配菜和加餐。",
+      "结尾提出饮水与先选两三项，再接个人介绍和打卡邀请。"
+    ],
+    "answer_payoff": "读者获得一组可用于点单或采购的候选动作，但还需自己判断哪些属于同一用途、哪些需要额外准备。",
+    "visual_observation": "唯一配图为深蓝白色进食表情漫画，强化吃饭情境和轻松语气；没有知识标题、分类或食物关系说明。具体答案全部由正文承担。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "原文关于外卖蔬菜新鲜度、纤维不足与身体状态的联系，各类食物的营养比较、饱腹及肠道作用，以及奇亚籽约10克、坚果手心量、燕麦静置三分钟等摄入或制作表述，均未核验。饮水与纤维作用的概括亦待核。不能将这些内容沉淀为健康建议；作者自述与账号名称不构成证据。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "把长期行为与一个具体选择任务放进标题，让读者判断这份内容是否适用于自己的日常；正文范围扩大时同步调整标题。",
+        "observed_anchor": "长期点外卖",
+        "new_application": "围绕外卖订单选择写标题，若包含采购储备，则明确写成点单与备食两部分。"
+      },
+      {
+        "stage": "content",
+        "rule": "把建议放在读者实际能操作的界面位置，区分选餐、加购与备注，让读者知道在哪一步作决定。",
+        "observed_anchor": "活用备注",
+        "new_application": "用模拟订单标出可调整位置，同时说明备注是否被执行需要收餐确认。"
+      },
+      {
+        "stage": "content",
+        "rule": "清单跨越多个场景时按使用条件分组，帮助读者排除没有冰箱、热水或采购时间的选项。",
+        "observed_anchor": "备一罐即食纯燕麦片",
+        "new_application": "改成无需储存、需要热水、需要冷藏三栏，并列出准备成本。"
+      },
+      {
+        "stage": "visual",
+        "rule": "情绪图片只能承担进入情境的任务；需要比较选择时，应另用分类图承载判断条件。",
+        "observed_anchor": "固定动作",
+        "new_application": "制作点单路径图，把原餐、可加项目和收餐检查分开，图中不暗示未经核验的营养效果。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复制表情包及其独特画面。",
+      "不把11种食物的原文功效、份量和制作时间作为本号建议。",
+      "不沿用身体不清爽等模糊感受与纤维不足的直接联系。",
+      "不移植作者个人养生经历及打卡人设。"
+    ],
+    "transformations": [
+      "面向宿舍无冰箱人群，使用可储存条件和价格标签作为证据，改成备食条件筛选表。",
+      "面向经常开会的上班族，使用匿名订单与收餐照片比较备注兑现情况，改成点单复盘卡。",
+      "面向家庭代订餐者，依据经核验的食材信息和配送条件，制作按准备时间选择配菜的决策树。"
+    ],
+    "limitations": [
+      "只观察到一张情绪配图，不能推断作者存在其他知识图。",
+      "正文完整但没有可核查的参考资料。",
+      "未验证点单备注执行率，也未验证清单的实际使用效果。",
+      "不根据截图互动数解释传播原因。"
+    ]
+  }
+}

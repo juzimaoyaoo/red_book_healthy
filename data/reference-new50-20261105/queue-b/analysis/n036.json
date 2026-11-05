@@ -1,0 +1,102 @@
+{
+  "time": "2026-11-05T12:07:35.861255+00:00",
+  "source_identity": {
+    "source_sha256": "37c2fd65af1f1a0108a50974be5346123dc86e974f54052e20382cbf3b037599",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n036.png": "946b3e23267fd554d712e08fcd6e25d00bccc0ca0225f555106285cb9a2cb468",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n036-page2.png": "47f4904fa1564f5a5d4cc222a8e73ef969d021d246e8dcebda2f943ba61ec30e",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n036-page3.png": "f375b3f58269e531d36f4fbec63657cf12881dd30164aba043eadfbf41d1f7fb",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n036-page4.png": "1358090f48c279cb292b2769bee5e05eb67daa32290a79fa5dfcef1bfb70af8a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n036-page5.png": "88297d6c10e7a3dd5a6d24c656aa6d65346d135b959ec2441653e2c0909cd303",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n036-page6.png": "c6a2a8f21c70d42c80fface4dadc8d4fb96023ad66eee59faaea24636aaf42d7",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n036-page7.png": "03620b07c8f852c6c78b5bff739d118029b91a72195b8ed9a2159b974589048c"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 284.12,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 85105,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7338,
+          "reasoning_output_tokens": 87
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n036",
+    "title": "减脂应该知道的事-学会看营养成分表",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：已提供完整正文及全部7张图片，逐页可读。表达结构可研究，知识结论存在待核点。",
+    "reader_problem": "购买包装食品时，不知道营养表各行代表什么，也难以判断包装宣传与表内数据是否一致。",
+    "scene": "超市选购或线上比较包装食品，希望把抽象标签转换为具体判断。",
+    "title_mechanic": "正文标题用减脂人群定位和学习任务建立相关性；图片标题直接提出“怎么看”，首图立即展示表格和第一项解释。",
+    "title_promise_limits": "承诺教授读表方法，没有直接承诺减重效果；但图片后两页转向整体膳食建议，超出读表主任务，且没有系统解释NRV列及实际食用份量。",
+    "content_structure": [
+      "第1页：固定示例营养表，标出能量行，展示单位换算过程。",
+      "第2页：标出蛋白质行，以公式计算并作类别判断。",
+      "第3页：标出脂肪行，列出分类条件，再判断示例。",
+      "第4页：标出碳水化合物行，转而讨论糖的分类条件。",
+      "第5页：标出钠行，给出类别判断；步骤编号误写为4。",
+      "第6页：改为能量及多种营养素的日摄入参考汇总。",
+      "第7页：补充食物多样化和食物类别数量建议。",
+      "正文：用三组“不等于”提醒读者检查营销词与营养信息之间的差别。"
+    ],
+    "answer_payoff": "可观察的交付是五个表内项目的逐行定位，以及三种营销词辨析。机制推断：固定同一示例有助于读者对照查找；但分类依据和列含义未充分厘清，不能据此认定读者已能独立判断。",
+    "visual_observation": "前5页沿用白底、米色表头和同一张表，红线随解释对象下移，蓝色勾形图标连接编号标题。第2页解释文字明显更小更密。后2页取消表格，改成长文字列表，视觉与任务均发生切换。",
+    "observed_page_count": 7,
+    "source_and_claim_limits": "本轮未做医学及标准核源。原图的能量换算、蛋白质供能比例与“高蛋白”判据、低脂低糖低钠阈值、高钠判据、成人摄入参考和食物数量均列待核。第2页把前页换算后的203写成kJ，存在单位不一致；第4页从碳水总量直接跳到低糖结论，未说明糖数据或推导条件；低脂判据的不等号边界也需核查。正文关于代糖、碳水总量、非油炸及全麦的概括不能直接沉淀为健康建议。截图互动数只代表采集时可见状态，不证明知识正确或结构有效。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "把宽泛学习目标改成可定位的读表任务，并让首图实际指出第一处要读的位置，读者才能判断内容是否解决眼前问题。",
+        "observed_anchor": "食物营养成分表怎么看",
+        "new_application": "改做包装信息阅读课，标题限定为“先找到计量单位”，首图只标出计量基准与净含量的区别。"
+      },
+      {
+        "stage": "visual",
+        "rule": "讲解同一对象的多个字段时，保持对象位置不变，只移动标记；图形负责解释“本页文字对应表内哪一行”。",
+        "observed_anchor": "3.看脂肪",
+        "new_application": "拆解食品配料与营养标签时固定一份自制示例，每页只突出一个字段，避免读者反复寻找。"
+      },
+      {
+        "stage": "content",
+        "rule": "每页应形成“定位字段—解释含义—展示推导—说明能否判断”的闭环，不能在缺少对应数据时直接下分类结论。",
+        "observed_anchor": "本食物为低糖",
+        "new_application": "用两个标签示例分别展示信息足够与信息不足的情况，让读者练习选择“可判断”或“暂不能判断”。"
+      },
+      {
+        "stage": "review",
+        "rule": "逐页检查单位、编号和判断依据是否连续；新增页应推进原任务，避免结尾突然堆入另一套知识。",
+        "observed_anchor": "中国人均膳食指南",
+        "new_application": "把泛化饮食汇总移到独立选题，原篇结尾改成一张读表检查卡。"
+      }
+    ],
+    "do_not_transfer": [
+      "直接复用图中的营养分类阈值、摄入数值或公式结论。",
+      "把碳水化合物与糖当作同一个标签字段。",
+      "照搬示例食品或作者减脂身份作为本号经验。",
+      "以蓝色勾形图标营造已获专业核验的印象。"
+    ],
+    "transformations": [
+      "面向第一次独立买零食的学生，改用虚构标签和找字段小测，交付信息定位练习；同时改变受众、证据与形式。",
+      "面向家庭采购者，比较两种包装的计量基准，采用可展开的对照表，决策改为“能否直接比较”；同时改变受众、证据与决策方式。",
+      "面向食品科普写作者，用错误示例审校卡讲单位和推导断点，输出校对流程；同时改变受众、证据与形式。"
+    ],
+    "limitations": [
+      "已观察全部7页，但未提供原始标签或可追溯出处，不能确认示例数据来源。",
+      "没有读者使用测试，降低查找负担只是机制推断。",
+      "完整不代表医学正确，因此作为证据跳跃和任务扩散的反例使用。"
+    ]
+  }
+}

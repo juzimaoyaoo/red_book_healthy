@@ -1,0 +1,27 @@
+{
+  "status": "PUBLISHED",
+  "account_id": "2689093300",
+  "title": "提前上床还是睡不着？把这3个时间分开安排",
+  "time": "2026-11-05T10:49:46.128531+00:00",
+  "identity": {
+    "package_hash": "3c7b01053efb07d9d701a287ab9ac505812e6f5073a1e8e8e978dba6dbaea36e",
+    "images": {
+      "content/2026-11-05/agent-v3/p02/images/01.png": "00acef41c0c957839e1fecda9e15955649a20671998995c99ab7e5d7d2ff7053",
+      "content/2026-11-05/agent-v3/p02/images/02.png": "7363a136b98e20e48984d1fb4e367b116217edbfce7b6471fd7c0ca2fa437e29"
+    }
+  },
+  "submission_hash": "6484f33d077dc1b812592feee476b7f29a25b6999a78823c759f20aa91b07b14",
+  "ai_declaration": true,
+  "submit_click_count": 1,
+  "preview": "data/publication-20261105/p02-preview.json",
+  "platform_check": "一般白班成年人生活作息安排，不诊断或治疗失眠，无药物建议或医生身份暗示，保留就医边界与NHS来源；已查医疗科普资质及AI来源标注要求，手机未要求专业身份认证。非平台豁免证明。",
+  "published": true,
+  "verified_at": "2026-11-05T10:50:56.844831+00:00",
+  "visibility": "公开可见",
+  "evidence": [
+    "data/publication-20261105/p02-profile-readback.json",
+    "data/publication-20261105/p02-detail-readback.json",
+    "data/publication-20261105/p02-public.png"
+  ],
+  "url": "https://xhslink.cn/o/AFhRDMIxElj"
+}

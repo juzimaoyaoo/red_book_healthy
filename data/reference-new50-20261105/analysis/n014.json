@@ -1,0 +1,97 @@
+{
+  "time": "2026-11-05T11:24:39.154392+00:00",
+  "source_identity": {
+    "source_sha256": "b3882a4367c17733283a4db5fe3f9be0c95e9f23a3ef8e955c9a7030f6b7bb4f",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n014.png": "d8b53003987f65e5b169f7e34c13f6a40da12e48849775dbcbe97db51325c488",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n014-page2.png": "86f54ecae4511665f9a261045c69cc19dbfd5a9fd45fe3fd6e8f7e851af262da",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n014-page3.png": "b27e985de39b2e07bda2ef43d2967f586b1e0f8d7118223f50ca6034ba419fb7",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n014-page4.png": "3d3226763843689fa467c0e6d987cd2c90c5eda09c103c0cebd03968ee14fe9a"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.42,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80152,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7489,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n014",
+    "title": "终于，找到我失眠的「真相」了",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：正文及4张实质图片全部提供，页码1/4至4/4连续，文字与主要图形可辨。",
+    "reader_problem": "睡不好且希望找到容易理解的原因；对伴侣关系、同睡体验与睡眠之间的关系感兴趣。",
+    "scene": "伴侣同床、亲密接触、情感支持，以及被打鼾、磨牙或翻身干扰的同睡情境。",
+    "title_mechanic": "正文以第一人称发现真相制造代入，封面把恋爱与睡得香直接相连，再用“越恩爱越香”强化关系话题。",
+    "title_promise_limits": "将多因素的失眠问题包装成恋爱关系的答案，超出当前证据。后页虽补同睡干扰和独睡偏好例外，但不足以支持封面的普遍判断。",
+    "content_structure": [
+      "第1页：提出恋爱与睡眠关系，展示按伴侣状态分组的入睡时长箱线图。",
+      "第2页：新增亲密行为与催产素的机制解释，配伴侣相拥插画。",
+      "第3页：转向情感满意度，声称不同组入睡时间存在具体差异，再展示箱线图。",
+      "第4页：以谈恋爱作轻松结论，列同睡干扰与独睡偏好两个例外，再补一般性求助提示。",
+      "正文：用天时、地利、人和串联，引导情侣分享个人体验。"
+    ],
+    "answer_payoff": "提供了关系话题的讨论入口，并在结尾承认同睡存在个体差异；但不能交付失眠原因判断。两张关键图的对应关系存在明显疑点。",
+    "visual_observation": "全篇紫色外框、白底圆角卡片，黑色大标题配紫色强调。第1页和第3页均为四组箱线图，箱体、须线及离群点位置看起来高度一致，但横轴分别标成伴侣状态与情感满意度，需核原图，不能将其当作两组独立证据。第2页相拥插画表达亲密情境，第4页红叉突出两个例外。",
+    "observed_page_count": 4,
+    "source_and_claim_limits": "原作者主张伴侣同睡、亲密行为、催产素、情感满意度与睡眠改善存在联系，并列出激素、心率、血压、情绪及疼痛相关作用，均待核。10.5至12分钟差异缺少原始研究支持，不可沉淀为数值结论。关系状态与睡眠的关联不能直接推出谈恋爱能改善失眠。两图疑似同图换标签属于可见证据问题，尚未核实来源，不能断言造假。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "关系话题可以用体验差异吸引读者，但标题需要让读者判断“哪些情况可能不同”，避免把生活状态写成疾病答案。",
+        "observed_anchor": "越恩爱越香",
+        "new_application": "以“同睡还是独睡，你更在意哪些条件”为题，承诺比较体验维度，不承诺治疗效果。"
+      },
+      {
+        "stage": "content",
+        "rule": "比较型内容应把支持条件与干扰条件放入同一判断框架，使读者能根据自己的体验选择需要继续观察的问题。",
+        "observed_anchor": "独睡爱好者除外",
+        "new_application": "用声音、空间偏好和双方主观体验组织比较卡，不把某一种安排写成普遍优选。"
+      },
+      {
+        "stage": "visual",
+        "rule": "箱线图解释的是组内分布与组间差异，配文应引导看重叠、离散和中位位置，不能只提取一个最有利的数值。",
+        "observed_anchor": "入睡时长",
+        "new_application": "在经过核实的新数据图中标出各元素含义，明确图只能回答的比较问题。"
+      },
+      {
+        "stage": "review",
+        "rule": "同篇多张研究图必须核对图形、分组标签和来源的一一对应；图形高度一致而标签变化时，应暂停使用其论证。",
+        "observed_anchor": "情感满意度",
+        "new_application": "为每张图建立来源与变量记录，审稿时并排检查，无法解释对应关系就删除证据段。"
+      }
+    ],
+    "do_not_transfer": [
+      "把原作者第一人称失眠叙述变成本号经历。",
+      "以谈恋爱作为失眠解决方案。",
+      "未核实的分钟差异及广泛激素作用。",
+      "疑似同图换标签的研究呈现。",
+      "把伴侣相拥插画视为机制证据。"
+    ],
+    "transformations": [
+      "面向已同住伴侣，改成双方睡眠偏好访谈卡，以两人的独立记录替代关系好坏判断。改变受众、证据和决策方式。",
+      "面向独居读者，制作“关系状态不能替代哪些信息”的证据阅读卡，用研究条件辨识替代恋爱建议。改变受众、证据和形式。",
+      "面向健康编辑，制作图表标签核对练习，用自制箱线图展示分组标签如何改变解读。改变受众、证据和形式。"
+    ],
+    "limitations": [
+      "箱线图主要结构可辨，但缺少原图与研究出处，无法核对分组及数值。",
+      "图形相似性只能列为核查线索，不能据此判定原始研究或作者行为。",
+      "评论数不证明读者认同医学结论，也不能推断由恋爱钩子造成。"
+    ]
+  }
+}

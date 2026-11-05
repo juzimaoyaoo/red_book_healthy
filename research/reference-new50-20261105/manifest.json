@@ -1,0 +1,1128 @@
+{
+  "created_at": "2026-11-05T12:34:13.356375+00:00",
+  "previous_corpus_sha256": "2daddbe1456f08809e1f45cc8a0c22374c957a9915ce7dc4410789ed10939f60",
+  "selected": [
+    {
+      "id": "n001",
+      "title": "长期点外卖补膳食纤维的tips",
+      "author": "好气色养成bot😘",
+      "theme": "饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n001-complete.json",
+      "capture_sha256": "3a64aaf7fd0ace23ce144f2b30608954f8629e6129dfddc5aaad6d1e28366cfd",
+      "analysis": "data/reference-new50-20261105/analysis/n001.json",
+      "analysis_sha256": "1592f6bdafdb718d203b2bc2e30fcb2e9477481f6aedef144520a7ea09b5dfa0",
+      "images": {
+        "data/reference-new50-20261105/covers/n001.png": "f4d040f7b3c9717d00614f9f22a9e9fddfaee64b876d867e63365aa7d0394df3"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n002",
+      "title": "12点吃撑2点又饿，真不是猪瘾犯了",
+      "author": "营养师顾中一",
+      "theme": "饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n002-complete.json",
+      "capture_sha256": "0b2135f03f30d4b610ffbc8358c213ccd607de39fa6182c467f0dd2e8d90ed60",
+      "analysis": "data/reference-new50-20261105/analysis/n002.json",
+      "analysis_sha256": "465d02f3eae85a08e2937e297fc8c2b25e2714703a123c6c35013157284dabea",
+      "images": {
+        "data/reference-new50-20261105/covers/n002.png": "6cc5dd3c5668bfb3781a87d54255e4f640efc73c0a307f810bb1b6107f91913d",
+        "data/reference-new50-20261105/covers/n002-page2.png": "65f3a3b1564f90d4f0c610c41bbd5c2e943bafe0b5a281aa7e6b219e6b0530bd",
+        "data/reference-new50-20261105/covers/n002-page3.png": "f21db0734c3ef5c336283bdb51695413bbdecc69cba25afb08a474f19476cc18",
+        "data/reference-new50-20261105/covers/n002-page4.png": "01573b7ec94b830a31ae313e2b2fd9be9d205e99950f3d4fe59a61ccd510f999",
+        "data/reference-new50-20261105/covers/n002-page5.png": "2aed2698d8155f472e21320e8ea4b5bbce4f584165ad244e898000a9dd43897d",
+        "data/reference-new50-20261105/covers/n002-page6.png": "ba22c75efa40afd9cb02901c80906d500e9a8d98dd9629bc5654faa3b005a73b",
+        "data/reference-new50-20261105/covers/n002-page7.png": "14f29e453194dac3235fba3698db4f4752d9d1a222bdc094c4651eae5e4ab572",
+        "data/reference-new50-20261105/covers/n002-page8.png": "824795df5f836c7fcf9ffba57fce2b9cdbd9bb7f1303589c66d03a8c82ac91da",
+        "data/reference-new50-20261105/covers/n002-page9.png": "257c4dd8af2bff54fd4f2ccf0dc481c3f122316155835c7adf82159a01f2e42c"
+      },
+      "source_image_count": 9,
+      "observed_pages": 9
+    },
+    {
+      "id": "n003",
+      "title": "SOS久坐党救命！4个不费时间的起身方案",
+      "author": "金豆子的养生指南",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n003-complete.json",
+      "capture_sha256": "f4360e0dd7e162e5bd992c4f513d8a04f6a97e3cf1f78e98b8ac4692790aa8bd",
+      "analysis": "data/reference-new50-20261105/analysis/n003.json",
+      "analysis_sha256": "ccbc79d9a326152927ab722fc66aebed69dbf2ce5ce4c9fb2f9ebb784e7017ea",
+      "images": {
+        "data/reference-new50-20261105/covers/n003.png": "c43b200b6873354fa9cdb7edd38d4ad1cc250192309d9c14d3baae3b7c67af52",
+        "data/reference-new50-20261105/covers/n003-page2.png": "1a45496fd4131b8e6c3a57e30b81692dd2b259dcda5f901bd77be775435bb415",
+        "data/reference-new50-20261105/covers/n003-page3.png": "1598a60bca5b216533d7f013b7b191697ea6670c9c26d88de5c004372ea58f69",
+        "data/reference-new50-20261105/covers/n003-page4.png": "b7edc2100a2d7afb570ee090eb3727ad952e7bfae9451a22cf60b98629d93d6a",
+        "data/reference-new50-20261105/covers/n003-page5.png": "2937a589df3acaac47126ed9425dd4edcd1ef83f722b76f085d6ba952903ec31"
+      },
+      "source_image_count": 5,
+      "observed_pages": 5
+    },
+    {
+      "id": "n005",
+      "title": "一张终极吃香蕉指南图",
+      "author": "丁香医生",
+      "theme": "饮食与生活习惯",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n005-complete.json",
+      "capture_sha256": "9e72db87b60a86168c99d15bd0f482d7a2c8fd3088be620d3cadbf2084eac2a9",
+      "analysis": "data/reference-new50-20261105/analysis/n005.json",
+      "analysis_sha256": "51d4f860f479ce0e5025e73533e8759f9626c8fac42e0a2f14c28af1ad5e8cac",
+      "images": {
+        "data/reference-new50-20261105/covers/n005.png": "05e988cebafe4f9de6b2da0a8749ab32f3d3eb519abc876ec47222e5426722b8"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n006",
+      "title": "一张图看懂为什么蹲着噗噗更容易",
+      "author": "丁香医生",
+      "theme": "饮食与生活习惯",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n006-complete.json",
+      "capture_sha256": "c9baee9e0b82b2b5876d20328a46751cf771d0b721d3a6f742635c66b8b059a0",
+      "analysis": "data/reference-new50-20261105/analysis/n006.json",
+      "analysis_sha256": "08edbf1e2979f5b7483a7ccb0727a3c56e7564d07e3e3b0d4b07a2c7069a8190",
+      "images": {
+        "data/reference-new50-20261105/covers/n006.png": "91ca67992b925c5c8a2e268c64e5548cde637dc97d95c840aa212bfaa1dfbd69"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n007",
+      "title": "阿斯巴甜上榜？莫慌莫慌，致癌清单来了",
+      "author": "丁香医生",
+      "theme": "饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n007-complete.json",
+      "capture_sha256": "6bbbd634a1c716f84336400b7e12cdb1dc9e6490afee15121e3ac3c4bd3de40e",
+      "analysis": "data/reference-new50-20261105/analysis/n007.json",
+      "analysis_sha256": "d9cca9f107f1a022ca432d244e10ce5540b4951e0e3e2053cfb91bf362b06f44",
+      "images": {
+        "data/reference-new50-20261105/covers/n007.png": "a2fac832efbf9a5d35224805864bf4dfc757c3557935dbb68c1cce3f58144eb0",
+        "data/reference-new50-20261105/covers/n007-page2.png": "8396be02c20fd207edb4439cb91a9e85e0158e5fec6adb4659fdec31e6eb5650"
+      },
+      "source_image_count": 2,
+      "observed_pages": 2
+    },
+    {
+      "id": "n009",
+      "title": "昨晚，你几点睡的？",
+      "author": "丁香医生",
+      "theme": "睡眠",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n009-complete.json",
+      "capture_sha256": "d34813865bc128fa500617b67648900696e7fe7d72e7e986e6f1720612b200cd",
+      "analysis": "data/reference-new50-20261105/analysis/n009.json",
+      "analysis_sha256": "f26d09641130287b3ee63b2de7c9680ec1a0d71ff0c13956917bb1cc6a7ad59d",
+      "images": {
+        "data/reference-new50-20261105/covers/n009.png": "b9c4debe25ccdee1e98a8f845f610f55366ec6b954f4daed9b5bef2ace95fe32"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n010",
+      "title": "你平时会戴运动手表吗？",
+      "author": "丁香医生",
+      "theme": "睡眠",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n010-complete.json",
+      "capture_sha256": "fd9988bbb302030da4e2b3bc01fefb3ba503720b34c834d290ea2df0cfb41ee0",
+      "analysis": "data/reference-new50-20261105/analysis/n010.json",
+      "analysis_sha256": "e241c14fae69ad96771d3c03f3067d4725564b5776badc2e6342e3c143560997",
+      "images": {
+        "data/reference-new50-20261105/covers/n010.png": "d580c068ab45ce5974e42ceb46627b6d72f884c5c3c089bf891bd7b84cfe8072"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n011",
+      "title": "有起床气不是因为脾气差👉查看真相",
+      "author": "丁香医生",
+      "theme": "睡眠",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n011-complete.json",
+      "capture_sha256": "fc79142facd47d9c6e57bd84d53068efa56ac38b89b0ed6ce60e0078202565f9",
+      "analysis": "data/reference-new50-20261105/analysis/n011.json",
+      "analysis_sha256": "29eef6b84808b69bb37d19613e693bb805abe8621db2ab1143a299486d6295e9",
+      "images": {
+        "data/reference-new50-20261105/covers/n011.png": "bed5fe67a743fbeee48d6f576c40304189ad9d1e7c007f3d92e49fc58a8ea54d",
+        "data/reference-new50-20261105/covers/n011-page2.png": "667f5fd07b87a1c92241a976d348b0e4a5ed50c74eda91c9bcadc21baee997ca",
+        "data/reference-new50-20261105/covers/n011-page3.png": "ce1e8a02aa15676a3e0733e9edeb496cd7a8d2f1b7c73cfcdd4043d2fd692054",
+        "data/reference-new50-20261105/covers/n011-page4.png": "d13a141edaf86bcdf898565e7c554a08968577f189f2061a9b0d00eaf79b7ad8",
+        "data/reference-new50-20261105/covers/n011-page5.png": "16d171b20c36e478136a12938d73367769eb8c84512a0c3208b04df2dc89be5c"
+      },
+      "source_image_count": 5,
+      "observed_pages": 5
+    },
+    {
+      "id": "n012",
+      "title": "小夜灯，其实很伤身",
+      "author": "丁香医生",
+      "theme": "睡眠",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n012-complete.json",
+      "capture_sha256": "5c9454010c5f3cb6a40c3f6deb79e8e50a7df7dbe245f1af5789ddbe13fc9069",
+      "analysis": "data/reference-new50-20261105/analysis/n012.json",
+      "analysis_sha256": "3be7b170b620c8db74bf612a34100da6968fe08ba4f802d1cd54a04f361987fd",
+      "images": {
+        "data/reference-new50-20261105/covers/n012.png": "c4c21d83f7d1433b379ee20abe8928b3bf1467d7c9150cb7cd05ef5fae0a2a68",
+        "data/reference-new50-20261105/covers/n012-page2.png": "66a5f2feb3f6ae57a416ea090e72e573491aab015dcf1e0f9a56b15e08837501",
+        "data/reference-new50-20261105/covers/n012-page3.png": "713ddc65792ccbe14a45e6dbb6045cc94769bde5aa995729d0b92a5f1ad89fac",
+        "data/reference-new50-20261105/covers/n012-page4.png": "16231a2413e86440e5b2cf28c3f3f5619a4c2e60ecd8e93e8417eb3419e37854",
+        "data/reference-new50-20261105/covers/n012-page5.png": "4c9eb0eb4d959d3387b43f3497a4c2cef2cee5d2f8e3c5215e677511ebf948bb"
+      },
+      "source_image_count": 5,
+      "observed_pages": 5
+    },
+    {
+      "id": "n013",
+      "title": "答案恐怕会让你很意外",
+      "author": "丁香医生",
+      "theme": "睡眠",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n013-complete.json",
+      "capture_sha256": "7f37944efb7f4184ad928f632bf78f4de61568615d4a8faf334c9917ff4e8a5d",
+      "analysis": "data/reference-new50-20261105/analysis/n013.json",
+      "analysis_sha256": "89427d40a39c5d01fdc8c8b530d0a2e4714e0791d6af8d3e536b55694205ef4d",
+      "images": {
+        "data/reference-new50-20261105/covers/n013.png": "d922d03a98ba6c9c368cf133e69be216a6d0937e72f3f59773199fb5d0a81774",
+        "data/reference-new50-20261105/covers/n013-page2.png": "86d838bdb922a19338c8595c096da0a949f2a09cdf61c863d86bde72f83aa596",
+        "data/reference-new50-20261105/covers/n013-page3.png": "dd52e6c549b1e271061c81e6fd18dd22a8b4f141319ef567633b44c9e95b2867",
+        "data/reference-new50-20261105/covers/n013-page4.png": "1e3e9128f847e1d6ea4476476b26152dfeb433c7afd6b2af20d49fe91815b9dd",
+        "data/reference-new50-20261105/covers/n013-page5.png": "7691e0eccbad6f63c6a0f4dac1d97599c2873affa7fd2bc9f20a4f69008ac400"
+      },
+      "source_image_count": 5,
+      "observed_pages": 5
+    },
+    {
+      "id": "n014",
+      "title": "终于，找到我失眠的「真相」了",
+      "author": "丁香医生",
+      "theme": "睡眠",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n014-complete.json",
+      "capture_sha256": "b3882a4367c17733283a4db5fe3f9be0c95e9f23a3ef8e955c9a7030f6b7bb4f",
+      "analysis": "data/reference-new50-20261105/analysis/n014.json",
+      "analysis_sha256": "3b2d551d461ba29d7e92b9a8e5e1da5b74301de109b55e8040e84f7f142da885",
+      "images": {
+        "data/reference-new50-20261105/covers/n014.png": "d8b53003987f65e5b169f7e34c13f6a40da12e48849775dbcbe97db51325c488",
+        "data/reference-new50-20261105/covers/n014-page2.png": "86f54ecae4511665f9a261045c69cc19dbfd5a9fd45fe3fd6e8f7e851af262da",
+        "data/reference-new50-20261105/covers/n014-page3.png": "b27e985de39b2e07bda2ef43d2967f586b1e0f8d7118223f50ca6034ba419fb7",
+        "data/reference-new50-20261105/covers/n014-page4.png": "3d3226763843689fa467c0e6d987cd2c90c5eda09c103c0cebd03968ee14fe9a"
+      },
+      "source_image_count": 4,
+      "observed_pages": 4
+    },
+    {
+      "id": "n015",
+      "title": "是这 3 件事欺骗了你的大脑👉",
+      "author": "丁香医生",
+      "theme": "睡眠",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n015-complete.json",
+      "capture_sha256": "50238dbb7544d162a76478a8b746c8e5c684c368c1bb05f67bd9ac49b4500ed0",
+      "analysis": "data/reference-new50-20261105/analysis/n015.json",
+      "analysis_sha256": "6054e425e1d6cfc95c0882e975ea8d04d4999e2ed5ae37cc4bd2f7c3af03c22e",
+      "images": {
+        "data/reference-new50-20261105/covers/n015.png": "7c777f5019831c9280c86865cade30f4f78568549e69603cc3f74e4687609841",
+        "data/reference-new50-20261105/covers/n015-page2.png": "140086783f56c5ffcd543dfc1791988519cfd0c02097438543b002135286cd92",
+        "data/reference-new50-20261105/covers/n015-page3.png": "b305b54b78235d5b7d75b3c086785781c0c39a8191c3a926b895085d1e3de7c9",
+        "data/reference-new50-20261105/covers/n015-page4.png": "6c8bfcf3c84401a33e618917c54812bedc8078c87155187fb4ea404a2c66c351",
+        "data/reference-new50-20261105/covers/n015-page5.png": "6bd614617a215c3b85da37fc1b01cda725a39bf6a428229fa5bf9ad9abcca5ed",
+        "data/reference-new50-20261105/covers/n015-page6.png": "d9343ec227bd7fd41faea78a07b50abd6eb0f748167e726100a69d1fffc4072c"
+      },
+      "source_image_count": 6,
+      "observed_pages": 6
+    },
+    {
+      "id": "n016",
+      "title": "这将是贯穿我一生的早餐",
+      "author": "面包公主🐆",
+      "theme": "饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n016-complete.json",
+      "capture_sha256": "90d4d1ac5b5b468dc53be6c0fdaaed0160a5cf77f2f391d73ad1bc1f977da7ba",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n016.json",
+      "analysis_sha256": "1c9984154f55328865ba4958836d4ea29a3b4ecb96b4da77a562eda423b0e3c1",
+      "images": {
+        "data/reference-new50-20261105/covers/n016.png": "37902f709d5480d1840f8dc795e0a36f8f48674ea7dff139a17d8aceaf912943"
+      },
+      "source_image_count": 9,
+      "observed_pages": 1
+    },
+    {
+      "id": "n017",
+      "title": "适合脑力劳动者的三餐搭配及一周食谱建议",
+      "author": "momo",
+      "theme": "饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n017-complete.json",
+      "capture_sha256": "eebf11a4f9460f51fdf1654d95b2274c6ab8bfb281bb784675a523bf543b5483",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n017.json",
+      "analysis_sha256": "f85cb65411b1e541e8aec83d1600640a58bef7ed70dabb24a614895fc34ffa9c",
+      "images": {
+        "data/reference-new50-20261105/covers/n017.png": "9d7f064677cac3faec6d9000c19637107a0d678794bb73fe6cd37f4603a29afd",
+        "data/reference-new50-20261105/covers/n017-page2.png": "92df6e01856e8acc191c6a30bcc2b76fe31731e7e1bf8e586075adfb4e337b59",
+        "data/reference-new50-20261105/covers/n017-page3.png": "ddccd285aaf47884d402758b0e1ed72647a38c1376efabea4d3ecaf23c48b33b",
+        "data/reference-new50-20261105/covers/n017-page4.png": "9fe9c28b0fdb36897f366bbd202a50e3355fa7a6f23f05b4750272cd43c70497",
+        "data/reference-new50-20261105/covers/n017-page5.png": "56b622333e01f90d6b9b1dd38f6ae8d9d357644c8706c4076bdb1510447104a8",
+        "data/reference-new50-20261105/covers/n017-page6.png": "d884fa8e688ad1c9d5966fd86952e563801b9e0908b529930e7bf45ed8ee7ae8",
+        "data/reference-new50-20261105/covers/n017-page7.png": "37ea58be61aa60728086403b814ddd490de307c26e605fc2ed468208e3a1f92c",
+        "data/reference-new50-20261105/covers/n017-page8.png": "3d4ab00ca51900c4a07347517b16a689fd1a295e819717082b1ea71830ca8bb0",
+        "data/reference-new50-20261105/covers/n017-page9.png": "4c4eba2a5ba3e6df9b2e6af2895cb990e1c60c8a7d33236686b5c10182bb751b",
+        "data/reference-new50-20261105/covers/n017-page10.png": "75230860096978cc49bcc422c996d35a7ade27845a2e02ff8d0bd05c072def32",
+        "data/reference-new50-20261105/covers/n017-page11.png": "cb94367359c74ab6ab4d72735307bcaa1a38ba0d52efae0fc949c93b12574e34",
+        "data/reference-new50-20261105/covers/n017-page12.png": "e0dea982df74f9b69a1293670521088521ce9d68b7fce2cd7ddc260abb6af8b0",
+        "data/reference-new50-20261105/covers/n017-page13.png": "244c2145367a14c559fff42f6672642d4cface914db348c9fdfd415d9b86a565",
+        "data/reference-new50-20261105/covers/n017-page14.png": "0023b478dd957a483144c8b6b4e962855f4b8968f39e130ff993f77b62702701",
+        "data/reference-new50-20261105/covers/n017-page15.png": "933355a4bd547c732b4d37cae2edb5357c348c90338ab7b6f36cd32a4578714b"
+      },
+      "source_image_count": 15,
+      "observed_pages": 15
+    },
+    {
+      "id": "n018",
+      "title": "读完《控糖革命》后我的早餐发生了巨大改变",
+      "author": "懒懒增肌",
+      "theme": "饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n018-complete.json",
+      "capture_sha256": "ecb88f6f9792875f3f3f450833aef576f98c9170d7bd76b645f76d7b648b0104",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n018.json",
+      "analysis_sha256": "8f843706a9fe69433ddccd736f664c2a215c38679f711f4a44bc6566acf6d99f",
+      "images": {
+        "data/reference-new50-20261105/covers/n018.png": "eedf7c0bff99c418e40791c59acf5508a83506dc97115e8579521b794cb2e961"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n019",
+      "title": "周末做一次，冻好工作日5天午饭🍱",
+      "author": "食艺人_Mason",
+      "theme": "饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n019-complete.json",
+      "capture_sha256": "3f8f5e579e9c9d157f6e3977ab65926d3f294efe4bdfd0a3d1e9a15b37623edb",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n019.json",
+      "analysis_sha256": "9776810177141d3fe147a101847aeae656360192ee49934ad946629f6676ce2b",
+      "images": {
+        "data/reference-new50-20261105/covers/n019.png": "4bbae86ea4e51ed2433c00755e0cb331a3c9e29a93ef2673a324b4f6a06b1942"
+      },
+      "source_image_count": 11,
+      "observed_pages": 1
+    },
+    {
+      "id": "n020",
+      "title": "打工人一周带饭合集",
+      "author": "不只会哈哈哈",
+      "theme": "饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n020-complete.json",
+      "capture_sha256": "7a99a159420cf55bb71c484c639fd4ef155c98afad1003cb7a4a960005dc3e4c",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n020.json",
+      "analysis_sha256": "218d13ed791825812fdb5f28a3726c2c89fdd113f27860966b1b2b35a712b6fa",
+      "images": {
+        "data/reference-new50-20261105/covers/n020.png": "3758ec63dc94753837a69b0239f1515c0d840343c112922f07053b59d200ea9d",
+        "data/reference-new50-20261105/covers/n020-page2.png": "05d7524143f92b5b21d785911071fb536f35de2048904860c2ba0b931cad1894",
+        "data/reference-new50-20261105/covers/n020-page3.png": "5b4c24ed2ea63b4193b7c052d18bda479d07c6f5bc2b242215bd346d8842c95c",
+        "data/reference-new50-20261105/covers/n020-page4.png": "ee0a01f8cab6aa6e05a21009325dcef8f2da589190e242b739aa302b41b8259d",
+        "data/reference-new50-20261105/covers/n020-page5.png": "c0d77e80ee117328bba86e103d7ffd0516caa91ee5cf0a33b43d25bc80518506",
+        "data/reference-new50-20261105/covers/n020-page6.png": "420f364c7c830accf45d0e4027b67dd827fa4da316900753feec214d0419d864"
+      },
+      "source_image_count": 6,
+      "observed_pages": 6
+    },
+    {
+      "id": "n021",
+      "title": "2025带饭合集🍱吃瘦36斤｜带薪减肥打工人",
+      "author": "池池不迟（饿魔退散版）",
+      "theme": "饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n021-complete.json",
+      "capture_sha256": "e0b9575b3f0486c93ff18af817eb07e05137a271d85d6ab26f0107ba99d09a8f",
+      "analysis": "data/reference-new50-20261105/analysis/n021.json",
+      "analysis_sha256": "89e6b246be87182fa8abfe49d157e4a30b6e984ea37466ab1460ba4413a1e3a9",
+      "images": {
+        "data/reference-new50-20261105/covers/n021.png": "d0a5604103e33c0d0c022bbd1fd484a07ea08d5f2f5bfcf4ca381c96f141013a",
+        "data/reference-new50-20261105/covers/n021-page2.png": "1f38f4a235152cb431f859ef7982666d5111361db636f5d1520178b9815e6d90",
+        "data/reference-new50-20261105/covers/n021-page3.png": "882376f6d119d71fbbb2720dc69439ff2c8e3459ec811bc2b45a837d0ddbfa46",
+        "data/reference-new50-20261105/covers/n021-page4.png": "70cd1d1eaa2e3220e40d8035db1543d692b7b435169d6033cfecaa54f764fe86",
+        "data/reference-new50-20261105/covers/n021-page5.png": "b27041416bae9a54366bbcfd341012bdfc51dae670fe033586227978ac83fcf4",
+        "data/reference-new50-20261105/covers/n021-page6.png": "48e3077d97e3b1de78d21ef0c474519b787e0b33433cb651969ba5b389f611df",
+        "data/reference-new50-20261105/covers/n021-page7.png": "67e46abd8e6b276825c4c93f276fe1d164fbf6dde7e059573ac1175e097e6195",
+        "data/reference-new50-20261105/covers/n021-page8.png": "6ce1acdd4e1a94e37aa7d261e0d252efb1a08de003c6e7e6fb3bdcfc7a6cc71e",
+        "data/reference-new50-20261105/covers/n021-page9.png": "2c899173de1152899832ceb3c2b98512f17708bce0ba0331da80d848bb82f7d0",
+        "data/reference-new50-20261105/covers/n021-page10.png": "419eaafe14b8c4c9198ed71257e10523feadcf2656e0b1cafbca05df5b1f5a59",
+        "data/reference-new50-20261105/covers/n021-page11.png": "3a84427b43af2775c53c0d81e2db94a24a662f38523311faa48641caab2ac267",
+        "data/reference-new50-20261105/covers/n021-page12.png": "adfb5e6d575c1e320187bcc665528d98024f41fdda7a049421ffdb7fcfbdbfeb",
+        "data/reference-new50-20261105/covers/n021-page13.png": "f23d9f19a08ab8bbcf33cbd719f55f3700ce1cfe59aa4cb2cec1b202cf549275",
+        "data/reference-new50-20261105/covers/n021-page14.png": "6a21ce26247b361bb95ea1abb37865dcff7034bb5bc9a5c0016336d12c8dd177",
+        "data/reference-new50-20261105/covers/n021-page15.png": "f8fcd12f2b8e16bca5c97e93615826c0c675dba16f3998384b73b27efa37df1d",
+        "data/reference-new50-20261105/covers/n021-page16.png": "eef6274ae108bccb92da8ec0108e567286107a41664fa28a8979a0615116ec11",
+        "data/reference-new50-20261105/covers/n021-page17.png": "cf390a13391ea9ecaa10099a63ad26ea08ece8d07f822a16a2744988dbc3ed2d",
+        "data/reference-new50-20261105/covers/n021-page18.png": "605d8ec53e15f515cdc9781593fe608d7d4965d02795fbadbea4441bcdafe146"
+      },
+      "source_image_count": 18,
+      "observed_pages": 18
+    },
+    {
+      "id": "n022",
+      "title": "久坐打工人，工位2分钟抗阻运动把腰养回来",
+      "author": "小妍的体态自救日常",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n022-complete.json",
+      "capture_sha256": "bab2a9f2be3bf9505409a2fc13d0c8c8e8b03a943faf102579420eefbbbdbc7b",
+      "analysis": "data/reference-new50-20261105/analysis/n022.json",
+      "analysis_sha256": "33b45a681ba24636b4a00da5e37ff6dc8dd43777ef8f2cacd8136ddb2586183e",
+      "images": {
+        "data/reference-new50-20261105/covers/n022.png": "aeba85ff6a49cca9b7f52f6436fc4a5e3317942957ddb2471433e43984b61070"
+      },
+      "source_image_count": 6,
+      "observed_pages": 1
+    },
+    {
+      "id": "n023",
+      "title": "通勤5km以内的，你就去尝试步行上班！！！",
+      "author": "普通大人的日常",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n023-complete.json",
+      "capture_sha256": "e59f85f556a822cb4fbb7a20c71b428601e67916f01a10a3a712e7d6644dbc73",
+      "analysis": "data/reference-new50-20261105/analysis/n023.json",
+      "analysis_sha256": "2173714f47216b0c3c4ed8c4f5434bb3fd083f3d7e885acd855a41aa32be89fd",
+      "images": {
+        "data/reference-new50-20261105/covers/n023.png": "0897c965536d37bae2d2bba88d8bf752edef45a7bae8538743d811677dcca603",
+        "data/reference-new50-20261105/covers/n023-page2.png": "17cb83dbfd36d5ab5331a647b1421ad99d60c80f68d3704677e3babab6f7cc7b"
+      },
+      "source_image_count": 2,
+      "observed_pages": 2
+    },
+    {
+      "id": "n024",
+      "title": "骑车去上班",
+      "author": "豆芽菜",
+      "theme": "运动与久坐",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n024-complete.json",
+      "capture_sha256": "a792d186902e58806f27a7a44fa52b2086273c411d122ae197c901edf1821180",
+      "analysis": "data/reference-new50-20261105/analysis/n024.json",
+      "analysis_sha256": "85eca14737f3071a41af20786cb58e33dea8eb29e46d06fae099d2d9deaa1bda",
+      "images": {
+        "data/reference-new50-20261105/covers/n024.png": "881c4e4424fdad486f57f9fa63ea06c80a9edefe67414b8bacece1e95b7fca7a"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n026",
+      "title": "🚶‍♀️ 每天走路1小时，身体会发生这8个变化！",
+      "author": "健康小管家",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n026-complete.json",
+      "capture_sha256": "ccca6d31256950315aed40e009a4ba47e365e524ed323470743c11bdabb09397",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n026.json",
+      "analysis_sha256": "59d4c52af8acc9466be4deb571049689614815809d1315008f7b6cfd1e657bd5",
+      "images": {
+        "data/reference-new50-20261105/covers/n026.png": "4416bc9a337e2c6e486d4c3fa2fbe2b5e8f5b5c972f70f433ed13135b9a6c040"
+      },
+      "source_image_count": 9,
+      "observed_pages": 1
+    },
+    {
+      "id": "n027",
+      "title": "记录减肥最好的运动：走路",
+      "author": "Momo（睡觉第一名）",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n027-complete.json",
+      "capture_sha256": "adf6b36eef0898fcf5f3806616ec6349f568de390374c4fa4b616df9faa8f704",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n027.json",
+      "analysis_sha256": "20454428f2d27b1a9b5b0722e22f582d5e7b35f809845f30ac9426834675d100",
+      "images": {
+        "data/reference-new50-20261105/covers/n027.png": "4b8c003644fc1f993f85345b3514898ea19a5d773a8c4816def14a126d77f72d",
+        "data/reference-new50-20261105/covers/n027-page2.png": "38bdae4885a27e1f80bd8af3502253fc9a353bb456141dd856396f86a0163444"
+      },
+      "source_image_count": 2,
+      "observed_pages": 2
+    },
+    {
+      "id": "n028",
+      "title": "一个散步狂是怎么养成的",
+      "author": "吃客信条",
+      "theme": "运动与久坐",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n028-complete.json",
+      "capture_sha256": "9d3abad68b87ac5e45e3b4a0d9c9e79751c879168e35d12147720adfb4432baf",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n028.json",
+      "analysis_sha256": "f8f6bad9781bec6b651d1fb733e18a42dbb2429205bdeaafaedcfc45f92b9426",
+      "images": {
+        "data/reference-new50-20261105/covers/n028.png": "e8600636415c9b5e9c430d52dfcef89e94b64e3d9dbbe3915fca69c118ad1ab1",
+        "data/reference-new50-20261105/covers/n028-page2.png": "00f066bff2def4828e121bea824d7b8e8d975039702befd16e9042616b971eb7",
+        "data/reference-new50-20261105/covers/n028-page3.png": "93dfce36e37e3ebca51ed4e6ce3b1dbf7ab9351d33f3b68ee99d1fbae455432a",
+        "data/reference-new50-20261105/covers/n028-page4.png": "854eb33042a75a85f92e8d8f24c196399a0b10e2be59c78400e0561a6528c082",
+        "data/reference-new50-20261105/covers/n028-page5.png": "5aa7eeecc34547632c5aa1477ca85c4299a1d6e113e6ef27fbb0c104634f743a",
+        "data/reference-new50-20261105/covers/n028-page6.png": "f4ad60c0ef767d7b8a63db380845f1b1761ee4204eb4a221553835a43be8e287",
+        "data/reference-new50-20261105/covers/n028-page7.png": "887455261c645f9c1784c1d4595c33d667acc7e39b2e690f2f9a99287d14e13c",
+        "data/reference-new50-20261105/covers/n028-page8.png": "306d102c4d405b2a75036a6d65a2e75d1cad6f97d4e0578eec2ecec022bd336e",
+        "data/reference-new50-20261105/covers/n028-page9.png": "c48730b83a89b202b7df5b77556bd0d161e88b51986aeb16e5f41f97cd36b66d",
+        "data/reference-new50-20261105/covers/n028-page10.png": "5397caa79b4d2b462f387c5a15f001621fe0d6d18109c2512867acfc47c958c1",
+        "data/reference-new50-20261105/covers/n028-page11.png": "29b06cc8186760518f64e6f954dc0e118e7eec9a0cf77f96c5cd258ec379bcbc",
+        "data/reference-new50-20261105/covers/n028-page12.png": "5bead9619d22cb2da7322ed245fd4755c2664117788968cd9dc8619235aa7af4",
+        "data/reference-new50-20261105/covers/n028-page13.png": "ea9f30ecf2dc8af548ee2bc4102f350ee05f0e7a8f251dc5fe6a70927f02778a",
+        "data/reference-new50-20261105/covers/n028-page14.png": "17f99e42ffbe9f0a38545c3e7a18125d6c4299570c0226dac47324c55447ee65",
+        "data/reference-new50-20261105/covers/n028-page15.png": "5fe7f6fb6ca1187f9338d2d5004bc46ee0ffad0155a5924e6a0faacc9b231b49",
+        "data/reference-new50-20261105/covers/n028-page16.png": "a9b3b57c63c98377c100daa5451083d786b95bc95a7780ee06da139849516361",
+        "data/reference-new50-20261105/covers/n028-page17.png": "a0b5c518413a3c233e021f243426fabc63c983681538c3c9b5fedd85277814bb",
+        "data/reference-new50-20261105/covers/n028-page18.png": "778c56afef6b76f97ceb8d55597e3a6e5db08b34ef4d31407baf9299eef97193"
+      },
+      "source_image_count": 18,
+      "observed_pages": 18
+    },
+    {
+      "id": "n030",
+      "title": "我发现工作日午休的一个小时其实能做很多事",
+      "author": "dozeoff",
+      "theme": "运动与久坐",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n030-complete.json",
+      "capture_sha256": "001a58bb3028a58fceb6677df2b705a51a243e47d4e1ea268a816ef6f1c8040d",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n030.json",
+      "analysis_sha256": "ff73ef42c62f5628c4bfe5bc974816934f76d32131d583b1b2ece0cc121af850",
+      "images": {
+        "data/reference-new50-20261105/covers/n030.png": "c0b9417b99ecda2f74594328b3557b53add2e72f2caae472e5bf6a0bea5c8b1b"
+      },
+      "source_image_count": 8,
+      "observed_pages": 1
+    },
+    {
+      "id": "n031",
+      "title": "午觉最佳时长，睡多久才精神？",
+      "author": "咩咩mie养生社",
+      "theme": "睡眠与节律",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n031-complete.json",
+      "capture_sha256": "1a20428431f6ab1eb03e3d3eda9e2e60fc613d74da2dc5a7f3f1d22587be90e4",
+      "analysis": "data/reference-new50-20261105/analysis/n031.json",
+      "analysis_sha256": "7c43ef0ff1e187ef73f7fe8139cd301bfff975b06b16c26f8e281b5a6ee3e333",
+      "images": {
+        "data/reference-new50-20261105/covers/n031.png": "9205d56264f3d1de1196a8acc32dc49c17482ff3cbb94d3b7bbb8ce98d494649",
+        "data/reference-new50-20261105/covers/n031-page2.png": "698e01f65c6904435824d4bc8a91698bb09d050125b90ce3dae7f03d721a974d",
+        "data/reference-new50-20261105/covers/n031-page3.png": "5d02f5b9c41c9f0133486fa02a2a2cdddd7ef966ec2137034670b1a070bce2d8",
+        "data/reference-new50-20261105/covers/n031-page4.png": "55acec8ca1722683e75e94ec2a7d714effc9b04e32475c710348a90cdd50f3e5",
+        "data/reference-new50-20261105/covers/n031-page5.png": "f9eb34f99fe5f01367e29d31ba7b7ede796f8ef154e992d7175c9669f0ae9ea2",
+        "data/reference-new50-20261105/covers/n031-page6.png": "f5479165220b5cbb3d5ef2fbf5be9da71e5889e4f66788a9fbaedb2a3ea3d964"
+      },
+      "source_image_count": 6,
+      "observed_pages": 6
+    },
+    {
+      "id": "n033",
+      "title": "午睡多久最合适？睡对了才是真的休息",
+      "author": "小红薯69CE9599",
+      "theme": "睡眠与节律",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n033-complete.json",
+      "capture_sha256": "72157baec376e10be8e7e509187e5579fe073b7c2dd870c828148701a044e248",
+      "analysis": "data/reference-new50-20261105/analysis/n033.json",
+      "analysis_sha256": "996027b852de62987da2cff71b44ed6bba7d1c22a8529db55c9fa2ba1361cb1a",
+      "images": {
+        "data/reference-new50-20261105/covers/n033.png": "5dce0dcb104737abcfc8ee547a5dd8d7d6c9b21339aee212059aad5378d240d8"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n034",
+      "title": "要控糖减脂必须看懂营养成分表❗❗",
+      "author": "营养师糖糖",
+      "theme": "日常饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n034-complete.json",
+      "capture_sha256": "0c82b817c933d1141d358b8b9bd26e16402c20e24dd763596ad2d7768dd312ad",
+      "analysis": "data/reference-new50-20261105/analysis/n034.json",
+      "analysis_sha256": "a97de975288ff88931a75cef7a7196849d9cc10a0a7052a5776d0035ceb3a901",
+      "images": {
+        "data/reference-new50-20261105/covers/n034.png": "de0cd6990230a7a1fe7c6a580b3c81508828e5bf28c584d1bee3a47b367df56d",
+        "data/reference-new50-20261105/covers/n034-page2.png": "afc786f25eb50010212ee1586515d8d5e2a89b9cec7f583fe43fa956bff443d5",
+        "data/reference-new50-20261105/covers/n034-page3.png": "bd0c3ec30f66b0b5695700f6bfdd9c4bb53020ac76f5f0367b7486c7231f127c",
+        "data/reference-new50-20261105/covers/n034-page4.png": "91cc7cad8757af80763d5d3a8de3b0334b0ba7f59d39ac3f08c5da3c908af533"
+      },
+      "source_image_count": 4,
+      "observed_pages": 4
+    },
+    {
+      "id": "n036",
+      "title": "减脂应该知道的事-学会看营养成分表",
+      "author": "小鹿（减脂版）",
+      "theme": "日常饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n036-complete.json",
+      "capture_sha256": "37c2fd65af1f1a0108a50974be5346123dc86e974f54052e20382cbf3b037599",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n036.json",
+      "analysis_sha256": "91ea4061c3f7f7d3b80031aaa168b17f7252cbf86ffaada53039fe633d221c44",
+      "images": {
+        "data/reference-new50-20261105/covers/n036.png": "946b3e23267fd554d712e08fcd6e25d00bccc0ca0225f555106285cb9a2cb468",
+        "data/reference-new50-20261105/covers/n036-page2.png": "47f4904fa1564f5a5d4cc222a8e73ef969d021d246e8dcebda2f943ba61ec30e",
+        "data/reference-new50-20261105/covers/n036-page3.png": "f375b3f58269e531d36f4fbec63657cf12881dd30164aba043eadfbf41d1f7fb",
+        "data/reference-new50-20261105/covers/n036-page4.png": "1358090f48c279cb292b2769bee5e05eb67daa32290a79fa5dfcef1bfb70af8a",
+        "data/reference-new50-20261105/covers/n036-page5.png": "88297d6c10e7a3dd5a6d24c656aa6d65346d135b959ec2441653e2c0909cd303",
+        "data/reference-new50-20261105/covers/n036-page6.png": "c6a2a8f21c70d42c80fface4dadc8d4fb96023ad66eee59faaea24636aaf42d7",
+        "data/reference-new50-20261105/covers/n036-page7.png": "03620b07c8f852c6c78b5bff739d118029b91a72195b8ed9a2159b974589048c"
+      },
+      "source_image_count": 7,
+      "observed_pages": 7
+    },
+    {
+      "id": "n037",
+      "title": "🔥减脂人必学｜5秒看懂食品营养成分表",
+      "author": "珍珍的50斤逆袭",
+      "theme": "日常饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n037-complete.json",
+      "capture_sha256": "955d18f8bc23d12023e33bae48968058e3dd963b26ef3bcff487f3c6886a6102",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n037.json",
+      "analysis_sha256": "5f13dd1217c19fa6273ba7826c334985f0c0b16c0eb3b715e312ede20b53b98d",
+      "images": {
+        "data/reference-new50-20261105/covers/n037.png": "7b1cc002a952d506fb4ccebdcd71cd6a870f07683649c40adbf819c16067b299",
+        "data/reference-new50-20261105/covers/n037-page2.png": "a7911154fcb673d6c88adf2c9858148b5a3c7ecdb83e77ebc0b2193f45e6d9df",
+        "data/reference-new50-20261105/covers/n037-page3.png": "a8c55547d51435e327dfce07ca20e0888db2839d8fd128990eeff8e7a3658dd6",
+        "data/reference-new50-20261105/covers/n037-page4.png": "d6cd8ba6908634cd0a288f99634b9fbda30cad981f2dbdcfbf433a713157a218",
+        "data/reference-new50-20261105/covers/n037-page5.png": "dbcdda1e15bdb29d95f67e0f64a7f6c47751943f50ebb9358f2b79550eefa5c1",
+        "data/reference-new50-20261105/covers/n037-page6.png": "ecb1fdc7df74efb0652d22292f73a864cf9436b658cade5023bef43f56fa0a43",
+        "data/reference-new50-20261105/covers/n037-page7.png": "3ccb5fffb8cdc867dbd223c22894ca93d0f33822a0910011e35ac7298054ae0f",
+        "data/reference-new50-20261105/covers/n037-page8.png": "1ac3c46012d14575eed910f11687d481ef32ae0a47cb962c7c53d0060c8b0607"
+      },
+      "source_image_count": 8,
+      "observed_pages": 8
+    },
+    {
+      "id": "n038",
+      "title": "打工人一周备菜🍲第38周-本周花费75.35元",
+      "author": "小雨在北漂",
+      "theme": "日常饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n038-complete.json",
+      "capture_sha256": "19758e80d9284ef6995e28fcfef1fb19026bd011058c2c77b30d68713044225e",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n038.json",
+      "analysis_sha256": "1dc0893831324956f3f211c9073381f46953ecade9a09020c4e63bc8a60d3e8e",
+      "images": {
+        "data/reference-new50-20261105/covers/n038.png": "d80aac7647a844c26a4b00b21cba6619856c25488870d7ed0a4f4b0f920fa2d3",
+        "data/reference-new50-20261105/covers/n038-page2.png": "d8091efaf6e70ff73bbba97fcbe650f73f695da6287b3712a7c370ee9cc248ee",
+        "data/reference-new50-20261105/covers/n038-page3.png": "098fa5c2f3b3fbc75b5b5af34a0da9de30a9e7b55f67f7746ed849f9826af1cc",
+        "data/reference-new50-20261105/covers/n038-page4.png": "4cd58309e45b405abbaaee18d07197d8dd7a6e4604e074855c02af7fbb7fbe94",
+        "data/reference-new50-20261105/covers/n038-page5.png": "97ecf3b3829f742535fa84162e70cf3180d952fb56520109259e54fa0ed8969c",
+        "data/reference-new50-20261105/covers/n038-page6.png": "caae26a41a031d9ec96483784b42db34b8066ce80c491efd5a00308e9bdd1e28",
+        "data/reference-new50-20261105/covers/n038-page7.png": "a840ba9b2df5ae4c285b633d4c08a6e86bd0c1b899ba102f213255edb0d4017b",
+        "data/reference-new50-20261105/covers/n038-page8.png": "11061b3165db4c9fa9f7e99b8b0cc1c181e749a3bcc85959cf7c67d54875ff13",
+        "data/reference-new50-20261105/covers/n038-page9.png": "a5ba0a5abb927d3fccfed19aff9e7c4f1b13e3a7be4db6d3bb8551531111a207",
+        "data/reference-new50-20261105/covers/n038-page10.png": "98ab6eb427962b9ee22f8bac3ba4dc14c116ae495fb0bb65164793ea34099a4d"
+      },
+      "source_image_count": 10,
+      "observed_pages": 10
+    },
+    {
+      "id": "n040",
+      "title": "不会只有我，水杯带了但一口没喝吧",
+      "author": "佩奇慢慢养",
+      "theme": "日常饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n040-complete.json",
+      "capture_sha256": "563899d1c268e51fc824fbdd9cf50c14f81530d85e6a62a4aa867832b3237882",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n040.json",
+      "analysis_sha256": "0d6b311ef78c7f6dec4e1b7f25776c6e24a31856a7db369fb8e3680ad38f0e86",
+      "images": {
+        "data/reference-new50-20261105/covers/n040.png": "2426924e1498c5e54dbd2dd20b49803322e49f113a1c56f92587be6ac8f8a03c"
+      },
+      "source_image_count": 5,
+      "observed_pages": 1
+    },
+    {
+      "id": "n041",
+      "title": "机关生存｜总忘记喝水？4个无痛小习惯",
+      "author": "追风少年阿野",
+      "theme": "日常饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n041-complete.json",
+      "capture_sha256": "b03863685c3ca5b7e4a1861c679a80b5215556dc9a968a68bc4514349ae1a7dd",
+      "analysis": "data/reference-new50-20261105/analysis/n041.json",
+      "analysis_sha256": "6225f399f3bfa06f450dcef75498d6f65339d0bc90e966d21d3f1b7d0236df84",
+      "images": {
+        "data/reference-new50-20261105/covers/n041.png": "5a4393cc0e4b94b70d036800591bb39651790b17f62252ba87eb62851304323e"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n042",
+      "title": "办公室喝水老忘记？这3招比盯APP管用",
+      "author": "Isabella*",
+      "theme": "日常饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n042-complete.json",
+      "capture_sha256": "f4d958b20a2f3a406004c6d9ad4fee2f4e63cb75c98d941ee12b1f65f5180f11",
+      "analysis": "data/reference-new50-20261105/analysis/n042.json",
+      "analysis_sha256": "220c0aae98c3ddf87139422c32f87919d26458a042264a2afdbb8acb7264e8ca",
+      "images": {
+        "data/reference-new50-20261105/covers/n042.png": "37e70c0fc3b17fec2c7dbd370bffd6403758be61cec47b27bce124f8615b664d",
+        "data/reference-new50-20261105/covers/n042-page2.png": "36b1962edf5ff971f93fc609d7239db9026ca4f736d813fd1339403babf3ede2",
+        "data/reference-new50-20261105/covers/n042-page3.png": "f47ea2a3c21fdee30cc5e8fadad91385ffd0d8e7c670982736b92d86e2e1fc39",
+        "data/reference-new50-20261105/covers/n042-page4.png": "9c1c913b8a4c4de7829d4f0a3f91e278ca02694ceab017d965d7fa7289a587d8",
+        "data/reference-new50-20261105/covers/n042-page5.png": "a4e2a5654f32d4a3de43866ac609a4a08f105c0877ff9d5c8091d734bc73caed"
+      },
+      "source_image_count": 5,
+      "observed_pages": 5
+    },
+    {
+      "id": "n043",
+      "title": "分享私藏！请收好我的减脂期友好外卖清单",
+      "author": "番茄的抗火火食记",
+      "theme": "日常饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n043-complete.json",
+      "capture_sha256": "df724a352c7fe814ba4d89b63e0e9ab49b864ff24eca79c3f050508b69918e7b",
+      "analysis": "data/reference-new50-20261105/analysis/n043.json",
+      "analysis_sha256": "028c035794020c6b6775f199e7112b9723c9483dfcae783d580f0fba47c3aa0b",
+      "images": {
+        "data/reference-new50-20261105/covers/n043.png": "34972d09ec6774f57face3b39d0a48ed27aedce63f026eac85fe796a8592640e",
+        "data/reference-new50-20261105/covers/n043-page2.png": "177f434a6d63b061d2a79636c0da45607da84c8613d1281cae25a1f7bb5bed9b",
+        "data/reference-new50-20261105/covers/n043-page3.png": "f4fb3099efb74293bbe546af58e464911cab99dec779d6e9e09ee6a072bf4f51",
+        "data/reference-new50-20261105/covers/n043-page4.png": "a45264e91bb657eda4d69bd03655006cb0052a09623995da4592fa6b088e0fed"
+      },
+      "source_image_count": 4,
+      "observed_pages": 4
+    },
+    {
+      "id": "n044",
+      "title": "久坐自救指南｜每天8小时的伤害 10分钟就能缓解",
+      "author": "洋洋",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n044-complete.json",
+      "capture_sha256": "85e5af51a2f1ba29532c1bfb8c426352be5940b0388128be3e3b710e135d4f38",
+      "analysis": "data/reference-new50-20261105/analysis/n044.json",
+      "analysis_sha256": "0673c594a9eee6548041f792e28ce8c86517d652044bea6e12daead440fe2507",
+      "images": {
+        "data/reference-new50-20261105/covers/n044.png": "c88e2a34a223e3e4f145f644813e832e4d73153bb5467bda622c53c283890630"
+      },
+      "source_image_count": 5,
+      "observed_pages": 1
+    },
+    {
+      "id": "n045",
+      "title": "柳叶刀：久坐 30 分钟，起来活动5分钟",
+      "author": "身心耸耸肩dailylife",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n045-complete.json",
+      "capture_sha256": "4801c2f7143fca9b4727f0b9e509a80263fdf2bce72729ba9fc33837b0d8e262",
+      "analysis": "data/reference-new50-20261105/analysis/n045.json",
+      "analysis_sha256": "a995d48638a2762e4eefd20be5c7f18d4f699823600313a7c7eb3741f5bfa673",
+      "images": {
+        "data/reference-new50-20261105/covers/n045.png": "e291e444aff4794e4d726fc79e5ed9b75481bc696da6d57040e181dd61660c85"
+      },
+      "source_image_count": 5,
+      "observed_pages": 1
+    },
+    {
+      "id": "n046",
+      "title": "每天吃四个鸡蛋一个月后血脂会怎样？",
+      "author": "营养师顾中一",
+      "theme": "日常饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n046-complete.json",
+      "capture_sha256": "56625123e4afe8927c598df0ee96db49690021c2e10d51d3708edcd054848455",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n046.json",
+      "analysis_sha256": "c8b2433da2245f246cd3f1cf76c4abf6ec77dcb36822f68100592d0b0537924d",
+      "images": {
+        "data/reference-new50-20261105/covers/n046.png": "00f74fcb8b35867a8becbc8800b00db547df6a1a48a3b3e4554ad166c4b1be29",
+        "data/reference-new50-20261105/covers/n046-page2.png": "25825b9e454527e71e809716bdc8da6c90c156dd754b3a777522361da8f7fe1e",
+        "data/reference-new50-20261105/covers/n046-page3.png": "25317f26a1de458354d39623bb3e0fdab6f2e6562add96203e210f44dfe873b5",
+        "data/reference-new50-20261105/covers/n046-page4.png": "551aea88edd9b06e5a557805efadef54fa21c27ed8d6247800cfeb3b0f000f36",
+        "data/reference-new50-20261105/covers/n046-page5.png": "0b03306b83db6cd9d2238edded4510dba91febb829a55a57e0d88971d22d0bd9",
+        "data/reference-new50-20261105/covers/n046-page6.png": "193190038b10eeb443108931d7938cf013f49d4cbb6bd561935a821e301822ef",
+        "data/reference-new50-20261105/covers/n046-page7.png": "e73e467f56ef87c634a1dc6e74aa0d1a865465314b3868dc5bd275e938a480bd"
+      },
+      "source_image_count": 7,
+      "observed_pages": 7
+    },
+    {
+      "id": "n047",
+      "title": "感受到寒意了吗？要早点注意啊",
+      "author": "营养师顾中一",
+      "theme": "日常生活节律",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n047-complete.json",
+      "capture_sha256": "876e5f524b8dacda950816a9d84eab6628b027e6fdb14dde3d03894686b5e7dd",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n047.json",
+      "analysis_sha256": "16c016767e64145d5015d537678ce5bee0fdc8492abc8ba4520b317a8ba7954c",
+      "images": {
+        "data/reference-new50-20261105/covers/n047.png": "e48fe547e4f08c1387446770521a8de837ba6b7f2965571136a5b49b63edeb2c",
+        "data/reference-new50-20261105/covers/n047-page2.png": "3868068f54597e460c204f596af8a9e607c51d6cd5c6a46b704496cf043d2122",
+        "data/reference-new50-20261105/covers/n047-page3.png": "d3d99bbfd2c2f0fe311940e4b236839400c593dca091fdcf82882ca1d3841c02",
+        "data/reference-new50-20261105/covers/n047-page4.png": "1b817f81b304e2cb014641e4f61b0dfebdf97ab0d1b038255dcda3dba4a58f65",
+        "data/reference-new50-20261105/covers/n047-page5.png": "06fae49f73db2338ac98286e14eec1ed6faa11b23003722efc989e1578969c70",
+        "data/reference-new50-20261105/covers/n047-page6.png": "544cda1210e589ab90efc93a0881cd4212d87795602a5718d429c07f2e1d98bc",
+        "data/reference-new50-20261105/covers/n047-page7.png": "3fd2a913dd2684324abaafbe8b2c67074705a355aa28a1d9e5a3bc7bd1453d7a",
+        "data/reference-new50-20261105/covers/n047-page8.png": "7616ac04d209a736f37b7c8c3bbc79f0b2fe51dfb9ef8935e5fb2969621d3b5c",
+        "data/reference-new50-20261105/covers/n047-page9.png": "4aaa9f0e95ac332b772a4ad9553b51316bd5ff1ef15635769c7f8eb19389a313",
+        "data/reference-new50-20261105/covers/n047-page10.png": "5ddab212557de236316eace42ffcd732aef6701727677318f847f7611f706d08",
+        "data/reference-new50-20261105/covers/n047-page11.png": "ef004867807e6c6274dc78e530109af5ecb23c8b5b5c27258dbe858b32909971",
+        "data/reference-new50-20261105/covers/n047-page12.png": "fd1ce7d201c0c5fb50ec0da5eb2997dc5d3bc67436766d052de69cb2888dc73f",
+        "data/reference-new50-20261105/covers/n047-page13.png": "feb3a319065b6b56a6615e7d1ca43b59e580382dcd38520827619e517348747a",
+        "data/reference-new50-20261105/covers/n047-page14.png": "3935ebbbd3b044b519edb99b25583133d4985bc2c46e658a3de859c00fdbfcc6",
+        "data/reference-new50-20261105/covers/n047-page15.png": "b193aadeb67b6ee42079c033f535fd9e52d08f2c94e68f7588c05108291da57d",
+        "data/reference-new50-20261105/covers/n047-page16.png": "14f51222ec259ba486a5fe08fd3ea71d548e273ab22f8a70a69462a02740f2c1"
+      },
+      "source_image_count": 16,
+      "observed_pages": 16
+    },
+    {
+      "id": "n048",
+      "title": "30年前美媒炒烂的“冷饭”，别交智商税了！",
+      "author": "营养师顾中一",
+      "theme": "日常饮食",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n048-complete.json",
+      "capture_sha256": "8a51f918338bca8fce17d0f86393ca70a339234db7369c07ce7ee3f53ad7df85",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n048.json",
+      "analysis_sha256": "f9badb998a03e5a46783860c0dce59f665690836f06997b6a910ebbff45e4177",
+      "images": {
+        "data/reference-new50-20261105/covers/n048.png": "0dbd1e0326557341f2d7bcab5fb63569a80eb93aab308cc5a2d31418b0475292",
+        "data/reference-new50-20261105/covers/n048-page2.png": "abb8134801f9aabbd4fd5e0630557cbbe068339b7d9dedf6321c111e3d53779b",
+        "data/reference-new50-20261105/covers/n048-page3.png": "29d5ee8a2f58e11874a6a683b6de3016280e05a003b40a5a03c0d058a3e144df",
+        "data/reference-new50-20261105/covers/n048-page4.png": "402ec09c2a23dd4cbf882687fc454a0db6a135f028d4ba3894abc0958da75794",
+        "data/reference-new50-20261105/covers/n048-page5.png": "e894ab363337887dcee4b2b6308fd71382ce866cc49630aa184e1e5d4b5f456e",
+        "data/reference-new50-20261105/covers/n048-page6.png": "5a5fbd22e4d5d4d029c7d53a8b15c09f3c1301846fb0e50d75f21fbf55c58850",
+        "data/reference-new50-20261105/covers/n048-page7.png": "2bc988a54a9337988d335849ef0321bed4fc1c1ffd7a9018ef38f5f6c359d8e5",
+        "data/reference-new50-20261105/covers/n048-page8.png": "f729145a5a0947acf27f08831a71e0254579dbea0ae71afb297df3916660e39f",
+        "data/reference-new50-20261105/covers/n048-page9.png": "b9f81d24f9f59e42e8c77c4eeff58696ce65e1682f9e7089b425f5fa98f501a3",
+        "data/reference-new50-20261105/covers/n048-page10.png": "c9ee42c10888e95cff35ec96930ec4229cc05d6bb63578f8bb777e955cac84c1",
+        "data/reference-new50-20261105/covers/n048-page11.png": "bbba7f8498cd964a03655f728f08e9110d7a4bb10f57ae5125b107915656541d"
+      },
+      "source_image_count": 11,
+      "observed_pages": 11
+    },
+    {
+      "id": "n049",
+      "title": "协和专家说「存肌肉」上热搜",
+      "author": "营养师顾中一",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n049-complete.json",
+      "capture_sha256": "2d10904b9622a97aaa836c9bb1001e1628fcb42abf8439f7139d4587f7e52e08",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n049.json",
+      "analysis_sha256": "a1ee4f2d62657aef0110de5f1799d8a4ff6c164f6513e72e60c94c7ec683c425",
+      "images": {
+        "data/reference-new50-20261105/covers/n049.png": "4ee38632bd4e3a784f7f797b2e8b7f8c86cd22ed53117a7905f80d0fe2ebf33d",
+        "data/reference-new50-20261105/covers/n049-page2.png": "83acd5ee01723cbedbb2020a3ee551937011a9c89a0e92bcebfeb959248b2c77",
+        "data/reference-new50-20261105/covers/n049-page3.png": "825387f376ad9b32d761c8260b65aeded2b285fcc273a7b3c5a4f95b788b6425",
+        "data/reference-new50-20261105/covers/n049-page4.png": "3abb3f39439e435dad86d1987684af83cd9db5c6867887a5fb91142cc54547ff",
+        "data/reference-new50-20261105/covers/n049-page5.png": "bce32f17a8f7e137ec1c1457b797796a9efeaf23c8c936f0bb73e964447ee499",
+        "data/reference-new50-20261105/covers/n049-page6.png": "7536bd5ada2d8b07fe15b2375811e0b3581ba01e4df742cb856950b27520f8b5",
+        "data/reference-new50-20261105/covers/n049-page7.png": "6a3c18a083d872139ff2be0542e186b76f98fd5f7b72d8064b0915986521feeb",
+        "data/reference-new50-20261105/covers/n049-page8.png": "cf8f34c16fcaffba5bb3fe6cf52be27e0a3ba4889dda8766127a4005d460af43",
+        "data/reference-new50-20261105/covers/n049-page9.png": "20fb49df3ed7709f8869f87a8c889c142494f90e896693d19850c6607c74f03c",
+        "data/reference-new50-20261105/covers/n049-page10.png": "516a6ba4c2170ba1ebace58bd25f8a736040c7ba73f40a710e4c6959a97f63e2",
+        "data/reference-new50-20261105/covers/n049-page11.png": "475a2355381f1d7e3cebd2e1e58e4e4028231cc3a616c6df644c4f4ddeb9629d",
+        "data/reference-new50-20261105/covers/n049-page12.png": "45fe4c5e4e8469a90c19cb841579940d81c050bfd11c38cfc7d663d615009664",
+        "data/reference-new50-20261105/covers/n049-page13.png": "5824089179c3a1311d36c6cd92291d740315d2d5772525175ad32de27ce76550",
+        "data/reference-new50-20261105/covers/n049-page14.png": "6a341991d4a9915da34dc8ef2702da29f627b935c308f6f2ae086443b4867ca6",
+        "data/reference-new50-20261105/covers/n049-page15.png": "69b778dd29b283e5067aa83195adfcab2fbc661dbd99c896650136565ae0718a"
+      },
+      "source_image_count": 15,
+      "observed_pages": 15
+    },
+    {
+      "id": "n050",
+      "title": "老派散步之必要",
+      "author": "傷心蛋撻",
+      "theme": "运动与久坐",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n050-complete.json",
+      "capture_sha256": "280d4a6afcae9e159f5be3c8b47dd5d9e51fd97d3aa3df243f6b312768b021dc",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n050.json",
+      "analysis_sha256": "769cccdaf4522ae6d742ebee95de4ae2aecf9bdebd6e28392507422411333330",
+      "images": {
+        "data/reference-new50-20261105/covers/n050.png": "b295fa2b016961bf556b130f801e35f1aa6388ced462c062ab56171077ddfaa1",
+        "data/reference-new50-20261105/covers/n050-page2.png": "81be94ac6af18573a749f92c106df83e82d1c1696e726141be3ca4c367bee184",
+        "data/reference-new50-20261105/covers/n050-page3.png": "5676e978406c7932b9c7945f7c4572d6f51d86256fd27892461ce5c7635f1948",
+        "data/reference-new50-20261105/covers/n050-page4.png": "4409b19a14b8aab3898834b258997d89c3b23734146cfda3f8adffe52b107579",
+        "data/reference-new50-20261105/covers/n050-page5.png": "1e0b648b5da19968400342dc628f7a76f6ae2dd1df840b83049f9c09405d1360",
+        "data/reference-new50-20261105/covers/n050-page6.png": "400295776b1c2cde111c5da920936619195a3e048b1812f099d48768981b20d1",
+        "data/reference-new50-20261105/covers/n050-page7.png": "26471f404611891fb5349cb4d5bd6ed14f15600af8e28931c7c4b9d5c3f5cfc2",
+        "data/reference-new50-20261105/covers/n050-page8.png": "91ffaba571ec2fb735a066d6aad2fb1e16f6c1bc01e8443b5a21edb466b79c50",
+        "data/reference-new50-20261105/covers/n050-page9.png": "4abbdc316bea2e65be339508ac5d56451c121b0a3d7d02dcd3568f661debab57",
+        "data/reference-new50-20261105/covers/n050-page10.png": "87a15d48cdf1a8b06ddc9238d3e7391fbad7c35626d7c3656b8faab5286f7e5c"
+      },
+      "source_image_count": 10,
+      "observed_pages": 10
+    },
+    {
+      "id": "n051",
+      "title": "不知道下班干嘛，就按电量随便挑一个",
+      "author": "李卷卷",
+      "theme": "运动与生活节律",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n051-complete.json",
+      "capture_sha256": "333ae45c5c3deaff6c112967d986b0a7b5d85ea16bb8958de13c57599542ca0b",
+      "analysis": "data/reference-new50-20261105/analysis/n051.json",
+      "analysis_sha256": "e1e1791f7b53fed4f6dc5c447f40f16451e1f3fe4faa162eb42a58706d414795",
+      "images": {
+        "data/reference-new50-20261105/covers/n051.png": "c0a35efd178b4f3c63d4211ec5d3e292b591f8432f8fedda5d7e1c4e7d11873a",
+        "data/reference-new50-20261105/covers/n051-page2.png": "78792f74087ac3f52ebd6a29d21810e63456641dfab6c41e0fe0bd79f3896134",
+        "data/reference-new50-20261105/covers/n051-page3.png": "b99ab8ac390e28b2608d1f210afa376e3598e936675b4fbbf93b0c78ce9a2b27",
+        "data/reference-new50-20261105/covers/n051-page4.png": "3a1316bd13422197c1f7b87714ba57c31f1b0f53b9e8dd93445cd9e283e09a21",
+        "data/reference-new50-20261105/covers/n051-page5.png": "2cd8725f091e1987d759e25b1f31fb06566fc4fa0ca9f5ac70060eaacd0fd7e8",
+        "data/reference-new50-20261105/covers/n051-page6.png": "88cf401c1eb28723843d83d9acd9cf0fbf45b226b917d38613b6c4d2e59bd4d0",
+        "data/reference-new50-20261105/covers/n051-page7.png": "da3d1dd98ea382c23182e25adb2452f758525fa9ce863435fbe90107ed091bcd",
+        "data/reference-new50-20261105/covers/n051-page8.png": "735555f2c4acf60fbf0c48d2752b87161fd0c8725b6fcffbd91888010c95f948",
+        "data/reference-new50-20261105/covers/n051-page9.png": "d37e65d5fa14bdc7f393a2be01a9514343bd2fd6b4a5ad19fd9da397555c1cbb",
+        "data/reference-new50-20261105/covers/n051-page10.png": "5add1a9359fedc6a43dea99fb94a040401972e874f6c69697ebdefebe3c7ef56"
+      },
+      "source_image_count": 10,
+      "observed_pages": 10
+    },
+    {
+      "id": "n052",
+      "title": "坚持晚上的散步，我最大的变化不是瘦了",
+      "author": "枕着星光入睡",
+      "theme": "运动与久坐",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n052-complete.json",
+      "capture_sha256": "ce4626a2fc178f6746e2d46a5129ce5890121df9828df15079319cdd02df46c0",
+      "analysis": "data/reference-new50-20261105/analysis/n052.json",
+      "analysis_sha256": "c8fd8806cc9127e301e99919f89864aed782888b5232ea70f9fe2db249d09ff2",
+      "images": {
+        "data/reference-new50-20261105/covers/n052.png": "7d5d67a1423cd1c49bde4d8865e25d166b4dfa5c8aecf6998c2972051eae7da1"
+      },
+      "source_image_count": 1,
+      "observed_pages": 1
+    },
+    {
+      "id": "n053",
+      "title": "怎样把每天30分钟运动融入日常生活中",
+      "author": "元气果妈",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n053-complete.json",
+      "capture_sha256": "f21ff9d3f6565d0442b62265c1feaac409d766bbca55d43797e3a448e0782427",
+      "analysis": "data/reference-new50-20261105/analysis/n053.json",
+      "analysis_sha256": "7d4d417208bce3468cb31927468526c9b3f196ca9b484630081e6715480b6b8a",
+      "images": {
+        "data/reference-new50-20261105/covers/n053.png": "35a640c4124c9ede855af19673374b0864cc8a98d4a1929599b92c938472dc82",
+        "data/reference-new50-20261105/covers/n053-page2.png": "154c7a0f9e4354d8bd3658771a0cc41827359f83615d838c3f8c641978ec09f1",
+        "data/reference-new50-20261105/covers/n053-page3.png": "505225f67b35eeb62188bf5d733bfd2a2dfb715bee08df029bcf3775850edb40",
+        "data/reference-new50-20261105/covers/n053-page4.png": "07e3da7f0a0e26098ee4e60d23ae104f12d402d96800d97f00ae05e85b543031",
+        "data/reference-new50-20261105/covers/n053-page5.png": "dbf97c78ea59c536862a9d8a972411d485938ac2120fd45ebe4d4949eb5b996e",
+        "data/reference-new50-20261105/covers/n053-page6.png": "879e41fe5379652d1905cd210733975203430613715acf432b96790092dcada3",
+        "data/reference-new50-20261105/covers/n053-page7.png": "8045e5e2c7f72fc62b620ca6c0da08d13d1dec2e5a693da3758ffcf70cc4f635",
+        "data/reference-new50-20261105/covers/n053-page8.png": "554ba19caedf7cbdec745a38f3f0d2520ae71d1b70d41840bb1e6ae6c9a0158a"
+      },
+      "source_image_count": 8,
+      "observed_pages": 8
+    },
+    {
+      "id": "n054",
+      "title": "J人打工人｜一周工作+健身+带饭平衡版",
+      "author": "Cherry77",
+      "theme": "运动与生活节律",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/n054-complete.json",
+      "capture_sha256": "88223bf6d40bb54bb87f170b1514bf298399ddd46486a4d4bdb636d5b3ca8ffc",
+      "analysis": "data/reference-new50-20261105/analysis/n054.json",
+      "analysis_sha256": "0308b7204e4fb4ad703d9ca0f10209d224efe32ef50aa94fb712fda3a5665e55",
+      "images": {
+        "data/reference-new50-20261105/covers/n054.png": "020607ca6afdf0062775bb89f9338c72e9f1368cf598226eb9fb8122ed87849b",
+        "data/reference-new50-20261105/covers/n054-page2.png": "700547366f0fbafdbef3bb6fda7b1212f8059f16276567fc5553c1c5cb19d4fc",
+        "data/reference-new50-20261105/covers/n054-page3.png": "7201ce7d92c85146c6ceca66da050eb5f8c1336aec58904129c23eb19e17f00b"
+      },
+      "source_image_count": 3,
+      "observed_pages": 3
+    },
+    {
+      "id": "n055",
+      "title": "适合既要健身也要生活的上班族｜健身周计划",
+      "author": "Shawmoves",
+      "theme": "运动与久坐",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/n055-complete.json",
+      "capture_sha256": "c650d2ea715bf3c34a56a0713164f18ab025886daaca62b87a66b702b3652754",
+      "analysis": "data/reference-new50-20261105/analysis/n055.json",
+      "analysis_sha256": "b26f3ee73f93841f2cc1f4e8c369a9bde80711b683438b28faea0862bec46918",
+      "images": {
+        "data/reference-new50-20261105/covers/n055.png": "7672e9f50990861ecfa5e974b924abe1647d5042182f2a5c046e0f1630d5661c",
+        "data/reference-new50-20261105/covers/n055-page2.png": "b351d6d9cdf1c6104b2591218fe4a5e19e77e64c1adae1ef456afb35579d6ecc",
+        "data/reference-new50-20261105/covers/n055-page3.png": "4eaa0f01de4850384b949636b8310c14d043feb904fa16253daa5c029973e540",
+        "data/reference-new50-20261105/covers/n055-page4.png": "0fedcb835f0bbb67b734f7ad2c35d4590050c35ed8e78a5c85888ea8690e7b78",
+        "data/reference-new50-20261105/covers/n055-page5.png": "a631944f2c38db938999810a819c33f7953bff76fc96e21616f42bb9cfdb3379",
+        "data/reference-new50-20261105/covers/n055-page6.png": "7c31915a61d44f4a324958d96c02c531bc862ad3aab1c056ebd829b371d04c35",
+        "data/reference-new50-20261105/covers/n055-page7.png": "cc3826c61e0bc5a622fa6dc111fe159e34075ca38560cda663176e0dd713332a",
+        "data/reference-new50-20261105/covers/n055-page8.png": "fe77cdab9e9ca4841deb1f5d65e575ef5af326e5a66f679e07503ac72e317d45"
+      },
+      "source_image_count": 8,
+      "observed_pages": 8
+    },
+    {
+      "id": "n057",
+      "title": "下午喝咖啡，晚上睡不着怎么办",
+      "author": "续命实习生",
+      "theme": "睡眠与饮食",
+      "usable_as": "positive_editorial",
+      "capture": "data/reference-new50-20261105/queue-b/n057-complete.json",
+      "capture_sha256": "bdae83d32eec89dc34a74a578ecd1c2c8ef9089b5f7c0bad5155f46ae78538a6",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n057.json",
+      "analysis_sha256": "7a84223d44ffdba9a49e074082dd6af3c50d0952a31d10f4015d0f5092a60ecf",
+      "images": {
+        "data/reference-new50-20261105/covers/n057.png": "3f5ef04f893d51dbca8d7143637f06fb43f78ead1f54117897d2a9c96666eee3"
+      },
+      "source_image_count": 5,
+      "observed_pages": 1
+    },
+    {
+      "id": "n058",
+      "title": "howto戒掉睡前玩手机｜4个“无痛”小妙招",
+      "author": "当归少女🌟",
+      "theme": "睡眠与节律",
+      "usable_as": "contrast",
+      "capture": "data/reference-new50-20261105/queue-b/n058-complete.json",
+      "capture_sha256": "41a03b5073bb7a8f93e3d1fec3fedc62930a0742d0da196128b87e7519422e48",
+      "analysis": "data/reference-new50-20261105/queue-b/analysis/n058.json",
+      "analysis_sha256": "851e73f57cced96c3d0dd072dbb9389dc1cb11ee9a58df3ce11a1d5f6eb4f28b",
+      "images": {
+        "data/reference-new50-20261105/covers/n058.png": "b0dd5f2ffeb0c9b458b5e013c083b857eaa00b4b8401c4cd2f811b3164b1cff9",
+        "data/reference-new50-20261105/covers/n058-page2.png": "33e6c69cf4294b0e1a4ad0181cd1ce4cf4d2112cca4cadb33fe4c8df06440837",
+        "data/reference-new50-20261105/covers/n058-page3.png": "337e46bfe3dc980ccecf6d33cd1f7be44ef6e1abac47774091425ef847f89695",
+        "data/reference-new50-20261105/covers/n058-page4.png": "3b9e57f5b355605517a4dd11b1cd1e627289abc79f2b0974f9c5cfc8f5905d3f",
+        "data/reference-new50-20261105/covers/n058-page5.png": "4588bf68313648f4cc23b9a0ca95154d1c2d4a4cdba3707f3ffe46e6d76ab09c",
+        "data/reference-new50-20261105/covers/n058-page6.png": "dcdb55de9602120fb20f47c1e732bd1eb51221c957389b2e0b0293b7e3f5c881",
+        "data/reference-new50-20261105/covers/n058-page7.png": "c762b4573f75352261aa618307f35331b6705cec815b4cb50f36d91616aec27e"
+      },
+      "source_image_count": 7,
+      "observed_pages": 7
+    }
+  ],
+  "excluded": [
+    {
+      "id": "n004",
+      "title": "带薪抵消久坐伤害的'2分钟法则'\\\"",
+      "reason": "不完整：轮播共八张，仅提供首图。随附文字虽完整，但主要为引子、研究比较断言及标签，不能替代其余七张实质图片。"
+    },
+    {
+      "id": "n008",
+      "title": "喝粥吃面真的不养胃！（建议转发家庭群）",
+      "reason": "不完整：轮播共7页，仅提供第1页。正文明确指向未提供的误区解释和4项注意事项，现有文字不能替代其余实质页面。"
+    },
+    {
+      "id": "n025",
+      "title": "上班族通勤｜5km以内，通勤=运动",
+      "reason": "采集器误把AI标识当标题，未完成有效元数据读回"
+    },
+    {
+      "id": "n029",
+      "title": "😴午睡20分钟VS1小时，哪个更解乏？脑电波数据告诉你答案 很多人纠结午睡多久最合适，有人觉得“睡够1小时才解乏”，有",
+      "reason": "只有被截断的引子和封面，无完整答案"
+    },
+    {
+      "id": "n032",
+      "title": "真的，我的午睡只要15分钟",
+      "reason": "不完整。4张截图均已提供，但第2至第4张的图片区域为空白，无法读取其内容；第1张末尾引出具体做法，输入正文又在句中截断，因此不能视为完整内容样本。"
+    },
+    {
+      "id": "n035",
+      "title": "【超详细】一篇学会看配料表+营养成分表！",
+      "reason": "科普导向商品推荐，排除营销样本"
+    },
+    {
+      "id": "n039",
+      "title": "一周减脂餐备菜，消耗225.5💰",
+      "reason": "带饭内容导向饭盒商品推荐，排除营销样本"
+    },
+    {
+      "id": "n056",
+      "title": "有没有喝咖啡睡不着的",
+      "reason": "不完整。提供了两张截图，但第2张轮播主体为空白，不能确认原图内容；正文停在“但异常”，个人经历没有完整结尾。"
+    },
+    {
+      "id": "n059",
+      "title": "如何改掉舍不得睡的坏毛病！！！",
+      "reason": "足额后的备用样本"
+    },
+    {
+      "id": "n060",
+      "title": "不费力养生20招，照做就赢!",
+      "reason": "足额后的备用样本"
+    }
+  ],
+  "author_counts": {
+    "好气色养成bot😘": 1,
+    "营养师顾中一": 5,
+    "金豆子的养生指南": 1,
+    "丁香医生": 10,
+    "面包公主🐆": 1,
+    "momo": 1,
+    "懒懒增肌": 1,
+    "食艺人_Mason": 1,
+    "不只会哈哈哈": 1,
+    "池池不迟（饿魔退散版）": 1,
+    "小妍的体态自救日常": 1,
+    "普通大人的日常": 1,
+    "豆芽菜": 1,
+    "健康小管家": 1,
+    "Momo（睡觉第一名）": 1,
+    "吃客信条": 1,
+    "dozeoff": 1,
+    "咩咩mie养生社": 1,
+    "小红薯69CE9599": 1,
+    "营养师糖糖": 1,
+    "小鹿（减脂版）": 1,
+    "珍珍的50斤逆袭": 1,
+    "小雨在北漂": 1,
+    "佩奇慢慢养": 1,
+    "追风少年阿野": 1,
+    "Isabella*": 1,
+    "番茄的抗火火食记": 1,
+    "洋洋": 1,
+    "身心耸耸肩dailylife": 1,
+    "傷心蛋撻": 1,
+    "李卷卷": 1,
+    "枕着星光入睡": 1,
+    "元气果妈": 1,
+    "Cherry77": 1,
+    "Shawmoves": 1,
+    "续命实习生": 1,
+    "当归少女🌟": 1
+  },
+  "theme_counts": {
+    "饮食": 9,
+    "运动与久坐": 15,
+    "饮食与生活习惯": 2,
+    "睡眠": 7,
+    "睡眠与节律": 3,
+    "日常饮食": 10,
+    "日常生活节律": 1,
+    "运动与生活节律": 2,
+    "睡眠与饮食": 1
+  },
+  "usage_counts": {
+    "contrast": 26,
+    "positive_editorial": 24
+  },
+  "limits": [
+    "便利样本，不代表健康赛道或点击收藏效果；无曝光分母，不作流量因果归因",
+    "positive_editorial仅指表达结构可学；contrast为反例，两者都不是医学事实核验",
+    "无真实笔记链接的来源使用作者、标题、无障碍原文及图像hash溯源，不编造URL",
+    "正文完整但未采全轮播时，视觉结论仅限已读图片；不称50套全图医学终审"
+  ]
+}

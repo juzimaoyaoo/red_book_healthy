@@ -1,0 +1,26 @@
+{
+  "id": "n056",
+  "query": "咖啡 睡不着",
+  "theme": "睡眠与饮食",
+  "title": "有没有喝咖啡睡不着的",
+  "author": "阿树的低因日记",
+  "body": "个人经历: 当时我在外地出差，下午三点我喝完一壶手冲咖啡，当时有点心跳加速，背上发热，我心里想着应该一会就没事了，但异常",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=287x56\n@e47 TextView text=\"阿树的低因日记\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=287x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2066\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1513\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1513\n@e56 FrameLayout label=\"图片,第1张,共2张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1438\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e62 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e65 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1747 size=1080x553\n@e66 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1761 size=1080x299\n@e67 TextView text=\"有没有喝咖啡睡不着的\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1775 size=998x63\n@e68 TextView text=\"个人经历: 当时我在外地出差，下午三点我喝完一壶手冲咖啡，当时有点心跳加速，背上发热，我心里想着应该一会就没事了，但异常\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1866 size=998x194\n@e85 Button label=\"点赞 648\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=479,2202 size=193x154\n@e88 Button label=\"收藏 62\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=672,2202 size=187x154\n@e91 Button label=\"评论 1001\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=859,2202 size=221x154",
+  "image_count": 2,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n056.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部2张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e85 Button label=\"点赞 648\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=479,2202 size=193x154",
+    "@e88 Button label=\"收藏 62\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=672,2202 size=187x154",
+    "@e91 Button label=\"评论 1001\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=859,2202 size=221x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n056.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n056-page2.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

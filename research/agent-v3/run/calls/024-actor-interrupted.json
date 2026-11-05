@@ -1,0 +1,4 @@
+{
+  "status": "INTERRUPTED",
+  "reason": "格式字段协议不完整导致重复；宿主改为严格schema的字段修复，不伪造通过。"
+}

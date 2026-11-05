@@ -1,0 +1,17 @@
+{
+  "request": "改，你可以把你的 api 搞到 agent 去，参考另一个项目工程，叫做 red_book_ai，你去读下那个 agent，迭代你的 agent，然后用 agent 生产内容",
+  "context": "重做先前两篇健康图文。人类质疑选题、标题、图片、内容没有充分使用50篇经验；已明确旧两篇收获薄、重复段落卡。本次要求真正运行agent生产两篇，不能只交框架。",
+  "original_reader": "工作忙、想改善饮食运动睡眠习惯的普通成年人",
+  "human_constraints": [
+    "健康赛道",
+    "两篇实际内容",
+    "由agent真实选题制作审核",
+    "参考经验落实到成品，不照抄"
+  ],
+  "editorial_suggestions_not_constraints": "旧运动5分钟和外卖补蔬菜仅先前编辑选择，可以换题。图数、体裁角度不预设。无需虚构全站热度或点击预测。",
+  "visual_references_to_read": [
+    "visual-s049",
+    "visual-s048"
+  ],
+  "output_scope": "两篇实际图文稿、最终图片和真实审核记录；本轮先完成用户明确要求的agent重做，不将生成许可冒充已发布。"
+}

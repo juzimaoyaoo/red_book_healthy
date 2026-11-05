@@ -1,0 +1,122 @@
+{
+  "time": "2026-11-05T11:47:33.388010+00:00",
+  "source_identity": {
+    "source_sha256": "e0b9575b3f0486c93ff18af817eb07e05137a271d85d6ab26f0107ba99d09a8f",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021.png": "d0a5604103e33c0d0c022bbd1fd484a07ea08d5f2f5bfcf4ca381c96f141013a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page2.png": "1f38f4a235152cb431f859ef7982666d5111361db636f5d1520178b9815e6d90",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page3.png": "882376f6d119d71fbbb2720dc69439ff2c8e3459ec811bc2b45a837d0ddbfa46",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page4.png": "70cd1d1eaa2e3220e40d8035db1543d692b7b435169d6033cfecaa54f764fe86",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page5.png": "b27041416bae9a54366bbcfd341012bdfc51dae670fe033586227978ac83fcf4",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page6.png": "48e3077d97e3b1de78d21ef0c474519b787e0b33433cb651969ba5b389f611df",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page7.png": "67e46abd8e6b276825c4c93f276fe1d164fbf6dde7e059573ac1175e097e6195",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page8.png": "6ce1acdd4e1a94e37aa7d261e0d252efb1a08de003c6e7e6fb3bdcfc7a6cc71e",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page9.png": "2c899173de1152899832ceb3c2b98512f17708bce0ba0331da80d848bb82f7d0",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page10.png": "419eaafe14b8c4c9198ed71257e10523feadcf2656e0b1cafbca05df5b1f5a59",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page11.png": "3a84427b43af2775c53c0d81e2db94a24a662f38523311faa48641caab2ac267",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page12.png": "adfb5e6d575c1e320187bcc665528d98024f41fdda7a049421ffdb7fcfbdbfeb",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page13.png": "f23d9f19a08ab8bbcf33cbd719f55f3700ce1cfe59aa4cb2cec1b202cf549275",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page14.png": "6a21ce26247b361bb95ea1abb37865dcff7034bb5bc9a5c0016336d12c8dd177",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page15.png": "f8fcd12f2b8e16bca5c97e93615826c0c675dba16f3998384b73b27efa37df1d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page16.png": "eef6274ae108bccb92da8ec0108e567286107a41664fa28a8979a0615116ec11",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page17.png": "cf390a13391ea9ecaa10099a63ad26ea08ece8d07f822a16a2744988dbc3ed2d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n021-page18.png": "605d8ec53e15f515cdc9781593fe608d7d4965d02795fbadbea4441bcdafe146"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 282.19,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80848,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7283,
+          "reasoning_output_tokens": 67
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n021",
+    "title": "2025带饭合集🍱吃瘦36斤｜带薪减肥打工人",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：已提供完整正文及全部18张图片，逐页可读；可分析整套内容，但不代表其健康结论已核实。",
+    "reader_problem": "上班午餐不知道做什么，担心组合单调、备餐麻烦，以及加热后口感不好，需要可翻查的菜式与操作安排。",
+    "scene": "周末采购和分装主食、前晚处理食材、早晨烹饪、带到公司加热的连续生活场景。",
+    "title_mechanic": "年份与合集交代资料属性，个人减重数字制造结果吸引力，“打工人”限定受众，“带薪”将带饭与工作日绑定。机制推断：既提供浏览理由，也暗示可长期使用的菜单库。",
+    "title_promise_limits": "18页兑现了菜式合集和备餐经验；没有体重记录、完整饮食及活动资料，无法兑现带饭导致减重36斤的因果承诺，也不能预测读者效果。",
+    "content_structure": [
+      "第1—9页：每页九宫格展示便当照片，以菜名加主食名称标注，提供连续查找的组合库；不同页扩充食材与主食替换，并非逐步教程。",
+      "第10页：大量便当缩略图配“带饭一年啦”，把前面的组合扩展为长期积累的视觉表达。",
+      "第11页：米饭从锅内到分盒、盖盒和搭配成餐，补充主食批量准备的过程。",
+      "第12页：展示洗切、腌制后的食材，提出固定组合以减少每日选择。",
+      "第13页：按食材类别讨论加热后的口感，并说明作者前晚备菜、早晨炒菜的做法。",
+      "第14页：展示蒜末、葱花、小米辣、香菜的处理和分装。",
+      "第15页：用成品近景说明香辛料在菜品中的使用位置。",
+      "第16页：以焯水、沥水、锅内菜与装盒菜的照片说明水分处理。",
+      "第17页：采购实物与订单截图并置；第18页：展示鱼、虾、鸡肉冻品包装。",
+      "正文补充作者的搭配数量、采购逻辑及前晚与早晨的备餐顺序。"
+    ],
+    "answer_payoff": "读者能据图挑选菜式和主食，再翻到后半段寻找采购、分装、调味和控水做法。菜单选择与执行障碍都有对应页面；具体配方、完整烹饪步骤和食品安全条件仍不足。",
+    "visual_observation": "可观察：前9页统一俯拍，以灰色台面、透明菜盒和独立主食盒形成重复布局，黄色描边字直接命名组合；第10页缩略图密度显著增加；第11—18页转为过程拼图、食材和包装照片。机制推断：固定容器便于比较替换关系，后半段过程图解释成品如何形成。第12—13页文字密集，部分文字跨越多个照片区域，查读负担较高。",
+    "observed_page_count": 18,
+    "source_and_claim_limits": "作者自述减重36斤，并将稳定饮食、带饭与变瘦联系；正文的300g蔬菜、150g肉类、150g主食、约400大卡、拳头换算，以及加热1分钟、备菜5分钟、烹饪8—10分钟，均只记录为待核说法。生熟重、油和调味料用量、储存温度、运输与复热条件未交代。图片中的食材耐放分类、冷冻后风味判断及“不吃隔夜菜”表述，不构成食品安全认证。包装和订单只证明画面出现对应商品，不能证明营养效果或普遍价格。可见互动数据不用于推断内容效果成因。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "用“受众＋资料类型”让读者先判断是否值得保存；数量或结果必须与实际材料对应，健康结果另行核验。",
+        "observed_anchor": "2025带饭合集",
+        "new_application": "标题采用“有微波炉的上班族｜午餐组合与备餐清单”，以正文实际覆盖的设备和用途限定读者。"
+      },
+      {
+        "stage": "content",
+        "rule": "先提供可选成品，再补执行方法；读者先决定想做哪一份，随后找到采购和准备入口。",
+        "observed_anchor": "我的备餐流程",
+        "new_application": "菜单页给组合编号，后续准备页引用编号，明确哪些食材可以共用、哪些需要单独处理。"
+      },
+      {
+        "stage": "visual",
+        "rule": "比较菜式时固定拍摄角度和容器位置，用相同布局呈现主菜与主食的替换关系；照片不承担精确营养计量。",
+        "observed_anchor": "芦笋炒牛肉+杂粮饭",
+        "new_application": "制作同一容器的六组自摄午餐对照，分别标明食材名称和实测用量，让读者识别变化项。"
+      },
+      {
+        "stage": "content",
+        "rule": "合集后半段按失败点新增信息，避免只增加更多成品图；水分、调味、分装分别回答不同执行问题。",
+        "observed_anchor": "需要焯水的菜",
+        "new_application": "设置“复热后出水怎么办”独立页面，以同菜不同处理的实拍记录解释差异，并注明观察条件。"
+      },
+      {
+        "stage": "review",
+        "rule": "把菜单参考价值与减重结果承诺分别审查，避免照片数量被读者误解为疗效证据。",
+        "observed_anchor": "吃瘦36斤",
+        "new_application": "审核时逐项检查：组合是否展示、流程是否可执行、体重相关结论是否另有充分证据。"
+      }
+    ],
+    "do_not_transfer": [
+      "不得把作者减重经历改写成本号经历，或把带饭描述为必然减重的方法。",
+      "不得照搬统一克数、热量、拳头换算、烹饪与复热时间。",
+      "不得照搬食材保存与复热建议，或用是否隔夜代替食品安全条件判断。",
+      "不得复制原照片、独特菜式排列、水印及订单作为本号实践证据。"
+    ],
+    "transformations": [
+      "面向公司没有微波炉的人，改做午餐方案决策卡；以设备条件、保存条件和经核实资料组织答案，替代个人减重叙事与年度图集。",
+      "面向第一次带饭的人，制作购物清单到成品的实测记录；用真实操作日志和失败记录作为证据，以步骤卡替代大量菜式堆叠。",
+      "面向独居且食材容易剩余的人，按同一食材如何分配到不同餐次组织可编辑表格；使用实际采购、余量记录和经核实保存要求支持选择。"
+    ],
+    "limitations": [
+      "全部18页可读，但前9页只给组合名称，没有逐道菜的完整配方。",
+      "没有可验证的体重变化材料，也未控制其他饮食、运动和生活变化。",
+      "第10页缩略图可识别整体便当阵列，不能逐格确认全部食材或判断是否重复。",
+      "采购截图与商品包装不能支持普遍成本、品牌优劣或营养功效结论。"
+    ]
+  }
+}

@@ -1,0 +1,784 @@
+{
+  "package_hash": "3c7b01053efb07d9d701a287ab9ac505812e6f5073a1e8e8e978dba6dbaea36e",
+  "status": "READY_FOR_ASSETS",
+  "can_publish": false,
+  "model_calls": [
+    {
+      "call_id": "001-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 20.22,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 35942,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 191,
+            "reasoning_output_tokens": 53
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "002-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 19.34,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 35960,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 155,
+            "reasoning_output_tokens": 23
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "003-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 29.24,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 35982,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 203,
+            "reasoning_output_tokens": 97
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "004-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 38.68,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 43446,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 438,
+            "reasoning_output_tokens": 79
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "005-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 19.43,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 39598,
+            "cached_input_tokens": 18944,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 130,
+            "reasoning_output_tokens": 24
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "006-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 26.04,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 41139,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 278,
+            "reasoning_output_tokens": 169
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "007-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 81.54,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 43846,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2046,
+            "reasoning_output_tokens": 36
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "008-topic",
+      "role": "topic",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 62.4,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 43240,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1897,
+            "reasoning_output_tokens": 290
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "009-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 75.49,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 45623,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2443,
+            "reasoning_output_tokens": 80
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "011-topic",
+      "role": "topic",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 56.53,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 43055,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1415,
+            "reasoning_output_tokens": 129
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "012-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 17.66,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 49358,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 117,
+            "reasoning_output_tokens": 40
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "013-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 39.87,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 49570,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 866,
+            "reasoning_output_tokens": 60
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "014-opening",
+      "role": "opening",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 41.81,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 33769,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 719,
+            "reasoning_output_tokens": 112
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "015-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 29.27,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 50169,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 795,
+            "reasoning_output_tokens": 65
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "017-opening",
+      "role": "opening",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 31.82,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 33713,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 732,
+            "reasoning_output_tokens": 102
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "018-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 17.88,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 48322,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 150,
+            "reasoning_output_tokens": 72
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "019-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 27.61,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 47992,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 679,
+            "reasoning_output_tokens": 38
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "020-opening",
+      "role": "opening",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 40.3,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 34583,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 700,
+            "reasoning_output_tokens": 108
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "021-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 19.06,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 46454,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 186,
+            "reasoning_output_tokens": 78
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "022-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 86.56,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 46685,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2943,
+            "reasoning_output_tokens": 68
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "023-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 92.27,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 46602,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3173,
+            "reasoning_output_tokens": 61
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "025-format_repair",
+      "role": "format_repair",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 15.76,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 23058,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 168,
+            "reasoning_output_tokens": 41
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "026-blind_reader",
+      "role": "blind_reader",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 49.83,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 21731,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1396,
+            "reasoning_output_tokens": 431
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "027-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 85.64,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 45523,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 3191,
+            "reasoning_output_tokens": 80
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "029-blind_reader",
+      "role": "blind_reader",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 35.76,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 21720,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 957,
+            "reasoning_output_tokens": 178
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "030-content_reader",
+      "role": "content_reader",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 36.9,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 30037,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 933,
+            "reasoning_output_tokens": 88
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "031-content_facts",
+      "role": "content_facts",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 42.48,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 30049,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1451,
+            "reasoning_output_tokens": 226
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "032-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 17.27,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 43827,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 161,
+            "reasoning_output_tokens": 71
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "033-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 83.08,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 45466,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2517,
+            "reasoning_output_tokens": 54
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "034-blind_reader",
+      "role": "blind_reader",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 42.49,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 21476,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 982,
+            "reasoning_output_tokens": 134
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "035-content_reader",
+      "role": "content_reader",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 31.99,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 30495,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 941,
+            "reasoning_output_tokens": 109
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "036-content_facts",
+      "role": "content_facts",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 47.5,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 30503,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1207,
+            "reasoning_output_tokens": 185
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "037-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 64.44,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 48179,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2556,
+            "reasoning_output_tokens": 40
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "038-actor",
+      "role": "actor",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 61.2,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 48177,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 2395,
+            "reasoning_output_tokens": 93
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "039-blind_reader",
+      "role": "blind_reader",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 36.01,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 21462,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 980,
+            "reasoning_output_tokens": 63
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "040-content_reader",
+      "role": "content_reader",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 40.39,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 30477,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1045,
+            "reasoning_output_tokens": 109
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    },
+    {
+      "call_id": "041-content_facts",
+      "role": "content_facts",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 46.6,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 30489,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1277,
+            "reasoning_output_tokens": 110
+          }
+        }
+      ],
+      "status": "COMPLETED"
+    }
+  ]
+}

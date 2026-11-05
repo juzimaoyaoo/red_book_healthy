@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "012-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 17.66,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 49358,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 117,
+          "reasoning_output_tokens": 40
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"ids\":[\"fact-lunch-arrival\"]}",
+    "reason": "两篇选题已通过。带饭稿承诺交代到公司后的保存方式，先读取新增权威原文，确认冷藏与保冷条件，再提交首屏。"
+  }
+}

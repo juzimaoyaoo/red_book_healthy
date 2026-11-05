@@ -1,0 +1,91 @@
+{
+  "time": "2026-11-05T12:34:02.119452+00:00",
+  "source_identity": {
+    "source_sha256": "3c98af60d7230fa2326f20f1560464206165adccdc1128082d8284ff2fe6a9e1",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n056.png": "66c799f2f12245ebfa809b45f7eb09ba48c92329d628e8ace23b6787b5e30a1f",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n056-page2.png": "f75803089ecbf78d056cac5490bb72d6f9d360a82a62c45dd138811e4b704662"
+    }
+  },
+  "receipt": {
+    "call_id": "005-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 368.46,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 64521,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7114,
+          "reasoning_output_tokens": 63
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n056",
+    "title": "有没有喝咖啡睡不着的",
+    "usable_as": "exclude",
+    "completeness": "不完整。提供了两张截图，但第2张轮播主体为空白，不能确认原图内容；正文停在“但异常”，个人经历没有完整结尾。",
+    "reader_problem": "喝咖啡后睡不着，想确认是否有人有类似体验，并寻找解释或处理办法。",
+    "scene": "出差期间下午喝手冲咖啡，随后出现作者自述的不适；封面呈现夜间躺床清醒的场景。",
+    "title_mechanic": "用“有没有”发起同经历征集，降低参与门槛；标题没有承诺提供解决方法。",
+    "title_promise_limits": "只能支持讨论入口，不能据此期待完整的原因分析或应对答案；封面的无奈表达也不构成行动建议。",
+    "content_structure": [
+      "首图：用自嘲文字和躺床漫画表达清醒到天亮的无奈。",
+      "正文可见部分：交代出差、饮用时点、饮品及身体感受。",
+      "正文在转折处中断，第2图主体不可读，后续经过与结论未知。"
+    ],
+    "answer_payoff": "可见材料提供情绪共鸣与经历征集，没有兑现完整解释或具体答案。",
+    "visual_observation": "观察：首图采用蓝色床铺、睁眼人物和顶部白底黑字，文字与人物共同表达夜间清醒。第2张截图显示2/2，但图片主体为白色空区。推断：首图可能帮助读者快速识别同类处境；无法判断第2图是否原本为空白或加载失败。",
+    "observed_page_count": 2,
+    "source_and_claim_limits": "心跳加速、背部发热及其与咖啡的联系属于作者未完整呈现的个人叙述，不能确认为医学因果。封面“睁着眼等天亮”是情绪表达，不能沉淀为失眠处理建议。互动数和账号名称均不证明健康观点正确。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "同经历征集标题应明确讨论对象，让读者判断自己能否参与；若正文没有答案，不追加解决型承诺。",
+        "observed_anchor": "有没有喝咖啡睡不着的",
+        "new_application": "面向轮班工作者征集饮品记录，以“你记录过哪类饮品影响休息吗”组织讨论，并标明仅收集经历。"
+      },
+      {
+        "stage": "content",
+        "rule": "经历材料按场景、行为、感受和后续展开；缺少后续时，只能识别问题入口，不能提炼有效做法。",
+        "observed_anchor": "个人经历",
+        "new_application": "设计匿名经历表，分别填写饮品信息、作息背景与后续变化，明确空缺项，避免替受访者补结论。"
+      },
+      {
+        "stage": "visual",
+        "rule": "情绪图需要与信息图分工：人物状态可解释当事人的感受，但不能承担原因证明或操作说明。",
+        "observed_anchor": "等天亮",
+        "new_application": "原创使用夜间时钟与记录卡表达等待感，下一张直接展示待填写的观察项，不复用原人物构图。"
+      },
+      {
+        "stage": "review",
+        "rule": "页数齐全不代表内容完整；空白页和截断正文必须单独标记，阻止进入完整答案样本库。",
+        "observed_anchor": "但异常",
+        "new_application": "参考入库表同时设置截图数量、主体可读性和叙述是否结束三个检查项。"
+      }
+    ],
+    "do_not_transfer": [
+      "不将作者出差及身体感受改写成本号经历。",
+      "不复用独特人物漫画、原封面长句或放弃处理的态度。",
+      "不从评论数量推断标题导致互动，也不将其视为医学验证。"
+    ],
+    "transformations": [
+      "面向咖啡新手制作匿名观察记录卡，以填写项目替代个人故事，改变受众、证据和形式。",
+      "面向出差人群制作就诊沟通信息清单，用待核资料和个人记录支持信息整理，改变证据与决策方式。",
+      "面向健康内容编辑制作“空白轮播如何判定完整性”的审稿案例，以素材缺口对照表替代健康经验分享，改变受众与形式。"
+    ],
+    "limitations": [
+      "实际观察两张截图，其中一张轮播主体为空白。",
+      "正文在转折处截断，无法知道症状持续、处理与结果。",
+      "不能判断该帖是否还有未展开正文，不能评价完整答案质量。"
+    ]
+  }
+}

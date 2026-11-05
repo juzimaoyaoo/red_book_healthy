@@ -1,0 +1,24 @@
+{
+  "role": "probe",
+  "system": "你是连通性测试。返回status=ok，message说明你可以接收结构化编辑任务。",
+  "payload": {
+    "purpose": "structured model connectivity only"
+  },
+  "schema": {
+    "type": "object",
+    "properties": {
+      "status": {
+        "type": "string"
+      },
+      "message": {
+        "type": "string"
+      }
+    },
+    "required": [
+      "status",
+      "message"
+    ],
+    "additionalProperties": false
+  },
+  "images": []
+}

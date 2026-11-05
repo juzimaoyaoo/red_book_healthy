@@ -1,0 +1,93 @@
+{
+  "time": "2026-11-05T11:47:33.390226+00:00",
+  "source_identity": {
+    "source_sha256": "a792d186902e58806f27a7a44fa52b2086273c411d122ae197c901edf1821180",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n024.png": "881c4e4424fdad486f57f9fa63ea06c80a9edefe67414b8bacece1e95b7fca7a"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 282.19,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80848,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7283,
+          "reasoning_output_tokens": 67
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n024",
+    "title": "骑车去上班",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：单图全图和完整短正文均已提供，能够分析其有限的个人体验表达。",
+    "reader_problem": "对短途骑车通勤感兴趣，想知道首次尝试是否麻烦、是否愉快，以及与原来的开车方式有什么区别。",
+    "scene": "作者第一次骑车上班，自述单程不到4公里，对比日常开车的便利性和耗时。",
+    "title_mechanic": "直接写出行动，不附加疗效、挑战周期或夸张数字；与第一天骑车的短记录匹配。",
+    "title_promise_limits": "兑现一次骑车上班的体验记录；没有承诺教程或健康结果，也没有证据支持长期体验、普遍便利性及减重效果。",
+    "content_structure": [
+      "先限定通勤距离和第一次骑行。",
+      "描述轻松、开心的当次主观感受。",
+      "说明减重不是这次体验的主要评价标准。",
+      "与日常开车比较便利性及大致时间。",
+      "以车型和骑车通勤标签补充检索入口。"
+    ],
+    "answer_payoff": "读者能看到作者用开心、方便和时间接近来评价首次尝试；可借此形成自己的比较维度，但没有得到完整路线或骑行准备指南。",
+    "visual_observation": "可观察：单张照片采用接近骑行者视角，车把、车篮和前方道路同框，未叠加文案。机制推断：画面把行动工具与通勤环境联系起来，为简短体验提供具体场景。无法据此判断拍摄时是否移动、是否由作者拍摄，也无法确认整段路线条件。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "不到4公里、第一天、感觉轻松、比开车方便和时间差不多均是作者当次自述；没有计时记录或比较方法。正文没有提供医学结论，也没有验证骑行与减重关系。车型标签不证明品牌性能、商业关系或适用性。互动数不能用于推导内容质量或效果成因。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "短体验记录可以用明确行动作标题，让读者准确预期内容规模，无需额外添加长期结果承诺。",
+        "observed_anchor": "骑车去上班",
+        "new_application": "对一次真实观察使用“第一次试走地铁到公司的路”，正文只报告此次可确认的信息。"
+      },
+      {
+        "stage": "content",
+        "rule": "在感受之前交代尝试次数和路线条件，帮助读者判断经验能迁移多远。",
+        "observed_anchor": "今天第一天骑",
+        "new_application": "体验卡开头注明日期、路线类型、尝试次数及天气，再呈现观察结果。"
+      },
+      {
+        "stage": "content",
+        "rule": "用多个生活维度评价新习惯，帮助读者识别自己真正看重的是情绪、便利还是时间。",
+        "observed_anchor": "开心倒是真的",
+        "new_application": "设计可填写的通勤比较卡，记录心情、门到门耗时、停车与准备负担，不设置统一优劣结论。"
+      },
+      {
+        "stage": "visual",
+        "rule": "一张图同时交代工具与环境，可支撑短篇行动记录；图像只承担场景说明，不替代性能或效果证明。",
+        "observed_anchor": "骑车通勤",
+        "new_application": "在停稳后拍摄车辆与停车点，用旁注解释到达后的存放环节，补充便利性判断所需信息。"
+      }
+    ],
+    "do_not_transfer": [
+      "不得把作者第一次骑车的体验改写成本号实测。",
+      "不得将轻松、方便、时间差不多推广到所有人或所有路线。",
+      "不得添加原文没有的减重、心肺或其他健康效果。",
+      "不得模仿可能涉及移动中拍摄的画面获取方式。"
+    ],
+    "transformations": [
+      "面向第一次组合使用地铁与自行车的人，制作接驳路线体验卡；以实际门到门记录和停车照片作证据，用分段比较替代单一感受。",
+      "面向需要穿正式服装上班的人，制作骑行前后整理环节的观察记录；加入携物、停车和换装成本，以流程图帮助决策。",
+      "面向正在比较通勤方式的家庭，制作可填写的周度对照表；让使用者记录自己的时间与负担，以多条件选择替代借用作者经历。"
+    ],
+    "limitations": [
+      "样本只有首次尝试，没有重复观察。",
+      "没有实际计时、完整路线、停车及天气信息。",
+      "图片不能证明车辆安全性、品牌表现或拍摄过程。"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "032-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 17.27,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 43827,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 161,
+          "reasoning_output_tokens": 71
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"ids\":[\"fact-insomnia\",\"s001\",\"s037\",\"s034\",\"visual-s048\"]}",
+    "reason": "p01已通过，保持当前版本；制作p02前读取睡眠权威原文及所依赖参考全文，确保正文、图中文字和引用逐项对应已读证据。"
+  }
+}

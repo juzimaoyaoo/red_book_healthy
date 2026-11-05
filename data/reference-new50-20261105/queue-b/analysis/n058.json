@@ -1,0 +1,108 @@
+{
+  "time": "2026-11-05T12:34:02.121439+00:00",
+  "source_identity": {
+    "source_sha256": "41a03b5073bb7a8f93e3d1fec3fedc62930a0742d0da196128b87e7519422e48",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n058.png": "b0dd5f2ffeb0c9b458b5e013c083b857eaa00b4b8401c4cd2f811b3164b1cff9",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n058-page2.png": "33e6c69cf4294b0e1a4ad0181cd1ce4cf4d2112cca4cadb33fe4c8df06440837",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n058-page3.png": "337e46bfe3dc980ccecf6d33cd1f7be44ef6e1abac47774091425ef847f89695",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n058-page4.png": "3b9e57f5b355605517a4dd11b1cd1e627289abc79f2b0974f9c5cfc8f5905d3f",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n058-page5.png": "4588bf68313648f4cc23b9a0ca95154d1c2d4a4cdba3707f3ffe46e6d76ab09c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n058-page6.png": "dcdb55de9602120fb20f47c1e732bd1eb51221c957389b2e0b0293b7e3f5c881",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n058-page7.png": "c762b4573f75352261aa618307f35331b6705cec815b4cb50f36d91616aec27e"
+    }
+  },
+  "receipt": {
+    "call_id": "005-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 368.46,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 64521,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7114,
+          "reasoning_output_tokens": 63
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n058",
+    "title": "howto戒掉睡前玩手机｜4个“无痛”小妙招",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本。7张图片均已提供且主要文字可读，4项方法全部可见；正文提供情绪引入及互动收尾。",
+    "reader_problem": "明知该休息却舍不得停止刷手机，希望找到比单纯要求自律更具体的替代办法。",
+    "scene": "白天时间被工作、学业占据，睡前把刷手机视为个人自由；从“再刷几分钟”拖延到深夜。",
+    "title_mechanic": "具体行为目标加数字清单，再用“无痛”降低预期阻力；封面“别硬扛”强化轻松改变的承诺。",
+    "title_promise_limits": "4项方法的数量兑现，但“戒掉”“无痛”以及亲测有效的表达缺少记录支持。第一项还被称为“最粗暴”，与轻松承诺存在张力。",
+    "content_structure": [
+      "第1页：主题和4项方法承诺。",
+      "第2页：用睡前内心对话解释困境，追加次日代价与有效性宣称。",
+      "第3页：把手机移出触手可及范围，以距离示意解释增加获取阻力。",
+      "第4页：列出纸质书、解压工具、字帖或涂色本等替代活动。",
+      "第5页：提出睡前缓冲流程，列出若干活动。",
+      "第6页：用独立闹钟或手表替代手机闹钟，并邀请读者打卡。",
+      "第7页：作者介绍和关注引导，没有新增方法。"
+    ],
+    "answer_payoff": "提供了环境安排、活动替代、流程安排和工具替代四类思路；结构具体，但没有展示实施结果，也不能证明这些安排对不同读者均轻松或有效。",
+    "visual_observation": "观察：封面为灰白背景配大号绿色文字；第2至6页使用绿色边框和横线纸，编号标题置于浅绿笔刷上，“核心逻辑”以橙色强调。第3页用人物与手机间的距离图解释空间关系；第4页用图标对应替代活动；第5页主要是文字清单；第6页兼放方法与互动，信息任务更杂。推断：统一模板有助于识别方法层级，但多处插画偏装饰，第2页延长了进入具体答案前的阅读。",
+    "observed_page_count": 7,
+    "source_and_claim_limits": "原文关于熬夜与皮肤、认知表现的关系，“最有效”“亲测有效”“低多巴胺安抚大脑”等均缺少可核证据，列待核。离床2米、30分钟缓冲期等数值不能当统一处方；洗澡、泡脚、拉伸及音频的作用与适用性也未认证。“大脑自动劝退”属于拟人化解释，不能当作已证机制。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "数字标题应对应可逐项定位的答案；降低阻力的措辞应描述设计目标，不能替读者保证体验。",
+        "observed_anchor": "4个“无痛”小妙招",
+        "new_application": "改为“睡前收起手机，4种安排怎么选”，让正文比较使用条件与可能障碍。"
+      },
+      {
+        "stage": "content",
+        "rule": "方法页要各自解决不同障碍：拿取方便、缺少替代、缺少转换过程和工具依赖，避免四页重复劝自律。",
+        "observed_anchor": "给双手找点事做",
+        "new_application": "制作障碍选择卡，让读者先选最符合自己的原因，再查看对应安排及不适用情形。"
+      },
+      {
+        "stage": "visual",
+        "rule": "空间图应解释需要改变的关系，而不是把示意距离包装成有效阈值。",
+        "observed_anchor": "让手机“离你远点”",
+        "new_application": "用“伸手可取”和“需要起身”两种原创布局图比较获取步骤，不标统一距离。"
+      },
+      {
+        "stage": "content",
+        "rule": "增加工具替代页可以揭示行为背后的实际功能需求，帮助读者判断是否存在必须保留的用途。",
+        "observed_anchor": "我要用手机定闹钟啊",
+        "new_application": "列出闹钟、紧急联络和照护通知等需求，由读者核对替代方案能否覆盖，而非一律移出卧室。"
+      },
+      {
+        "stage": "review",
+        "rule": "收尾应检查是否新增决策信息；独立作者介绍页不能算作答案密度的一部分。",
+        "observed_anchor": "嗨！我是当归少女",
+        "new_application": "将末页改成选择表和尝试记录入口，作者信息缩为页脚。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用“无痛”“最有效”“亲测有效”等未获支持的效果保证。",
+      "不将原作者体验改写成本号实测。",
+      "不沉淀统一距离、统一缓冲时长或活动剂量。",
+      "不复用“低多巴胺”作为未经核实的机制解释。",
+      "不复用与主题无关的财富祝愿和性别化身份奖励。"
+    ],
+    "transformations": [
+      "面向需要夜间联络的照护者制作手机用途决策树，以真实功能约束替代统一隔离方案，改变受众、证据和决策方式。",
+      "面向合租学生制作可选环境布局卡，以房间条件和设备功能为依据，采用无固定距离的示意图，改变受众、证据与形式。",
+      "面向希望了解自身习惯的读者制作单变量尝试记录表，由本人记录便利性与执行障碍，以比较记录替代戒除承诺，改变证据、决策方式与形式。"
+    ],
+    "limitations": [
+      "7页可读，但没有实施记录、对照结果或医学来源。",
+      "正文对睡前刷手机动机的概括不能覆盖所有读者。",
+      "截图互动数仅是当时快照，不能证明某一页或承诺造成传播效果。"
+    ]
+  }
+}

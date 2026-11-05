@@ -1,0 +1,42 @@
+{
+  "receipt": {
+    "call_id": "025-format_repair",
+    "role": "format_repair",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 15.76,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 23058,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 168,
+          "reasoning_output_tokens": 41
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "images": [
+      {
+        "number": 1,
+        "kind": "comparison",
+        "source_notes": "USDA FSIS：《Can you put hot food in the refrigerator?》《How do I handle leftovers safely?》。"
+      },
+      {
+        "number": 2,
+        "kind": "diagram",
+        "source_notes": "USDA FSIS：《How do you keep a bag lunch safe?》《What is the Danger Zone?》；FoodSafety.gov：《Bag Lunches for School and Work》。"
+      },
+      {
+        "number": 3,
+        "kind": "flow",
+        "source_notes": "USDA FSIS：《How do I reheat leftover take out food?》。"
+      }
+    ]
+  }
+}

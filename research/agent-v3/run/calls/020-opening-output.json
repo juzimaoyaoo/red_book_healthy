@@ -1,0 +1,62 @@
+{
+  "receipt": {
+    "call_id": "020-opening",
+    "role": "opening",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 40.3,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 34583,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 700,
+          "reasoning_output_tokens": 108
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "click_reason",
+        "verdict": "PASS",
+        "location": "title",
+        "quote": "提前上床还是睡不着？把这3个时间分开安排",
+        "reason": "指向提前躺下仍清醒的具体困惑，承诺提供三种时间的安排方法，点击理由清楚，未承诺治疗效果。"
+      },
+      {
+        "dimension": "answer_payoff",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "每天固定起床并离床的时间，睡前至少留1小时放松，有困意再上床。",
+        "reason": "完整兑现三个安排，帮助读者区分固定时点、预留时段和困意条件；三项建议均有已提供的NHS原文支持，属于具体可用的小选择。"
+      },
+      {
+        "dimension": "reference_transfer",
+        "verdict": "PASS",
+        "location": "cover",
+        "quote": "三个控件分别表现固定时点、预留时段、条件决定，不把上床画成统一钟点。",
+        "reason": "将参考图直接展示差异、便于比较的组织方式转为睡眠安排的决策比较，有实际信息贡献；未沿用鸡蛋时间矩阵、身体辐射构图，也未把参考互动数当需求或医学证明。"
+      },
+      {
+        "dimension": "visual_hook",
+        "verdict": "PASS",
+        "location": "cover",
+        "quote": "左侧用固定刻度的闹钟连接起床离床人物；中间用有长度的时间带连接读书场景，标注至少1小时；右侧用困意判断分支，困了指向床，没困指向床外继续安静放松。",
+        "reason": "三种不同图形承担不同解释任务，能把抽象的时间区别变成可扫读的画面，避免重复文字卡。方案可实现，实际字号、分支辨识度和手机端可读性留待成图审核。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "保留“起床固定、放松预留、上床看困意”的三种安排区别。",
+      "保留白班成年人这一适用范围，以及不把上床画成统一钟点的视觉处理。",
+      "保留正文直接给答案的紧凑结构，无需为增加图数拆成重复页面。"
+    ]
+  }
+}

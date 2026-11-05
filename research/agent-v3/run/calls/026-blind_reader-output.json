@@ -1,0 +1,86 @@
+{
+  "receipt": {
+    "call_id": "026-blind_reader",
+    "role": "blind_reader",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 49.83,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 21731,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1396,
+          "reasoning_output_tokens": 431
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "verdict": "REVISE",
+    "checks": [
+      {
+        "dimension": "reader_value",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "先看份量：少量热食可以直接冷藏；一大锅汤菜先分成小份、装进浅容器，再冷藏，食物加盖保存。",
+        "reason": "回答带饭者当晚就会遇到的具体问题，并给出按份量选择的操作，收获明确。"
+      },
+      {
+        "dimension": "whole_article",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "到公司有冰箱，就继续冷藏；没有冰箱，仍须持续保冷，让食物保持在40°F或以下（约4.4℃），用食品温度计确认。",
+        "reason": "全文按晚上、通勤、午间组织，补齐冷藏之后的保存与复热环节，也交代不具备保冷条件时的适用边界。结构和标题承诺一致。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "少量热食 → 可以直接冷藏\n大锅汤菜 → 分成小份、装浅盒，再冷藏",
+        "reason": "承担标题问题的直接回答，并提供两种份量的处理比较，具有独立信息贡献。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "放了冰袋，不等于温度已达标。\n没有冷藏或持续保冷条件，就不采用这套易腐熟食带饭方案。",
+        "reason": "新增通勤保冷的配置与判断边界，不是重复第一页的冷藏提醒。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "微波复热：加盖 → 转动食物，使加热均匀 → 留出静置时间 → 测多个位置",
+        "reason": "新增午间复热顺序与测温要求，三页分别解决不同环节，没有重复凑页。"
+      },
+      {
+        "dimension": "natural_voice",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "午间复热：测食物，别只摸饭盒",
+        "reason": "用具体动作解释判断方法，整体符合操作指南语气，没有虚构亲历、医生身份或夸张效果。"
+      },
+      {
+        "dimension": "authoritative_evidence",
+        "verdict": "REVISE",
+        "location": "body",
+        "quote": "依据：USDA FSIS热食冷藏、剩菜保存、午餐保冷及复热指导；FoodSafety.gov带饭指导。",
+        "reason": "当前提供的是机构和篇名，未提供已读权威原文或可核对的证据摘录。无法确认热食直接冷藏的条件、冷源尺寸与组合、微波复热步骤等具体表述是否完整对应来源；这属于证据未知，不代表已认定内容错误。"
+      }
+    ],
+    "issues": [
+      "补交已读权威证据及对应关系：热食直接冷藏与大份分装、室温时限及温度阈值、两个冷源的尺寸与替代组合、微波复热及测温步骤。可提供相关原文摘录与准确来源链接，无需增加公开稿篇幅或另做复杂实测。"
+    ],
+    "keep_strengths": [
+      "保留“是否要等凉透”的具体切口与按份量分支。",
+      "保留晚上冷藏、通勤保冷、午间复热的完整行动顺序。",
+      "保留“冰袋不等于温度达标”的提醒和缺少保冷条件时的边界。",
+      "保留三页各自承担一个环节的分工，以及原创示意、非实测的明确标注。"
+    ]
+  }
+}

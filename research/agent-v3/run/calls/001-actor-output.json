@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "001-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 20.22,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 35942,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 191,
+          "reasoning_output_tokens": 53
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"source_ids\":[\"s048\",\"s049\",\"s061\",\"s037\",\"s038\",\"s062\",\"s006\",\"s034\",\"fact-activity\",\"fact-insomnia\",\"fact-diet\",\"visual-s049\",\"visual-s048\"]}",
+    "reason": "先读候选参考全文、权威事实与两份实际视觉观察，再比较带饭储存、睡眠安排和运动安排等具体问题。索引只用于定位；此时不认定已读、不预定旧题，也不据便利样本推断传播效果。"
+  }
+}

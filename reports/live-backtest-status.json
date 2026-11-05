@@ -1,0 +1,10 @@
+{
+  "status": "NOT_RUN_MISSING_API_KEY",
+  "api_calls": 0,
+  "requested_articles": 50,
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "verified_on": "2026-11-05",
+  "observed_error": "缺少 OPENAI_API_KEY",
+  "rules_backtest_status": "COMPLETED_50_ARTICLES_TWO_ROUNDS"
+}

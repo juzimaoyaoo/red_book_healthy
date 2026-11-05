@@ -1,0 +1,11 @@
+{
+  "id": "fact-leftovers-reheat",
+  "kind": "official_fact",
+  "title": "USDA FSIS: How do I reheat leftover take out food?",
+  "url": "https://ask.fsis.usda.gov/article/How-do-I-reheat-leftover-take-out-food",
+  "updated_on": "2025-02-04",
+  "retrieved_on": "2026-11-05",
+  "text": "Reheat previously cooked foods or leftovers to an internal temperature of at least 165 °F ( 73.8°C). Always use a food thermometer to verify the internal temperature of the food. Reheat sauces, soups, and gravies to a boil. If reheating in the oven, set oven temperature no lower than 325 °F (162.7°C). Reheating in slow cookers and chafing dishes is NOT recommended because foods may stay un the Danger Zone (between 40 °F and 140 °F )(4.44 °C and 60°C) too long. When reheating food in the microwave oven, cover and rotate food for even heating. Always allow standing time before checking the internal temperature of the food in several places.",
+  "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+  "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+}

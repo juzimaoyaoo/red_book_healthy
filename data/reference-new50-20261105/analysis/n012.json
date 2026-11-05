@@ -1,0 +1,98 @@
+{
+  "time": "2026-11-05T11:24:39.152285+00:00",
+  "source_identity": {
+    "source_sha256": "5c9454010c5f3cb6a40c3f6deb79e8e50a7df7dbe245f1af5789ddbe13fc9069",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012.png": "c4c21d83f7d1433b379ee20abe8928b3bf1467d7c9150cb7cd05ef5fae0a2a68",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page2.png": "66a5f2feb3f6ae57a416ea090e72e573491aab015dcf1e0f9a56b15e08837501",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page3.png": "713ddc65792ccbe14a45e6dbb6045cc94769bde5aa995729d0b92a5f1ad89fac",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page4.png": "16231a2413e86440e5b2cf28c3f3f5619a4c2e60ecd8e93e8417eb3419e37854",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page5.png": "4c9eb0eb4d959d3387b43f3497a4c2cef2cee5d2f8e3c5215e677511ebf948bb"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.42,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80152,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7489,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n012",
+    "title": "小夜灯，其实很伤身",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：正文及全部5页图片已提供，主要文字与照片可读。",
+    "reader_problem": "习惯开灯睡觉，又担心睡眠和体重；想判断小夜灯是否需要改变、不同光源是否应区别对待。",
+    "scene": "卧室留小夜灯、开电视入睡，或受到手机及窗外街灯照射。",
+    "title_mechanic": "正文标题以熟悉物件搭配笼统伤害判断；封面进一步把开灯睡觉与长胖绑定，利用日常习惯和意外后果之间的落差吸引阅读。",
+    "title_promise_limits": "承诺解释小夜灯的健康风险，但正文把多种人造光源混为一组，未提供亮度、时长、光谱和使用目的的区分；“很伤身”超出截图中可判断的证据范围。",
+    "content_structure": [
+      "第1页：用床上开灯照片呈现习惯，直接提出容易长胖的结论。",
+      "第2页：以“研究发现”陈述体重增加、超重及肥胖的概率关联，未展示来源。",
+      "第3页：解释光照、褪黑素与睡眠节律之间的路径。",
+      "第4页：继续连接睡眠、食欲相关激素与肥胖，配夜间取食照片。",
+      "第5页：列光源、环境调整和求助提示。",
+      "正文：用“光合作用”玩笑引入，再重复机制和行动结论。"
+    ],
+    "answer_payoff": "提供了从卧室光源到睡眠、食欲和体重的叙事链，也给出环境检查对象；但没有帮助读者判断自己的小夜灯是否属于所述研究条件，核心决策仍缺证据。",
+    "visual_observation": "封面沿用紫框白卡，大标题下放开灯睡觉照片。内页改用浅灰底、黄色黑描边大标题、紫色重点句和胶囊形翻页提示。第4页冰箱取食照片把抽象食欲变成生活场景，但照片仅说明场景，不能证明因果。内页未见研究数据图或可追溯文献。",
+    "observed_page_count": 5,
+    "source_and_claim_limits": "原作者提出人造光源影响睡眠节律、褪黑素、瘦素、饥饿素、食欲及体重的因果链，全部列待核。第2页的概率描述不能自动支持后续确定性机制，更不能直接外推至所有小夜灯。原作者关于完全黑暗、关设备及戴眼罩的行动主张仅作为样本内容记录，本轮不认证为健康建议。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "熟悉物件能让读者立即识别议题，但标题中的后果必须与证据对象一致；若研究对象是多种夜间光暴露，就不能直接缩成某一种灯的确定伤害。",
+        "observed_anchor": "小夜灯",
+        "new_application": "新选题以具体使用疑问命名，正文先交代讨论的是哪种场景、哪些条件尚未确定。"
+      },
+      {
+        "stage": "content",
+        "rule": "把关联发现、候选解释和个人决策分开呈现，帮助读者判断“研究观察到了什么”与“我应该如何理解”之间还隔着哪些信息。",
+        "observed_anchor": "研究发现",
+        "new_application": "采用三栏证据卡，分别放研究对象、实际发现和不能推出的结论。"
+      },
+      {
+        "stage": "visual",
+        "rule": "生活照片适合定位情境，机制关系应另用带证据状态标记的图表达，防止读者把连续照片误读为完整因果证明。",
+        "observed_anchor": "睡不好",
+        "new_application": "用卧室照片标出待讨论的光源位置，另页列待核问题，不以取食照片证明体重变化。"
+      },
+      {
+        "stage": "review",
+        "rule": "结尾行动项需要回扣前文已经区分的条件；若前文未区分光源强弱和用途，结尾不能突然给所有人同一答案。",
+        "observed_anchor": "完全黑暗",
+        "new_application": "将结尾改为条件对照表，明确哪些结论已有来源、哪些情境尚无足够信息。"
+      }
+    ],
+    "do_not_transfer": [
+      "“很伤身”“真的容易长胖”的强确定承诺。",
+      "把概率关联连成已证实的单一路径。",
+      "把昏暗灯光的影响统一描述为褪黑素极大下降。",
+      "对所有人给出相同的完全黑暗环境要求。"
+    ],
+    "transformations": [
+      "面向有夜间照护任务的家庭，制作卧室用灯问题清单，以使用目的和场景记录替代体重恐吓。改变受众、证据和决策方式。",
+      "面向健康信息读者，做“研究发现如何变成标题”的对照轮播，用待核原文摘录与标题逐项比对。改变受众、证据和形式。",
+      "面向租房者，制作卧室光源标注图，以环境照片和问题分类帮助整理咨询信息，不直接下健康结论。改变受众、证据和形式。"
+    ],
+    "limitations": [
+      "5页完整，但没有可核查研究名称、研究设计或效应量。",
+      "照片中的灯具亮度无法由截图判断，也无法确认是否对应研究暴露条件。",
+      "本轮仅评价表达和论证边界，不判断相关医学主张真伪。"
+    ]
+  }
+}

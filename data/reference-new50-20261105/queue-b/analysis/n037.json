@@ -1,0 +1,104 @@
+{
+  "time": "2026-11-05T12:07:35.862146+00:00",
+  "source_identity": {
+    "source_sha256": "955d18f8bc23d12023e33bae48968058e3dd963b26ef3bcff487f3c6886a6102",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037.png": "7b1cc002a952d506fb4ccebdcd71cd6a870f07683649c40adbf819c16067b299",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037-page2.png": "a7911154fcb673d6c88adf2c9858148b5a3c7ecdb83e77ebc0b2193f45e6d9df",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037-page3.png": "a8c55547d51435e327dfce07ca20e0888db2839d8fd128990eeff8e7a3658dd6",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037-page4.png": "d6cd8ba6908634cd0a288f99634b9fbda30cad981f2dbdcfbf433a713157a218",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037-page5.png": "dbcdda1e15bdb29d95f67e0f64a7f6c47751943f50ebb9358f2b79550eefa5c1",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037-page6.png": "ecb1fdc7df74efb0652d22292f73a864cf9436b658cade5023bef43f56fa0a43",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037-page7.png": "3ccb5fffb8cdc867dbd223c22894ca93d0f33822a0910011e35ac7298054ae0f",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n037-page8.png": "1ac3c46012d14575eed910f11687d481ef32ae0a47cb962c7c53d0060c8b0607"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 284.12,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 85105,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7338,
+          "reasoning_output_tokens": 87
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n037",
+    "title": "🔥减脂人必学｜5秒看懂食品营养成分表",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：完整正文及全部8张实质图片已提供；主要结构与文字可读，末页部分小字和包装细节不宜用于精确引用。",
+    "reader_problem": "面对包装正面的宣传词，想快速判断应查看背面哪些信息，以及怎样理解表内数字。",
+    "scene": "减脂人群在选购食品时，希望快速查表而非逐项研究标签。",
+    "title_mechanic": "用特定人群、必学措辞和极短时间承诺叠加吸引力；封面以红色突出时间承诺，再用示例表营造教程感。",
+    "title_promise_limits": "“5秒看懂”与8页内容、大量公式、脚注和多套分类条件明显不匹配。正文“判断能不能吃”的表述也把复杂饮食决策压缩为单一标签判断。",
+    "content_structure": [
+      "第1页：示例表加能量换算，另提醒区分每份和每百克。",
+      "第2页：突出蛋白质与NRV列，解释参考值并给出类别判断。",
+      "第3页：突出脂肪和反式脂肪，加入配料名称与风险叙述。",
+      "第4页：突出碳水和膳食纤维，混合糖分类、摄入量及配料顺序。",
+      "第5页：突出钠，加入低钠、高钠及日摄入信息。",
+      "第6页：换用另一张表，重新介绍五项指标、NRV和实际份量计算。",
+      "第7页：以饼干和酸奶案例演算整包或整瓶摄入，添加色条和速算区。",
+      "第8页：分区汇总脂肪、蛋白质、钠，并列购物判断及健康食品标准。"
+    ],
+    "answer_payoff": "实际提供的是一套较长的标签知识汇编。可学习之处是把计量基准与实际吃掉的数量关联起来；主要缺口是多套判据并存、部分结论互相冲突，无法兑现快速而清楚的判断承诺。",
+    "visual_observation": "前5页固定左表右解释，红框标记对应行；灰褐外框、黑色角饰和顶部箭头反复出现。后3页切换成多色课程海报，表格、案例、警示符号和提示框同时竞争注意力。整体密度高，细字在手机截图中阅读负担明显。",
+    "observed_page_count": 8,
+    "source_and_claim_limits": "所有营养数值、分类阈值、日摄入量、疾病风险与食品选择结论均待核。可见问题包括：第2页以NRV比例判高蛋白，后页又使用不同克数判据，适用条件未交代；第5页低钠单位出现120g/100g，高钠处写NRV%小于20%，并残留与本页不符的男女摄入文字；能量页混用千焦与千卡分类；糖案例没有厘清总糖与添加糖；若干配料名称被直接等同于反式脂肪；“蛋白质越高越好”等为未经限定的原作者观点。不能把这些内容当成已核实建议。可见互动数不用于解释标题成败。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "时间承诺应对应真实可完成的动作；如果只够定位一处信息，就把承诺限定为定位，不能覆盖整套知识学习。",
+        "observed_anchor": "5秒看懂",
+        "new_application": "改成“先找到每份是多少”，首屏只完成计量基准识别，计算另设后续页。"
+      },
+      {
+        "stage": "visual",
+        "rule": "表格旁的解释应与高亮字段一一对应，读者才能判断某段说明究竟解释哪个数字；避免同页引入多条无关分支。",
+        "observed_anchor": "二、看蛋白质",
+        "new_application": "制作标签问答卡，一页只保留一个框选字段、一条解释和一个判断问题。"
+      },
+      {
+        "stage": "content",
+        "rule": "在字段介绍之后增加实际数量演算，新增价值是把包装上的基准数转换为读者本次使用量，而非重复定义。",
+        "observed_anchor": "实际摄入量",
+        "new_application": "以非营养性的商品单价为练习，用每份标价与整盒份数演示计算关系，再由读者独立完成另一题。"
+      },
+      {
+        "stage": "review",
+        "rule": "同一概念跨页出现时，应建立统一口径检查表，核对单位、比较符号、适用对象及结论，防止汇编越长冲突越多。",
+        "observed_anchor": "NRV%数值",
+        "new_application": "对待核标签科普建立逐页术语索引，未解决的判据冲突进入待核栏，暂不输出购物结论。"
+      }
+    ],
+    "do_not_transfer": [
+      "复用“必学”和极短时间承诺来包装高密度长教程。",
+      "传播图中具体阈值、摄入处方及疾病风险断言。",
+      "用单一营养指标决定食品能不能吃。",
+      "把多色提示框和专业称谓当作可信证据。"
+    ],
+    "transformations": [
+      "面向青少年消费者，采用两份虚构包装做找不同互动，只判断标签基准是否相同；改变受众、证据、决策方式与形式。",
+      "面向健康内容编辑，做单位错误与口径冲突的审稿练习，以勘误卡代替购买指南；改变受众、证据与形式。",
+      "面向家庭采购者，制作“缺什么信息就暂停判断”的分支图，使用来源清楚的标签截图；改变受众、证据与决策方式。"
+    ],
+    "limitations": [
+      "全8页均已观察，但末页部分小字与商品包装无法可靠逐字辨认。",
+      "没有原始标准、适用版本及引用链，本轮不确认任何判据。",
+      "布局切换可观察，是否由不同材料拼接而来无法确认。",
+      "不能依据互动较少推断题材或版式无效。"
+    ]
+  }
+}

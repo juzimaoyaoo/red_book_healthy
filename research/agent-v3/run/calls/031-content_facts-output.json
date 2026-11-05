@@ -1,0 +1,105 @@
+{
+  "receipt": {
+    "call_id": "031-content_facts",
+    "role": "content_facts",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 42.48,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 30049,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1451,
+          "reasoning_output_tokens": 226
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "title",
+        "quote": "明天带饭：热菜要等凉透再放冰箱吗？",
+        "reason": "标题提出具体问题，正文立即回答，并区分少量热食与大锅汤菜；所给USDA热食冷藏原文支持该判断。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "少量热食 → 可以直接冷藏\n大锅汤菜 → 分成小份、装浅盒，再冷藏",
+        "reason": "份量区分、浅容器分装及加盖均有原文支持；本页冷藏温度、室温放置上限和高温环境条件也与所给来源一致，温度换算准确。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "选择A：两个冷冻凝胶冰袋\n每个不小于5×3英寸（约12.7×7.6厘米）\n选择B：一个上述尺寸冰袋＋一瓶冻水",
+        "reason": "冷源数量、冰袋尺寸、冻水替代及上下摆放均得到USDA午餐保冷原文支持。持续保冷、到达后继续冷藏及测温要求也有所给官方原文支持，未将冰袋配置说成温度达标保证。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "食物内部温度至少165°F（约73.9℃）\n用食品温度计确认。\n微波复热：加盖 → 转动食物，使加热均匀 → 留出静置时间 → 测多个位置",
+        "reason": "内部温度阈值、温度计确认及微波复热步骤均由所给USDA复热原文支持；摄氏换算合理，未虚设统一静置时长。"
+      },
+      {
+        "dimension": "medical_boundary",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "没有冷藏或持续保冷条件，就不采用这套易腐熟食带饭方案。",
+        "reason": "明确限定易腐熟食方案的使用条件；全文属于家庭食品安全操作建议，没有诊断、治疗或保证不发生食源性疾病的承诺。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "三幅图依次是分装比较、保冷袋剖面和复热测温示意。",
+        "reason": "逐页文案分别兑现这三个任务，与正文的晚上、通勤、午间顺序及数值条件一致。三页各有独立操作贡献，未以重复文字卡凑页。"
+      },
+      {
+        "dimension": "asset_truth",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "均为原创操作示意，不代表实测结果。",
+        "reason": "当前文字阶段明确区分示意与实测，各页也保留相应标注；没有虚构作者经历、实拍结果或疗效对照。最终渲染尚未进行不构成本阶段缺项。"
+      },
+      {
+        "dimension": "source_attribution",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "USDA FSIS：《Can you put hot food in the refrigerator?》《How do I handle leftovers safely?》。",
+        "reason": "机构及文章标题明确，对应本页的热食冷藏、分装和保存条件。"
+      },
+      {
+        "dimension": "source_attribution",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "USDA FSIS：《How do you keep a bag lunch safe?》《What is the Danger Zone?》；FoodSafety.gov：《Bag Lunches for School and Work》。",
+        "reason": "出处可识别，分别对应冷源配置、保冷温度及到达后的保存建议，未将参考博主当作健康事实依据。"
+      },
+      {
+        "dimension": "source_attribution",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "USDA FSIS：《How do I reheat leftover take out food?》。",
+        "reason": "所列文章与本页复热阈值、微波操作和多点测温直接对应。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "先回答是否等凉透，再按份量给出两种处理方式，具体兑现标题。",
+      "三页分别解决分装、通勤保冷、午间复热，形成有实际收获的完整带饭路径。",
+      "明确提醒冰袋不等于温度达标，并给出缺少保冷条件时的取舍。",
+      "数值附单位和约数说明，操作示意与实测结果区分清楚。"
+    ]
+  }
+}

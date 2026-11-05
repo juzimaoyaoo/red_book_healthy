@@ -1,0 +1,96 @@
+{
+  "time": "2026-11-05T12:01:38.732691+00:00",
+  "source_identity": {
+    "source_sha256": "0c82b817c933d1141d358b8b9bd26e16402c20e24dd763596ad2d7768dd312ad",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n034.png": "de0cd6990230a7a1fe7c6a580b3c81508828e5bf28c584d1bee3a47b367df56d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n034-page2.png": "afc786f25eb50010212ee1586515d8d5e2a89b9cec7f583fe43fa956bff443d5",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n034-page3.png": "bd0c3ec30f66b0b5695700f6bfdd9c4bb53020ac76f5f0367b7486c7231f127c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n034-page4.png": "91cc7cad8757af80763d5d3a8de3b0334b0ba7f59d39ac3f08c5da3c908af533"
+    }
+  },
+  "receipt": {
+    "call_id": "005-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 309.38,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 82209,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7592,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n034",
+    "title": "要控糖减脂必须看懂营养成分表❗❗",
+    "usable_as": "contrast",
+    "completeness": "完整正文和全部4张图片均已提供；前三页为实质教学，第四页为账号介绍与关注引导。",
+    "reader_problem": "购买酸奶、饼干等包装食品时，不知道怎样核对宣传词、读懂单位并计算自己实际吃下的量。",
+    "scene": "超市货架或网购详情页，读者拿到包装，需要在商品之间比较并理解实际食用份量。",
+    "title_mechanic": "将控糖减脂目标与标签阅读技能绑定，用“必须”和感叹号强化必要性；图片标题“怎么看”补足教程属性。",
+    "title_promise_limits": "正文用多个购买问题引出教程，图片确有表格解释和算例，但“全部明明白白”“再也不会踩坑”超出三页内容可保证的范围。部分判断把复杂营养评价压成单一阈值或越多越好的结论。",
+    "content_structure": [
+      "正文：连续列出酸奶、饼干和低脂包装三个购买问题，再提出营养标签教程。",
+      "第1页：示例营养成分表与右侧分项说明，用同色箭头建立字段对应，底部解释NRV及食用量换算。",
+      "第2页：新增热量和糖的算例，从每100克推进到整包或整瓶，底部给速算方法。",
+      "第3页：扩展脂肪、蛋白质、钠，混合配料识别、阈值、产品对照和每日摄入主张。",
+      "第4页：作者介绍、其他内容缩略图及关注引导，无新增标签阅读步骤。"
+    ],
+    "answer_payoff": "最具体的编辑收获是从找到字段、识别单位，推进到计算实际食用量，回应了购物时的查用需求。问题在于算术示例、标签声称条件和健康评价被混合，读者可能误把任何阈值都当成统一购买标准。",
+    "visual_observation": "可观察事实：绿色与橙红色大标题；第1页左表右解释，彩色箭头与右侧标签配对；第2页以框线分隔两个算例和速算区；第3页文字、产品图及阈值显著增多。机制推断：颜色对应能解释“表中这一行是什么”；算例能解释“标示量如何变成实际量”。第3页同时容纳多种判断逻辑，可能增加切换成本。",
+    "observed_page_count": 4,
+    "source_and_claim_limits": "本轮未核医学与标签法规。原文的热量分类及单位、糖分类、WHO每日糖量表述、蛋白质高低标准、酸奶判别、脂肪与疾病风险、反式脂肪酸来源和零标示、钠与盐换算及摄入上限均待核。第1页与第3页对高蛋白的数字口径不同，第2页热量分类处单位和数字写法不一致，需逐项复核。NRV被解释为每日所需营养比例，其适用范围与措辞待核。作者自称的职业和经验不作事实证明。互动数不用于推断教学有效性。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "把抽象知识挂到具体购买问题上，让读者知道学完能完成哪项核对；避免用“必须”扩大适用范围。",
+        "observed_anchor": "这个酸奶我能买吗",
+        "new_application": "围绕“同类酸奶怎么比包装信息”设置窄题，交付可核对字段，而非替所有人作购买决定。"
+      },
+      {
+        "stage": "visual",
+        "rule": "表格字段与解释使用同色标记，帮助读者完成从原始标签到释义的对应，而不是只靠段落描述。",
+        "observed_anchor": "营养成分表",
+        "new_application": "使用清晰、经授权的包装图，逐一圈出单位、每份量和目标字段，旁边只解释对应信息。"
+      },
+      {
+        "stage": "content",
+        "rule": "第二页应增加实际操作：从标示基准量推到实际食用量，让读者看见每个输入数来自哪里。",
+        "observed_anchor": "实际摄入量",
+        "new_application": "设计空白计算卡，依次填标示单位、包装净含量、实际食用量，使用核对后的算例演示。"
+      },
+      {
+        "stage": "review",
+        "rule": "把数学换算、法规声称和健康判断分开核对；同一术语跨页必须保持单位、对象和口径一致。",
+        "observed_anchor": "注意单位",
+        "new_application": "为每项数字建立内部核对栏，注明单位、适用食品、标准版本和来源，完成核验后再进入成稿。"
+      }
+    ],
+    "do_not_transfer": [
+      "不沿用“蛋白质越高越好”的单指标购买逻辑。",
+      "不把总糖、添加糖等概念未经区分地用于同一结论。",
+      "不复制未经核验的高低阈值、疾病风险和每日上限。",
+      "不把职业名称和咨询经历转为本号身份或可信依据。"
+    ],
+    "transformations": [
+      "面向首次独立购物的学生，制作同类食品包装找字段练习；证据改为真实标签与经核标准，形式改为先作答再揭示。",
+      "面向负责家庭采购的人，做“每份与每包装”计算小卡；决策从判断食物健康与否改为算清实际食用量。",
+      "面向关心控糖的标签新手，单独制作糖相关字段辨识图；用核验后的术语与法规版本替代综合评分，缩小范围并改变证据形式。"
+    ],
+    "limitations": [
+      "第3页少数小字号及个别数字排版不清，不据此恢复原作者精确阈值。",
+      "示例表和产品包装的来源、版本及适用标准未提供。",
+      "无法验证账号介绍所述资历，也不据其资历认证内容。"
+    ]
+  }
+}

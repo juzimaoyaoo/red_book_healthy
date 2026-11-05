@@ -1,0 +1,11 @@
+{
+  "id": "fact-leftovers-cooling",
+  "kind": "official_fact",
+  "title": "USDA FSIS: Can you put hot food in the refrigerator?",
+  "url": "https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator",
+  "updated_on": "2024-08-13",
+  "retrieved_on": "2026-11-05",
+  "text": "Small amounts of hot food can be placed directly in the refrigerator or it can be rapidly chilled in ice or cold water bath before refrigerating. A large pot of food like soup or stew should be divided into small portions and put in shallow containers before being refrigerated. A large cut of meat or whole poultry should be divided into smaller pieces and wrapped separately or placed in shallow containers before refrigerating. Cover foods to retain moisture and prevent them from picking up odors from other foods. Except during cooking, food must not be out of the refrigerator for more than two hours.",
+  "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+  "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+}

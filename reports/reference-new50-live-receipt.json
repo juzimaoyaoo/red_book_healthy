@@ -1,0 +1,313 @@
+{
+  "created_at": "2026-11-05T12:36:28.276890+00:00",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "transport": "codex_exec_existing_login",
+  "study_completed_calls": 12,
+  "candidate_analyses": 60,
+  "frozen_new_samples": 50,
+  "usage_counts": {
+    "contrast": 26,
+    "positive_editorial": 24
+  },
+  "integration_probe": "MEMORY_PROBE_COMPLETED",
+  "completed_calls_including_probe": 13,
+  "usage_from_completed_receipts_only": {
+    "input_tokens": 974814,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 87439,
+    "reasoning_output_tokens": 1088
+  },
+  "unknown_calls": [],
+  "receipts": [
+    {
+      "call_id": "001-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 286.53,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 61463,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 6520,
+            "reasoning_output_tokens": 85
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/analysis/calls/001-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "002-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 198.84,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 37198,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 6103,
+            "reasoning_output_tokens": 93
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/analysis/calls/002-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "003-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 300.42,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 80152,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7489,
+            "reasoning_output_tokens": 117
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/analysis/calls/003-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "004-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 282.19,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 80848,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7283,
+            "reasoning_output_tokens": 67
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/analysis/calls/004-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "005-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 309.38,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 82209,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7592,
+            "reasoning_output_tokens": 117
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/analysis/calls/005-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "006-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 257.67,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 51578,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 6990,
+            "reasoning_output_tokens": 61
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/analysis/calls/006-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "007-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 300.78,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 91905,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7399,
+            "reasoning_output_tokens": 77
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/analysis/calls/007-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "001-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 299.17,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 78785,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7728,
+            "reasoning_output_tokens": 62
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/queue-b/analysis/calls/001-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "002-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 257.51,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 75839,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 6148,
+            "reasoning_output_tokens": 88
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/queue-b/analysis/calls/002-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "003-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 284.12,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 85105,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7338,
+            "reasoning_output_tokens": 87
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/queue-b/analysis/calls/003-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "004-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 341.23,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 157397,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 8028,
+            "reasoning_output_tokens": 116
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/queue-b/analysis/calls/004-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "005-reference_deconstruction",
+      "role": "reference_deconstruction",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 368.46,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 64521,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 7114,
+            "reasoning_output_tokens": 63
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/queue-b/analysis/calls/005-reference_deconstruction-output.json"
+    },
+    {
+      "call_id": "001-memory_integration_probe",
+      "role": "memory_integration_probe",
+      "model": "gpt-6.1-sol",
+      "reasoning_effort": "medium",
+      "transport": "codex_exec_existing_login",
+      "elapsed_seconds": 64.54,
+      "events": [
+        {
+          "type": "turn.completed",
+          "usage": {
+            "input_tokens": 27814,
+            "cached_input_tokens": 0,
+            "cache_write_input_tokens": 0,
+            "output_tokens": 1707,
+            "reasoning_output_tokens": 55
+          }
+        }
+      ],
+      "status": "COMPLETED",
+      "path": "data/reference-new50-20261105/integration-probe/calls/001-memory_integration_probe-output.json"
+    }
+  ],
+  "tests_passed": 44,
+  "scope": "真实参考拆解及模型记忆接入验证，不是医学准确率、流量效果评测或新增发布。"
+}

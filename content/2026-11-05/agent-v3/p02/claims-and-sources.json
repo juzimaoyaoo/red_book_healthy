@@ -1,0 +1,51 @@
+{
+  "claims": [
+    {
+      "statement": "每天固定时间醒来并离床；第二天不因前一晚没睡好而睡懒觉。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "前一晚没睡好，也保持规律的睡眠时间，不睡懒觉补偿。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "睡前至少留1小时放松，比如读书。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "有困意再上床；没困时先不上床，继续在床外安静放松。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "睡前放松时不安排刷手机。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "成人平均需要7—9小时睡眠，个体需要不同。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "改变睡眠习惯没有帮助、睡眠困难持续数月，或影响日常生活到难以应付时，寻求医生评估。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "困倦时不要驾驶。",
+      "source_id": "fact-insomnia"
+    },
+    {
+      "statement": "NHS《Insomnia》页面最后审核于2024年3月19日。",
+      "source_id": "fact-insomnia"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fact-insomnia",
+      "kind": "official_fact",
+      "title": "NHS Insomnia",
+      "url": "https://www.nhs.uk/conditions/insomnia/",
+      "retrieved_on": "2026-11-05",
+      "provenance": "direct HTTPS retrieval with urllib; script/style excluded; full extracted text retained"
+    }
+  ],
+  "audit_evidence_location": "research/agent-v3/run/ 内部调用与来源包；交付包不转载完整第三方原文。"
+}

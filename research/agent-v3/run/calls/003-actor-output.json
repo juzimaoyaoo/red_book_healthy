@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "003-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 29.24,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 35982,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 203,
+          "reasoning_output_tokens": 97
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"ids\":[\"s061\",\"s038\",\"s048\",\"fact-insomnia\",\"visual-s049\",\"visual-s048\"]}",
+    "reason": "先读带饭储存、熬夜后安排与鸡蛋对照的实际参考、睡眠权威全文，以及指定的两项图片观察，再比较具体问题；食品安全缺少权威原文的部分将另行补证。"
+  }
+}

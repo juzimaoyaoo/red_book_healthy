@@ -1,0 +1,11 @@
+{
+  "id": "fact-leftovers-storage",
+  "kind": "official_fact",
+  "title": "USDA FSIS: How do I handle leftovers safely?",
+  "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+  "updated_on": "2024-12-20",
+  "retrieved_on": "2026-11-05",
+  "text": "Refrigerate leftovers at 40 °F or below or freeze at 0 °F s soon as possible, but never leave food out more than 2 hours, 1 hour if the outside temperature is above 90 °F . Divide leftovers into shallow containers. This encourages rapid, even cooling. Cover with airtight lids or enclose in plastic wraps or aluminum foil. Use refrigerated leftovers within 3 to 4 days, or freeze them for longer storage.",
+  "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+  "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+}

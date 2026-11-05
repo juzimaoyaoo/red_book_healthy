@@ -1,0 +1,107 @@
+{
+  "time": "2026-11-05T11:24:39.155145+00:00",
+  "source_identity": {
+    "source_sha256": "50238dbb7544d162a76478a8b746c8e5c684c368c1bb05f67bd9ac49b4500ed0",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n015.png": "7c777f5019831c9280c86865cade30f4f78568549e69603cc3f74e4687609841",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n015-page2.png": "140086783f56c5ffcd543dfc1791988519cfd0c02097438543b002135286cd92",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n015-page3.png": "b305b54b78235d5b7d75b3c086785781c0c39a8191c3a926b895085d1e3de7c9",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n015-page4.png": "6c8bfcf3c84401a33e618917c54812bedc8078c87155187fb4ea404a2c66c351",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n015-page5.png": "6bd614617a215c3b85da37fc1b01cda725a39bf6a428229fa5bf9ad9abcca5ed",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n015-page6.png": "d9343ec227bd7fd41faea78a07b50abd6eb0f748167e726100a69d1fffc4072c"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.42,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80152,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7489,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n015",
+    "title": "是这 3 件事欺骗了你的大脑👉",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：正文及全部6页实质图片均已提供，页码连续，主要文字可读。",
+    "reader_problem": "忙碌、疲惫或情绪不好时反复想吃东西，把这种表现归为自制力差；希望获得更细致的理解和辨识语言。",
+    "scene": "工作辛苦时伸手拿高吸引力食物，以及限制进食、忍不住吃、再自责的反复过程。",
+    "title_mechanic": "正文用数字承诺三个解释；封面用反复口语“吃吃吃”识别体验，再否定自制力归因。两者共同承诺把单一自责拆成多个观察维度。",
+    "title_promise_limits": "三项内容确实逐页交付，数量承诺清楚；但“欺骗大脑”和“不是自制力差”过度简化，不能据此排除其他原因或诊断个人情况。",
+    "content_structure": [
+      "第1页：用猫咪表情和循环箭头呈现限制、忍耐与失控的反复。",
+      "第2页：紫色整页再次强调停止自责，并预告三个解释。",
+      "第3页：新增压力维度，使用“肚子饿”和“快乐饿”的并列表情梗。",
+      "第4页：新增睡眠维度，配疲惫猫咪与食物想象图。",
+      "第5页：新增情绪维度，用词条式卡片解释情绪性进食。",
+      "第6页：四条总结加小字提示，提及持续失控困扰可能涉及其他问题。",
+      "正文：从忙碌工作场景进入，重复去自责立场和三项因素。"
+    ],
+    "answer_payoff": "较清楚地交付三个观察入口，并给读者表达体验的词语；收获偏理解与自我描述，缺少如何区分三项重叠情况的决策框架。第2页主要重复承诺，新增信息较少。",
+    "visual_observation": "主体系为紫框白卡、黑色大标题、紫色重点句和绿色勾选。第2页反转成紫底白字与黄字，形成节奏变化。第1页循环箭头解释反复过程，第3页并列梗图表达两种主观饥饿叙述，第5页词条卡定义概念；三种图形承担不同阅读任务。梗图降低术语密度，但不能证明激素解释。",
+    "observed_page_count": 6,
+    "source_and_claim_limits": "原作者关于压力、皮质醇、睡眠、瘦素、饥饿素、碳水食物、血清素与食欲的因果解释均待核。“自制力驾驭不了食欲”“身体不会骗你”等绝对表述不能继承。末页提及神经性贪食障碍、甲状腺功能亢进及其他器质性问题，仅记录为原作者列出的可能性，不据此建立自诊或科室选择建议。positive_editorial仅认可分类交付与图文分工。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "数字承诺需要在正文中有同级、可点数的对应单元；读者应能快速确认三个维度分别是什么，而不是寻找散落线索。",
+        "observed_anchor": "这三件事",
+        "new_application": "新轮播采用三个并列观察问题，每页同位置标编号，并在末页汇总它们可能重叠。"
+      },
+      {
+        "stage": "content",
+        "rule": "解释分类时，每页应新增一种辨识语言或对照情境，帮助读者描述体验；只给三个原因名称还不足以形成判断。",
+        "observed_anchor": "隐形压力",
+        "new_application": "为每个观察维度提供一个虚构情境、一条可记录事实和一个仍不能确定的问题。"
+      },
+      {
+        "stage": "visual",
+        "rule": "循环图表达反复过程，并列图表达体验差别，词条卡解释术语；选择图形时先明确读者本页要理解哪一种关系。",
+        "observed_anchor": "情绪性进食",
+        "new_application": "把过程、比较和定义分别安排在不同页，避免每页都用无解释作用的食物照片。"
+      },
+      {
+        "stage": "review",
+        "rule": "情绪安慰与原因判断要分开写，读者可以获得尊重，同时知道分类尚不能解释自己的全部情况。",
+        "observed_anchor": "不要责怪自己",
+        "new_application": "开头承认困扰，主体呈现观察框架，结尾列框架未覆盖的信息，不用安慰句替代答案。"
+      },
+      {
+        "stage": "content",
+        "rule": "预告页若没有新增信息，应压缩或合并，把页数留给类别重叠和例外判断，提升保存后查用的价值。",
+        "observed_anchor": "快停下你的自责",
+        "new_application": "将重复宣言并入封面，腾出一页做三项维度的交叉情境表。"
+      }
+    ],
+    "do_not_transfer": [
+      "把三项因素写成所有食欲失控的完整原因。",
+      "未经核验的激素与神经递质因果链。",
+      "用梗图或绿色勾选制造医学结论已确认的感觉。",
+      "把接纳情绪直接转成继续进食的统一建议。",
+      "将疾病名称变成读者自诊清单。"
+    ],
+    "transformations": [
+      "面向高强度工作的成年人，改成情境观察日志，用时间、环境与主观感受记录替代激素讲解，并允许多个维度同时出现。改变受众细分、证据和决策方式。",
+      "面向伴侣或家人，制作支持性对话漫画，以虚构交流案例展示如何询问体验，避免评判食量与意志力。改变受众、证据和形式。",
+      "面向准备咨询专业人员的读者，制作信息整理卡，以困扰表现、持续变化和生活背景组织描述，不给诊断结论。改变受众、形式和决策方式。"
+    ],
+    "limitations": [
+      "本次材料完整，但未提供医学机制来源，不能评定其准确性或适用人群。",
+      "第5页词条主要文字可读，其排版不构成专业定义的来源证明。",
+      "没有读者使用反馈或对照数据，不能确认梗图、去自责表达或数字标题的实际效果。"
+    ]
+  }
+}

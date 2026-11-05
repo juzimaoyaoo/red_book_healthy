@@ -1,0 +1,34 @@
+{
+  "id": "n038",
+  "query": "一周 备菜",
+  "theme": "日常饮食",
+  "title": "打工人一周备菜🍲第38周-本周花费75.35元",
+  "author": "小雨在北漂",
+  "body": "00后做饭新手周末备菜后， 下班做饭不再是负担，反而能找到生活的掌控感，让生活变得健康省钱有条理👍\n本周备菜花费75元，这并不是我一周在餐饮上的全部支出哦，我有时候也会点外卖，或者买些早餐或者水果什么的，总计一周120-150💰左右，在可控范围内[微笑R]\n#一周备菜 #备菜 #打工人的打工餐 #自己做饭 #省钱 #菜谱 #健康饮食 #做菜我是认真的#打工人做饭日常 #J人的生活 ",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=205x56\n@e47 TextView text=\"小雨在北漂\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=205x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1515\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1515\n@e56 FrameLayout label=\"图片,第1张,共10张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1440\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e62 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=955,262 size=97x66\n@e65 TextView text=\"1/10\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=955,262 size=97x66\n@e66 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1749 size=1080x607\n@e67 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1763 size=1080x593\n@e68 TextView text=\"打工人一周备菜🍲第38周-本周花费75.35元\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1777 size=998x63\n@e69 TextView text=\"00后做饭新手周末备菜后， 下班做饭不再是负担，反而能找到生活的掌控感，让生活变得健康省钱有条理👍\\n本周备菜花费75元，这并不是我一周在餐饮上的全部支出哦，我有时候也会点外卖，或者买些早餐或者水果什么的，总计一周120-150💰左右，在可控范围内[微笑R]\\n#一周备菜 #备菜 #打工人的打工餐 #自己做饭 #省钱 #菜谱 #健康饮食 #做菜我是认真的#打工人做饭日常 #J人的生活 \" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1868 size=998x488\n@e73 Button label=\"点赞 4393\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=466,2202 size=213x154\n@e76 Button label=\"收藏 2938\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=679,2202 size=216x154\n@e79 Button label=\"评论 88\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=895,2202 size=185x154",
+  "image_count": 10,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部10张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e73 Button label=\"点赞 4393\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=466,2202 size=213x154",
+    "@e76 Button label=\"收藏 2938\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=679,2202 size=216x154",
+    "@e79 Button label=\"评论 88\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=895,2202 size=185x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page2.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page3.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page4.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page5.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page6.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page7.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page8.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page9.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page10.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

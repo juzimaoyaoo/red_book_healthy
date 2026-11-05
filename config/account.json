@@ -1,0 +1,18 @@
+{
+  "name": "许老师聊健康",
+  "xiaohongshu_id": "2689093300",
+  "phone_masked": "134****2834",
+  "bio": "饮食｜运动｜睡眠，把健康知识讲明白\n查权威资料，分享能做到的小习惯\n健康科普，不替代就医",
+  "model": "gpt-6.1-sol",
+  "reasoning_effort": "medium",
+  "audience": "想改善饮食、运动、睡眠习惯的普通成年人",
+  "pillars": [
+    "饮食",
+    "运动与久坐",
+    "睡眠"
+  ],
+  "publication_authorized": true,
+  "profile_verified_on": "2026-11-05",
+  "avatar_asset": "assets/profile/avatar-health-v1.png",
+  "avatar_updated_on": "2026-11-05"
+}

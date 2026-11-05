@@ -1,0 +1,1740 @@
+{
+  "summary": {
+    "mode": "rules",
+    "real_unique_articles": 50,
+    "authors": {
+      "摸鱼养生专业户": 30,
+      "养生搭子小满": 6,
+      "丁香医生": 13,
+      "茶茶": 1
+    },
+    "expected_sentinel_cases": 42,
+    "fully_matched_sentinel_cases": 40,
+    "missing_cases": [
+      "s045",
+      "s048"
+    ],
+    "rewrite_signals": 21,
+    "api_calls": 0,
+    "api_status": "NOT_RUN_NO_KEY_CONFIGURED",
+    "generalization_evaluated": false,
+    "dataset_sha256": "2daddbe1456f08809e1f45cc8a0c22374c957a9915ce7dc4410789ed10939f60",
+    "annotations_sha256": "1d97ff12f2eaf4d8654915e0986e27b9c09ab093250d11bb14343a7cddd95cf8",
+    "rule_version": "editorial-v2.0",
+    "rule_code_sha256": "be07d45d184eaaf8c082cb6d7897ae9368f6f1f6b58c68b5e0dbd60bdd518e18",
+    "scope": "真实正文上的样本内规则回归；不是模型API回测、临床真实性评分或流量预测"
+  },
+  "articles": [
+    {
+      "sample_id": "s001",
+      "title": "避雷:这种早睡方式还不如熬夜",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "f93b24dea9a22dce8e172fbb2bc69323e8d1396b0d2559e4d21d447b21dfbae6",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "medication_claim",
+            "level": "rewrite",
+            "reason": "区分药物类别、适应证和治疗风险，避免诱导自行停药。",
+            "matches": [
+              "强行入睡",
+              "依赖会让身体无法自主分泌",
+              "断药反而"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "medication_claim"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "medication_claim"
+      ],
+      "missing": [],
+      "annotation": "药物类别和依赖机制不能一概而论。",
+      "transferable_mechanic": "反常识开头可以保留，须删除无证据的风险比较。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s002",
+      "title": "身体缺钾的5个信号，很多人忽略了",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "373fad7ccff2f698282a2158738d27f2baeed2ec79e62d0988f19ec90d1013bc",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "symptom_inference",
+            "level": "rewrite",
+            "reason": "症状/行为不能直接确认营养缺乏、病因或诊断。",
+            "matches": [
+              "都是缺钾在捣鬼",
+              "中了两条以上，说明"
+            ]
+          },
+          {
+            "code": "urgent_symptom_framing",
+            "level": "check",
+            "reason": "核急性/持续/严重症状的就医分流，不能一律归因疲劳或缺营养。",
+            "matches": [
+              "心跳不规律"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [
+          "symptom_inference"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "symptom_inference"
+      ],
+      "missing": [],
+      "annotation": "以症状推缺钾并用中两条判定，缺诊断边界。",
+      "transferable_mechanic": "把症状自查改成“何时应咨询专业人士”的决策表。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s003",
+      "title": "一图看懂13种维生素，都藏在哪些常见食物里",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "284ec2f8c6a61c3b3d074aca6fc6f4387b1a2105c7f03d45414f9a4893315107",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [],
+      "annotation": "B12摄入量及各营养作用须核人群、来源。",
+      "transferable_mechanic": "食物和营养素对应表有收藏价值，但勿据症状推补充剂。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s004",
+      "title": "照着吃就能瘦！超简单减脂吃法！",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "9f14962adb52a7aea7d842be19e925371a65bb2a92b1682bdd8de29d19534a74",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "guaranteed_outcome",
+            "level": "rewrite",
+            "reason": "删除普遍见效、疗效保证及未经支持的效果倍数。",
+            "matches": [
+              "照着吃就能瘦",
+              "效率更高",
+              "不反弹"
+            ]
+          },
+          {
+            "code": "intervention_boundary",
+            "level": "check",
+            "reason": "核特殊人群、禁忌、不良反应及停止条件。",
+            "matches": [
+              "16+8",
+              "16小时不吃"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "guaranteed_outcome"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "guaranteed_outcome",
+        "intervention_boundary"
+      ],
+      "missing": [],
+      "annotation": "断食方案及不反弹承诺缺适用条件。",
+      "transferable_mechanic": "可把复杂吃法拆成一项更容易坚持的选择。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s005",
+      "title": "能量低的人，去做这些事情！",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "fac3ace9b3a10ed8c3e8fd0f7842675b80e201a176ed262b3dd6204cecba7d00",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "能量场等比喻需避免写成生理机制；本标签未列临床结论。",
+      "transferable_mechanic": "少做一件消耗自己的事，比堆砌所有行动更聚焦。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s006",
+      "title": "吃透这份膳食笔记，每天吃饭不踩坑！",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "203e742d46b194bc5a88e1fe98b7391dcd670936ef4df3c5bd09d6046fae49c0",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [],
+      "annotation": "膳食数字、单位与坚果推荐范围需逐一核实。",
+      "transferable_mechanic": "信息表应标人群、每份/每日和原始指南版本。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s007",
+      "title": "7个倒头就睡的方法，亲测有效",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "d1771b741911535d0537f439e2d749eac8b16fd3f5c2e31b51a238e2480108ab",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "guaranteed_outcome",
+            "level": "rewrite",
+            "reason": "删除普遍见效、疗效保证及未经支持的效果倍数。",
+            "matches": [
+              "一觉到天亮",
+              "再也不用数羊"
+            ]
+          },
+          {
+            "code": "intervention_boundary",
+            "level": "check",
+            "reason": "核特殊人群、禁忌、不良反应及停止条件。",
+            "matches": [
+              "屏住呼吸",
+              "酸枣仁",
+              "酸枣仁"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "guaranteed_outcome"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "guaranteed_outcome",
+        "intervention_boundary"
+      ],
+      "missing": [],
+      "annotation": "助眠食品、屏息、眼罩和见效承诺需改。",
+      "transferable_mechanic": "拆开环境调整、放松技巧和治疗，避免等效混排。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s008",
+      "title": "别乱控糖!这10种食物越吃血糖越稳",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "35970ea2b139cb2d608f99d8c03f9053fd1a1c65610afb1de784cc149ad8615b",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "food_as_medicine",
+            "level": "rewrite",
+            "reason": "不得把普通食物包装为胰岛素或药物替代品。",
+            "matches": [
+              "植物胰岛素"
+            ]
+          },
+          {
+            "code": "glucose_promise",
+            "level": "rewrite",
+            "reason": "不能把单种食物写成稳定血糖的保证。",
+            "matches": [
+              "越吃血糖越稳",
+              "越吃血糖越稳"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [
+          "food_as_medicine",
+          "glucose_promise"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "glucose_promise"
+      ],
+      "missing": [],
+      "annotation": "单种食物的稳糖保证和机制链缺证据。",
+      "transferable_mechanic": "从食物神效转为总量、替换和搭配的决策。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s009",
+      "title": "喉咙痛如刀片？6个救急舒缓法亲测有效",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "e5a3dcb6dbdb2789fabb7b2a231a5c2e3058dfe6f897233db1e3a3f5e8fc0a1b",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "unsafe_steam",
+            "level": "rewrite",
+            "reason": "热水蒸汽操作需核烫伤风险与证据；不要作为普遍自救建议。",
+            "matches": [
+              "吸入温润蒸汽",
+              "口鼻靠近杯口",
+              "吸入水蒸气"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [
+          "unsafe_steam"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "unsafe_steam"
+      ],
+      "missing": [],
+      "annotation": "杯口吸蒸汽有操作安全问题，文末就医说明不能抵消。",
+      "transferable_mechanic": "缓解不适与就医条件分栏呈现。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s010",
+      "title": "身体在喊你睡觉！出现这10种信号，别硬熬！",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "5a53cdff965c6565e7fcf692746d82649c0b176c76f8193cffe09b79562cf380",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "guaranteed_outcome",
+            "level": "rewrite",
+            "reason": "删除普遍见效、疗效保证及未经支持的效果倍数。",
+            "matches": [
+              "效率更高",
+              "免疫力拉满"
+            ]
+          },
+          {
+            "code": "urgent_symptom_framing",
+            "level": "check",
+            "reason": "核急性/持续/严重症状的就医分流，不能一律归因疲劳或缺营养。",
+            "matches": [
+              "突然头晕发黑",
+              "心慌冒汗"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [
+          "guaranteed_outcome"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "urgent_symptom_framing",
+        "guaranteed_outcome"
+      ],
+      "missing": [],
+      "annotation": "头晕发黑和心慌冒汗不能统一归因睡眠。",
+      "transferable_mechanic": "先做危险症状分流，再谈一般睡眠习惯。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s011",
+      "title": "爬楼就喘记性变差？你可能已经累到没“电”了",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "b9c8c9f495687da2b177a3921b2f974cf90e957b31133271faf465b9976e16ed",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "urgent_symptom_framing",
+            "level": "check",
+            "reason": "核急性/持续/严重症状的就医分流，不能一律归因疲劳或缺营养。",
+            "matches": [
+              "爬几层楼梯就气喘"
+            ]
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "urgent_symptom_framing"
+      ],
+      "missing": [],
+      "annotation": "爬楼气喘不可直接作疲劳标签。",
+      "transferable_mechanic": "叙事可共情，症状归因需要谨慎。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s012",
+      "title": "这15种“长脑子”的运动，对症练才有用!",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "f292c5783e2523ced49854ea8533135328f666f9c62946824cb3935dfacfc8e5",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "guaranteed_outcome",
+            "level": "rewrite",
+            "reason": "删除普遍见效、疗效保证及未经支持的效果倍数。",
+            "matches": [
+              "效率翻倍"
+            ]
+          },
+          {
+            "code": "symptom_exercise_map",
+            "level": "check",
+            "reason": "运动方式与某类认知/情绪症状不能一一配对作治疗结论。",
+            "matches": [
+              "对症练",
+              "对症运动",
+              "专属解救运动"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "guaranteed_outcome"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "symptom_exercise_map",
+        "guaranteed_outcome"
+      ],
+      "missing": [],
+      "annotation": "运动和认知症状一一对应，效果倍数不明。",
+      "transferable_mechanic": "选运动应看偏好和可坚持程度，不开认知症状运动处方。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s013",
+      "title": "长期熬夜的人，身上都有这6个共同点，太准了",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "51a63e40327470e240480cb43f615a27bd32268c1537cbfcf2653e8ff1f07e9b",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "sleep_clock",
+            "level": "rewrite",
+            "reason": "睡眠周期不是人人固定90分钟，也不能从钟点推出固定修复窗口。",
+            "matches": [
+              "修复排毒模式"
+            ]
+          },
+          {
+            "code": "causal_overreach",
+            "level": "check",
+            "reason": "不把一般生活习惯直接说成器官损伤/智力变化，量化疗效另核。",
+            "matches": [
+              "六大系统早已持续受损",
+              "器官劳损"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "sleep_clock"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "sleep_clock",
+        "causal_overreach"
+      ],
+      "missing": [],
+      "annotation": "修复排毒和六大系统受损解释过强。",
+      "transferable_mechanic": "可以讲睡眠不足后果，不用身体毁坏叙事。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s014",
+      "title": "一个月提升免疫力，8个科学方法养成抗病体质",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "e86054a6ddb3e338bbc01ad9d9e937b662dd0379300e13f6d24b31598f93c350",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "guaranteed_outcome",
+            "level": "rewrite",
+            "reason": "删除普遍见效、疗效保证及未经支持的效果倍数。",
+            "matches": [
+              "抗病体质",
+              "抗病体质"
+            ]
+          },
+          {
+            "code": "intervention_boundary",
+            "level": "check",
+            "reason": "核特殊人群、禁忌、不良反应及停止条件。",
+            "matches": [
+              "补充维生素D"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [
+          "guaranteed_outcome"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "guaranteed_outcome",
+        "intervention_boundary"
+      ],
+      "missing": [],
+      "annotation": "一个月抗病体质及维D/晒太阳建议需核。",
+      "transferable_mechanic": "用健康行为而非免疫力承诺作标题。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s015",
+      "title": "以为是小习惯，其实是身体在喊救命！",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "38a247cdce89d9a9b787757b1f35f5429068f34fff9dc97d8e22e0c913d914c4",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "symptom_inference",
+            "level": "rewrite",
+            "reason": "症状/行为不能直接确认营养缺乏、病因或诊断。",
+            "matches": [
+              "下意识小动作都是身体在报警",
+              "气血不足",
+              "腰椎受损"
+            ]
+          },
+          {
+            "code": "urgent_symptom_framing",
+            "level": "check",
+            "reason": "核急性/持续/严重症状的就医分流，不能一律归因疲劳或缺营养。",
+            "matches": [
+              "无故控制不住大笑"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "symptom_inference"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "symptom_inference"
+      ],
+      "missing": [],
+      "annotation": "小动作对应气血、腰椎等诊断化。",
+      "transferable_mechanic": "不要把日常行为病理化。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s016",
+      "title": "别让眼睛先退休，盯屏党自救指南",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "c3f82d1ef8fb11bfff9a51e596cbc9664f99ce8814cdd9db68ba1a751e58e01d",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "guaranteed_outcome",
+            "level": "rewrite",
+            "reason": "删除普遍见效、疗效保证及未经支持的效果倍数。",
+            "matches": [
+              "立竿见影"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "guaranteed_outcome"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "guaranteed_outcome"
+      ],
+      "missing": [],
+      "annotation": "立竿见影护眼动作和循环机制需核。",
+      "transferable_mechanic": "具体办公场景可迁移，神效动作不可照搬。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s017",
+      "title": "打工人必看！20个降低上班痛苦的技巧",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "b9aa4d278ac51abd06e610de82ada25af44757b389a8f52b9e3d1a77fb442ddc",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "以压力管理生活建议为主，不等于已经证明医学效果。",
+      "transferable_mechanic": "通勤与开工前的动作分段，单篇只选一个时间段。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s018",
+      "title": "肠道堵了，全身都累！5个信号+4个方法自救",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "7303121e586de0d39efae2c2c717e372162099508032109080bed1c6357f1eab",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "symptom_inference",
+            "level": "rewrite",
+            "reason": "症状/行为不能直接确认营养缺乏、病因或诊断。",
+            "matches": [
+              "中2个就要注意",
+              "积食产生的腐气"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "symptom_inference"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "symptom_inference"
+      ],
+      "missing": [],
+      "annotation": "肠道堵塞与腐气湿气模型缺依据。",
+      "transferable_mechanic": "消化不适内容需区分症状管理和疾病诊断。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s019",
+      "title": "久坐办公腰快断了，7个睡前动作救回腰",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "f49a4ab5eb1d0ff91060184151cccc0217220a397981c0bfb72ddc1bd3fced28",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "intervention_boundary",
+            "level": "check",
+            "reason": "核特殊人群、禁忌、不良反应及停止条件。",
+            "matches": [
+              "养腰动作",
+              "拱桥"
+            ]
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "intervention_boundary"
+      ],
+      "missing": [],
+      "annotation": "康复动作缺疼痛、动作规范与停止条件。",
+      "transferable_mechanic": "动作图要与步骤、错误姿势和不适用条件对应。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s020",
+      "title": "天然胰岛素的10种食物，控糖人直接抄作业",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "774958d1b8fad379e1826680fea981f4118098fe90d63d77f5a274f439a5185b",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "food_as_medicine",
+            "level": "rewrite",
+            "reason": "不得把普通食物包装为胰岛素或药物替代品。",
+            "matches": [
+              "天然胰岛素",
+              "天然胰岛素",
+              "作用类似胰岛素"
+            ]
+          },
+          {
+            "code": "glucose_promise",
+            "level": "rewrite",
+            "reason": "不能把单种食物写成稳定血糖的保证。",
+            "matches": [
+              "越吃血糖越稳",
+              "默默稳住你的血糖"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "food_as_medicine",
+          "glucose_promise"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "food_as_medicine",
+        "glucose_promise"
+      ],
+      "missing": [],
+      "annotation": "把食物等同胰岛素属于必须改写的表达。",
+      "transferable_mechanic": "改作识别营销用语的原创核查稿。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s021",
+      "title": "救命！终于把抗炎食物分明白了！",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "a9166a918d3e21964833c60c14d8fa056059a62f2224aaa7efe7d34cd2290c60",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "抗炎饮食",
+              "抗炎饮食",
+              "帮身体舒缓炎症"
+            ]
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "study_scope"
+      ],
+      "missing": [],
+      "annotation": "食物抗炎分类不能直接外推改善具体炎症。",
+      "transferable_mechanic": "可学习分类可视化，须核每类定义。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s022",
+      "title": "别再骗自己了！你的休息，正在把脑子越用越笨",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "a5a1d2160e8138f6324646cc932faf8676ec3572818164cf58e8ea6cc251c231",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "causal_overreach",
+            "level": "check",
+            "reason": "不把一般生活习惯直接说成器官损伤/智力变化，量化疗效另核。",
+            "matches": [
+              "越用越笨",
+              "越来越笨"
+            ]
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "causal_overreach"
+      ],
+      "missing": [],
+      "annotation": "把休息方式直接说成变笨，需纠正因果。",
+      "transferable_mechanic": "用体验和可改变行为取代智力威胁。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s023",
+      "title": "🌿6月养生黄金期！抓住这几点，把身体调到最",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "aec79f7fe04b4ce89a0861c5bab3b97f9c4700d1d8f745c00f3d683bdbd0e9d0",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "traditional_diagnosis",
+            "level": "rewrite",
+            "reason": "文化性养生说法不能当成现代医学病因诊断或限制饮食的依据。",
+            "matches": [
+              "都是因为没顺应好天时",
+              "寒气湿气全困在体内"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "traditional_diagnosis"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "traditional_diagnosis"
+      ],
+      "missing": [],
+      "annotation": "季节与寒湿病因不能直接推到个人。",
+      "transferable_mechanic": "时令只作生活场景，不作医学因果。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s024",
+      "title": "脾胃不好的人速看！10个懒人运动救大命",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "2be5c59da3b85c5fbbc67d819d4cc7643b2ef6b19f0042e9ed8018b40c79cfe9",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "symptom_inference",
+            "level": "rewrite",
+            "reason": "症状/行为不能直接确认营养缺乏、病因或诊断。",
+            "matches": [
+              "大概率是脾胃"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "symptom_inference"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "symptom_inference"
+      ],
+      "missing": [],
+      "annotation": "中三条推脾胃问题，容易自诊。",
+      "transferable_mechanic": "删中招计分，按具体困惑独立解答。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s025",
+      "title": "身体缺啥，看脸就知道？超全营养素预警+食补",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "104d9ced53489fea31ad55cac0bcd76793149a65c76316908342bea3f838434d",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "symptom_inference",
+            "level": "rewrite",
+            "reason": "症状/行为不能直接确认营养缺乏、病因或诊断。",
+            "matches": [
+              "看脸就知道"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "symptom_inference"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "symptom_inference"
+      ],
+      "missing": [],
+      "annotation": "看脸/症状推营养缺乏，缺非特异性提示。",
+      "transferable_mechanic": "营养内容从食物多样性讲起，不引导自诊补剂。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s026",
+      "title": "身心耗竭信号与恢复指南",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "76fda1a87ac5d45bca7f0f38f9a6fdaf72cf483764390876cfd793641733c987",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "耗竭/情绪问题需专业评估边界，不依据标题自动诊断。",
+      "transferable_mechanic": "情绪困扰先降低自责，再给支持途径。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s027",
+      "title": "脂肪肝自救指南 ! 12个养肝小tips，亲测有效",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "0b3b3b5a9a60f4b764c01e2654187d84cafa4ed68fc2f26db982bfc0a59f1567",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "causal_overreach",
+            "level": "check",
+            "reason": "不把一般生活习惯直接说成器官损伤/智力变化，量化疗效另核。",
+            "matches": [
+              "负担减半"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "causal_overreach"
+      ],
+      "missing": [],
+      "annotation": "一个月负担减半的量化效果无原始依据。",
+      "transferable_mechanic": "体检主题应写复诊和评估，不自述治疗效果。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s028",
+      "title": "熬夜一时爽，补救有妙招",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "99c797342d3b0085db3d9cd6ab8837c7769b6167175d338833e7d61e29e4130c",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "研究表明"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "study_scope"
+      ],
+      "missing": [],
+      "annotation": "杏仁核和修复叙事需核研究与临床解释。",
+      "transferable_mechanic": "补救不能被写成抵消长期睡眠不足。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s029",
+      "title": "8个日常小习惯，偷偷帮你控糖～",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "dfe3b47a1cbeaa83af182ebaa65fd137be7e41ced284bf72ec1979458e450448",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "quantity_fallacy",
+            "level": "rewrite",
+            "reason": "浓度降低不等于摄入总糖量降低，核份量与是否喝完。",
+            "matches": [
+              "冰块稀释≈隐形减糖"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [
+          "quantity_fallacy"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "quantity_fallacy"
+      ],
+      "missing": [],
+      "annotation": "加冰稀释不能直接推出总糖减少。",
+      "transferable_mechanic": "数值审核增加浓度和摄入总量的区分。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s030",
+      "title": "身体里的炎症全部消失",
+      "author": "摸鱼养生专业户",
+      "body_sha256": "df40061dcc4951c392752267cdd8b49e45fdf95eda64cb3c693532988284ead0",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "guaranteed_outcome",
+            "level": "rewrite",
+            "reason": "删除普遍见效、疗效保证及未经支持的效果倍数。",
+            "matches": [
+              "炎症全部消失"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [
+          "guaranteed_outcome"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "guaranteed_outcome"
+      ],
+      "missing": [],
+      "annotation": "炎症全部消失是强疗效保证。",
+      "transferable_mechanic": "删疗效标题，讲膳食模式及证据范围。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s034",
+      "title": "怎样才能把自己养得明媚又开朗 🌿",
+      "author": "养生搭子小满",
+      "body_sha256": "ae60df3c9e756a78774f9f12aa3cfe2106d384719cfdfda4bff1b1c047dedcd4",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "个体观察可帮助选择习惯，不能取代医学诊断。",
+      "transferable_mechanic": "先问最卡住的一件事，避免照搬他人作息表。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s035",
+      "title": "不是嘴馋，是情绪上头｜12 个平替行为 🌿",
+      "author": "养生搭子小满",
+      "body_sha256": "26308001af734ea3fb2d809d22a3dd6ade1d96c15d01604a4f4f39141ac0badd",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "大脑在用食物"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "study_scope"
+      ],
+      "missing": [],
+      "annotation": "情绪进食与大脑解释需核，不忽略真实饥饿。",
+      "transferable_mechanic": "共情开头后给一个暂停动作，避免羞辱读者。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s037",
+      "title": "向女明星学睡觉，最晚的一位也是十点 🌙",
+      "author": "养生搭子小满",
+      "body_sha256": "ae7735016b7896a37d64a27d33c61f72841e43888f9e1303e841a0ba37ae1924",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "celebrity_proxy",
+            "level": "check",
+            "reason": "明星个例不能支撑普通人作息或疗效建议，另查指南。",
+            "matches": [
+              "女明星",
+              "蔡依林",
+              "杨幂"
+            ]
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "celebrity_proxy"
+      ],
+      "missing": [],
+      "annotation": "明星睡觉时间不等于普通人指南。",
+      "transferable_mechanic": "名人清单改为工作日睡眠记录和边界说明。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s038",
+      "title": "熬夜后的补救清单12条｜别只补觉 🌙",
+      "author": "养生搭子小满",
+      "body_sha256": "a1e2a4ab6ad436895deb662120a6e47cd0359d4c299766e38dbc4a8e8fd1b337",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "固定咖啡/午睡时间需条件；未将其标为必然错误。",
+      "transferable_mechanic": "补救清单改为优先级，不宣称能清空睡眠债。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s039",
+      "title": "湿气重的8个信号，中3个先戒冰的 🌿",
+      "author": "养生搭子小满",
+      "body_sha256": "cf9820d73cde79abf5b43defb311303682ac213dc24c1f6c1a81587052545c2e",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "symptom_inference",
+            "level": "rewrite",
+            "reason": "症状/行为不能直接确认营养缺乏、病因或诊断。",
+            "matches": [
+              "中3个先戒"
+            ]
+          },
+          {
+            "code": "traditional_diagnosis",
+            "level": "rewrite",
+            "reason": "文化性养生说法不能当成现代医学病因诊断或限制饮食的依据。",
+            "matches": [
+              "冰的吃多了、动得太少"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "symptom_inference",
+          "traditional_diagnosis"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "symptom_inference"
+      ],
+      "missing": [],
+      "annotation": "中几项判断湿气并戒冰，缺诊断证据。",
+      "transferable_mechanic": "避免按非特异性症状统一限制饮食。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s041",
+      "title": "养回明媚的第二年，我只留下这7件事 🌱",
+      "author": "养生搭子小满",
+      "body_sha256": "f3e873f79505956582e5fd212b0611bc31b1db96f38d7b56e20c3ce05356aa45",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "坚持一个小习惯具有表达参考价值，具体健康说法仍需核。",
+      "transferable_mechanic": "先选一件，允许波动，用长期反馈代替神奇转变。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s044",
+      "title": "一张图劝你抬头",
+      "author": "丁香医生",
+      "body_sha256": "b3f42446c973b7230900bb5857c27dcc9011322694955e407cf4ca664eb83828",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [],
+      "annotation": "颈部承重数字要与姿势/模型对应。",
+      "transferable_mechanic": "一图解释一个问题，具体行动紧跟解释。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s045",
+      "title": "一张图看懂你家的蚊子为什么永远灭不完",
+      "author": "丁香医生",
+      "body_sha256": "cb4f4f118cfe39bd5bec150f10dd4933e738c0b715823a1c17ce7d1f696416fc",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [
+        "numeric_claim"
+      ],
+      "annotation": "蚊子繁殖数量需保留实验条件与来源。",
+      "transferable_mechanic": "冷知识要说明对日常防护有什么帮助。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s048",
+      "title": "一张图看懂-鸡蛋煮多久最好",
+      "author": "丁香医生",
+      "body_sha256": "096710eeae6bad2ecdcb9333a93e58447af06d64b6105a4d455df166ffe178ab",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [
+        "numeric_claim"
+      ],
+      "annotation": "鸡蛋时间依赖起始条件、大小和温度。",
+      "transferable_mechanic": "明确计时起点，区分安全、营养与口感三个目标。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s049",
+      "title": "一张图劝你现在就出门走走！",
+      "author": "丁香医生",
+      "body_sha256": "18742beee3e5fa055552335a678cad8567481ec274e5bec6bcbf7caaa1057c51",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "研究发现"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [],
+      "annotation": "运动时间与效果需核人群、量效及局限。",
+      "transferable_mechanic": "把行动拆小，允许分段但别偷换研究结局。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s050",
+      "title": "能提供情绪价值的 6 句话，安慰人时超有用",
+      "author": "丁香医生",
+      "body_sha256": "25d55257f17e999163009b388aa2f2dac6a6091c6fb38aa2f72a59f4ba82f528",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "共情建议不是抑郁治疗，语境边界仍重要。",
+      "transferable_mechanic": "承认感受再陪伴，不急着给解决方案。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s051",
+      "title": "一张图劝你现在就开始练肌肉！",
+      "author": "丁香医生",
+      "body_sha256": "86215de9f2df2a28e30ec72eb5938c84930fa2d5d62565b5a9c3341f31c8f728",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [],
+      "annotation": "肌肉流失年龄/百分比应核来源与变异。",
+      "transferable_mechanic": "解释为什么练，再给初学者小步行动。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s052",
+      "title": "一张图看懂把背挺直真的会累",
+      "author": "丁香医生",
+      "body_sha256": "3f14e69fcd60becb94bc3f6336f799b9787404526fd95c2c4b65c9a807359134",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "研究表明"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim",
+        "study_scope"
+      ],
+      "missing": [],
+      "annotation": "腰椎压力倍数及坐姿推荐需核模型与研究。",
+      "transferable_mechanic": "姿势建议强调变换和支撑，而非唯一标准。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s053",
+      "title": "一张图帮你重新理解抑郁",
+      "author": "丁香医生",
+      "body_sha256": "7240792f987fc410be50ea003d4b89516c46d4d937eabeba8c77ace51536dbe1",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "扫描对比",
+              "现有的研究"
+            ]
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "study_scope"
+      ],
+      "missing": [],
+      "annotation": "EEG分类研究不能直接等同图示/个体诊断。",
+      "transferable_mechanic": "同理心可以保留，脑图解释和引用必须逐项对应。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s056",
+      "title": "一张图看懂枕头的妙用",
+      "author": "丁香医生",
+      "body_sha256": "4e53864df649bbc86b791e9a00f43442b1c01dab4a9f49098fa60f2ced161faf",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "intervention_boundary",
+            "level": "check",
+            "reason": "核特殊人群、禁忌、不良反应及停止条件。",
+            "matches": [
+              "薄一点的颈枕",
+              "趴睡时"
+            ]
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "intervention_boundary"
+      ],
+      "missing": [],
+      "annotation": "枕头/脊柱建议需核适用者，不能替代疼痛评估。",
+      "transferable_mechanic": "按睡姿分支比给唯一枕高更清晰。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s057",
+      "title": "上完厕所，记得回头看一眼",
+      "author": "丁香医生",
+      "body_sha256": "c5a49c163d90b90fc3e49b51e79bf7ed1e2d0c024406e52e0df3fa6026b4f9b5",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [],
+      "missing": [],
+      "annotation": "观察尿色仅辅助及异常持续就医的边界值得学习。",
+      "transferable_mechanic": "同时给可解释情形和需专业评估的条件。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s058",
+      "title": "夏天瘦不下来，可能要怪空调",
+      "author": "丁香医生",
+      "body_sha256": "e753ebdefc7acd4659bec2d8478d8dbaf3cb591b6969618cd17edad28b342a0e",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "科学家做了研究",
+              "研究发现"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "study_scope"
+      ],
+      "missing": [],
+      "annotation": "低温短期进食研究不能直接解释长期减重。",
+      "transferable_mechanic": "增加“研究测了什么/没有测什么”框。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s060",
+      "title": "空调房里裹大被真的会提高睡眠质量！",
+      "author": "丁香医生",
+      "body_sha256": "29a3403fe9a60737c5572ded934220a7037d1c0ed2cfc55113d74e5f62f3f703",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "study_scope",
+            "level": "check",
+            "reason": "核研究类型、对象、效应大小、相关与因果；图示不能替代诊断。",
+            "matches": [
+              "科学证实"
+            ]
+          },
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "study_scope",
+        "numeric_claim"
+      ],
+      "missing": [],
+      "annotation": "温度、体温变化及睡眠改善需核环境条件。",
+      "transferable_mechanic": "把舒适体验与已证实结局分开描述。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s061",
+      "title": "带饭一族，记得烧好就放冰箱（不容易坏",
+      "author": "丁香医生",
+      "body_sha256": "1216ce279243448a2dd7f755c7deb2243fb30478b0d3fff0c2b00866fe7ac4b9",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "numeric_claim",
+            "level": "check",
+            "reason": "数值需原始来源、单位、适用人群及条件，不能因引用账号知名而免核。",
+            "matches": []
+          }
+        ],
+        "must_rewrite": [],
+        "status": "NEEDS_EVIDENCE_REVIEW",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "numeric_claim"
+      ],
+      "missing": [],
+      "annotation": "食物危险温区和时长要核操作条件。",
+      "transferable_mechanic": "带饭情境给清楚时序，同时解释份量和冷却方式。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    },
+    {
+      "sample_id": "s062",
+      "title": "一定要相信，人一定要大量早睡和早起。",
+      "author": "茶茶",
+      "body_sha256": "31bc7ea21a28c183a34df1666b3c1040af4d571665e3fd02c66f0fbbce98f861",
+      "audit": {
+        "version": "editorial-v2.0",
+        "signals": [
+          {
+            "code": "sleep_clock",
+            "level": "rewrite",
+            "reason": "睡眠周期不是人人固定90分钟，也不能从钟点推出固定修复窗口。",
+            "matches": [
+              "黄金90分钟",
+              "23点-3点是大脑类淋巴系统清理废物、身体修复",
+              "黄金90分钟"
+            ]
+          },
+          {
+            "code": "celebrity_proxy",
+            "level": "check",
+            "reason": "明星个例不能支撑普通人作息或疗效建议，另查指南。",
+            "matches": [
+              "郑钦文",
+              "职业运动员的武器",
+              "傅园慧"
+            ]
+          }
+        ],
+        "must_rewrite": [
+          "sleep_clock"
+        ],
+        "status": "REVISE",
+        "medical_accuracy_verified": false
+      },
+      "expected_minimum_rules": [
+        "sleep_clock",
+        "celebrity_proxy"
+      ],
+      "missing": [],
+      "annotation": "黄金90分钟、固定修复窗口及名人证据均需纠正。",
+      "transferable_mechanic": "睡眠记录可借鉴，不能复制作者个人经历或固定优劣等级。",
+      "baseline_preflight": "NOT_IMPLEMENTED_IN_V1",
+      "api_evaluated": false,
+      "clinical_truth_verified": false
+    }
+  ]
+}

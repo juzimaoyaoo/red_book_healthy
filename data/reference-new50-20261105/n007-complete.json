@@ -1,0 +1,26 @@
+{
+  "id": "n007",
+  "query": "丁香医生/每日一图",
+  "theme": "饮食",
+  "title": "阿斯巴甜上榜？莫慌莫慌，致癌清单来了",
+  "author": "丁香医生",
+  "body": "🚩今早世卫组织更新了对于阿斯巴甜危害及风险评估结果，为可能对人类致癌之列（2B 组）。\n👀不要看到「致癌」就恐慌，可以先了解下致癌的分类，上述是我们结合 WHO 公示的致癌分类说明和常见生活中的致癌物进行了补充，供大家参考。\n⬅️第二张图是 WHO 公布的分类说明图\n\t\n快 @ 你爱喝无糖可乐的朋友\n#无糖可乐  #致癌物#还会喝无糖可乐吗？  ",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=164x56\n@e47 TextView text=\"丁香医生\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=164x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"已关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1513\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1513\n@e56 FrameLayout label=\"图片,第1张,共2张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1438\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e62 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1438\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e65 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=971,262 size=81x66\n@e66 TextView text=\"1/2\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=971,262 size=81x66\n@e67 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1747 size=1080x609\n@e68 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1761 size=1080x595\n@e69 TextView text=\"阿斯巴甜上榜？莫慌莫慌，致癌清单来了\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1775 size=998x63\n@e70 TextView text=\"🚩今早世卫组织更新了对于阿斯巴甜危害及风险评估结果，为可能对人类致癌之列（2B 组）。\\n👀不要看到「致癌」就恐慌，可以先了解下致癌的分类，上述是我们结合 WHO 公示的致癌分类说明和常见生活中的致癌物进行了补充，供大家参考。\\n⬅️第二张图是 WHO 公布的分类说明图\\n\\t\\n快 @ 你爱喝无糖可乐的朋友\\n#无糖可乐  #致癌物#还会喝无糖可乐吗？  \" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1866 size=998x490\n@e74 Button label=\"点赞 2040\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=456,2202 size=217x154\n@e77 Button label=\"收藏 1578\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=673,2202 size=208x154\n@e80 Button label=\"评论 221\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=881,2202 size=199x154",
+  "image_count": 2,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n007.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部2张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e74 Button label=\"点赞 2040\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=456,2202 size=217x154",
+    "@e77 Button label=\"收藏 1578\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=673,2202 size=208x154",
+    "@e80 Button label=\"评论 221\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=881,2202 size=199x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n007.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n007-page2.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

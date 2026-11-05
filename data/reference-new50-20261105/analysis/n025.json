@@ -1,0 +1,95 @@
+{
+  "time": "2026-11-05T11:47:33.390768+00:00",
+  "source_identity": {
+    "source_sha256": "36fc5eb05968d66a80522cfe83e4729b58ec87120013d3ad87a5230f889286e4",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n025.png": "638d74d77bbdd6c578aac7f216b644062a1b15d70df541b346e36869d9ad64cf",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n025-page2.png": "d15ad197acdd462f5570f4211ba3f294b2ffe1d75e538eaf10a90172996dd6d6",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n025-page3.png": "dc7e282ab9275fa69f697dc4f9d3983de01bcccf3e5be74c1c5d2e19b0bde841"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 282.19,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80848,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7283,
+          "reasoning_output_tokens": 67
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n025",
+    "title": "上班族通勤｜5km以内，通勤=运动",
+    "usable_as": "contrast",
+    "completeness": "全部3张实质图片均已提供且主要文字可读，满足图片完整样本条件。输入title实际误采了平台提示，body只有页码；截图下方正文有截断，不能声称完整正文已读取。",
+    "reader_problem": "工作后没有精力另行安排活动，希望利用通勤完成活动，并保留下班休息时间。",
+    "scene": "短途骑车上班与下班居家休息的组合情境。",
+    "title_mechanic": "“上班族”定位人群，“5km以内”给出适配门槛，“通勤=运动”用等式压缩利益。第二页把收益延伸为下班可以安心休息。",
+    "title_promise_limits": "三页传达了把骑行并入通勤的概念，没有提供路线、实际耗时、活动强度或其他活动记录，无法支持不额外花时间或完成全部运动量的结论。距离本身不足以决定适配性。",
+    "content_structure": [
+      "第1页：骑行人物画面，标注单程5公里及轻松完成、不额外挤时间。",
+      "第2页：居家休息与自行车同框，强调白天完成活动、晚上休息的情绪收益。",
+      "第3页：以圆形节点、弧线箭头及自行车图示概括骑车上班、完成运动、安心休息。",
+      "截图正文可见部分列举久坐、熬夜、低头、压力等困扰，但后续正文未完整显示。"
+    ],
+    "answer_payoff": "读者可以理解通勤与活动共用时间的想法；尚不能判断自己的路线是否适合、实际新增多少时间，或这类活动能满足什么具体目标。",
+    "visual_observation": "可观察：3页均显示“可能含AI生成内容”提示。第1页为树荫道路上的骑行人物，第2页为暖光室内沙发休息场景，第3页为浅底信息图。机制推断：前两页用上班途中和下班后的场景建立时间分配联想；第三页尝试解释流程，但节点位置和箭头不能清楚对应家、公司及返程，更多重复口号，未新增决策条件。",
+    "observed_page_count": 3,
+    "source_and_claim_limits": "平台提示仅说明可能含AI生成内容，不能据此确定每幅图的生成方式，也不能将画面作为作者亲历证据。单程5公里、轻松完成、不额外挤时间、完成运动量均缺实测或适配条件，待核且不得推广。可见正文关于身体报警、颈椎僵硬、肩背紧绷及体能下降的表述没有提供因果依据。输入中0互动的采集值与截图按钮未显示数量不能共同证明真实互动为零。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "等式标题适合概括关系，但必须检查等号两侧是否真的等价，避免把一种活动方式写成全部目标已经完成。",
+        "observed_anchor": "通勤=运动",
+        "new_application": "使用“把一段通勤改成步行”表达可观察的行为变化，并在内容中列出适用条件。"
+      },
+      {
+        "stage": "content",
+        "rule": "相邻页面可以分别解释行动和生活收益，但收益页应增加判断依据，不能只用另一场景重复承诺。",
+        "observed_anchor": "下班以后，只负责休息",
+        "new_application": "第二页展示门到门耗时、准备环节与休息安排的真实记录，让读者判断是否符合自己的日程。"
+      },
+      {
+        "stage": "visual",
+        "rule": "流程图的箭头需要对应明确的起点、终点和变化关系；家、公司等地点不能游离在节点之外。",
+        "observed_anchor": "骑车上班",
+        "new_application": "改为家到公司的一条清晰路线，分别标明骑行段、步行段和停车环节，把主观感受另列。"
+      },
+      {
+        "stage": "review",
+        "rule": "导入资料时分开识别平台提示、页码、文章标题及正文，避免把界面元素写入内容分析。",
+        "observed_anchor": "可能含AI生成内容",
+        "new_application": "采集表保留原始字段，并增加截图识别标题和正文完整性备注，确保后续拆解引用正确对象。"
+      }
+    ],
+    "do_not_transfer": [
+      "不得把可能生成的骑行或居家画面作为本号真实生活记录。",
+      "不得将5公里设为普遍适合骑行的统一门槛。",
+      "不得承诺通勤即可完成全部运动量，或必然不增加时间。",
+      "不得用身体报警的措辞替代具体问题和医学依据。"
+    ],
+    "transformations": [
+      "面向已有多段公共交通接驳的人，制作通勤活动地图；以实际路线和耗时记录为证据，用可选择的分段方案替代通勤等于运动的口号。",
+      "面向需要保留下班照护时间的人，制作通勤方式时间账本；记录换装、停车、交通衔接等环节，以可填写表格判断是否节约时间。",
+      "面向健康图文编辑，制作流程图改稿示例；用节点与箭头的语义检查解释表达缺口，以标注式教学替代生活方式宣传。"
+    ],
+    "limitations": [
+      "三张图片完整，但截图中的配文只见开头，后续正文未知。",
+      "没有路线实测、活动记录或作者实践证据。",
+      "平台AI提示不能说明具体图片来源或医学可靠性。",
+      "第三页提供概念关系，没有可直接执行的选择步骤。"
+    ]
+  }
+}

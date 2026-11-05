@@ -1,0 +1,111 @@
+{
+  "time": "2026-11-05T11:57:01.156026+00:00",
+  "source_identity": {
+    "source_sha256": "9d3abad68b87ac5e45e3b4a0d9c9e79751c879168e35d12147720adfb4432baf",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028.png": "e8600636415c9b5e9c430d52dfcef89e94b64e3d9dbbe3915fca69c118ad1ab1",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page2.png": "00f066bff2def4828e121bea824d7b8e8d975039702befd16e9042616b971eb7",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page3.png": "93dfce36e37e3ebca51ed4e6ce3b1dbf7ab9351d33f3b68ee99d1fbae455432a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page4.png": "854eb33042a75a85f92e8d8f24c196399a0b10e2be59c78400e0561a6528c082",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page5.png": "5aa7eeecc34547632c5aa1477ca85c4299a1d6e113e6ef27fbb0c104634f743a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page6.png": "f4ad60c0ef767d7b8a63db380845f1b1761ee4204eb4a221553835a43be8e287",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page7.png": "887455261c645f9c1784c1d4595c33d667acc7e39b2e690f2f9a99287d14e13c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page8.png": "306d102c4d405b2a75036a6d65a2e75d1cad6f97d4e0578eec2ecec022bd336e",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page9.png": "c48730b83a89b202b7df5b77556bd0d161e88b51986aeb16e5f41f97cd36b66d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page10.png": "5397caa79b4d2b462f387c5a15f001621fe0d6d18109c2512867acfc47c958c1",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page11.png": "29b06cc8186760518f64e6f954dc0e118e7eec9a0cf77f96c5cd258ec379bcbc",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page12.png": "5bead9619d22cb2da7322ed245fd4755c2664117788968cd9dc8619235aa7af4",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page13.png": "ea9f30ecf2dc8af548ee2bc4102f350ee05f0e7a8f251dc5fe6a70927f02778a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page14.png": "17f99e42ffbe9f0a38545c3e7a18125d6c4299570c0226dac47324c55447ee65",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page15.png": "5fe7f6fb6ca1187f9338d2d5004bc46ee0ffad0155a5924e6a0faacc9b231b49",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page16.png": "a9b3b57c63c98377c100daa5451083d786b95bc95a7780ee06da139849516361",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page17.png": "a0b5c518413a3c233e021f243426fabc63c983681538c3c9b5fedd85277814bb",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n028-page18.png": "778c56afef6b76f97ceb8d55597e3a6e5db08b34ef4d31407baf9299eef97193"
+    }
+  },
+  "receipt": {
+    "call_id": "002-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 257.51,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 75839,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6148,
+          "reasoning_output_tokens": 88
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n028",
+    "title": "一个散步狂是怎么养成的",
+    "usable_as": "positive_editorial",
+    "completeness": "完整正文及全部18张图片已提供并可读；首张为漫画，其余17张为环境、花草、建筑及鸟类照片。",
+    "reader_problem": "不一定寻找运动处方，更想找到散步的乐趣、情绪表达及同好认同；查用动机偏向出门观察的灵感。",
+    "scene": "戴耳机出门，在路上拍植物、看建筑、观察鸟类，以自嘲口吻描述沉浸式散步。",
+    "title_mechanic": "用散步狂塑造夸张身份，以怎么养成的引出过程期待；正文实际主要提供行为画像和情绪认同。",
+    "title_promise_limits": "没有分阶段的习惯养成方法，不宜当作教程。狂走及耗竭描写属于原文表达，不能由此推定安全或有效。",
+    "content_structure": [
+      "先用耳机、行囊和鞋子组成出门仪式。",
+      "连续使用走到推进夸张的身体状态。",
+      "转向音乐、脑内想象和自言自语，形成内心活动描写。",
+      "以花草、鸟类、建筑三类路上发现扩展观察范围。",
+      "用脚印与11路身份自称收束；18张图将漫画情绪入口接到散步见闻。"
+    ],
+    "answer_payoff": "提供的是散步者的观察清单和情绪认同，照片使看花、看鸟、看建筑成为可见内容；未提供可照搬的习惯养成步骤。",
+    "visual_observation": "第1页漫画提供夸张情绪入口；第2页树木与座椅建立环境，第3页花朵转为近景，第4页天空与暮色改变观看尺度。第5—7页加入屋顶、装饰墙和建筑，说明观察对象不限自然；第8页回到公园，第9页加入枝头鸟，第10页为街边植物。第11—12页出现夜景与晚霞，扩展光线变化；第13页为花坛与道路，第14页仰拍枝叶，第15页为水边鸟，第16—17页结合花草与建筑细部，第18页以水边花木结束。照片承接正文对象类别，不是运动效果证据；不能确定它们来自同次散步或按实际时间排序。",
+    "observed_page_count": 18,
+    "source_and_claim_limits": "正文包含不吃饭、少喝水、走到腰酸背痛和筋疲力尽的夸张叙述，不应转为健康建议或挑战目标。未提供医学研究、运动剂量依据或身体收益验证；环境照片也不能证明散步的医学效果。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "身份称呼与过程问句能建立阅读期待，但正文若只写画像，应让标题与观察型内容一致，方便读者判断是否有操作方法。",
+        "observed_anchor": "一个散步狂",
+        "new_application": "面向城市观察新手，用问题标题引出观察任务，并在正文明确交付对象分类而非疗效或养成保证。"
+      },
+      {
+        "stage": "content",
+        "rule": "用相同句式串联不同观察对象，使读者能记住一组出门后可寻找的线索。",
+        "observed_anchor": "不认识但要拍",
+        "new_application": "把城市观察分成声音、形状和光影三组，每组配原创记录问题，供读者自行选择。"
+      },
+      {
+        "stage": "visual",
+        "rule": "环境、近景和细部交替可展示观察尺度的变化；每页应新增对象或视角，而非仅增加照片数量。",
+        "observed_anchor": "路上的花草树木",
+        "new_application": "制作四页观察卡，分别呈现整体环境、局部纹理、远处对象和个人记录，说明各页新增的观察信息。"
+      },
+      {
+        "stage": "visual",
+        "rule": "正文列出的对象类别可由图片逐类承接，让读者检查文字与画面是否对应。",
+        "observed_anchor": "途径的房屋建筑",
+        "new_application": "用自行拍摄且来源清楚的照片，为每类观察任务各配一图和一条问题，减少无功能重复。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复刻原漫画角色、独特构图、照片或身份自称。",
+      "不将少吃少喝、疼痛和耗竭包装成散步成就。",
+      "不把原作者拍摄经历改写成本号亲历。",
+      "不把情绪共鸣推断为医学效果或互动增长原因。"
+    ],
+    "transformations": [
+      "面向亲子城市观察者，制作图形寻找卡，以自摄或授权素材支持辨认任务；改变受众、证据和形式。",
+      "面向办公区附近的探索者，制作路线选择工作纸，依据实地核对的通行、座椅和环境信息作选择；改变受众、证据和决策方式。",
+      "面向手机摄影初学者，制作同一地点不同观看尺度的对照组，依照片说明取景选择；改变受众、证据和形式。"
+    ],
+    "limitations": [
+      "18张均已观察，但拍摄时间、地点、作者身份及照片来源未独立验证。",
+      "不能由白天、暮色和夜景推断单次散步持续时间。",
+      "正文提供情绪画像，缺少习惯形成的实际过程记录。",
+      "正向分类仅认可表达与图文关系，不认可其中健康行为。"
+    ]
+  }
+}

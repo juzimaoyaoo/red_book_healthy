@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "002-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 19.34,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 35960,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 155,
+          "reasoning_output_tokens": 23
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"ids\":[\"s048\",\"s049\",\"s061\",\"s037\",\"s038\",\"s062\",\"s029\",\"s006\",\"fact-activity\",\"fact-insomnia\",\"fact-diet\",\"visual-s049\",\"visual-s048\"]}",
+    "reason": "先读候选参考全文、现有权威事实及两份实际图片观察，再比较带饭保存、睡眠安排、饮料选择与活动规划等具体问题。索引仅用于定位，尚不能据此认定事实成立或确定选题。"
+  }
+}

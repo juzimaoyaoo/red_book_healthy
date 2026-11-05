@@ -1,0 +1,85 @@
+{
+  "time": "2026-11-05T11:19:38.669081+00:00",
+  "source_identity": {
+    "source_sha256": "c9baee9e0b82b2b5876d20328a46751cf771d0b721d3a6f742635c66b8b059a0",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n006.png": "91ca67992b925c5c8a2e268c64e5548cde637dc97d95c840aa212bfaa1dfbd69"
+    }
+  },
+  "receipt": {
+    "call_id": "002-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 198.84,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 37198,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6103,
+          "reasoning_output_tokens": 93
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n006",
+    "title": "一张图看懂为什么蹲着噗噗更容易",
+    "usable_as": "positive_editorial",
+    "completeness": "完整：已提供全部正文和唯一一张实质图片，图中两种姿势及标注可读。",
+    "reader_problem": "读者想理解两种如厕姿势有什么结构差异，并判断这个解释能否帮助理解自己的排便体验。",
+    "scene": "日常如厕不顺时，查找姿势差异的直观解释。",
+    "title_mechanic": "用“一张图”限定阅读成本，用“为什么”承诺机制解释，以生活化措辞降低尴尬感。",
+    "title_promise_limits": "图片确实提供姿势与局部结构的对照，但不能据此兑现所有人改变姿势都会更顺畅的承诺，也不能替代便秘原因判断。",
+    "content_structure": [
+      "标题提出两种姿势效果不同的问题。",
+      "单图并列呈现坐姿与蹲姿，在相同身体部位绘制局部结构。",
+      "左侧标注直肠、内外括约肌，右侧强调角度变化与盆底下降。",
+      "正文用解剖解释导向姿势建议，最后邀请读者转给有困难的朋友。"
+    ],
+    "answer_payoff": "读者获得一个可对照的空间解释；从结构示意推到个人适用性的步骤没有展开。",
+    "visual_observation": "紫色外框内为白底圆角卡片，两个人体灰色侧影并排，局部红色突出，细线连接文字标注，右侧向下箭头表达位移。可观察的是姿势、角度与位置的图示差异；图示是否准确及是否代表实际排便效果需要另核。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "原文声称蹲姿时耻骨直肠肌完全放松、肛门与直肠角度接近180度，并推导蹲姿排便更顺畅。这些解剖、数值和效果判断均待核。图片对耻骨直肠肌的识别和解释不充分，不能把示意图当作测量或临床证据。账号名称及可见互动不构成医学证明。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "当正文主要交付空间关系解释时，标题同时写清对象、疑问和图解形式，让读者判断是否值得打开。",
+        "observed_anchor": "一张图看懂",
+        "new_application": "为健康报告术语做单图解释，标题限定为“两个指标有什么区别”，交付可比较的关系。"
+      },
+      {
+        "stage": "visual",
+        "rule": "比较两个状态时保持观察方向和标注位置一致，把变化集中在同一局部，帮助读者判断究竟变了哪里。",
+        "observed_anchor": "角度变大",
+        "new_application": "对比两种食品标签时使用同一份量和相同字段位置，突出计量单位差异。"
+      },
+      {
+        "stage": "content",
+        "rule": "先给识图名称，再指出变化关系；若由关系推到行动，还要另设适用条件，避免读者把看懂图等同于获得个人处方。",
+        "observed_anchor": "盆底下降",
+        "new_application": "做检查流程图时先解释各节点，再列哪些情况需要询问专业人员。"
+      }
+    ],
+    "do_not_transfer": [
+      "不把完全放松、接近180度及姿势效果沉淀为已核健康建议。",
+      "不照搬对排便困难者直接催促尝试的行动号召。",
+      "不复制人体剪影、局部配色和标注组合形成的独特画面。"
+    ],
+    "transformations": [
+      "面向照护者制作如厕困难信息记录卡，以经核资料为证据，改为记录持续时间、伴随情况和待咨询问题；改变受众、证据与决策方式。",
+      "面向健康科普初学者制作“示意图能说明什么”三栏卡，用经核图例区分结构、测量和效果证据；改变受众、证据与形式。",
+      "面向办公室人群制作就诊前问题清单，依据经核就医资料组织信息，不提供姿势处方；改变受众、证据与形式。"
+    ],
+    "limitations": [
+      "只有静态示意，未提供动作过程、测量来源或适用人群。",
+      "没有原始发布日期及引用资料，不能判断表述的证据背景。",
+      "完整性成立仅表示材料齐全，不表示医学结论成立。"
+    ]
+  }
+}

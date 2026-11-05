@@ -1,0 +1,95 @@
+{
+  "time": "2026-11-05T11:47:33.389568+00:00",
+  "source_identity": {
+    "source_sha256": "e59f85f556a822cb4fbb7a20c71b428601e67916f01a10a3a712e7d6644dbc73",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n023.png": "0897c965536d37bae2d2bba88d8bf752edef45a7bae8538743d811677dcca603",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n023-page2.png": "17cb83dbfd36d5ab5331a647b1421ad99d60c80f68d3704677e3babab6f7cc7b"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 282.19,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80848,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7283,
+          "reasoning_output_tokens": 67
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n023",
+    "title": "通勤5km以内的，你就去尝试步行上班！！！",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：完整正文及全部2张图片已提供，图片主要为道路景观，没有遗漏的实质图中文字。",
+    "reader_problem": "希望把活动安排进通勤，但需要判断增加的时间成本是否可接受，以及如何开始。",
+    "scene": "作者自述单程4公里，乘车十几分钟、步行五十分钟，受到老板生活安排启发后尝试步行上下班。",
+    "title_mechanic": "以5公里划分人群，再用直接号召和感叹号推动尝试。机制推断：距离条件便于读者快速代入，但把路线、时间和个人条件压缩成了单一门槛。",
+    "title_promise_limits": "正文交代个人路程、耗时和开始原因，但没有说明5公里阈值来源，也没有给出路线评估、天气替代或分段选择办法。个人经历不足以支持面向所有短途通勤者的号召。",
+    "content_structure": [
+      "开头给出步行与乘车的个人耗时对比。",
+      "说明从四月开始，在没有特殊情况时步行上班或下班。",
+      "大部分篇幅回顾工作汇报中与老板的交流。",
+      "通过老板的活动、阅读和待办清单引出自律感受。",
+      "以不要过度在意他人看法的转述解释自己开始行动的动机。"
+    ],
+    "answer_payoff": "读者获得一个个人尝试的起点及具体时间成本，但主要答案是行动缘由，尚不足以帮助不同条件的人判断是否采用步行通勤。",
+    "visual_observation": "可观察：两页都是树荫下的人行道纵深画面，没有叠加标题、距离、路线或耗时标记，第二页主要更换拍摄位置与光线。机制推断：画面提供通勤的环境感，第二页没有增加明显的决策信息。图片不能证明完整路线、步行频率或坚持时长。",
+    "observed_page_count": 2,
+    "source_and_claim_limits": "4公里、乘车十几分钟、步行五十分钟及从四月开始均为作者自述，不是统一速度或处方。老板的活动安排和清单属于故事材料，不能作为健康效果证据。正文没有展示身体指标或健康效果。可见评论较多，但没有评论内容，不能判断是认同、争议还是其他话题，更不能归因为标题。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "距离条件能够筛选读者，但应让读者继续比较时间和路线条件，避免一个数字替代全部适配判断。",
+        "observed_anchor": "通勤5km以内的",
+        "new_application": "标题改为“短途通勤想试步行，先算清多花的时间”，正文提供个人可填写的比较项。"
+      },
+      {
+        "stage": "content",
+        "rule": "开头的同路线耗时对比直接支持选择；应继续解释时间从哪里腾出、哪些情况会改变方案。",
+        "observed_anchor": "走路五十分钟",
+        "new_application": "用真实路线记录比较全程步行、部分步行和原有方式，分别列出耗时与衔接环节。"
+      },
+      {
+        "stage": "content",
+        "rule": "动机故事需要回到读者的下一步判断，避免人物赞许占据篇幅而执行信息不足。",
+        "observed_anchor": "开始了走路计划",
+        "new_application": "保留简短起因，随后列出首次试走要记录的路线、实际到达时间和个人感受。"
+      },
+      {
+        "stage": "visual",
+        "rule": "第二张相似场景图应新增一种关系，例如路线分段或道路条件，而非只重复氛围。",
+        "observed_anchor": "步行上下班",
+        "new_application": "首图展示通勤环境，第二图画出步行段与公交段的连接，并用实测记录标明各段耗时。"
+      }
+    ],
+    "do_not_transfer": [
+      "不得把作者或老板的经历改写成本号经历。",
+      "不得将5公里设为普遍适用的步行门槛。",
+      "不得用自律评价替代路线、时间和身体条件判断。",
+      "不得将道路照片视为坚持频率或健康效果的证明。"
+    ],
+    "transformations": [
+      "面向需要接送孩子的通勤者，用实际日程和路线记录制作分段通勤比较表；从自律故事改为时间衔接决策。",
+      "面向经常加班的人，用不同下班时段的路线观察制作替代方案卡；以照明、交通连接和耗时证据替代统一距离号召。",
+      "面向从未尝试步行通勤的人，制作一次路线勘察日志；使用自采道路资料和逐项检查形式，帮助决定是否尝试及走哪一段。"
+    ],
+    "limitations": [
+      "没有原始路线轨迹、频次记录及特殊情况说明。",
+      "两张照片无法代表全程道路条件。",
+      "标题的5公里与作者自述4公里之间没有给出推广依据。",
+      "没有评论内容，不能分析具体互动动机。"
+    ]
+  }
+}

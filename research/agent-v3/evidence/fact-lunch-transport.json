@@ -1,0 +1,11 @@
+{
+  "id": "fact-lunch-transport",
+  "kind": "official_fact",
+  "title": "USDA FSIS: How do you keep a bag lunch safe?",
+  "url": "https://ask.fsis.usda.gov/article/How-do-you-keep-a-bag-lunch-safe",
+  "updated_on": "2025-03-07",
+  "retrieved_on": "2026-11-05",
+  "text": "To keep lunches cold away from home, include at least two cold sources. You can use two frozen gel packs (not smaller than 5x3-inches each) or combine a frozen gel pack with a frozen juice box or frozen bottle of water. Freeze gel packs over­night. When packing your bag lunch, place them on top and bottom of the perishable food items to keep them cold. To keep food like soup, chili and stew hot, use an insulated container. For more information, go to Keeping Bag Lunches Safe.",
+  "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+  "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+}

@@ -1,0 +1,98 @@
+{
+  "time": "2026-11-05T11:16:19.813062+00:00",
+  "source_identity": {
+    "source_sha256": "f4360e0dd7e162e5bd992c4f513d8a04f6a97e3cf1f78e98b8ac4692790aa8bd",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n003.png": "c43b200b6873354fa9cdb7edd38d4ad1cc250192309d9c14d3baae3b7c67af52",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n003-page2.png": "1a45496fd4131b8e6c3a57e30b81692dd2b259dcda5f901bd77be775435bb415",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n003-page3.png": "1598a60bca5b216533d7f013b7b191697ea6670c9c26d88de5c004372ea58f69",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n003-page4.png": "b7edc2100a2d7afb570ee090eb3727ad952e7bfae9451a22cf60b98629d93d6a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n003-page5.png": "2937a589df3acaac47126ed9425dd4edcd1ef83f722b76f085d6ba952903ec31"
+    }
+  },
+  "receipt": {
+    "call_id": "001-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 286.53,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 61463,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6520,
+          "reasoning_output_tokens": 85
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n003",
+    "title": "SOS久坐党救命！4个不费时间的起身方案",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：五张轮播全部提供，四种方案及其原理说明可读取。",
+    "reader_problem": "工作或居家时经常久坐，希望找到能嵌入现有日程的活动机会。",
+    "scene": "工位办公、居家看电视、等水烧开、打电话，以及长时间坐着之后。",
+    "title_mechanic": "用久坐党锁定人群，以救命强化紧迫感，再用四个和不费时间降低行动门槛。",
+    "title_promise_limits": "四个方案数量兑现，但第一项每坐20分钟后安排8分钟活动及2分钟动作，第二项每小时5分钟，末项另需5分钟，与不费时间存在冲突；救命和告别疾病类表达超出可见证据。",
+    "content_structure": [
+      "第1页：大标题、效果副标题与工位人物插画。",
+      "第2页：20-8-2定时方案，接机构研究说法、百分比及亲测叙述。",
+      "第3页：工位微运动，列动作与次数，再用机制说明和朋友反馈支撑。",
+      "第4页：居家碎片化站立，以日常事件触发，接代谢数值与个人体验。",
+      "第5页：久坐后拉伸方案，列动作、保持时间和重复次数，再解释预期作用。"
+    ],
+    "answer_payoff": "四页分别提供定时、工位、居家和事后活动入口，读者容易找到接近自己的场景；但时间成本、动作适配和健康效果没有得到充分交代。",
+    "visual_observation": "封面为白底黑色大字和米色背景工位插画；内页统一蓝色外框、白色圆角卡片和蓝底白字重复标题。每页正文为大段黑字，动作、剂量、机制与经历缺少明显层级；没有动作示范图，读者需要自行理解姿势。",
+    "observed_page_count": 5,
+    "source_and_claim_limits": "原文关于久坐超过30分钟血液循环速度下降15%、站立增加两小时使代谢率提高10%、减少脂肪堆积、预防腰肌劳损或血栓，以及一周腰不酸等说法均待核。机构与期刊名称未附足够可追溯信息。20-8-2、每小时5分钟、动作次数、保持时间及拉伸处方均不得转为本号建议；亲测和朋友反馈属于原作者叙述。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "标题承诺低时间成本时，逐项核算额外耗时，让读者能判断是否适合自己的工作安排。",
+        "observed_anchor": "不费时间",
+        "new_application": "把额外耗时、占用空间、是否离开工位列成比较项，标题采用实际可兑现的成本描述。"
+      },
+      {
+        "stage": "content",
+        "rule": "每页使用不同情境提供新的选择依据，但应说明各方案是替代选项还是需要叠加。",
+        "observed_anchor": "居家“碎片化站立”技巧",
+        "new_application": "按工作能否中断、能否离开座位分流，避免读者误以为必须执行全部方案。"
+      },
+      {
+        "stage": "content",
+        "rule": "借助现成事件提示行动时，写清触发事件和可选动作之间的关系，帮助读者选择稳定出现的提醒。",
+        "observed_anchor": "打电话时来回踱步",
+        "new_application": "制作个人提醒设计卡，让读者记录日常事件，再从已核适配的活动中选择，不统一规定频率。"
+      },
+      {
+        "stage": "visual",
+        "rule": "动作内容需要图示或清晰步骤；大段原理文字不能替代姿势说明和适用条件。",
+        "observed_anchor": "坐姿体前屈",
+        "new_application": "经专业核验后，用分步示意与适用条件卡呈现动作，机制说明另置，避免混在同一段。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用救命、补救或告别腰肌劳损等强效果承诺。",
+      "不复用未经验证的统一时间、动作剂量和代谢百分比。",
+      "不把原作者亲测及朋友反馈写成本号经历。",
+      "不让统一模板和机构名称制造医学可信度。"
+    ],
+    "transformations": [
+      "面向线上会议较多的人，以真实日程样本为证据，制作可中断时段地图，按会议安排选择提醒位置。",
+      "面向居家照护者，以居家动线和空间条件为材料，改成活动机会观察卡，不提供统一动作处方。",
+      "面向企业行政人员，使用员工匿名需求与场地记录，制作办公环境改进清单，比较提醒设置和空间调整。"
+    ],
+    "limitations": [
+      "五页均可读，未提供可核验的完整研究出处。",
+      "没有动作视频或连续姿势图，不能确认动作执行方式。",
+      "正文未充分说明疼痛、活动能力等差异下的适用性。",
+      "未验证个人经历、朋友反馈及任何效果数值。"
+    ]
+  }
+}

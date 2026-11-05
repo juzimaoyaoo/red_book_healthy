@@ -1,0 +1,102 @@
+{
+  "time": "2026-11-05T12:22:33.081896+00:00",
+  "source_identity": {
+    "source_sha256": "56625123e4afe8927c598df0ee96db49690021c2e10d51d3708edcd054848455",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n046.png": "00f74fcb8b35867a8becbc8800b00db547df6a1a48a3b3e4554ad166c4b1be29",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n046-page2.png": "25825b9e454527e71e809716bdc8da6c90c156dd754b3a777522361da8f7fe1e",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n046-page3.png": "25317f26a1de458354d39623bb3e0fdab6f2e6562add96203e210f44dfe873b5",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n046-page4.png": "551aea88edd9b06e5a557805efadef54fa21c27ed8d6247800cfeb3b0f000f36",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n046-page5.png": "0b03306b83db6cd9d2238edded4510dba91febb829a55a57e0d88971d22d0bd9",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n046-page6.png": "193190038b10eeb443108931d7938cf013f49d4cbb6bd561935a821e301822ef",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n046-page7.png": "e73e467f56ef87c634a1dc6e74aa0d1a865465314b3868dc5bd275e938a480bd"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 341.23,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 157397,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8028,
+          "reasoning_output_tokens": 116
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n046",
+    "title": "每天吃四个鸡蛋一个月后血脂会怎样？",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：已读取全部7张图片，包含正文、行动段及参考资料。输入body只是摘要，完整性依据为随附全组图片。",
+    "reader_problem": "看到他人连续吃鸡蛋的个人实验后，想判断自己是否值得跟做，以及个体结果能否用于日常饮食决策。",
+    "scene": "早餐吃蛋方便，但读者同时担心血脂；他人公开挑战把日常选择变成了实验围观。",
+    "title_mechanic": "用具体食物数量、持续时间和体检指标组成结果悬念；图片标题追加“答案分三档”，承诺提供人群差异。",
+    "title_promise_limits": "正文没有给出该个人实验一个月后的实际结果，而是解释为什么不能直接预测；所谓三档可从前置判断中辨认，但未以三个明确标签完整呈现。学习其问题设置时，应同步修正结果预告与实际交付的距离。",
+    "content_structure": [
+      "第1页：标题、篇幅提示、插图及家庭早餐引子。",
+      "第2页：先给分情况判断，再说明个人挑战背景，并指出个案外推的局限。",
+      "第3页：解释食物成分与体内指标之间并非简单等量关系，引入指南讨论。",
+      "第4页：并列方向不同的观察性研究，提出饮食搭配可能影响解释，再引入临床试验。",
+      "第5页：讨论临床试验及其局限，回到普通读者如何决策。",
+      "第6页：单列已确诊人群及烹调问题，开始列参考资料。",
+      "第7页：补齐研究与指南书目。"
+    ],
+    "answer_payoff": "表达层面的收获是把“别人试了会怎样”转成“这份证据能否回答我的问题”，并提供按健康背景继续查用的入口；具体吃蛋建议仍属原文待核主张。",
+    "visual_observation": "可观察：白底、黑色大标题、编号小节、蓝色文字选区式强调；仅第1页有较大插图，图中是手机年龄信息、日历和逐渐长大的人物，未直接解释吃蛋与血脂关系。机制推断：文字层级便于定位，但首图的年龄成长关系与核心问题错位，不能当作有效证据图范例。",
+    "observed_page_count": 7,
+    "source_and_claim_limits": "原文关于适宜吃蛋数量、蛋黄胆固醇含量、体内合成比例、指南限量、观察研究风险百分比、2025年试验及LDL颗粒变化，全部仅记录为待核。参考资料可见不等于已验证其真实性、适用范围或解释准确性；试验中的指标变化不能直接替代长期疾病结局。作者身份及互动数均不作为医学证明。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "具体行为加持续时间会让读者期待结果；若实际交付是证据解释，应在标题直接表明评估任务，避免让人误以为已有实验结局。",
+        "observed_anchor": "一个月血脂会怎样",
+        "new_application": "将另一项饮食挑战改成“这份前后对比，能说明什么”，并在首屏列明有无真实随访结果。"
+      },
+      {
+        "stage": "content",
+        "rule": "把个案背景与可推广判断分开安排：第2页新增的关键价值是说明个体观察不能直接回答其他人的选择。",
+        "observed_anchor": "要看大样本的数据",
+        "new_application": "拆解睡眠打卡故事时，分别列出当事人观察、同时变化的因素和读者仍无法判断的事项。"
+      },
+      {
+        "stage": "content",
+        "rule": "呈现研究分歧时补上研究对象、比较方式与共同变化因素，帮助读者判断两个数字是否在回答同一个问题。",
+        "observed_anchor": "具体到鸡蛋的研究",
+        "new_application": "制作研究对照表，用人群、暴露、结局和局限四列解释差异，避免只排列相反百分比。"
+      },
+      {
+        "stage": "visual",
+        "rule": "说明图应对应正文正在解释的变量关系；第1页年龄成长图与吃蛋问题不匹配，可作为选图复核点。",
+        "observed_anchor": "出生年月",
+        "new_application": "改用“摄入记录—其他饮食变化—检测结果”的证据关系图，标出哪些环节尚未掌握。"
+      }
+    ],
+    "do_not_transfer": [
+      "不将作者家庭早餐经历改写成本号经历。",
+      "不把原文的人群分档及具体吃蛋数量沉淀为健康建议。",
+      "不以一项短期试验概括所有人的长期安全性。",
+      "不复用与主题关系不清的成长插图。"
+    ],
+    "transformations": [
+      "面向负责家庭采购的人，改成饮食挑战信息核对表；证据换为待核的原始研究摘要，决策改为判断是否具备外推条件。",
+      "面向体检后困惑的读者，改成问诊准备卡；材料改为个人既有饮食与检测记录，交付需要补充的信息而非食物数量。",
+      "面向健康内容创作者，改成个案与群体证据的双栏教学图；证据组织和形式均改变，不提供吃蛋处方。"
+    ],
+    "limitations": [
+      "未进行外部医学核源，不能确认引文是否支持原文全部表述。",
+      "图片标题与输入标题不同，已分别观察。",
+      "可见点赞255、收藏79、评论147仅为截图时点记录，缺少曝光及发布时间，不能解释传播原因。",
+      "“三档”未在正文中形成清晰、对称的查用模块。"
+    ]
+  }
+}

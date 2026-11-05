@@ -1,0 +1,47 @@
+{
+  "claims": [
+    {
+      "id": "c1",
+      "statement": "动一点好过完全不动，通勤家务休闲活动均计入身体活动。",
+      "source_urls": [
+        "https://www.who.int/news-room/fact-sheets/detail/physical-activity/",
+        "https://www.who.int/europe/publications/i/item/9789240014886"
+      ]
+    },
+    {
+      "id": "c2",
+      "statement": "成年人每周150—300分钟中等强度有氧活动，兼顾肌肉力量训练；低强度慢走不直接等同达标。",
+      "source_urls": [
+        "https://www.who.int/europe/publications/i/item/9789240014886"
+      ]
+    },
+    {
+      "id": "c3",
+      "statement": "异常气促需评估，严重气促、胸部紧重等需紧急医疗处理。",
+      "source_urls": [
+        "https://www.nhs.uk/symptoms/shortness-of-breath/"
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "id": "W1",
+      "title": "WHO Physical activity",
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity/",
+      "checked_on": "2026-11-05"
+    },
+    {
+      "id": "W2",
+      "title": "WHO身体活动和久坐行为指南概览",
+      "url": "https://www.who.int/europe/publications/i/item/9789240014886",
+      "checked_on": "2026-11-05"
+    },
+    {
+      "id": "W3",
+      "title": "NHS Shortness of breath",
+      "url": "https://www.nhs.uk/symptoms/shortness-of-breath/",
+      "checked_on": "2026-11-05"
+    }
+  ],
+  "editorial_actions_are_examples": true
+}

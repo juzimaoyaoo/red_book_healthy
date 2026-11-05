@@ -1,0 +1,114 @@
+{
+  "time": "2026-11-05T12:27:34.156371+00:00",
+  "source_identity": {
+    "source_sha256": "333ae45c5c3deaff6c112967d986b0a7b5d85ea16bb8958de13c57599542ca0b",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051.png": "c0a35efd178b4f3c63d4211ec5d3e292b591f8432f8fedda5d7e1c4e7d11873a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page2.png": "78792f74087ac3f52ebd6a29d21810e63456641dfab6c41e0fe0bd79f3896134",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page3.png": "b99ab8ac390e28b2608d1f210afa376e3598e936675b4fbbf93b0c78ce9a2b27",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page4.png": "3a1316bd13422197c1f7b87714ba57c31f1b0f53b9e8dd93445cd9e283e09a21",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page5.png": "2cd8725f091e1987d759e25b1f31fb06566fc4fa0ca9f5ac70060eaacd0fd7e8",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page6.png": "88cf401c1eb28723843d83d9acd9cf0fbf45b226b917d38613b6c4d2e59bd4d0",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page7.png": "da3d1dd98ea382c23182e25adb2452f758525fa9ce863435fbe90107ed091bcd",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page8.png": "735555f2c4acf60fbf0c48d2752b87161fd0c8725b6fcffbd91888010c95f948",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page9.png": "d37e65d5fa14bdc7f393a2be01a9514343bd2fd6b4a5ad19fd9da397555c1cbb",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n051-page10.png": "5add1a9359fedc6a43dea99fb94a040401972e874f6c69697ebdefebe3c7ef56"
+    }
+  },
+  "receipt": {
+    "call_id": "007-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.78,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 91905,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7399,
+          "reasoning_output_tokens": 77
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n051",
+    "title": "不知道下班干嘛，就按电量随便挑一个",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：提供完整正文及全部10张轮播截图，实质图文可读。",
+    "reader_problem": "下班前安排很多事情，回家后却无力执行；需要按当天状态选择晚间活动，并降低未完成计划的负担。",
+    "scene": "从办公室设想晚间计划，到进门、吃饭、家务、娱乐及第二天上班。",
+    "title_mechanic": "用“不知道干嘛”直接命名选择困难，再以“电量”比喻提供判断依据；“随便挑一个”降低执行压力。",
+    "title_promise_limits": "承诺的是一种选择活动的方法，没有承诺改善疾病或恢复精力；电量是主观比喻，不能变成身体状态评分标准。",
+    "content_structure": [
+      "第1页：进门疲惫的人物与周围待办并置，提出先看剩余精力再安排。",
+      "第2页：白天列计划与晚上躺沙发形成上下对照，解释计划为何落空。",
+      "第3页：四种状态与不同活动配对，首次给出整体分流框架。",
+      "第4页：最低精力状态只保留吃饭、洗漱、休息等生活事项。",
+      "第5页：第二档强调只选一件小事，并明确不要追加任务。",
+      "第6页：第三档增加散步、娱乐、洗浴等让自己开心的选择。",
+      "第7页：状态不错时扩展做饭、运动、整理和兴趣活动。",
+      "第8页：精力充足时展示社交和外出，底部以次日疲惫作幽默回落。",
+      "第9页：密集时间表与疲惫人物对照，再次解释不把晚上排成第二份工作。",
+      "第10页：五档电量菜单汇总，并提出后续可聊的具体生活问题。"
+    ],
+    "answer_payoff": "读者可以先判断当晚状态，再从对应菜单选择；第5页的“一件”给出停止加码的明确条件，第10页适合回看查用。",
+    "visual_observation": "可观察：米白底、黑色手写字、珊瑚红重点词、连续出现的同一人物；电池图标贯穿状态分类。第2页用上下分镜解释预期与现实，第3页用四格展示分流，第10页用五列彩色菜单汇总。机制推断：人物表情让抽象状态容易辨认，电池把状态与活动选择连接起来；末页方便快速定位，但文字明显比前页密集。",
+    "observed_page_count": 10,
+    "source_and_claim_limits": "作者描述自己的精力与生活选择，不能转写成本号亲历。图中的28%、1%及电量档位均为叙事符号，没有测量依据。运动后快乐等感受属于原作者表达，不构成普遍健康结论。本轮未核验任何健康因果；可见互动数只能记录为截图时点数据。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "标题把选择困难和选择依据放在一起，让读者立即判断这篇能否帮助自己做决定。",
+        "observed_anchor": "按电量随便挑一个",
+        "new_application": "为临时加班者写“今晚只剩一点空闲，先按必须程度选一件”，正文按事情是否必须当天完成分流。"
+      },
+      {
+        "stage": "content",
+        "rule": "先用一页预期与现实的对照解释困难，再给分类菜单，使读者明白为什么需要换一种安排方式。",
+        "observed_anchor": "白天的我",
+        "new_application": "用计划表与实际时间记录对照，展示照护者晚间空闲如何被打断，再给可中断的任务选项。"
+      },
+      {
+        "stage": "content",
+        "rule": "分类页除了给可选项，还要给停止条件，避免读者把菜单误读成全部待办。",
+        "observed_anchor": "注意，是一件",
+        "new_application": "整理任务卡每档只允许任选一项，并标出完成后即可结束，不继续串联其他任务。"
+      },
+      {
+        "stage": "visual",
+        "rule": "使用同一图形变量表达分类依据，再把活动放在相应区域，图形负责解释状态与选择的对应关系。",
+        "observed_anchor": "只剩一格",
+        "new_application": "用可支配时间的空白日历格配对任务，不以颜色暗示医学上的健康等级。"
+      },
+      {
+        "stage": "review",
+        "rule": "末页汇总应与前面的分类一一对应，检查档位、名称和活动是否发生漂移。",
+        "observed_anchor": "稀有满电",
+        "new_application": "制作照护者任务菜单时，统一总览和详页的分类名称；该样本第3页四档、末页五档的变化需避免。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用作者人物造型、家庭陈设及整套电量菜单的独特组合。",
+      "不把主观精力档位包装成疲劳诊断或运动适配标准。",
+      "不把第8页次日疲惫的笑点推导成社交或运动必然导致疲劳。",
+      "不沿用前后分类数量不一致的问题。"
+    ],
+    "transformations": [
+      "面向轮班工作者，以匿名实际时间日志为证据，改成“当天必须处理／可以延后”的二步决策卡，改变受众、证据与决策方式。",
+      "面向家庭照护者，以任务可中断程度和是否需要他人配合作为依据，制作可随时暂停的纸质任务卡，改变受众、决策方式与形式。",
+      "面向居家办公者，以一周计划与实际完成记录为素材，做预期和现实的对照图，再让读者删除一项非必要任务，改变受众、证据与行动方式。"
+    ],
+    "limitations": [
+      "仅观察所提供的正文和10张截图，没有评论内容或行为反馈。",
+      "第3页四种状态与末页五档菜单并非完全一致。",
+      "第9页重述前面的计划落差，新增操作信息较少。",
+      "无法根据点赞、收藏或评论数判断具体页面的效果。"
+    ]
+  }
+}

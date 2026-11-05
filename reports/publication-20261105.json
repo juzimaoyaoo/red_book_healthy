@@ -1,0 +1,65 @@
+{
+  "account_id": "2689093300",
+  "posts": [
+    {
+      "status": "PUBLISHED",
+      "account_id": "2689093300",
+      "title": "明天带饭：热菜要等凉透再放冰箱吗？",
+      "time": "2026-11-05T10:43:53.440598+00:00",
+      "identity": {
+        "package_hash": "b29a2bb234dd2847542fd03e686843df984a3f81ed743cf8fb2d02fae242555d",
+        "images": {
+          "content/2026-11-05/agent-v3/p01/images/01.png": "b221020cbd2a06a9ec6f1471bbd2a35aa5cb84a0f126d32e37e4164a43a7a882",
+          "content/2026-11-05/agent-v3/p01/images/02.png": "b080e3144a115ee06b1bbd5c30648b9f7c7b67d99aaa2aacbdc8f904c5ad91d1",
+          "content/2026-11-05/agent-v3/p01/images/03.png": "184d0a87efea8c75b3c8dd40485346ba97599a57a3db33c960e49afebf69393c"
+        }
+      },
+      "submission_hash": "58cc33206f678afd73daa849d4f56e3e7e29e506ae57f105f0e6de9639dd1ea5",
+      "ai_declaration": true,
+      "submit_click_count": 1,
+      "preview": "data/publication-20261105/p01-preview.json",
+      "platform_check": "本轮核一般食品安全知识；无诊断/用药/资质暗示，无商品或营销；已查医疗科普资质及AI来源标注要求，手机未要求专业身份认证。非平台豁免证明。",
+      "policy_sources": [
+        "https://www.nhc.gov.cn/wjw/mtbd/202508/fcf3c0956a9441d781ca529030a42d6b.shtml",
+        "https://school.xiaohongshu.com/rule/detail/2569"
+      ],
+      "platform_success_toast": true,
+      "published": true,
+      "verified_at": "2026-11-05T10:45:03.328625+00:00",
+      "visibility": "公开可见",
+      "evidence": [
+        "data/publication-20261105/p01-profile-readback.json",
+        "data/publication-20261105/p01-detail-readback.json",
+        "data/publication-20261105/p01-public.png"
+      ],
+      "url": "https://xhslink.cn/o/1Xg3yqwAlDb"
+    },
+    {
+      "status": "PUBLISHED",
+      "account_id": "2689093300",
+      "title": "提前上床还是睡不着？把这3个时间分开安排",
+      "time": "2026-11-05T10:49:46.128531+00:00",
+      "identity": {
+        "package_hash": "3c7b01053efb07d9d701a287ab9ac505812e6f5073a1e8e8e978dba6dbaea36e",
+        "images": {
+          "content/2026-11-05/agent-v3/p02/images/01.png": "00acef41c0c957839e1fecda9e15955649a20671998995c99ab7e5d7d2ff7053",
+          "content/2026-11-05/agent-v3/p02/images/02.png": "7363a136b98e20e48984d1fb4e367b116217edbfce7b6471fd7c0ca2fa437e29"
+        }
+      },
+      "submission_hash": "6484f33d077dc1b812592feee476b7f29a25b6999a78823c759f20aa91b07b14",
+      "ai_declaration": true,
+      "submit_click_count": 1,
+      "preview": "data/publication-20261105/p02-preview.json",
+      "platform_check": "一般白班成年人生活作息安排，不诊断或治疗失眠，无药物建议或医生身份暗示，保留就医边界与NHS来源；已查医疗科普资质及AI来源标注要求，手机未要求专业身份认证。非平台豁免证明。",
+      "published": true,
+      "verified_at": "2026-11-05T10:50:56.844831+00:00",
+      "visibility": "公开可见",
+      "evidence": [
+        "data/publication-20261105/p02-profile-readback.json",
+        "data/publication-20261105/p02-detail-readback.json",
+        "data/publication-20261105/p02-public.png"
+      ],
+      "url": "https://xhslink.cn/o/AFhRDMIxElj"
+    }
+  ]
+}

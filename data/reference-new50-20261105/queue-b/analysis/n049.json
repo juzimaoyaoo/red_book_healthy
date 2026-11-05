@@ -1,0 +1,120 @@
+{
+  "time": "2026-11-05T12:22:33.083869+00:00",
+  "source_identity": {
+    "source_sha256": "2d10904b9622a97aaa836c9bb1001e1628fcb42abf8439f7139d4587f7e52e08",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049.png": "4ee38632bd4e3a784f7f797b2e8b7f8c86cd22ed53117a7905f80d0fe2ebf33d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page2.png": "83acd5ee01723cbedbb2020a3ee551937011a9c89a0e92bcebfeb959248b2c77",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page3.png": "825387f376ad9b32d761c8260b65aeded2b285fcc273a7b3c5a4f95b788b6425",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page4.png": "3abb3f39439e435dad86d1987684af83cd9db5c6867887a5fb91142cc54547ff",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page5.png": "bce32f17a8f7e137ec1c1457b797796a9efeaf23c8c936f0bb73e964447ee499",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page6.png": "7536bd5ada2d8b07fe15b2375811e0b3581ba01e4df742cb856950b27520f8b5",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page7.png": "6a3c18a083d872139ff2be0542e186b76f98fd5f7b72d8064b0915986521feeb",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page8.png": "cf8f34c16fcaffba5bb3fe6cf52be27e0a3ba4889dda8766127a4005d460af43",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page9.png": "20fb49df3ed7709f8869f87a8c889c142494f90e896693d19850c6607c74f03c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page10.png": "516a6ba4c2170ba1ebace58bd25f8a736040c7ba73f40a710e4c6959a97f63e2",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page11.png": "475a2355381f1d7e3cebd2e1e58e4e4028231cc3a616c6df644c4f4ddeb9629d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page12.png": "45fe4c5e4e8469a90c19cb841579940d81c050bfd11c38cfc7d663d615009664",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page13.png": "5824089179c3a1311d36c6cd92291d740315d2d5772525175ad32de27ce76550",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page14.png": "6a341991d4a9915da34dc8ef2702da29f627b935c308f6f2ae086443b4867ca6",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page15.png": "69b778dd29b283e5067aa83195adfcab2fbc661dbd99c896650136565ae0718a"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 341.23,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 157397,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8028,
+          "reasoning_output_tokens": 116
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n049",
+    "title": "协和专家说「存肌肉」上热搜",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：全部15张图片已读取，包含正文、食物换算、训练频次段和参考资料。第14页底部书目有截断，第15页可见续文；不影响实质正文完整性，但不视为完整书目转录。",
+    "reader_problem": "关注年龄与力量变化，想开始力量活动，又担心时间不够、饮食复杂或体型变化。",
+    "scene": "读者从热搜进入话题，将中年身体变化、女性健康担忧和日常吃饭安排联系起来。",
+    "title_mechanic": "输入标题借专家与热搜建立关注入口；封面用年龄阈值和损失数字制造紧迫感，再用训练频次与掌心份量承诺低门槛解决方案。",
+    "title_promise_limits": "封面“就够了”把复杂问题压缩为统一方案；正文反而引入不同蛋白需求、训练条件和多项健康议题。封面肌力数字与正文肌肉量变化并非同一指标，不能互相替代；正文也未证明35岁是统一干预分界。",
+    "content_structure": [
+      "第1页：运动人物照片叠加年龄、数字和简化方案。",
+      "第2—3页：从体感变化与节目话题进入，区分肌肉量和力量，并加入女性生命阶段讨论。",
+      "第4—6页：分别展开骨骼、血糖、体态及盆底议题，插入作者个人训练经历。",
+      "第7—8页：回应女性担心体型变壮的心理阻力，再转向饮食内容。",
+      "第9页：从体重相关蛋白量换算到一日食物示例。",
+      "第10—11页：补充食材选择、分餐安排和维生素D。",
+      "第12页：回到力量活动频次与动作类别，并引入饮食记录小程序。",
+      "第13—15页：列参考资料。"
+    ],
+    "answer_payoff": "表达上把抽象营养量换成餐次与食物，并回应开始行动前的心理障碍；但封面承诺比正文条件更强，且一张照片或动作清单不足以交付可执行训练方案。",
+    "visual_observation": "可观察：封面为灰色背景运动人物照片与大号白字；内页白底黑字、红色竖条标题、红色下划线强调。第3页年龄曲线未见纵轴或误差范围；第9页用四格餐次图对应食物；第10页左右比较食材；第11页比较分餐与集中一餐；第12页以人物动作和日历构成活动清单。机制推断：餐次图便于查用，但曲线容易让示意性的年龄节点看起来像精确预测。",
+    "observed_page_count": 15,
+    "source_and_claim_limits": "原文关于年龄相关肌力与肌肉量下降、女性肌肉不足比例、激素与肌肉变化、骨密度、血糖、姿态和盆底关系、男女增肌差异及年增肌量均待核。蛋白质每公斤体重数值、每餐克数、掌心换算、维生素D建议及每周训练次数与动作全部待核，不沉淀为处方。机构、专家、热搜和引文不能替代核源；相关性、机制和干预效果需分别核对。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "把问题与简化方法并列能明确阅读收益，但“够了”需要明确目标和适用对象，否则会把入门提示包装成充分方案。",
+        "observed_anchor": "每餐1掌心蛋白就够了",
+        "new_application": "将另一项生活行为标题改成“先检查这几项”，把是否充分留给个体条件与核验证据。"
+      },
+      {
+        "stage": "content",
+        "rule": "第7—8页主动处理行动前的体型顾虑，使读者能判断自己的犹豫来自什么；回应应依靠可核验的目标与预期，而非嘲笑担忧。",
+        "observed_anchor": "怕练成金刚芭比吗",
+        "new_application": "为久坐新手设置顾虑问答，分清时间、场地和目标问题，再给对应的信息查找入口。"
+      },
+      {
+        "stage": "visual",
+        "rule": "第9页把抽象总量拆到餐次，图形解释的是整体如何分配；换算图必须标明只是示例及其计算前提。",
+        "observed_anchor": "换算成食物的话",
+        "new_application": "制作不带统一目标值的饮食记录空表，让读者填写实际食物，再由已核数据完成换算。"
+      },
+      {
+        "stage": "visual",
+        "rule": "第3页曲线把多个年龄节点串成连续趋势，但缺乏量纲时应明确标为示意，避免读者据此预测自身变化。",
+        "observed_anchor": "35岁窗口期",
+        "new_application": "用证据卡分别列出各研究的年龄范围、测量指标和不确定性，不绘制未经数据支持的平滑曲线。"
+      },
+      {
+        "stage": "review",
+        "rule": "复核封面、正文和插图是否始终使用同一指标，防止肌力、肌肉量和体型在不同页面被混用。",
+        "observed_anchor": "肌肉量的规律",
+        "new_application": "建立术语核对列，每个数字绑定测量指标、研究对象和来源，无法对应的封面数字删除。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用专家身份及热搜作为医学论据。",
+      "不复用年龄损失数字与“就够了”的统一承诺。",
+      "不把肌力下降、肌肉量下降和体型变化当成同一结果。",
+      "不把作者私教经历改成本号实测。",
+      "不将动作插画视为训练教学或安全保证。",
+      "不把营养记录工具推广当作证据。"
+    ],
+    "transformations": [
+      "面向久坐新手，改成开始活动前的问题清单；证据改为待核的入门评估材料，决策改为选场地、找指导和明确目标。",
+      "面向家庭做饭者，改成真实餐盘记录练习；使用已核食物成分数据，形式改为可填写表格，不预设所有人的营养目标。",
+      "面向健康编辑，改成封面数字审稿案例；比较肌力、肌肉量与体型三个指标，交付承诺对齐检查表。"
+    ],
+    "limitations": [
+      "全部实质正文已见，部分书目细节受页底裁切影响。",
+      "未核实研究及其适用人群，不能确认数字、换算或训练建议。",
+      "曲线图与食物插图属于解释材料，不能视为实测结果。",
+      "输入标题、封面标题和正文交付存在差异，需分别评估。",
+      "点赞881、收藏557、评论131没有曝光分母，不能证明某种写法有效。"
+    ]
+  }
+}

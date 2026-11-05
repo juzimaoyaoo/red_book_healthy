@@ -1,0 +1,112 @@
+{
+  "time": "2026-11-05T11:16:19.811883+00:00",
+  "source_identity": {
+    "source_sha256": "0b2135f03f30d4b610ffbc8358c213ccd607de39fa6182c467f0dd2e8d90ed60",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002.png": "6cc5dd3c5668bfb3781a87d54255e4f640efc73c0a307f810bb1b6107f91913d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page2.png": "65f3a3b1564f90d4f0c610c41bbd5c2e943bafe0b5a281aa7e6b219e6b0530bd",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page3.png": "f21db0734c3ef5c336283bdb51695413bbdecc69cba25afb08a474f19476cc18",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page4.png": "01573b7ec94b830a31ae313e2b2fd9be9d205e99950f3d4fe59a61ccd510f999",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page5.png": "2aed2698d8155f472e21320e8ea4b5bbce4f584165ad244e898000a9dd43897d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page6.png": "ba22c75efa40afd9cb02901c80906d500e9a8d98dd9629bc5654faa3b005a73b",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page7.png": "14f29e453194dac3235fba3698db4f4752d9d1a222bdc094c4651eae5e4ab572",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page8.png": "824795df5f836c7fcf9ffba57fce2b9cdbd9bb7f1303589c66d03a8c82ac91da",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n002-page9.png": "257c4dd8af2bff54fd4f2ccf0dc481c3f122316155835c7adf82159a01f2e42c"
+    }
+  },
+  "receipt": {
+    "call_id": "001-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 286.53,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 61463,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6520,
+          "reasoning_output_tokens": 85
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n002",
+    "title": "12点吃撑2点又饿，真不是猪瘾犯了",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：九张轮播全部提供并可读取，实质正文和参考文献均在图片中。positive_editorial仅指表达与结构可学。",
+    "reader_problem": "午餐吃得很撑却很快又饿，想理解这种矛盾，并知道下次如何检查自己的餐食。",
+    "scene": "午餐后不久又想找零食，回顾刚吃过的一餐。",
+    "title_mechanic": "用两个时间点构造反差，再回应读者对贪吃的自我评价，制造解释需求。",
+    "title_promise_limits": "正文同时提供解释和餐食选择步骤，回应了标题任务；但标题的确定语气容易让读者把个人饥饿直接归入文章提出的机制。",
+    "content_structure": [
+      "第1页：大字矛盾问题配空碗照片。",
+      "第2页：复述体验，进入第一种机制，并介绍研究样本和记录规模。",
+      "第3页：延续餐后血糖解释，用双曲线对照，再引出胃排空。",
+      "第4页：比较食物成分与质地，转入饱食信号。",
+      "第5页：比较三类营养素，开始第一步食物选择，列出蛋白质候选与份量。",
+      "第6页：增加蔬菜、主食选择及份量，用餐盘图整合前三步。",
+      "第7页：增加进食顺序和饮汤提醒，以个人经验提问收尾，开始列参考文献。",
+      "第8至9页：续列参考文献，共可见编号1至9。"
+    ],
+    "answer_payoff": "从为什么又饿推进到检查一餐包含什么，并以食物例子、手势份量和餐盘图提供查用入口；这些操作内容仍需医学核验。",
+    "visual_observation": "整体为备忘录界面、白底黑字与黄色标记。首图空碗建立吃完饭的情境；第3页红绿曲线解释两种假定变化轨迹；第5至6页灰色步骤框和勾选项区分行动层级；第6页餐盘与手势对应食物类别和份量。正文页文字较密，第8至9页主要承担文献追溯。",
+    "observed_page_count": 9,
+    "source_and_claim_limits": "原文提出胰岛素反应、餐后血糖下降、胃排空与饱食激素等机制，并引用1070人、8624顿早餐、7万多顿进食、312 kcal等数值；这些均未独立核验。图中餐后相对基线下降不能直接当作临床低血糖诊断。将特定试验推广为日常饮水限制、固定进食顺序、手掌份量及普遍抗饿效果，是否成立均待核。九条文献可见不等于每条主张已被支持，作者身份亦不构成验证。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "用同一天中两个相冲突的体验建立问题，让读者先识别自己是否遇到过，再进入解释；标题避免提前排除所有其他原因。",
+        "observed_anchor": "12点吃撑2点又饿",
+        "new_application": "围绕饭后体验提出可观察问题，正文先列需要记录的信息，再讨论经核验的可能解释。"
+      },
+      {
+        "stage": "content",
+        "rule": "从机制页转向行动页时使用明显的任务切换，告诉读者接下来要做选择，而不是继续记术语。",
+        "observed_anchor": "第一步：选蛋白质",
+        "new_application": "前半段解释问题，后半段改用检查清单，每一步对应一个可观察项目及其证据边界。"
+      },
+      {
+        "stage": "visual",
+        "rule": "曲线对照应明确横轴、纵轴、基线和比较条件，帮助读者识别差异发生在哪个阶段；示意关系不能伪装成实测结果。",
+        "observed_anchor": "血糖水平（相对值）",
+        "new_application": "用标有示意性质的双图展示待解释变量，同时写清不能由图诊断个人情况。"
+      },
+      {
+        "stage": "visual",
+        "rule": "在多个选择步骤之后增加整合图，让读者检查各类别怎样共同组成一个整体，而非只记住单个食物。",
+        "observed_anchor": "一顿真正抗饿的餐盘",
+        "new_application": "将经核验的分类信息放入可标注餐盘，读者用它回顾自己的订单，不直接复制原图份量。"
+      },
+      {
+        "stage": "review",
+        "rule": "参考文献需要逐条对应具体主张，并检查从研究条件到生活建议是否跨越了证据范围。",
+        "observed_anchor": "参考资料",
+        "new_application": "编辑阶段建立主张、研究对象、研究结果、可外推范围四栏核对表。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复制猪瘾等羞辱性自我标签。",
+      "不把饥饿统一解释为血糖或胰岛素问题。",
+      "不复制红绿曲线的具体形状来宣称普遍生理反应。",
+      "不移植饮水限制、进食顺序、手势份量及研究数值。",
+      "不以文献数量或作者职业替代逐项核验。"
+    ],
+    "transformations": [
+      "面向轮班工作者，以饮食与饥饿记录作为材料，制作观察日志，按是否反复出现决定后续查证问题。",
+      "面向学生食堂用餐者，用匿名餐盘照片和经核验的分类资料，改成找信息缺口的互动图卡。",
+      "面向照护家人的成年人，以就诊前可记录的信息和可靠医疗资料为依据，制作描述饭后不适的问诊准备单。"
+    ],
+    "limitations": [
+      "全部九页可读，但未访问或核验任何论文。",
+      "图表未呈现原始数据、误差或明确适用人群，不能当作实测证据。",
+      "最后两页及第7页部分篇幅用于参考文献，不能理解为九页均新增行动建议。",
+      "没有读者使用结果，不能判断建议效果或传播机制。"
+    ]
+  }
+}

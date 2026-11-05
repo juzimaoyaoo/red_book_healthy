@@ -1,0 +1,64 @@
+{
+  "artifact_hash": "3c7b01053efb07d9d701a287ab9ac505812e6f5073a1e8e8e978dba6dbaea36e",
+  "review": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "reader_value",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "③ 上床：有困意再上床，不要求自己到了某个钟点就必须睡着。",
+        "reason": "回答提前躺下仍清醒的具体困惑，给出可执行的判断条件，读者能据此调整安排。"
+      },
+      {
+        "dimension": "whole_article",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "你可以替换例子里的钟点，安排自己的放松时段，同时给睡眠留出时间。",
+        "reason": "全文从三个时间的区别走到具体日程，再说明个体差异和就医边界，完成了一个范围适当的小选择。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "起床｜固定时点\n每天同一时间醒来，并离床",
+        "reason": "第一页将起床、放松、上床分别对应固定时点、预留时段和困意，建立清楚的安排原则。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "22点到7点预留9小时，不等于实际睡了9小时；22点也不是统一入睡标准。",
+        "reason": "第二页增加可替换的日程示例、未困时的分支和睡眠时长解释，具有独立增量，并非只重复第一页。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "困了 → 上床\n没困 → 在床外继续安静放松",
+        "reason": "标题醒目，三张卡片层次一致，文字对比充分；缩略图能辨认主题，展开后判断条件清楚。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "有困意 → 上床\n还不困 → 在床外继续安静放松，不转去工作或刷手机",
+        "reason": "时间轴与两处分支的对应关系可辨，补充说明和就医提示分区清楚。此页文字较密、出处较小，但主体无截断或遮挡，缩略图标题仍可识别。"
+      },
+      {
+        "dimension": "title_payoff",
+        "verdict": "PASS",
+        "location": "title",
+        "quote": "提前上床还是睡不着？把这3个时间分开安排",
+        "reason": "正文和图片均明确交付三个时间的安排方式，并用一晚日程示范，标题没有承诺保证入睡或治疗效果。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "保留“起床固定、放松预留、上床看困意”的清楚区分。",
+      "保留22点仍不困时的具体分支，帮助读者处理实际卡点。",
+      "保留钟点可替换、预留时长不等于实际睡眠的说明。",
+      "保留就医提示和困倦时不要驾驶的提醒。"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fact-lunch-arrival",
+  "kind": "official_fact",
+  "title": "FoodSafety.gov: Bag Lunches for School and Work",
+  "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-by-events-and-seasons",
+  "updated_on": "2025-11-13 (Date Last Reviewed)",
+  "retrieved_on": "2026-11-05",
+  "text": "Bacteria that cause food poisoning grow rapidly at temperatures between 40°F (4°C) and 140°F (60°C). To make sure perishable lunches and snacks are safe, pack them with two cold sources. Store them in a refrigerator or cooler on arrival, if one is available.",
+  "provenance": "本轮web.run打开官方网页，Bag Lunches for School and Work连续原文，第34—40行。",
+  "applicability": "易腐午餐；到达后的冷藏/冷藏箱，不能把普通袋当冷藏箱。"
+}

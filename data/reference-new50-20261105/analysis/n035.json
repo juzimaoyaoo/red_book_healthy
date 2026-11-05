@@ -1,0 +1,115 @@
+{
+  "time": "2026-11-05T12:01:38.733282+00:00",
+  "source_identity": {
+    "source_sha256": "6180e5aaea84e6ed059b454a58af11f40b0a802c91af5904a2cc84fd71a7da27",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035.png": "ca49e3119a6372534357249a8e4feeab610125aa1317a5914f1f8064388e121a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page2.png": "9da6f1a540455f0c4ca12a913f7994a9424f32fed221f3940fafcde876da4c4c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page3.png": "79ff63ab7ba71fd2dbf10512cf8a2d93f606d326f66b1aedcca651e7349cbba5",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page4.png": "92834db3549af165f88b00ed1642a183292a53d5a349ef3eb22770cfe2a474dd",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page5.png": "8d015afaa038c7454fe4a5a448d0c990b1f17a5e30a694e0c2a031a4649de74f",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page6.png": "c14ca38e12eb24dd677d1c28b9e37eadc3d45f744cb5988d91fb4d3cc2a5361d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page7.png": "42cebc8bf428e85833e4c6b9a974723bd1ae83d14651ffe8af73eb826a189851",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page8.png": "cd87155c5f0f70c87fd23c226de6ee68bbbfb99922eb6c3f3eb7d8e15478136c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page9.png": "4cc59f7f74900c648c0c356a787860bc37da40328b93eaaecfc5b50c088d6022",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page10.png": "7575942ba2cd51ffb333c30c3e38469e4bbef31e9cc4ab83f6d65deb1a2515e5",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n035-page11.png": "263ce6dc5fd6491b480cdb13e8cf134694e6a3aafbc71892c5c2a2f52579135e"
+    }
+  },
+  "receipt": {
+    "call_id": "005-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 309.38,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 82209,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7592,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n035",
+    "title": "【超详细】一篇学会看配料表+营养成分表！",
+    "usable_as": "contrast",
+    "completeness": "完整正文及全部11张图片均已提供且主要内容可读。前7页为教程，第8页转入指定产品评价，第9至第11页集中展示该产品。并非纯营销，但教学与推介明显混合。",
+    "reader_problem": "希望识别包装宣传中的低糖、高蛋白等信息，综合配料表和营养成分表作购买判断。",
+    "scene": "包装食品选购，以及对一款具体零食的标签解读与推荐。",
+    "title_mechanic": "“超详细”“一篇学会”承诺减少多处查找，配料表加营养成分表的组合扩大覆盖面；封面用多个疑问把表格数字转成购买判断。",
+    "title_promise_limits": "11页确有步骤与逐项示范，但后四页转向一个品牌，答案从通用识别滑向指定商品推荐。“避开90%智商税”没有展示统计依据；教程也不足以支持对健康食品的无条件判定。",
+    "content_structure": [
+      "第1页：以示例营养表及热量、蛋白、糖、盐疑问建立学习目标。",
+      "第2页：用配料排序说明主要成分，并以面包和乳饮品包装作辨识练习。",
+      "第3页：新增糖、添加剂及反式脂肪酸识别，同时出现多项概括性排除规则。",
+      "第4页：转向营养表，圈出能量并展示换算，提醒每100克与每份的区别。",
+      "第5页：沿用同一表格，改圈蛋白质，提出比例判断及蛋白来源说明。",
+      "第6页：改圈脂肪和钠，补充阈值、换算与隐形盐内容。",
+      "第7页：改圈碳水、糖及膳食纤维，补充声称条件和控糖判断。",
+      "第8页：以指定猪皮零食作实操，按初级、中级、高级判断递进，最后给出明确购买推荐。",
+      "第9至第11页：展示品牌包装、实物口感和口味，持续补充产品卖点。"
+    ],
+    "answer_payoff": "同一张表格逐页移动红框，清楚展示每一步在读取哪个字段，是可用的教学表达。第8页本可检验前文方法，实际却以递进判断强化单一产品的正面结论，未充分展示不利信息和其他选择，独立决策价值受限。",
+    "visual_observation": "可观察事实：前8页主要使用深绿边框、白底、红黑标题及浅绿步骤条；第4至第7页重复同一营养表，以红框移动突出不同字段；第8页将包装图与三级判断并排；后3页转为大面积实物照片及白色卖点贴条。机制推断：固定表格提供稳定参照，移动红框解释注意力应落在哪一行；从教程到照片的切换，将阅读任务由学习转向商品感知，可能使前文的教学可信感延续到推介。",
+    "observed_page_count": 11,
+    "source_and_claim_limits": "未核验文中的食品健康判断、营养声称阈值、NRV解释及高蛋白比例法、配料排序规则适用条件、糖与膳食纤维归类、脂肪和钠相关数值、添加剂规则及生效日期。原文将多种油脂和原料概括为反式脂肪酸别名，将配料短少等同更健康，并将猪背皮评价为优质蛋白和健康零食，均待核，不能进入建议库。产品标签按每10克展示，第8页购买结论未充分展开实际食用份量与其他字段。“去油去脂”、产地、口感及品牌背书未获独立证据。不能确认是否存在商业合作。截图互动数不证明推荐公正或有效。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "综合教程标题可以列出两种工具，但必须交代它们各回答什么问题，避免把覆盖面当成学会的证明。",
+        "observed_anchor": "配料表+营养成分表",
+        "new_application": "以“两张表分别告诉你什么”为题，分别交付原料信息与标示含量的读取任务，不承诺一次掌握所有购买判断。"
+      },
+      {
+        "stage": "visual",
+        "rule": "连续页面固定同一张示例表，只移动高亮字段，让读者知道新增的是读取任务，而不是换了比较对象。",
+        "observed_anchor": "看蛋白质",
+        "new_application": "对经授权的同一包装，逐页圈单位、每份量和目标字段，保留完整上下文，避免局部裁切隐藏信息。"
+      },
+      {
+        "stage": "content",
+        "rule": "规则后加入实物练习，要求读者先指出依据再作判断；练习应检验方法，而非预设唯一商品结论。",
+        "observed_anchor": "练习一下",
+        "new_application": "提供两款同类产品的完整标签，让读者标出哪些问题能回答、哪些仍缺信息，再展示经核对的解析。"
+      },
+      {
+        "stage": "review",
+        "rule": "实操结论必须能追溯到前文规则，并解释不利字段；不能用高级判断的名义跳过份量和反向证据。",
+        "observed_anchor": "高级判断",
+        "new_application": "为案例增加“支持信息、限制信息、尚不能判断”三栏，先完成同基准比较，再讨论选择条件。"
+      },
+      {
+        "stage": "review",
+        "rule": "逐页审查功能变化，记录哪一页从教学转为推介，避免将产品卖点当成通用知识沉淀。",
+        "observed_anchor": "可入手",
+        "new_application": "参考库将第8页的结论跳跃单独标记，保留前文的字段定位方法，不继承后续推荐。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用“避开90%智商税”的无依据比例。",
+      "不把添加剂少、配料短或所谓无科技作为健康判定。",
+      "不沿用油脂原料等同反式脂肪酸的排除清单。",
+      "不沿用猪皮蛋白、低糖与整体健康之间的证据跳跃。",
+      "不复制品牌卖点、作者测评经历或未证实的商品属性。"
+    ],
+    "transformations": [
+      "面向便利店采购的上班族，制作两款同类零食的盲标签练习；证据换为完整包装与核验标准，决策改为按相同基准比较，不给单品背书。",
+      "面向家庭食品采购者，做“包装正面说法与背面信息”对照册；形式改为问答练习，证据涵盖能确认与不能确认的内容。",
+      "面向健康内容编辑，制作教学转推介的审稿案例；受众换为编辑，决策改为定位规则失效和证据缺口，使用逐页标注而非商品推荐。"
+    ],
+    "limitations": [
+      "包装局部和底部说明存在小字号，未对无法清晰辨认的细字作补写。",
+      "未提供商业合作标识、检测报告或商品来源，不能确认推介关系及商品主张。",
+      "未核当前适用法规，涉及2025年日期和标签规则的内容仅保留为原文待核主张。",
+      "全部图片可读不等于案例论证充分，也不等于产品经过独立测评。"
+    ]
+  }
+}

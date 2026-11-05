@@ -1,0 +1,95 @@
+{
+  "time": "2026-11-05T12:01:38.731078+00:00",
+  "source_identity": {
+    "source_sha256": "5aad0c524f15c1132d75c05b825e42fe31c5b4544e4ba7314fc0be18b1568309",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032.png": "034a16013cfb8392d93e09808f14365dfa4c18a6c91c0c5ed3a1dc54817f8487",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032-page2.png": "97c68816b525300395d282704af3987b5c7afeeecc83600264fc248b8ccf4386",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032-page3.png": "0a385918a83a27c0b7d937b96c2cb8a13dc017fad0beb474789403c5c581489c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032-page4.png": "2d60ce56f23e0f5e1534c4429c6cf8b569c23b9c5ec6bdb7684d1da3bb5a301e"
+    }
+  },
+  "receipt": {
+    "call_id": "005-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 309.38,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 82209,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7592,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n032",
+    "title": "真的，我的午睡只要15分钟",
+    "usable_as": "exclude",
+    "completeness": "不完整。4张截图均已提供，但第2至第4张的图片区域为空白，无法读取其内容；第1张末尾引出具体做法，输入正文又在句中截断，因此不能视为完整内容样本。",
+    "reader_problem": "习惯午间长时间补觉的人，想知道短午睡是否可能让自己恢复状态，以及如何调整。",
+    "scene": "作者回顾熬夜期间午间长睡的体验，再描述早睡一段时间后的短午休体验。",
+    "title_mechanic": "“真的”提供口语化确认，“我的”限定个人叙述，“只要15分钟”用具体数字制造短时间与足够休息之间的反差。",
+    "title_promise_limits": "标题表面限定个人体验，但首图出现短睡抵长睡的比较，容易外溢为普适效果承诺。可见内容停在“我是这样做的”，做法未读取，无法判断完整答案是否兑现。",
+    "content_structure": [
+      "首图：备忘录式长文截图，标题与发布标题一致。",
+      "可见开头：交代作者自述的早睡时点与持续月份，描述当前午休体验。",
+      "可见中段：回忆以往熬夜、午间长睡及醒后感受，与现在形成前后对照。",
+      "可见结尾：归纳早睡与午休体验的联系，并引出具体做法。",
+      "第2至第4张：截图图片区域为空白，不能判断原页内容或实际方法。"
+    ],
+    "answer_payoff": "可读部分提供了一个人的体验变化与继续阅读的理由，没有展示具体操作和观察方法，无法评估方法是否可执行、是否有边界。",
+    "visual_observation": "可观察事实：首图为米色纹理背景上的备忘录截图，黑色正文夹蓝色重点句，整页文字密集；底部仍在引出下文。其余三张只有平台界面、页码和空白图片区域。机制推断：蓝色句子可能形成第二阅读路径，备忘录外观可能增强私人记录感；不能由此外推内容真实或方法有效。",
+    "observed_page_count": 4,
+    "source_and_claim_limits": "作者自述的早睡时点、持续月份、午睡时长、短睡优于长睡及节律改善之间的因果，均未核验，只能作为待核个人叙述。不能将该经历转成本号经历，也不能沉淀为固定作息建议。点赞1342、收藏864、评论45是截图显示值，不证明方法有效或标题带来互动。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "第一人称可以明确叙述范围，但具体数字会形成效果预期；标题和正文都要保留个人观察的限定。",
+        "observed_anchor": "我的午睡",
+        "new_application": "使用经授权的读者记录时，以“这份午休记录里，哪些变化值得继续观察”作标题，不把个人时长变成建议。"
+      },
+      {
+        "stage": "content",
+        "rule": "前后对照应保留同时变化的条件，帮助读者判断变化可能来自哪些因素，不能只保留最醒目的时间差。",
+        "observed_anchor": "坚持九点半早睡",
+        "new_application": "将夜间作息、午休环境、工作安排和主观感受并排记录，明确无法从单人记录确认因果。"
+      },
+      {
+        "stage": "visual",
+        "rule": "长文截图的强调色应串起问题、变化和证据三类信息，让扫读者仍能理解叙述范围。",
+        "observed_anchor": "如何拥有一个好的午休质量",
+        "new_application": "改成分区观察卡，用标注分别指向背景条件、实际记录和未回答的问题，避免只高亮效果句。"
+      },
+      {
+        "stage": "review",
+        "rule": "出现引出方法的结尾而后页不可读时，必须停止评价答案完整性，不能按图片数量推定已读全。",
+        "observed_anchor": "我是这样做的",
+        "new_application": "样本库保留缺页状态，仅记录首图叙述与视觉特征，补齐实质页面后再评估方法结构。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用作者五个多月的作息经历。",
+      "不沿用“睡10分钟抵过2小时”的效果比较。",
+      "不猜测空白三页中的做法、清单或结论。"
+    ],
+    "transformations": [
+      "面向轮班工作者，改成作息与午休体验的匿名记录访谈；证据换为真实记录，形式换为条件对照表，不预设早睡时点。",
+      "面向午休时间有限的照护者，设计可填写的休息条件日志；受众和决策方式改为寻找可行安排，不选择统一时长。",
+      "面向健康内容读者，制作“个人经验能说明什么”的证据辨识卡；从经历分享转为区分观察、推测和待核结论。"
+    ],
+    "limitations": [
+      "四张截图中只有首张包含可读的文章图片内容。",
+      "无法判断空白来自加载、采集还是其他原因。",
+      "完整操作、后续解释、结尾和可能的限制条件均不可见。"
+    ]
+  }
+}

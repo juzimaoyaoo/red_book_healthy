@@ -1,0 +1,104 @@
+{
+  "time": "2026-11-05T11:24:39.151038+00:00",
+  "source_identity": {
+    "source_sha256": "fc79142facd47d9c6e57bd84d53068efa56ac38b89b0ed6ce60e0078202565f9",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n011.png": "bed5fe67a743fbeee48d6f576c40304189ad9d1e7c007f3d92e49fc58a8ea54d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n011-page2.png": "667f5fd07b87a1c92241a976d348b0e4a5ed50c74eda91c9bcadc21baee997ca",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n011-page3.png": "ce1e8a02aa15676a3e0733e9edeb496cd7a8d2f1b7c73cfcdd4043d2fd692054",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n011-page4.png": "d13a141edaf86bcdf898565e7c554a08968577f189f2061a9b0d00eaf79b7ad8",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n011-page5.png": "16d171b20c36e478136a12938d73367769eb8c84512a0c3208b04df2dc89be5c"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.42,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80152,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7489,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n011",
+    "title": "有起床气不是因为脾气差👉查看真相",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：已提供正文及全部5张实质图片，页码1/5至5/5连续，主要文字可读。",
+    "reader_problem": "早晨容易烦躁，并把自己归为脾气差；希望理解这种体验，减少自责，也向身边人解释自己的状态。",
+    "scene": "没睡够的早晨，看伴侣刷牙、邻居表情和老板脸色都不顺眼。",
+    "title_mechanic": "正文标题用否定人格归因制造解释需求；封面用“起床气到底怎么来的”明确问题。前者提供情绪入口，后者承诺机制解释。",
+    "title_promise_limits": "兑现了分层解释和情绪安慰，但“不是因为脾气差”排除了其他可能性。表达结构可学，单一原因式结论不能直接继承。",
+    "content_structure": [
+      "第1页：提出起床气来源问题，用睡够与没睡够的威胁评分示意建立比较。",
+      "第2页：新增对他人表情负面解读的解释，以吸引力和可信任评分柱图展开。",
+      "第3页：新增情绪反应与控制的解释，用脑区示意和反应高低图呈现。",
+      "第4页：从单晚扩展到连续多日睡眠不足，加入情绪变化话题。",
+      "第5页：用四条总结收束，再以较小文字提供安慰和生活态度。",
+      "正文：用三个日常人物场景代入，重复核心解释，以负面情绪应对经验提问结束。"
+    ],
+    "answer_payoff": "主要收获是把笼统的“我脾气差”拆成感知、情绪反应和连续状态三个理解层次；实际查用价值偏解释与沟通，具体应对决策较少。",
+    "visual_observation": "全篇采用紫色外框、白色圆角卡片、黑色正文与紫色重点。第2页并列柱图比较两种睡眠条件下的两项评分；第3页将反应差异图与脑区关系图并置。第4页文字谈积极情绪减少，图的纵轴却是消极情绪，曲线也未呈持续累加，图文不能直接互证。截图中的研究图字号偏小，未见可追溯来源。",
+    "observed_page_count": 5,
+    "source_and_claim_limits": "原作者主张睡眠不足会影响表情解读、杏仁核反应、前额叶控制及情绪，并将起床气主要归因于睡眠不足；这些医学因果均待核。图中评分、显著性符号及连续天数数据缺少研究出处、样本与条件，不能作为已认证证据。第4页“自我消耗”和累加解释也待核。末页关于早睡早起及补觉的表述仅记录为原作者观点，不沉淀为建议。账号名称和互动数不构成事实证明。",
+    "transferable_rules": [
+      {
+        "stage": "topic",
+        "rule": "把抽象情绪放进同一个早晨的不同人际场景，让读者判断自己困扰的是特定关系，还是跨场景重复出现的状态；只能提出观察问题，不能据此诊断。",
+        "observed_anchor": "看啥都不顺眼",
+        "new_application": "写工作日烦躁主题时，分别列通勤、会议和家庭交流中的表现，请读者识别共同发生背景。"
+      },
+      {
+        "stage": "title",
+        "rule": "标题点出读者正在使用的自我评价，封面补足具体解释任务；正文需要回答这个评价为何可能不充分。",
+        "observed_anchor": "起床气",
+        "new_application": "以“早晨容易烦，先看看发生在什么情况下”为入口，用正文呈现观察维度，避免承诺唯一原因。"
+      },
+      {
+        "stage": "content",
+        "rule": "轮播每页增加一个不同层次：看到什么、反应怎样、状态持续多久，帮助读者区分现象和解释，避免连续几页只重复安慰。",
+        "observed_anchor": "几天睡不够",
+        "new_application": "制作状态观察卡，按当下表现、触发背景、持续变化逐页展开，最后汇总仍不能确定的部分。"
+      },
+      {
+        "stage": "visual",
+        "rule": "并列图适合解释条件之间的比较，关系图适合解释要素之间的联系；两种图各承担一个问题，并标明数据图或概念示意。",
+        "observed_anchor": "吸引人",
+        "new_application": "在新主题中，把经过核实的组间结果与概念关系分成两个模块，避免示意图冒充实验结果。"
+      },
+      {
+        "stage": "review",
+        "rule": "逐页核对标题中的变量、正文中的变量与图轴是否一致；出现积极情绪与消极情绪切换时，不能默认两者互为反面。",
+        "observed_anchor": "消极情绪",
+        "new_application": "审稿时为每张图写一句“这张图能支持什么”，发现变量不同就改图、改文或撤下论证。"
+      }
+    ],
+    "do_not_transfer": [
+      "把所有起床气归为睡眠不足的绝对判断。",
+      "没有出处的评分、显著性符号和脑区因果图。",
+      "把情绪变化解释成攻击所有人的确定后果。",
+      "用第4页现有曲线证明情绪影响持续累加。"
+    ],
+    "transformations": [
+      "面向合租者，改成晨间沟通情境卡：用虚构对话与可观察行为替代脑区解释，让读者选择如何描述状态。改变受众、证据和形式。",
+      "面向通勤上班族，制作早晨状态记录表：记录发生背景与实际表现，输出“还缺哪些信息”的判断路径。改变受众、证据和决策方式。",
+      "面向健康内容编辑，制作图文一致性练习：用自制示意图比较变量错位与正确标注，让读者判断图是否支持结论。改变受众、证据和形式。"
+    ],
+    "limitations": [
+      "仅观察本次正文与5页截图，未核原始研究、发布时间或后续修改。",
+      "图形方向和主要标签可辨，无法从截图可靠提取精确数值及误差范围。",
+      "互动数为单次可见快照，缺少曝光、历史基线和发布时间，不能归因于标题或版式。"
+    ]
+  }
+}

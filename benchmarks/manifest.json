@@ -1,0 +1,65 @@
+{
+  "collected": 62,
+  "included": 50,
+  "authors": {
+    "摸鱼养生专业户": 30,
+    "养生搭子小满": 6,
+    "丁香医生": 13,
+    "茶茶": 1
+  },
+  "excluded": [
+    {
+      "sample_id": "s031",
+      "reason": "短正文"
+    },
+    {
+      "sample_id": "s032",
+      "reason": "短正文且非健康主题"
+    },
+    {
+      "sample_id": "s033",
+      "reason": "租房"
+    },
+    {
+      "sample_id": "s036",
+      "reason": "美白护肤偏离核心定位"
+    },
+    {
+      "sample_id": "s040",
+      "reason": "美白护肤偏离核心定位"
+    },
+    {
+      "sample_id": "s042",
+      "reason": "泛生活哲理"
+    },
+    {
+      "sample_id": "s043",
+      "reason": "泛社交建议"
+    },
+    {
+      "sample_id": "s046",
+      "reason": "正文折叠/仅局部"
+    },
+    {
+      "sample_id": "s047",
+      "reason": "短正文且未核图片"
+    },
+    {
+      "sample_id": "s054",
+      "reason": "正文折叠/仅局部"
+    },
+    {
+      "sample_id": "s055",
+      "reason": "正文折叠/仅局部"
+    },
+    {
+      "sample_id": "s059",
+      "reason": "正文折叠/仅局部"
+    }
+  ],
+  "dataset_sha256": "2daddbe1456f08809e1f45cc8a0c22374c957a9915ce7dc4410789ed10939f60",
+  "data_source": "Mobile MCP: opened each note; accessibility text captured",
+  "coverage": "text only; images not evaluated; no claims of platform-wide popularity",
+  "api_run": false,
+  "created_on": "2026-11-05"
+}

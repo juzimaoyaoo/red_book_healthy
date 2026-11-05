@@ -1,0 +1,94 @@
+{
+  "time": "2026-11-05T11:19:38.670936+00:00",
+  "source_identity": {
+    "source_sha256": "6bbbd634a1c716f84336400b7e12cdb1dc9e6490afee15121e3ac3c4bd3de40e",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n007.png": "a2fac832efbf9a5d35224805864bf4dfc757c3557935dbb68c1cce3f58144eb0",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n007-page2.png": "8396be02c20fd207edb4439cb91a9e85e0158e5fec6adb4659fdec31e6eb5650"
+    }
+  },
+  "receipt": {
+    "call_id": "002-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 198.84,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 37198,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6103,
+          "reasoning_output_tokens": 93
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n007",
+    "title": "阿斯巴甜上榜？莫慌莫慌，致癌清单来了",
+    "usable_as": "contrast",
+    "completeness": "完整：全部正文与两张实质图片均已提供；第二页英文主体可读，部分小字号实例的辨读精度有限。",
+    "reader_problem": "看到某种成分进入致癌分类后，想判断分类意味着什么，以及能否据此决定日常饮食。",
+    "scene": "无糖饮料相关消息传播后，读者需要区分新闻标签与个人风险判断。",
+    "title_mechanic": "以热点疑问唤起关注，用重复安抚词承接情绪，再承诺提供可查阅清单。",
+    "title_promise_limits": "两页提供分类速查与原始说明图，但分类清单不足以回答具体摄入风险。“莫慌”需要通过概念解释兑现，不能只靠同榜比较。",
+    "content_structure": [
+      "正文以阿斯巴甜分类消息开场，劝读者先理解分类。",
+      "第一页按1、2A、2B、3分四行，以颜色和常见例子组织中文清单。",
+      "阿斯巴甜在2B行被单独红框突出。",
+      "第二页增加IARC英文说明图，列出证据确定性，并明确分类不表示暴露相关风险水平。",
+      "结尾邀请读者转给饮用无糖可乐的朋友。"
+    ],
+    "answer_payoff": "读者能定位目标条目并找到分类解释，但第一页容易被读成危险程度排行榜，第二页关键限定没有充分转译到中文主图，存在答案衔接缺口。",
+    "visual_observation": "第一页用红、橙、黄、蓝色块形成纵向分组，左列类别、中右列实例，目标条目加红框。第二页为横版英文资料图，置于竖屏中部，留白较大、正文缩小；新增的是证据确定性轴和风险限定，而非新的个人饮食决策依据。",
+    "observed_page_count": 2,
+    "source_and_claim_limits": "原文将阿斯巴甜消息与WHO/IARC分类关联，截图第二页可见IARC署名及June 2023标记，但本轮未核验文件真伪、版本或分类现状。第一页对各组证据的概括、食物与暴露项目的归类均待核。两页关于美发职业暴露的分组呈现存在可见差异，需要核对具体暴露定义与版本。第二页明确表示分类不指示暴露相关风险水平；不得据清单推出具体食用风险或安全结论。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "热点标题若承诺安抚，正文必须指出读者容易混淆的概念，并说明现有材料能支持哪种判断。",
+        "observed_anchor": "莫慌莫慌",
+        "new_application": "解释体检异常标记时，标题提出疑问，正文分别解释标记含义和仍需补充的信息。"
+      },
+      {
+        "stage": "visual",
+        "rule": "分类表必须把排序维度放在主图显眼位置，否则色阶和上下顺序容易被读者理解为严重程度。",
+        "observed_anchor": "常见致癌物清单",
+        "new_application": "制作研究类型对照表时，在表头标明比较的是研究设计，另列不能直接推出的结论。"
+      },
+      {
+        "stage": "content",
+        "rule": "补充来源页应明确新增了什么解释，并将影响理解的关键限定同步写入中文主页面。",
+        "observed_anchor": "第二张图",
+        "new_application": "双页政策说明中，第一页标出适用范围，第二页展示原文位置与版本，避免读者漏掉关键条件。"
+      },
+      {
+        "stage": "review",
+        "rule": "改绘表与来源图同时出现时，逐项核对术语、分组和限定，防止附来源页却留下内部矛盾。",
+        "observed_anchor": "美发工作",
+        "new_application": "把指南转成中文卡片时建立字段对照表，记录每个改写项对应的原文。"
+      }
+    ],
+    "do_not_transfer": [
+      "不把同组条目理解为风险大小相同。",
+      "不复用缺少版本核验的分类清单或证据概括。",
+      "不以机构名称、英文原图或互动数量替代核源。",
+      "不把旧文中的“今早”当成本轮日期的新闻。"
+    ],
+    "transformations": [
+      "面向家长制作新闻标签阅读练习，用经核原始文件区分证据分类与个人风险问题，改为问答卡；改变受众、证据与形式。",
+      "面向健康编辑制作双语改绘核对表，以可追溯版本逐项检查术语、分类和限定；改变受众、证据与决策方式。",
+      "面向无糖饮料消费者制作“现有消息回答不了哪些问题”的信息缺口图，经核后列出还需哪些暴露与个体信息；改变证据、决策方式与形式。"
+    ],
+    "limitations": [
+      "第二页横图在手机截图中字号较小，不宜声称所有细节均可精确转录。",
+      "没有原始链接、发表时间及完整评估文本。",
+      "可见互动仅为截图时点记录，不能解释传播原因或预测效果。"
+    ]
+  }
+}

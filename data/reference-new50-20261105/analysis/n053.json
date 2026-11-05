@@ -1,0 +1,112 @@
+{
+  "time": "2026-11-05T12:27:34.157578+00:00",
+  "source_identity": {
+    "source_sha256": "f21ff9d3f6565d0442b62265c1feaac409d766bbca55d43797e3a448e0782427",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053.png": "35a640c4124c9ede855af19673374b0864cc8a98d4a1929599b92c938472dc82",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053-page2.png": "154c7a0f9e4354d8bd3658771a0cc41827359f83615d838c3f8c641978ec09f1",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053-page3.png": "505225f67b35eeb62188bf5d733bfd2a2dfb715bee08df029bcf3775850edb40",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053-page4.png": "07e3da7f0a0e26098ee4e60d23ae104f12d402d96800d97f00ae05e85b543031",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053-page5.png": "dbf97c78ea59c536862a9d8a972411d485938ac2120fd45ebe4d4949eb5b996e",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053-page6.png": "879e41fe5379652d1905cd210733975203430613715acf432b96790092dcada3",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053-page7.png": "8045e5e2c7f72fc62b620ca6c0da08d13d1dec2e5a693da3758ffcf70cc4f635",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n053-page8.png": "554ba19caedf7cbdec745a38f3f0d2520ae71d1b70d41840bb1e6ae6c9a0158a"
+    }
+  },
+  "receipt": {
+    "call_id": "007-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.78,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 91905,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7399,
+          "reasoning_output_tokens": 77
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n053",
+    "title": "怎样把每天30分钟运动融入日常生活中",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：完整正文及全部8张图片已提供。第8页为账号关注与往期内容展示，前7页为本篇实质内容。",
+    "reader_problem": "工作、家务和照护占用时间，难以专门安排运动，希望找到日常场景中的行动入口。",
+    "scene": "通勤、办公、家务、带娃及睡前多个日常时段。",
+    "title_mechanic": "用“怎样”提出操作问题，以明确时长和“融入日常”承诺解决时间安排障碍；封面进一步使用“轻松完成”强化承诺。",
+    "title_promise_limits": "承诺累积到明确时长，但正文与图片没有提供口径一致的累计表；部分动作被直接赋予燃脂、体态及消水肿效果，超出当前证据。",
+    "content_structure": [
+      "第1页：指南型封面，提出每天轻松完成固定时长。",
+      "第2页：用大块零食拆小块比喻拆分活动，提出短时累积及未经列源的研究结论。",
+      "第3页：通勤场景，列出快走、骑行、爬楼和等车动作。",
+      "第4页：工作场景，加入定时起身、动作套餐、站立会议和桌下动作。",
+      "第5页：家务及娱乐间隙，罗列等待、刷牙、清洁和看电视时的动作。",
+      "第6页：带娃场景，包含抱娃负重、举高和背负孩子俯卧撑等建议。",
+      "第7页：睡前拉伸、泡沫轴和抬腿，并附体态及循环等效果表述。",
+      "第8页：关注引导与六张往期内容缩略图，未增加本题答案。"
+    ],
+    "answer_payoff": "提供按场景检索的丰富入口，但没有可靠兑现固定时长、轻松达标或训练效果。更适合作为“分类清楚但处方与证据越界”的对照样本。",
+    "visual_observation": "可观察：棕色标题、柔和多色圆角分区，同一女性角色演示动作；第2页用食物拆分解释时间拆分，第3至7页按场景分组。机制推断：模块帮助读者跳到自己所处场景，但动作插画也容易让未核验建议显得已经标准化。正文密度较高，第3页底部出现不连贯的叠字。",
+    "observed_page_count": 8,
+    "source_and_claim_limits": "全部训练时间、次数、组数、强度及健康效果均列待核。第2页“6次5分钟”燃脂可能优于连续运动的研究说法未列来源；“无需流汗”等表述不能作为效果判断。正文工作套餐列出的时间合计为4.5分钟，重复5次为22.5分钟，不能据此推出30分钟达标。带娃负重动作的适用性与安全性未核；改善圆肩驼背、消水肿等因果也未核验。本轮不认证这些建议。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "方法标题一旦承诺固定总量，正文就必须提供可核对的组成和计算口径；否则应缩小标题。",
+        "observed_anchor": "每天轻松完成30分钟锻炼",
+        "new_application": "把未验证的总量承诺改成“忙碌时，哪些生活环节可以重新安排”，交付场景选择表。"
+      },
+      {
+        "stage": "content",
+        "rule": "按生活场景分篇章，让读者依据自己当前处境跳读，不必先理解完整理论。",
+        "observed_anchor": "通勤路上",
+        "new_application": "为远程工作者设置开会前、午休和收工后三个入口，每页解释该场景的限制与可调整事项。"
+      },
+      {
+        "stage": "visual",
+        "rule": "比喻图只解释一个关系，并标明它不能证明效果；拆分图可以解释时间分配，不能证明生理收益等价。",
+        "observed_anchor": "把运动“零食化”",
+        "new_application": "用日历块展示任务如何拆分，另设证据栏处理效果问题，避免用同一张图跨越两种论证。"
+      },
+      {
+        "stage": "review",
+        "rule": "动作清单越具体，越要逐项检查数字、适用人群和证据，不能让插画代替必要说明。",
+        "observed_anchor": "5分钟微运动套餐",
+        "new_application": "制作编辑审查表，将动作名称、总时间、限制条件和待核来源分别列栏，未核项不进入健康建议。"
+      },
+      {
+        "stage": "content",
+        "rule": "末页应补上读者如何选择或汇总查用；纯关注页无法修补前文的答案缺口。",
+        "observed_anchor": "一起做 元气满满的妈妈",
+        "new_application": "以“先选一个适合的场景”结束，并列出需要额外咨询的问题，减少无关往期封面占用。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用固定动作、训练剂量及未经核验的累计达标算法。",
+      "不复用孩子作为负重器械的建议。",
+      "不使用无来源研究表述支持燃脂优势。",
+      "不把清洁、拉伸、站立及力量训练未经区分地相加为同一种运动剂量。",
+      "不迁移消水肿、改善体态等未经核验的效果承诺。"
+    ],
+    "transformations": [
+      "面向远程办公者，以实际日程访谈为证据，制作“哪里存在可调整空隙”的时间地图，不给动作处方，改变受众、证据与形式。",
+      "面向家庭照护者，以照护任务和场地限制为依据，做是否能暂停、是否需要他人接手的决策树，改变受众、决策方式与形式。",
+      "面向健康内容编辑，以本类数字和来源问题为素材，制作“固定总量承诺如何核算”的审稿练习卡，改变受众、证据用途与形式。"
+    ],
+    "limitations": [
+      "所有8页均可观察，完整性不构成医学正确性的证明。",
+      "没有研究文献、动作教学来源或适用性评估资料。",
+      "第3页底部存在可见叠字，局部句子无法完整连贯读取。",
+      "正文与图片的时长、活动类型和累计口径不一致。",
+      "互动数据不能证明这些动作安全、有效或容易坚持。"
+    ]
+  }
+}

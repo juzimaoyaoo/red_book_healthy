@@ -1,0 +1,113 @@
+{
+  "time": "2026-11-05T12:22:33.083363+00:00",
+  "source_identity": {
+    "source_sha256": "8a51f918338bca8fce17d0f86393ca70a339234db7369c07ce7ee3f53ad7df85",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048.png": "0dbd1e0326557341f2d7bcab5fb63569a80eb93aab308cc5a2d31418b0475292",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page2.png": "abb8134801f9aabbd4fd5e0630557cbbe068339b7d9dedf6321c111e3d53779b",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page3.png": "29d5ee8a2f58e11874a6a683b6de3016280e05a003b40a5a03c0d058a3e144df",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page4.png": "402ec09c2a23dd4cbf882687fc454a0db6a135f028d4ba3894abc0958da75794",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page5.png": "e894ab363337887dcee4b2b6308fd71382ce866cc49630aa184e1e5d4b5f456e",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page6.png": "5a5fbd22e4d5d4d029c7d53a8b15c09f3c1301846fb0e50d75f21fbf55c58850",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page7.png": "2bc988a54a9337988d335849ef0321bed4fc1c1ffd7a9018ef38f5f6c359d8e5",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page8.png": "f729145a5a0947acf27f08831a71e0254579dbea0ae71afb297df3916660e39f",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page9.png": "b9f81d24f9f59e42e8c77c4eeff58696ce65e1682f9e7089b425f5fa98f501a3",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page10.png": "c9ee42c10888e95cff35ec96930ec4229cc05d6bb63578f8bb777e955cac84c1",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n048-page11.png": "bbba7f8498cd964a03655f728f08e9110d7a4bb10f57ae5125b107915656541d"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 341.23,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 157397,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8028,
+          "reasoning_output_tokens": 116
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n048",
+    "title": "30年前美媒炒烂的“冷饭”，别交智商税了！",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：已读取全部11张图片，正文在第7页收束，第8—11页主要为参考资料。输入body为标签，不影响图片全文的完整性。",
+    "reader_problem": "刷到西蓝花芽苗的高倍营养和抗癌宣传后，想判断是否值得购买种子、在家种植并生吃。",
+    "scene": "社交平台种植教程、商品链接及超级食物宣传共同推动购买兴趣。",
+    "title_mechanic": "输入标题用历史翻炒与消费羞辱制造反转；图片标题则借旧报刊报道和“未在中国流行”的悬念引导解释。",
+    "title_promise_limits": "正文提供了研究历史、人体证据及食品安全讨论，但未证明“没火到中国”的因果，也没有完成具体商品价格与价值比较。“智商税”判词超过了文中呈现的消费评估范围。",
+    "content_structure": [
+      "第1—2页：展示食物实物及平台宣传截图，明确正在回应的流行说法。",
+      "第3页：提前抛出生食活性与食用安全之间的矛盾，并追溯早期研究和新闻报道。",
+      "第4页：从体外、动物研究转到人体试验，讨论所测指标和转化问题。",
+      "第5页：引入芽苗相关食品安全事件及生长环境。",
+      "第6页：用转化流程图解释原文所称的活性形成条件，比较商业监测与家庭条件。",
+      "第7页：回收生食风险、日常可得性与普通食物替代方案。",
+      "第8—11页：列研究、媒体报道和监管资料。"
+    ],
+    "answer_payoff": "可学习的核心是把“含量高不高”扩展为人体证据、加工条件、安全和持续成本的多维判断；反例价值在于标题先下消费判词，正文证据却主要回答功效与安全问题。",
+    "visual_observation": "可观察：白底长文配黄色强调；第1、5页是芽苗实物照片，第2页是打码的平台宣传拼图，第3页是研究者资料照片，第6页是前体到活性形式的箭头图。机制推断：宣传截图明确了反驳对象，流程图帮助区分两个名称；资料人物照片只能提供历史语境，不能加强疗效证据。",
+    "observed_page_count": 11,
+    "source_and_claim_limits": "原文关于成分高出10—100倍、人体试验规模与结果、约5%的利用率、食源性事件数量、酶的热失活及家庭生食风险均待核。历史报道只能证明曾被报道，不能证明疗效或当前消费价值。原文将活性与安全概括为生熟二选一、以及长期坚持可能有益的表述，也需核验加工条件、研究终点和证据强度。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "标题提出的消费判决需要正文提供相应比较；若只有功效与风险证据，应把标题改成可回答的评估问题。",
+        "observed_anchor": "别交智商税了",
+        "new_application": "评估另一种热门食材时，标题聚焦“宣传依据是什么”，正文另列价格、便利性与替代品，证据不足时保留结论。"
+      },
+      {
+        "stage": "content",
+        "rule": "先展示待评估的具体宣传，再逐项拆解，读者才知道被质疑的是哪种说法，而不是整个食物。",
+        "observed_anchor": "营养是西兰花的100倍",
+        "new_application": "建立宣传核对表，把成分含量、人体效果和购买必要性分成三个独立问题。"
+      },
+      {
+        "stage": "content",
+        "rule": "第4页新增人体试验及其测量指标，使历史发现与实际应用之间出现可检查的证据断点。",
+        "observed_anchor": "人体临床试验",
+        "new_application": "解释热门营养成分时，用研究对象和实际测量结果标注每一层证据，避免从实验室结果跳到疾病预防。"
+      },
+      {
+        "stage": "visual",
+        "rule": "流程图可用于区分名称相近但功能不同的环节；必须同时标出条件，不能让单向箭头看起来代表人人都能获得相同结果。",
+        "observed_anchor": "前体",
+        "new_application": "将另一种食物加工过程画成条件流程图，把未知转化效率标为待核，不用箭头暗示最终健康收益。"
+      },
+      {
+        "stage": "review",
+        "rule": "逐一核对正文证据能否解释标题中的因果；“曾被报道”与“为何未流行”需要不同材料。",
+        "observed_anchor": "没火到中国是有原因的",
+        "new_application": "为标题拆出历史事实、流行程度和原因三项，缺少市场或传播证据时删除原因判断。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用“智商税”对购买者作价值判断。",
+      "不把报刊、研究者照片或机构名称当疗效证明。",
+      "不把某种成分含量倍数等同于整种食物的营养倍数。",
+      "不把生熟加工简化为未经核验的绝对二选一。",
+      "不将原文提及的食品安全数字和利用率直接入库为事实。"
+    ],
+    "transformations": [
+      "面向家庭采购者，改成热门食材采购比较表；证据加入待核的商品标签与实际价格，决策改为成本、便利性和证据匹配。",
+      "面向亲子种植爱好者，改成观察活动与食用行为的分界卡；形式改为场景问答，证据改为待核的食品安全规范。",
+      "面向健康信息读者，改成“一个倍数经过了哪些偷换”的互动练习；使用匿名宣传案例，交付识别证据层级的方法。"
+    ],
+    "limitations": [
+      "未做医学及历史核源，不能确认文中所有引述和数字。",
+      "第2页第三方截图的部分标题被截断，不能补全其原始论证。",
+      "历史年份可见，但不能凭此确认输入标题所称的准确时间跨度。",
+      "可见互动数不支持标题、照片或争议强度的效果归因。"
+    ]
+  }
+}

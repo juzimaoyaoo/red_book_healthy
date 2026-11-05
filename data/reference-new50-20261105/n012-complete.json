@@ -1,0 +1,29 @@
+{
+  "id": "n012",
+  "query": "丁香医生/站内搜索睡眠",
+  "theme": "睡眠",
+  "title": "小夜灯，其实很伤身",
+  "author": "丁香医生",
+  "body": "你有没有听说过，晚上睡觉开灯......也可能会胖?\n难不成人类也会「光合作用」？\n\t\n真相是👉人造光源会打破人的睡眠节奏，让我们睡眠质量变差，饥饿感和食欲都会增加！\n所以大家晚上会开着小夜灯💡睡觉吗？\n\t\n光的确给我们带来了便利，但黑暗是好好睡一觉最基础的保障。\n所以今晚请放下手机，关掉电视，拉紧窗帘，戴上眼罩，让自己沉浸在完全黑暗的环境中，放松地睡个好觉吧~\n#健康减肥  #变瘦  #变瘦变美变好看  #长胖  #冷知识科普 ",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=164x56\n@e47 TextView text=\"丁香医生\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=164x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"已关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1515\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1515\n@e56 FrameLayout label=\"图片,第1张,共5张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1440\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e62 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e65 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=970,262 size=82x66\n@e66 TextView text=\"1/5\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=970,262 size=82x66\n@e67 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1749 size=1080x607\n@e68 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1763 size=1080x593\n@e69 TextView text=\"小夜灯，其实很伤身\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1777 size=998x63\n@e70 TextView text=\"你有没有听说过，晚上睡觉开灯......也可能会胖?\\n难不成人类也会「光合作用」？\\n\\t\\n真相是👉人造光源会打破人的睡眠节奏，让我们睡眠质量变差，饥饿感和食欲都会增加！\\n所以大家晚上会开着小夜灯💡睡觉吗？\\n\\t\\n光的确给我们带来了便利，但黑暗是好好睡一觉最基础的保障。\\n所以今晚请放下手机，关掉电视，拉紧窗帘，戴上眼罩，让自己沉浸在完全黑暗的环境中，放松地睡个好觉吧~\\n#健康减肥  #变瘦  #变瘦变美变好看  #长胖  #冷知识科普 \" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1868 size=998x488\n@e74 Button label=\"点赞 258\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=518,2202 size=192x154\n@e77 Button label=\"收藏 94\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=710,2202 size=187x154\n@e80 Button label=\"评论 28\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=897,2202 size=183x154",
+  "image_count": 5,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部5张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e74 Button label=\"点赞 258\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=518,2202 size=192x154",
+    "@e77 Button label=\"收藏 94\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=710,2202 size=187x154",
+    "@e80 Button label=\"评论 28\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=897,2202 size=183x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page2.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page3.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page4.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n012-page5.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

@@ -1,0 +1,97 @@
+{
+  "time": "2026-11-05T12:10:37.000643+00:00",
+  "source_identity": {
+    "source_sha256": "f4d958b20a2f3a406004c6d9ad4fee2f4e63cb75c98d941ee12b1f65f5180f11",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n042.png": "37e70c0fc3b17fec2c7dbd370bffd6403758be61cec47b27bce124f8615b664d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n042-page2.png": "36b1962edf5ff971f93fc609d7239db9026ca4f736d813fd1339403babf3ede2",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n042-page3.png": "f47ea2a3c21fdee30cc5e8fadad91385ffd0d8e7c670982736b92d86e2e1fc39",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n042-page4.png": "9c1c913b8a4c4de7829d4f0a3f91e278ca02694ceab017d965d7fa7289a587d8",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n042-page5.png": "a4e2a5654f32d4a3de43866ac609a4a08f105c0877ff9d5c8091d734bc73caed"
+    }
+  },
+  "receipt": {
+    "call_id": "006-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 257.67,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 51578,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6990,
+          "reasoning_output_tokens": 61
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n042",
+    "title": "办公室喝水老忘记？这3招比盯APP管用",
+    "usable_as": "positive_editorial",
+    "completeness": "完整正文及全部5张轮播均已提供，实质文字可读，可以分析整套图文。",
+    "reader_problem": "办公室经常忘记喝水，又不想增加记录、计数和打卡负担。",
+    "scene": "杯子摆放、开会、午饭和下班等办公情境。",
+    "title_mechanic": "问题句确认读者困扰，数字限制答案规模，再借与APP比较表达省事优势。",
+    "title_promise_limits": "三招均有对应页面，但“比盯APP管用”缺少比较证据；第三招讨论温度与舒适性，和“避免忘记”的核心任务联系较弱。",
+    "content_structure": [
+      "第1页提出办公室忘记喝水的问题，并强调杯子这一低材料门槛。",
+      "第2页展示杯子从抽屉到桌面的摆放变化。",
+      "第3页把会议、午饭、下班串成事件节点，并附带半杯要求。",
+      "第4页用两栏比较饮用温度和方式，增加敏感人群备注。",
+      "第5页降低完美打卡压力，并询问读者容易遗漏的节点。"
+    ],
+    "answer_payoff": "读者能从第2页获得具体摆放调整，从第3页理解事件提示的组织方式；第4页转向饮用舒适性。整套内容兑现了三项清单，但不是三种独立的防忘机制。",
+    "visual_observation": "可观察：五页统一使用暖橙底、深棕手写风文字、杯子插画和植物装饰。第2页用左右场景、箭头及叉勾解释位置变化；第3页用纵向卡片和箭头解释事件序列；第4页用并列卡片表达取舍；第5页留白明显增加。机制推断：每页采用与关系匹配的图形，便于逐项查用；叉勾同时可能把需要条件判断的温度偏好表现成普遍对错。",
+    "observed_page_count": 5,
+    "source_and_claim_limits": "原文关于不要等口干再猛灌、节点半杯、温水或常温更稳、敏感人群避免空腹冰水、连续几天比周末补喝舒服等观点均未提供医学来源，本轮列待核。半杯没有杯容量定义，也不是可直接迁移的剂量。“比APP管用”“更跟得上”没有实际对照数据。表达结构可学，不代表相关饮水观点得到认证。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "用读者熟悉的现有办法作比较，可以明确替代方案的决策维度；标题中的比较强度必须与证据相称。",
+        "observed_anchor": "比盯APP管用",
+        "new_application": "改为“忘记看提醒？看看这3种设置”，正文比较设置步骤与打扰程度，不宣称效果胜出。"
+      },
+      {
+        "stage": "visual",
+        "rule": "当答案是改变物品位置时，用前后场景解释可见性关系，让读者直接判断自己需要移动什么。",
+        "observed_anchor": "杯子放视线里",
+        "new_application": "为共享办公用品设计遮挡与可见位置对比，明确不遮屏幕、不占操作区等实际条件。"
+      },
+      {
+        "stage": "content",
+        "rule": "第二项答案应新增触发机制，而不是换句话重复第一项；本例由位置提示推进到事件提示。",
+        "observed_anchor": "用「节点」代替毫升",
+        "new_application": "将提醒方案分成“看到物品”和“完成事件”两类，让读者按工位是否固定选择，删除统一杯量。"
+      },
+      {
+        "stage": "review",
+        "rule": "逐页检查每一招是否直接处理标题问题，识别清单中偏离核心任务的项目。",
+        "observed_anchor": "温度别走极端",
+        "new_application": "在防忘主题中用“提醒被忽略后如何调整”替换旁支内容，把舒适偏好另设附注。"
+      }
+    ],
+    "do_not_transfer": [
+      "不照搬半杯与统一办公节点作为饮水处方。",
+      "不把温度偏好用叉勾固化为适用于所有人的医学判断。",
+      "不无证据宣称优于APP。",
+      "不复刻整套植物装饰、杯子形象及手写版式组合。"
+    ],
+    "transformations": [
+      "面向经常换工位的人，证据改为不同桌面条件的实拍，形式改为可见性检查卡；由读者按遮挡和取用距离决策。",
+      "面向通知负担重的人，形式改为提醒方式比较矩阵，以实际设置流程验证操作成本，不比较健康收益。",
+      "面向轮班工作者，决策方式改为自选稳定事件，形式改为可填写的流程卡；不沿用开会、午饭、下班及半杯要求。"
+    ],
+    "limitations": [
+      "五张图片及完整正文均可读，未缺实质页面。",
+      "未提供APP对照、执行过程或实际结果。",
+      "结尾互动提问可以观察，但不能据此推断评论或收藏效果。"
+    ]
+  }
+}

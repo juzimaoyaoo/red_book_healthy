@@ -1,0 +1,88 @@
+{
+  "time": "2026-11-05T11:16:19.813950+00:00",
+  "source_identity": {
+    "source_sha256": "056d88c1ad8eed6bfd9e82b7454fbc35a4f4b23a36f8988688810d7307d1688a",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n004.png": "b07814837649bccb5512d552e750adcd30db75bb03d08e68bbb3d69553a198c0"
+    }
+  },
+  "receipt": {
+    "call_id": "001-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 286.53,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 61463,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6520,
+          "reasoning_output_tokens": 85
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n004",
+    "title": "带薪抵消久坐伤害的'2分钟法则'\\\"",
+    "usable_as": "exclude",
+    "completeness": "不完整：轮播共八张，仅提供首图。随附文字虽完整，但主要为引子、研究比较断言及标签，不能替代其余七张实质图片。",
+    "reader_problem": "上班久坐又难以安排运动，想知道工作中短暂起身是否有价值。",
+    "scene": "工位办公和接水等工作间隙。",
+    "title_mechanic": "把带薪工作情境、抵消伤害的强承诺与两分钟数字规则组合，降低读者想象中的成本。",
+    "title_promise_limits": "可见内容没有说明研究条件、结局指标或完整做法；无法判断后七页是否限定或修正抵消、不如等表述。",
+    "content_structure": [
+      "可见首图：绿色大标题提出久坐伤害可以被抵消。",
+      "可见副标题：将每天运动半小时与工位起身两分钟比较。",
+      "随附文字：先写过去认知，再以2026年5月研究构造反转。",
+      "随附文字：给出每20分钟起身走两分钟的断言，接工作场景调侃。",
+      "其余七页未提供，不推断内容及答案结构。"
+    ],
+    "answer_payoff": "可见部分只有规则口号与反转，没有足够信息支持读者判断适用范围或比较结论；完整答案是否存在未知。",
+    "visual_observation": "仅观察首图：浅色背景、深绿色大字、下划线比较句，下半部为坐在电脑前的猫插画。插画标示办公情境，没有解释时间、活动与结局之间的关系。首图文字靠左边缘较近，右上标明1/8。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "原文关于2026年5月研究、每20分钟走两分钟优于每天运动半小时，以及能够抵消久坐伤害的结论均待核。没有论文题名、研究人群、比较条件和结局信息，不能建立普遍优劣关系。截图互动数量不构成医学证据。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "数字规则必须能在正文找到定义、适用条件与来源；只有口号的首图不能进入完整内容经验库。",
+        "observed_anchor": "2分钟法则",
+        "new_application": "遇到数字标题先建立待核清单，资料齐全后再决定标题能否使用数字。"
+      },
+      {
+        "stage": "content",
+        "rule": "出现两种行为的不如比较时，必须补齐比较对象与结局，让读者知道究竟在比较什么。",
+        "observed_anchor": "每天运动半小时",
+        "new_application": "改成研究比较条件表，分别列人群、行为、持续时间与测量结果，条件不齐不下排序结论。"
+      },
+      {
+        "stage": "visual",
+        "rule": "办公角色插画只能帮助识别场景，无法证明健康效果；若核心是比较，视觉也需呈现比较条件。",
+        "observed_anchor": "工位起身2分钟",
+        "new_application": "用研究条件卡替代孤立的胜负副标题，并在首图标出尚不能判断的部分。"
+      }
+    ],
+    "do_not_transfer": [
+      "不将本篇计作完整八页样本。",
+      "不猜测后七页的机制、动作、来源或边界。",
+      "不复用抵消伤害、救命及未经验证的统一频率。",
+      "不把高互动归因于两分钟钩子或猫插画。"
+    ],
+    "transformations": [
+      "面向办公室团队负责人，补齐原始研究后制作研究条件核对卡，按证据范围决定是否调整内部提示语。",
+      "面向没有固定休息时段的服务业人员，以工作流程访谈为材料，制作可活动机会地图，按岗位限制选择切入点。",
+      "面向想辨别健康热帖的普通读者，使用多个比较标题作为材料，改成识别缺失比较条件的练习题。"
+    ],
+    "limitations": [
+      "实际只看见八页中的第一页。",
+      "正文属于引子与结论断言，不能证明主体内容完整。",
+      "未提供研究出处，无法判断日期及比较结论。",
+      "所列规则仅用于观察首图和审核缺口，不代表学习到了完整内容方案。"
+    ]
+  }
+}

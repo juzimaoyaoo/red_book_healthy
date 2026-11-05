@@ -1,0 +1,98 @@
+{
+  "receipt": {
+    "call_id": "002-actual_reader",
+    "role": "actual_reader",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 49.05,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 27372,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1109,
+          "reasoning_output_tokens": 124
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "reader_value",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "先看份量：少量热食可以直接冷藏；一大锅汤菜先分成小份、装进浅容器，再冷藏，食物加盖保存。",
+        "reason": "解决晚间备饭的具体疑问，并按份量给出可执行的选择，收获完整，不是泛泛提醒。"
+      },
+      {
+        "dimension": "whole_article",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "③ 午间：测食物温度，别只摸饭盒",
+        "reason": "全文从晚上冷藏、通勤保冷推进到午间复热，围绕同一次带饭任务形成完整流程，三页没有重复充数。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "不必等凉透，先看份量。",
+        "reason": "首图直接回答核心问题，左右示意区分少量直接冷藏与大锅先分装，时间上限补足操作边界。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "放了冰袋，不等于温度已达标。",
+        "reason": "新增通勤及到公司后的保存要求；剖面图明确冷源上下位置，文字给出两种组合及不适用条件。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "微波复热：加盖 → 转动食物，使加热均匀 → 留出静置时间 → 测多个位置",
+        "reason": "新增复热操作顺序与内部测温要求，示意图把注意力引向食物内部，承担独立的信息任务。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "少量热食 → 可以直接冷藏",
+        "reason": "标题与结论在缩略图中优先可辨；左右分区、箭头及容器数量关系清楚，正文与边界提示层级明确，无明显裁切。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "通勤途中，上下各放一个冷源",
+        "reason": "缩略图可抓住核心动作，剖面中上下冷源与食物的关系直观；尺寸与组合说明在展开阅读时可辨，底部条件提示独立成块。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "午间复热：测食物，别只摸饭盒",
+        "reason": "标题醒目，测温指向与食物内部标点对应清楚；温度、操作顺序和静置说明均完整可见。图示与非实测说明没有冲突。"
+      },
+      {
+        "dimension": "title_payoff",
+        "verdict": "PASS",
+        "location": "title",
+        "quote": "明天带饭：热菜要等凉透再放冰箱吗？",
+        "reason": "正文开头和首图立即回答，并说明份量不同如何处理；后续保冷与复热均服务于明天带饭，没有偏离标题场景。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "保留“不必等凉透，先看份量”的直接答案和大小份分流。",
+      "保留三页分别解决冷藏、通勤、复热的递进结构。",
+      "保留“这是上限”和“放了冰袋不等于达标”，避免把条件误读成保证。",
+      "保留操作示意及非实测标注，不将插图包装成验证结果。"
+    ]
+  }
+}

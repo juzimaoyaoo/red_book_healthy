@@ -1,0 +1,26 @@
+{
+  "id": "n027",
+  "query": "走路 运动",
+  "theme": "运动与久坐",
+  "title": "记录减肥最好的运动：走路",
+  "author": "Momo（睡觉第一名）",
+  "body": "每天10公里轻松走路，持续时间长，排便频率增加，皮肤变亮，瘦腿效果显著，晒太阳补充维生素，走路让人心情积极。",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=407x56\n@e47 TextView text=\"Momo（睡觉第一名）\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=407x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1904\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1904\n@e56 FrameLayout label=\"图片,第1张,共2张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1882\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e62 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=971,262 size=81x66\n@e65 TextView text=\"1/2\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=971,262 size=81x66\n@e66 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,2138 size=1080x218\n@e67 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,2152 size=1080x204\n@e68 TextView text=\"记录减肥最好的运动：走路\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,2166 size=998x63\n@e69 TextView text=\"每天10公里轻松走路，持续时间长，排便频率增加，皮肤变亮，瘦腿效果显著，晒太阳补充维生素，走路让人心情积极。\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,2257 size=998x99\n@e73 Button label=\"点赞 1219\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=481,2202 size=203x154\n@e76 Button label=\"收藏 434\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=684,2202 size=192x154\n@e79 Button label=\"评论 370\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=876,2202 size=204x154",
+  "image_count": 2,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n027.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部2张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e73 Button label=\"点赞 1219\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=481,2202 size=203x154",
+    "@e76 Button label=\"收藏 434\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=684,2202 size=192x154",
+    "@e79 Button label=\"评论 370\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=876,2202 size=204x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n027.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n027-page2.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

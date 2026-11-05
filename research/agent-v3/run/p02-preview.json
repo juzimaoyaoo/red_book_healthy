@@ -1,0 +1,109 @@
+{
+  "post_id": "p02",
+  "title": "提前上床还是睡不着？把这3个时间分开安排",
+  "body": "为了早睡，提前躺下却一直清醒？如果你是上白班、想调整睡眠习惯的成年人，可以把三个时间分开安排。\n\n① 起床：每天固定时间，醒来并离床。\n② 放松：睡前至少留1小时，比如读书。\n③ 上床：有困意再上床，不要求自己到了某个钟点就必须睡着。\n\n怎么放进自己的日程？\n假设你每天7点必须起床，想给自己预留到22点入睡的安排，可以从21点开始放松，读读书，睡前不再刷手机。22点只是这个例子的计划时间，不是人人都该遵守的入睡标准。\n\n到了22点，有困意就上床；还不困，就继续在床外安静放松。不要把这段时间重新排成工作或刷手机。第二天仍按固定时间起床，不因前一晚没睡好而睡懒觉。\n\n成人平均需要7—9小时睡眠，每个人需要的量不同。22点到7点有9小时，但这只是预留的时间，不等于实际睡了9小时。你可以替换例子里的钟点，安排自己的放松时段，同时给睡眠留出时间。\n\n如果改变睡眠习惯没有帮助，睡眠困难已持续数月，或已经影响日常生活到难以应付，找医生评估。困倦时不要驾驶。\n\n依据：英国国民医疗服务体系（NHS）《Insomnia》，页面更新于2024年3月19日。https://www.nhs.uk/conditions/insomnia/",
+  "tags": [
+    "睡眠习惯",
+    "作息安排",
+    "上班族",
+    "健康科普"
+  ],
+  "reference_application": [
+    {
+      "source_id": "s001",
+      "observed_quote": "关了灯、闭了眼，却在床上来回想着明天的事、今天的烦，甚至盯着时间焦虑“怎么还没睡着”。",
+      "mechanic": "迁移具体困惑引出答案的点击机制：标题回应提前躺下仍清醒，首屏直接交付三个时间的安排规则。机制是编辑假设，不声称已验证传播效果。",
+      "changed_audience_or_evidence": "从伪早睡危害清单改为白班成年人的睡前安排；以NHS行为建议替代原文的伤身比较和统一熄灯要求。",
+      "not_copying": "不复用原文标题、比喻、危害清单和情绪收尾。"
+    },
+    {
+      "source_id": "s037",
+      "observed_quote": "睡觉这件事，靠的不是意志，是先把时间定下来。",
+      "mechanic": "迁移明确时间带来的可执行感与回查用途，但让读者分清固定时点、放松时段和困意条件。",
+      "changed_audience_or_evidence": "以普通白班成年人的可替换示例代替明星钟点名单；核心建议依据NHS。",
+      "not_copying": "不用明星、睡门或原文时间名单，不以赞数证明医学正确或需求成立。"
+    },
+    {
+      "source_id": "s034",
+      "observed_quote": "二是把答案变成具体的安排。",
+      "mechanic": "迁移理解之后能直接安排日程的查用机制：用7点起床的例子演示如何安排放松，以及计划时间到了仍不困怎么办。",
+      "changed_audience_or_evidence": "从宽泛自我观察缩到睡前排程，不作体质判断，不虚构自测结果。",
+      "not_copying": "不复制17问、自述经历或未观察过的六页图片。"
+    },
+    {
+      "source_id": "visual-s048",
+      "observed_quote": "读者直接比较状态",
+      "mechanic": "迁移同屏比较帮助辨别差异的读取方式，让三种时间规则一眼可分，再用条件分支落实到一个晚上。",
+      "changed_audience_or_evidence": "从鸡蛋状态比较改为时间关系比较，依据NHS指导，示例钟点标明为排程示例。",
+      "not_copying": "不用原照片、熟度色阶、分钟排列或原图版式；全部采用原创示意。"
+    }
+  ],
+  "claims": [
+    {
+      "statement": "每天在同一时间醒来并离床。正文、第一图的固定起床规则及第二图的7点起床示例均应用这一建议；7点是编辑示例。",
+      "source_id": "fact-insomnia",
+      "quote": "wake up and get out of bed at the same time every day"
+    },
+    {
+      "statement": "睡前至少留1小时放松，可以读书。正文与两图中的1小时放松安排据此；21点是配合示例选择的钟点。",
+      "source_id": "fact-insomnia",
+      "quote": "relax at least 1 hour before bed – for example, take a bath or read a book"
+    },
+    {
+      "statement": "有困意再上床。正文及两图中有困意上床、没困继续在床外放松的分支，是这条建议与睡前放松建议的操作化表达，不承诺何时入睡。",
+      "source_id": "fact-insomnia",
+      "quote": "only go to bed when you're sleepy"
+    },
+    {
+      "statement": "睡前不刷手机。正文和第二图把睡前时段安排为读书等放松活动；不安排工作是本稿排程选择，不作独立疗效主张。",
+      "source_id": "fact-insomnia",
+      "quote": "do not watch television or use devices, like smartphones, right before going to bed, because the blue light makes you more awake"
+    },
+    {
+      "statement": "前一晚没睡好，也不通过睡懒觉改变原有起床安排。",
+      "source_id": "fact-insomnia",
+      "quote": "do not sleep in after a bad night's sleep – stick to your regular sleeping hours instead"
+    },
+    {
+      "statement": "每个人需要的睡眠量不同，成人平均需要7—9小时。22点到7点的9小时只是时间间隔示例，不代表实际睡眠时长或统一作息要求。",
+      "source_id": "fact-insomnia",
+      "quote": "Everyone needs different amounts of sleep.\nOn average:\nadults need 7 to 9 hours"
+    },
+    {
+      "statement": "改变习惯没有帮助、睡眠困难持续数月，或影响日常生活到难以应付，应寻求医生评估。",
+      "source_id": "fact-insomnia",
+      "quote": "See a GP if:\nchanging your sleeping habits has not helped your insomnia\nyou've had trouble sleeping for months\nyour insomnia is affecting your daily life in a way that makes it hard for you to cope"
+    },
+    {
+      "statement": "困倦时不要驾驶。",
+      "source_id": "fact-insomnia",
+      "quote": "do not drive when you feel sleepy"
+    }
+  ],
+  "image_plan": [
+    {
+      "number": 1,
+      "headline": "提前上床，还是睡不着？",
+      "copy": "这3个时间，分别安排\n\n起床｜固定时点\n每天同一时间醒来，并离床\n\n放松｜预留时段\n睡前至少留1小时，比如读书\n\n上床｜看困意\n困了 → 上床\n没困 → 在床外继续安静放松\n\n给提前躺下仍清醒、想调整作息的白班成年人",
+      "source_notes": "依据：英国国民医疗服务体系（NHS）《Insomnia》，2024年3月19日更新。原创示意。",
+      "purpose": "封面同时交付核心答案，区分三种时间的安排方式。",
+      "new_information": "起床按固定时间、放松预留时段、上床由困意决定，不把三项都变成准点打卡。",
+      "visual": {
+        "kind": "comparison",
+        "description": "米白底、深绿文字，三个横向信息区分别使用不同控件：固定刻度闹钟连到起床离床人物；有明确长度的时间带连到读书场景；菱形困意判断节点分两条箭头，分别指向床和床外阅读椅。橙色仅强调固定、至少1小时、有困意三个条件。图标和连接关系承担信息，不用三张相同段落卡，不使用照片或截图。"
+      }
+    },
+    {
+      "number": 2,
+      "headline": "假设每天7点起床，今晚怎么排？",
+      "copy": "白班排程示例，钟点可以替换\n\n21:00｜开始放松\n比如读书，睡前不再刷手机\n\n22:00｜计划时间到了，先看困意\n有困意 → 上床\n还不困 → 在床外继续安静放松\n不把这段时间重新排成工作或刷手机\n\n次日7:00｜按固定时间起床、离床\n前一晚没睡好，也不睡懒觉\n\n成人平均需要7—9小时睡眠，个体需要不同。\n22点到7点预留9小时，不等于实际睡了9小时；22点也不是统一入睡标准。\n\n何时求助？\n改习惯没帮助／睡眠困难持续数月／已影响生活到难以应付 → 找医生评估\n困倦时不要驾驶。",
+      "source_notes": "依据：英国国民医疗服务体系（NHS）《Insomnia》，2024年3月19日更新，nhs.uk/conditions/insomnia/。钟点为编辑排程示例，非统一作息要求。",
+      "purpose": "把第一图的规则变成可替换的实际安排，回答计划时间到了仍不困怎么办，并给出求助出口。",
+      "new_information": "提供21点放松、22点按困意分支、次日7点固定起床的完整示例；区分预留时间与实际睡眠，交代何时需要医生帮助和驾驶安全。",
+      "visual": {
+        "kind": "flow",
+        "description": "纵向时间轴从21点读书节点到22点困意分支，再汇合至次日7点起床节点。困意分支画成两条清楚路径：床与床外阅读椅，床外路径不标保证入睡的回转时间。时间轴旁用括号标22点至7点为预留9小时，并注明不等于睡着9小时。底部与时间轴留开距离，设置三个条件汇入医生评估的求助出口，以及独立的困倦勿驾驶提示。采用原创线条示意，不画假实测记录、手机界面或实拍场景。"
+      }
+    }
+  ]
+}

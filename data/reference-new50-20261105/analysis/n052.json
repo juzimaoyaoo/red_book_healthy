@@ -1,0 +1,87 @@
+{
+  "time": "2026-11-05T12:27:34.157043+00:00",
+  "source_identity": {
+    "source_sha256": "ce4626a2fc178f6746e2d46a5129ce5890121df9828df15079319cdd02df46c0",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n052.png": "7d5d67a1423cd1c49bde4d8865e25d166b4dfa5c8aecf6998c2972051eae7da1"
+    }
+  },
+  "receipt": {
+    "call_id": "007-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.78,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 91905,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7399,
+          "reasoning_output_tokens": 77
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n052",
+    "title": "坚持晚上的散步，我最大的变化不是瘦了",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：单图全图可读，完整正文已提供。",
+    "reader_problem": "关注散步是否有体重之外的日常感受，希望看到低门槛活动的生活体验。",
+    "scene": "下班后与同学一起散步，作者描述白天烦恼后的主观感受。",
+    "title_mechanic": "先唤起散步与变瘦的常见关联，再用“不是瘦了”暂缓揭晓，让正文补上作者真正重视的变化。",
+    "title_promise_limits": "标题承诺交代个人感受变化，正文回答为感觉轻松；没有提供体重数据、对照记录或可推广的效果证据。",
+    "content_structure": [
+      "封面以大字重复标题，突出“散步”，体重秤图标提示被重新审视的评价指标。",
+      "正文交代下班后与同学同行的具体情境。",
+      "正文揭示答案：作者自述烦恼之后感觉整个人轻松。",
+      "用当天步行记录和继续行动的打算收尾，随后附话题标签。"
+    ],
+    "answer_payoff": "读者得到一种体重之外的观察角度，但无法从中查到散步安排、实际变化幅度或适用条件。",
+    "visual_observation": "可观察：浅蓝底、深蓝大字、黄色块突出“散步”，右下角单独放体重秤，背景有浅色水滴装饰。机制推断：体重秤解释标题所指的体重评价，黄色块引导先识别行为；封面没有给出真实答案，需要阅读正文。",
+    "observed_page_count": 1,
+    "source_and_claim_limits": "“感觉轻松”是作者个人报告，散步、同伴交流、环境和时间经过的影响无法分离。三公里是作者当日记录，不能沉淀为推荐距离。出汗与情绪变化的因果未核验。标签包含跑步、慢跑和寿命俗语，不能据此扩展正文结论或当作健康依据。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "反预期标题需要在短正文中明确补齐答案，读者才能判断自己的关注点是否值得调整。",
+        "observed_anchor": "不是瘦了",
+        "new_application": "面向久坐办公者，用真实反馈讨论“午间出门后，我最想记录的是哪种感受”，并立即交代记录结果及个体差异。"
+      },
+      {
+        "stage": "content",
+        "rule": "体验类内容先交代与谁、何时做了什么，使读者能辨认感受发生的情境和其他可能因素。",
+        "observed_anchor": "和同学一起散散步",
+        "new_application": "在参与者反馈卡中分开记录独自外出、与人同行及当日心情，不把同行体验全部归给某项活动。"
+      },
+      {
+        "stage": "visual",
+        "rule": "封面只保留一个与标题评价指标直接相关的物件，帮助读者看懂标题正在讨论什么。",
+        "observed_anchor": "我最大的变化",
+        "new_application": "做生活记录主题封面时，以一张待办卡提示完成量指标，正文再呈现参与者如何评价当天体验。"
+      }
+    ],
+    "do_not_transfer": [
+      "不把作者的主观变化写成本号体验或普遍效果。",
+      "不使用出汗代表情绪改善或运动有效的论证。",
+      "不复用三公里作为统一任务。",
+      "不沿用混杂跑步、散步及寿命俗语的标签组合。"
+    ],
+    "transformations": [
+      "面向退休人群，收集自愿提供的外出感受记录，做多张原话卡，按“喜欢／无明显变化／不喜欢”呈现，改变受众、证据与形式。",
+      "面向独居上班族，以同行和独行的生活日志为素材，制作体验因素对照表，改变受众、证据与判断方式。",
+      "面向刚开始记录生活的人，用空白观察表代替效果故事，让读者自行选择要记录的感受维度，改变受众、证据与形式。"
+    ],
+    "limitations": [
+      "正文很短，回答停留在个人感受，没有过程或对照证据。",
+      "不知道坚持多久、实际频率及其他生活变化。",
+      "未提供评论内容，不能推断303条评论讨论了什么。",
+      "单图与正文完整，不代表健康结论得到验证。"
+    ]
+  }
+}

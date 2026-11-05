@@ -1,0 +1,103 @@
+{
+  "time": "2026-11-05T12:27:34.158034+00:00",
+  "source_identity": {
+    "source_sha256": "88223bf6d40bb54bb87f170b1514bf298399ddd46486a4d4bdb636d5b3ca8ffc",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n054.png": "020607ca6afdf0062775bb89f9338c72e9f1368cf598226eb9fb8122ed87849b",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n054-page2.png": "700547366f0fbafdbef3bb6fda7b1212f8059f16276567fc5553c1c5cb19d4fc",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n054-page3.png": "7201ce7d92c85146c6ceca66da050eb5f8c1336aec58904129c23eb19e17f00b"
+    }
+  },
+  "receipt": {
+    "call_id": "007-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.78,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 91905,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7399,
+          "reasoning_output_tokens": 77
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n054",
+    "title": "J人打工人｜一周工作+健身+带饭平衡版",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：完整正文及全部3张截图已提供。图片局部被手机界面遮挡或渐隐，但完整正文可补足主体内容。",
+    "reader_problem": "固定早起、白天长时间在岗，还想安排带饭和训练；需要判断别人的周计划是否适合自己的工作节奏。",
+    "scene": "作者自述在校工作日，从前夜备料、晨间并行备餐，到下班训练及周末安排。",
+    "title_mechanic": "“J人打工人”定位喜欢计划的受众，“工作+健身+带饭”列出三项冲突任务，“平衡版”承诺提供整合安排。",
+    "title_promise_limits": "个人流程能提供安排思路，但“不累不内耗”“可以抄作业”超出了单一个案的证明能力；训练和饮食数字不能直接推广。",
+    "content_structure": [
+      "第1页先交代起床、工作及带饭限制，再展开晨间备餐时间线与餐食分装。",
+      "第2页延续通勤、下班训练和睡眠安排，随后给一周训练分配，并解释周三不安排训练。",
+      "第3页解释把较费力安排放在周末的个人理由，最后归纳可坚持、可量化、可评估。",
+      "完整正文把上述内容整理为一日流程、周计划、安排逻辑和调整原则。"
+    ],
+    "answer_payoff": "最有价值的答案是说明哪些工作限制影响排期、为什么留下空档，以及何时重新调整；读者可据此比较自己的约束，而不是只复制星期表。",
+    "visual_observation": "可观察：以备忘录长文字截图为主，白底灰黑文字，用时间、数字序号和下划线突出部分信息；第2、3页保留手机界面，局部文字受遮挡。机制推断：细节有助于核对日程，但缺乏周历和并行流程图，读者要自行从段落中重建关系。",
+    "observed_page_count": 3,
+    "source_and_claim_limits": "全部为作者自述，没有独立执行记录或成效数据。饮食克数、烹饪温度时间、训练频率时长、睡眠数字、恢复间隔及训练难度排序均列待核，不沉淀为健康建议。图片中的“三分练七分吃”与正文末尾标签表达存在不同口径，均不能当作科学比例。作者职业情境与经历不得移植成本号亲历。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "多任务标题要在开头交代关键约束，帮助读者先判断自己与案例是否相似。",
+        "observed_anchor": "一周工作+健身+带饭平衡版",
+        "new_application": "为通勤时间不固定的人展示案例时，先列通勤、设备和照护限制，再展示安排。"
+      },
+      {
+        "stage": "content",
+        "rule": "流程中标出可以并行和必须提前完成的环节，让读者看懂节省时间来自任务关系。",
+        "observed_anchor": "等待的时间刷牙洗脸",
+        "new_application": "用依赖图表示前夜准备、晨间处理和出门检查，不复制原文的烹饪参数。"
+      },
+      {
+        "stage": "content",
+        "rule": "周计划不仅列做什么，还解释为什么某天留空，使读者能按工作波动重新排期。",
+        "observed_anchor": "周二周三休息",
+        "new_application": "以真实会议日历为依据，示范如何先标不可控时段，再分配可选事项。"
+      },
+      {
+        "stage": "visual",
+        "rule": "日内流程和跨周安排应分别使用时间线与周历，避免读者从连续长段落中自行拼装。",
+        "observed_anchor": "一周训练计划如何安排",
+        "new_application": "上半页画前置任务与并行关系，下半页画工作负荷周历，颜色只表示任务类别。"
+      },
+      {
+        "stage": "review",
+        "rule": "把调整条件与安排同时交付，帮助读者判断何时需要重新设计，而非把个案当固定模板。",
+        "observed_anchor": "可坚持 可量化 可评估",
+        "new_application": "生活排期模板加入“实际耗时超出预期”“工作安排变化”等复盘问题，不将疲劳感直接用于医学判断。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复制食材份量、训练时长、恢复间隔和烹饪参数。",
+      "不把作者的训练难度排序当作普遍规律。",
+      "不以J人标签推断生理适配性。",
+      "不把个人感觉不累写成普遍结果。",
+      "不保留遮挡正文的备忘录界面作为正式信息版式。"
+    ],
+    "transformations": [
+      "面向轮班人员，以匿名实际排班和任务耗时为证据，制作滚动日历，按下次上班时间而非星期分配事项，改变受众、证据与决策方式。",
+      "面向需要照顾家人的上班族，以家庭分工访谈为证据，制作“谁能接手、哪些能延后”的协作流程图，改变受众、证据与形式。",
+      "面向带饭新手，以实测操作记录为素材，只讨论准备顺序和设备占用，改成并行流程卡，改变受众、证据与内容形式。"
+    ],
+    "limitations": [
+      "图片第2、3页顶部及底部部分文字受界面和渐隐遮挡，未假定遮挡内容可直接读出；主体以所给完整正文补足。",
+      "下班时间存在17:30、17:20及标题式概括晚5等不同口径。",
+      "一周四练的说法与周一、周四、周五、周六安排对应，但训练量适配性没有证据。",
+      "没有带饭保存、运输或再加热条件，不能据此评价食品安全。",
+      "结构可借鉴不表示个人健康方案可照搬。"
+    ]
+  }
+}

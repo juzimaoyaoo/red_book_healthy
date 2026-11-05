@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "018-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 17.88,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 48322,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 150,
+          "reasoning_output_tokens": 72
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"ids\":[\"fact-insomnia\"]}",
+    "reason": "两篇选题和带饭稿首屏已通过；先读取睡眠权威原文，核对第二篇首屏的三个时间安排及示例条件，再提交首屏审读。"
+  }
+}

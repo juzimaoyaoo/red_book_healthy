@@ -1,0 +1,99 @@
+{
+  "time": "2026-11-05T12:01:38.729507+00:00",
+  "source_identity": {
+    "source_sha256": "1a20428431f6ab1eb03e3d3eda9e2e60fc613d74da2dc5a7f3f1d22587be90e4",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n031.png": "9205d56264f3d1de1196a8acc32dc49c17482ff3cbb94d3b7bbb8ce98d494649",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n031-page2.png": "698e01f65c6904435824d4bc8a91698bb09d050125b90ce3dae7f03d721a974d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n031-page3.png": "5d02f5b9c41c9f0133486fa02a2a2cdddd7ef966ec2137034670b1a070bce2d8",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n031-page4.png": "55acec8ca1722683e75e94ec2a7d714effc9b04e32475c710348a90cdd50f3e5",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n031-page5.png": "f9eb34f99fe5f01367e29d31ba7b7ede796f8ef154e992d7175c9669f0ae9ea2",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n031-page6.png": "f5479165220b5cbb3d5ef2fbf5be9da71e5889e4f66788a9fbaedb2a3ea3d964"
+    }
+  },
+  "receipt": {
+    "call_id": "005-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 309.38,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 82209,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7592,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n031",
+    "title": "午觉最佳时长，睡多久才精神？",
+    "usable_as": "contrast",
+    "completeness": "全部6张图片均已提供且可读，构成完整图片内容样本。输入正文截断，但图片已覆盖封面、4页实质内容和关注尾页。",
+    "reader_problem": "午睡后仍困或醒来不舒服，希望根据午休条件和下午任务选择休息方案。",
+    "scene": "工位、图书馆、通勤等受限环境，以及有床或沙发的午休环境；下午有会议、学习或工作任务。",
+    "title_mechanic": "用“最佳时长”承接搜索需求，再用“睡多久才精神”把时间问题转成醒后状态问题。封面副文案进一步承诺按不同人群提供方案。",
+    "title_promise_limits": "正文给出了多个时长选项，但主要按任务和环境分类，未真正建立不同人群的适配依据。“最佳”“满血复活”以及对某个时长的禁令，将有差异的体验包装成确定答案。",
+    "content_structure": [
+      "第1页：大字问题与睡羊插画，建立午睡主题和轻松语气。",
+      "第2页：介绍10分钟和20分钟两个选项，每项按体验、适用场景、原理组织。",
+      "第3页：新增60分钟、90分钟选项，并把30分钟单列为避雷项，形成选择与排除结构。",
+      "第4页：从睡多久转向在哪里睡，分趴睡和躺睡，补充装备与姿势。",
+      "第5页：新增午睡时间窗口和咖啡搭配，扩大到午睡前的安排。",
+      "第6页：关注及评论邀请，没有新增午睡答案。"
+    ],
+    "answer_payoff": "表达层面提供了按任务、可用时间和环境查找的目录，读者能迅速定位自己的午休条件。但具体选择依赖未经核验的时长分档与生理解释，不能直接作为健康决策表。",
+    "visual_observation": "可观察事实：白底、粉色圆角底板、统一胶囊页眉；黑色粗体标出时长，粉色底线标出小标题；睡羊在封面占大面积，内页缩至右下角。第3页比第2页多一个模块，文字更拥挤。机制推断：重复页眉和模块格式有助于识别同一套指南；插画主要承担情绪与账号识别，没有解释睡眠阶段或时长关系。",
+    "observed_page_count": 6,
+    "source_and_claim_limits": "仅依据输入正文及6张截图，未核医学来源。原文关于各时长对应睡眠阶段、记忆巩固、完整周期、醒后恢复时间、午睡频率、固定时间窗口、咖啡起效时间、姿势优劣及颈部动作剂量，全部列待核。“NASA宇航员”“国际公认”“亲测”均不能在此构成普适结论的证明。截图中的点赞137、收藏51、评论3仅为当时显示值，不能解释传播原因。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "标题同时写读者要调整的变量和想改善的体验，让读者判断这篇是否回答自己的具体问题；删去无法证明的最优承诺。",
+        "observed_anchor": "睡多久才精神",
+        "new_application": "改做“午休后还是困？先记录这几项”，把时间与醒后体验列为观察变量，不承诺统一最优时长。"
+      },
+      {
+        "stage": "content",
+        "rule": "并列选项采用同一套字段，方便读者横向比较；每个字段应帮助完成选择，而非重复解释。",
+        "observed_anchor": "适合场景",
+        "new_application": "为不同休息安排统一列出可用环境、时间限制、醒后待办和待核依据，帮助读者识别现实约束。"
+      },
+      {
+        "stage": "content",
+        "rule": "后续页面应新增决策维度：第4页补环境、第5页补前置安排，比继续堆叠时长更能覆盖实际使用过程。",
+        "observed_anchor": "不同条件，不同应对",
+        "new_application": "将查用卡分成“休息前有哪些限制”“休息后观察什么”，各页解决不同问题，不加入未经验证的姿势处方。"
+      },
+      {
+        "stage": "visual",
+        "rule": "用固定位置的小标题标识选项，用正文解释差别；装饰插画不能替代关系说明。",
+        "observed_anchor": "科学午睡指南",
+        "new_application": "用二维表展示环境限制与下午任务之间的关系，把装饰缩小，为比较字段留出位置。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复制“30分钟千万别碰”等绝对禁令。",
+      "不借NASA或其他权威名称省略适用条件与原始证据。",
+      "不沿用固定睡眠周期、午睡频次、咖啡时点或颈部动作剂量。",
+      "不复用睡羊形象、账号署名及整套独特版面。"
+    ],
+    "transformations": [
+      "面向午休环境受限的办公室新人，改成环境与任务约束选择卡；证据换为可核实的条件记录，决策从选固定分钟数改为辨认限制。",
+      "面向午睡后常感不适的读者，改成个人观察日志；以连续记录替代作者亲测，形式从指南轮播改成可填写表。",
+      "面向需要安排团队午休的管理者，改成会议衔接与休息空间核对单；受众、证据和决策对象均转为工作安排。"
+    ],
+    "limitations": [
+      "未获得未截断的完整发布正文，完整性来自全部图片。",
+      "原图没有展示可追溯的医学参考文献。",
+      "未观察读者实际如何使用这些分档，查用价值属于结构推断。"
+    ]
+  }
+}

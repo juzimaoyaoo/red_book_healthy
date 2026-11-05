@@ -1,0 +1,27 @@
+# 明天带饭：热菜要等凉透再放冰箱吗？
+
+晚上做好明天的午饭，不必在灶台上等它凉透。先看份量：少量热食可以直接冷藏；一大锅汤菜先分成小份、装进浅容器，再冷藏，食物加盖保存。
+
+① 晚上：分装后及时冷藏
+冰箱保持在40°F或以下（约4.4℃）。食物在室温下放置不得超过2小时；环境超过90°F（约32.2℃）时，不得超过1小时。这是上限，别等到时限再放冰箱。
+
+② 通勤：冷藏好的午饭，装进保冷袋
+提前冻好冰袋，在易腐食物上、下各放一个冷源。可以用两个冷冻凝胶冰袋，每个不小于5×3英寸（约12.7×7.6厘米）；也可以用一个该尺寸冰袋搭配一瓶冻水。
+到公司有冰箱，就继续冷藏；没有冰箱，仍须持续保冷，让食物保持在40°F或以下（约4.4℃），用食品温度计确认。放了冰袋不等于温度已经达标。没有冷藏或持续保冷条件，就不采用这套易腐熟食带饭方案。
+
+③ 午间：测食物温度，别只摸饭盒
+复热时，食物内部温度至少达到165°F（约73.9℃），用食品温度计确认。微波复热要加盖、转动食物，让加热均匀；加热后留出静置时间，再测多个位置。静置时间按设备说明安排。
+
+三幅图依次是分装比较、保冷袋剖面和复热测温示意。均为原创操作示意，不代表实测结果。
+依据：USDA FSIS热食冷藏、剩菜保存、午餐保冷及复热指导；FoodSafety.gov带饭指导。以上是家庭带饭建议，温度换算为约数。
+
+#上班族带饭 #食品安全 #午餐 #生活常识
+
+## 来源
+
+- [USDA FSIS: What is the Danger Zone?](https://ask.fsis.usda.gov/article/What-is-the-Danger-Zone)
+- [USDA FSIS: Can you put hot food in the refrigerator?](https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator)
+- [USDA FSIS: How do I reheat leftover take out food?](https://ask.fsis.usda.gov/article/How-do-I-reheat-leftover-take-out-food)
+- [USDA FSIS: How do I handle leftovers safely?](https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely)
+- [FoodSafety.gov: Bag Lunches for School and Work](https://www.foodsafety.gov/keep-food-safe/food-safety-by-events-and-seasons)
+- [USDA FSIS: How do you keep a bag lunch safe?](https://ask.fsis.usda.gov/article/How-do-you-keep-a-bag-lunch-safe)

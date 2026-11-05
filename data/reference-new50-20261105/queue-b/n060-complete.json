@@ -1,0 +1,31 @@
+{
+  "id": "n060",
+  "query": "睡前 手机 放下",
+  "theme": "饮食运动睡眠综合",
+  "title": "不费力养生20招，照做就赢!",
+  "author": "叶子的健康手帐",
+  "body": "熬夜党、久坐党、易内耗的姐妹看过来～这篇把20个“不费力养生小习惯”整理好了，不用大改生活，挑几个先做就行👇 🌙睡眠",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=287x56\n@e47 TextView text=\"叶子的健康手帐\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=287x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1951\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1515\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1515\n@e56 FrameLayout label=\"图片,第1张,共7张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1440\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e62 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e65 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1749 size=1080x436\n@e66 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1763 size=1080x299\n@e67 TextView text=\"不费力养生20招，照做就赢!\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1777 size=998x63\n@e68 TextView text=\"熬夜党、久坐党、易内耗的姐妹看过来～这篇把20个“不费力养生小习惯”整理好了，不用大改生活，挑几个先做就行👇 🌙睡眠\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1868 size=998x194\n@e88 Button label=\"点赞 2465\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=493,2202 size=215x154\n@e91 Button label=\"收藏 1752\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=708,2202 size=207x154\n@e94 Button label=\"评论 9\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=915,2202 size=165x154",
+  "image_count": 7,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部7张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e88 Button label=\"点赞 2465\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=493,2202 size=215x154",
+    "@e91 Button label=\"收藏 1752\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=708,2202 size=207x154",
+    "@e94 Button label=\"评论 9\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=915,2202 size=165x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page2.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page3.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page4.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page5.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page6.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page7.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

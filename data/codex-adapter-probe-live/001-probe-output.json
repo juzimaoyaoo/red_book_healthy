@@ -1,0 +1,27 @@
+{
+  "receipt": {
+    "call_id": "001-probe",
+    "role": "probe",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 13.6,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 19876,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 27,
+          "reasoning_output_tokens": 0
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "status": "ok",
+    "message": "我可以接收结构化编辑任务。"
+  }
+}

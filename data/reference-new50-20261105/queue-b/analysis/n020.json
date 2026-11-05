@@ -1,0 +1,105 @@
+{
+  "time": "2026-11-05T11:37:07.101340+00:00",
+  "source_identity": {
+    "source_sha256": "7a99a159420cf55bb71c484c639fd4ef155c98afad1003cb7a4a960005dc3e4c",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n020.png": "3758ec63dc94753837a69b0239f1515c0d840343c112922f07053b59d200ea9d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n020-page2.png": "05d7524143f92b5b21d785911071fb536f35de2048904860c2ba0b931cad1894",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n020-page3.png": "5b4c24ed2ea63b4193b7c052d18bda479d07c6f5bc2b242215bd346d8842c95c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n020-page4.png": "ee0a01f8cab6aa6e05a21009325dcef8f2da589190e242b739aa302b41b8259d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n020-page5.png": "c0d77e80ee117328bba86e103d7ffd0516caa91ee5cf0a33b43d25bc80518506",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n020-page6.png": "420f364c7c830accf45d0e4027b67dd827fa4da316900753feec214d0419d864"
+    }
+  },
+  "receipt": {
+    "call_id": "001-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 299.17,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 78785,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7728,
+          "reasoning_output_tokens": 62
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n020",
+    "title": "打工人一周带饭合集",
+    "usable_as": "positive_editorial",
+    "completeness": "完整正文及全部6张图片已提供，文字与图像可读。内容为六份带饭组合和简短个人流程，不是完整菜谱教程。",
+    "reader_problem": "上班带饭不知道可以装什么，希望直接参考现成组合，并按家中已有食材调整。",
+    "scene": "前一天在家准备并冷藏，次日带到单位继续冷藏，中午复热；按现有食材安排便当。",
+    "title_mechanic": "“打工人”限定生活场景，“一周”提供时间范围，“合集”明确交付是多个实例而非单道菜。",
+    "title_promise_limits": "六张便当图和逐图清单兑现了组合合集；没有提供做法、克数、费用或营养计算，不能把它当作标准减脂食谱。“一周”是合集命名，六张图片不证明连续七天执行。",
+    "content_structure": [
+      "开头简述准备、两处冷藏和午间复热的个人流程。",
+      "以p1至p6逐项列食材，形成图片与文字索引。",
+      "用家里有什么带什么解释选材逻辑。",
+      "明确个人口味、食量较大和仅供参考，收束示例的适用范围。"
+    ],
+    "answer_payoff": "读者可逐图查看便当内容，依据库存挑选搭配灵感；不能据此判断每盒的能量、营养是否充分或保存复热是否安全。",
+    "visual_observation": "第1页展示彩椒、切片肉、鸡蛋、绿叶菜、虾及鱼块等组合；第2页新增南瓜与奶酪搭配；第3页可见杂粮饭、肉类、菜和另装的圣女果；第4页横向照片上下留白，食物按条带排列，新增香蕉、黄瓜及南瓜上放奶酪的组合；第5页可见杂粮饭、角瓜、绿叶菜、切片肉和丸状食物；第6页使用分格盒展示玉米、豆角、蛋、蔬菜和肉。图片整体无教学标注，主要以近景呈现成品。部分食材名称需依靠正文对应，不能仅凭外观确认。推断：逐图索引支持按组合查找，但构图尺度不一致，不利于比较份量。",
+    "observed_page_count": 6,
+    "source_and_claim_limits": "正文主要为个人带饭记录，未宣称治疗或减脂效果，并明确食量及偏好边界。冷藏、运输和微波复热流程未给出温度、时间及中心温度验证，不能据此确认安全；“叮一下就能吃”只是简略叙述。照片与食材清单不构成营养均衡、适宜份量或特定人群适用性的证据。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "“人群＋时间范围＋合集”适合交付实例库；正文要明确实例数量和用途，避免读者把它误认成完整计划。",
+        "observed_anchor": "一周带饭合集",
+        "new_application": "标题标明带饭组合示例数量，正文说明供选材参考，并区分已有实例与尚未安排的日期。"
+      },
+      {
+        "stage": "content",
+        "rule": "以图片编号对应食材清单，让读者在看图与查文字之间快速切换。",
+        "observed_anchor": "p1",
+        "new_application": "每页增加简短页名和对应清单，按主食、菜、其他配料定位；未经核验不标营养功效。"
+      },
+      {
+        "stage": "visual",
+        "rule": "合集每页应增加新的组合变量，让读者看出替换关系，而不是只有摆盘变化。",
+        "observed_anchor": "南瓜",
+        "new_application": "以第2页与第4页共有食材为起点，标出保留与替换部分，帮助读者用库存拼出下一盒。"
+      },
+      {
+        "stage": "visual",
+        "rule": "需要横向比较的成品图应统一拍摄尺度、方向和容器信息；否则只能比较种类，难以比较多少。",
+        "observed_anchor": "食量较大",
+        "new_application": "用统一俯拍和明确容器尺寸展示各盒，份量若需讨论则另行称量，不能靠照片估算。"
+      },
+      {
+        "stage": "content",
+        "rule": "示例库应说明选材依据与参考边界，让读者判断自己是在借用组合还是接受一套规定。",
+        "observed_anchor": "家里有什么就带什么",
+        "new_application": "在清单旁设置库存替换栏，说明哪些是口味选择，哪些安全或营养问题仍需核对。"
+      }
+    ],
+    "do_not_transfer": [
+      "不把作者的较大食量作为统一份量。",
+      "不将图片中的多种食材直接等同于营养均衡。",
+      "不把简述冷藏和复热当作完整食安操作规范。",
+      "不把这六盒写成本号实际连续带饭经历。",
+      "不把合集包装成已经验证的减脂餐或七天计划。"
+    ],
+    "transformations": [
+      "面向独居且经常剩食材的人，改成库存消耗组合卡；以采购与剩余记录为证据，按先用哪些食材选择下一盒。",
+      "面向不熟悉食材搭配的新手，改成可筛选的便当图鉴；用统一实拍和清单作证据，按口味、设备与准备难度查找。",
+      "面向需要比较准备负担的通勤者，改成操作步骤数量对照表；以实际制作记录为证据，按可用时间选择，不以外观推断健康程度。"
+    ],
+    "limitations": [
+      "全部6张图已观察，正文完整；没有烹饪过程图或复热后图。",
+      "部分食材只能根据正文名称识别，照片不能独立确认鱼种、肉类或丸类成分。",
+      "没有克数、成本、制作耗时和保存温度，无法进行份量或安全评估。",
+      "没有评论及执行反馈，不能确认读者实际如何使用合集。"
+    ]
+  }
+}

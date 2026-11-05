@@ -1,0 +1,110 @@
+{
+  "time": "2026-11-05T12:34:02.123115+00:00",
+  "source_identity": {
+    "source_sha256": "fa8806df062db043d92efcf6c3e5dee540c94fadca70aabbb3a82f37a738f078",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060.png": "bd2284fc9138e3ea98764fbc404887912b9a27c3927b29d8727338ce8c3326da",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page2.png": "e2baf5c5071496ff5e7a2135ded5c57f009ef6d9c408fbd992f5e88a4c067291",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page3.png": "a375c6923997eef11690ef87a12f68113d401bc41f7b38a7b662c142e03423b8",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page4.png": "f6a9b79d339237e29a2c7deb82800ec2a2f031c14abc40952071250a4b17ea64",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page5.png": "e965df9e5642340be3aadaef2baf80ab77c3d53818b2492b32e8b96beb6b7c66",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page6.png": "681373fb151929af6d0c0ea4619071f479286b0b4fb09c2800a0c59d55f97bfc",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n060-page7.png": "d8fc654402680f474c23be783e48f3cbe43f9cf18ba3b5e00b0cc8635c82c417"
+    }
+  },
+  "receipt": {
+    "call_id": "005-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 368.46,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 64521,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7114,
+          "reasoning_output_tokens": 63
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n060",
+    "title": "不费力养生20招，照做就赢!",
+    "usable_as": "contrast",
+    "completeness": "完整图片内容样本。7张图片全部提供，20项习惯在第2至6页完整可读；输入正文本身较短，但不妨碍读取完整图片答案。",
+    "reader_problem": "面对睡眠、饮食、久坐与情绪等多类困扰，希望从低门槛的小事开始，并把清单留作查阅。",
+    "scene": "面向熬夜、久坐及易内耗的读者，将分散生活环节汇总为一份习惯清单。",
+    "title_mechanic": "用“不费力”降低成本预期，以20招提供合集感，再用“照做就赢”保证收益；封面用半年状态对比与疾病好转表达强化结果。",
+    "title_promise_limits": "数量承诺兑现，效果承诺超出证据。正文没有证明20项习惯能让疾病好转，也没有说明半年变化来自哪些因素；“不用大改生活”与多项时间安排的执行成本需要分别判断。",
+    "content_structure": [
+      "第1页：疾病好转强承诺，配半年以前与以后的人物状态对比。",
+      "第2页：第1至4项，涉及作息、手机、停止熬夜和休息留白。",
+      "第3页：第5至8项，涉及拉伸、早餐、饮水和口味。",
+      "第4页：第9至12项，涉及蔬菜、饮料、进餐注意和日晒。",
+      "第5页：第13至16项，涉及久坐、步行、情绪和呼吸。",
+      "第6页：第17至20项，涉及交流、边界、如厕和整理环境。",
+      "第7页：账号定位与关注引导，没有新增习惯。",
+      "每个条目大体采用行动标题、具体做法和预期感受，并配对应人物插画。"
+    ],
+    "answer_payoff": "完整交付20项清单，编号和固定条目模板便于回找；但缺少优先级、适用条件和核实来源，读者难以判断先选哪项，封面疾病承诺没有被正文证明。",
+    "visual_observation": "观察：全套以白底、绿色标题条和虚线分隔，正文多为棕色，黄色或浅绿色突出动作。第2至6页每页4项，左侧文字、右侧同一角色的不同活动插画。封面左右对比人物精神状态，并标注半年变化，右侧存在重复“规律运动”标签。推断：固定位置和编号支持回查，动作插画帮助匹配条目；封面对比容易暗示干预效果，但没有提供真实前后证据。内页字号与信息密度较高。",
+    "observed_page_count": 7,
+    "source_and_claim_limits": "原作者关于疾病好转、作息与入睡、拉伸、早餐、饮水、饮食、日晒、运动、呼吸、排泄及整理环境的身心效果均未核源。3分钟拉伸、睡前1小时放手机、45分钟提醒、30分钟步行、4-2-6呼吸等数值与动作安排只能列待核，不能沉淀为统一处方。“亲测”“血糖坐过山车”“排泄节奏”等措辞不替代证据；插画状态变化不构成临床结果。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "合集标题可承诺明确数量和查阅用途，但不能把完成清单等同于保证健康结果。",
+        "observed_anchor": "照做就赢",
+        "new_application": "将标题改为“办公日常的8个可选调整点”，正文交代选择条件，避免疾病与收益保证。"
+      },
+      {
+        "stage": "content",
+        "rule": "连续编号与固定条目模板便于回查；每项应包含行动、使用条件和待观察项，避免只追加好处。",
+        "observed_anchor": "20个不费力的养生小习惯",
+        "new_application": "制作按场景编号的索引卡，每项设置“何时考虑、需要什么条件、记录什么”，健康主张另行核源。"
+      },
+      {
+        "stage": "visual",
+        "rule": "条目旁的图形应帮助识别具体任务；跨页保持文字与图的位置，可减少查找成本。",
+        "observed_anchor": "手边常备水杯",
+        "new_application": "为办公环境检查卡使用原创物品图标，稳定放在条目右侧，读者按图标快速找到对应场景。"
+      },
+      {
+        "stage": "content",
+        "rule": "多领域大清单需要选择入口，让读者按当前需求筛选，而不是默认全部执行。",
+        "observed_anchor": "挑几个先做就行",
+        "new_application": "在清单前增加“工作环境、用餐安排、个人时间”目录和条件选择表，帮助读者选出一项可评估的改变。"
+      },
+      {
+        "stage": "review",
+        "rule": "前后对比必须说明证据性质；人物表情和颜色变化只能表示情境，不能证明健康改善或时间进程。",
+        "observed_anchor": "半年前：疲惫暗沉",
+        "new_application": "用“不同安排示意”替代效果对比，将实际结果留给有出处的数据或明确标注的个人记录。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用“身体的病全好了”或“照做就赢”的疾病与结果保证。",
+      "不把虚构插画前后状态作为真实半年疗效证据。",
+      "不将作者“亲测”转成本号经历。",
+      "不直接复用数值、呼吸配比、训练动作和统一时间安排。",
+      "不以清单数量替代证据，也不将20项默认视为同等适合所有人。"
+    ],
+    "transformations": [
+      "面向办公室新人制作工位与日程检查卡，以实际环境条件替代健康效果叙事，用优先级选择表替代20项全做，改变受众、证据与决策方式。",
+      "面向家庭健康信息整理者制作“一条建议还缺什么证据”的收藏手册，用来源与适用条件核对栏替代效果插画，改变受众、证据与形式。",
+      "面向时间不固定的自由职业者制作可编辑生活安排地图，以个人日程记录选择一个调整点，不设统一动作和时长，改变受众、证据、决策方式与形式。"
+    ],
+    "limitations": [
+      "全部7页可读，但正文截图展开程度有差异；20项图片答案已完整覆盖。",
+      "未提供医学来源、实际执行记录或封面半年变化的可验证材料。",
+      "插画与文字可用于分析版式，不能据此认定制作工具或人物真实性。",
+      "互动快照不能证明清单数量、绿色视觉或疾病承诺带来收藏。"
+    ]
+  }
+}

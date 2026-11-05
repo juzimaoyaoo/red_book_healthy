@@ -1,0 +1,99 @@
+{
+  "claims": [
+    {
+      "statement": "少量热食可以直接冷藏；大锅汤菜应先分成小份、装进浅容器再冷藏。",
+      "source_id": "fact-leftovers-cooling"
+    },
+    {
+      "statement": "食物加盖保存。",
+      "source_id": "fact-leftovers-storage"
+    },
+    {
+      "statement": "及时冷藏，冰箱保持在40°F或以下（约4.4℃）；室温放置不得超过2小时，环境超过90°F（约32.2℃）时不得超过1小时；这些是上限，不是等待目标。",
+      "source_id": "fact-leftovers-storage"
+    },
+    {
+      "statement": "午饭离家后至少用两个冷源保冷：两个冷冻凝胶冰袋，每个不小于5×3英寸（约12.7×7.6厘米），或一个该尺寸冰袋搭配一瓶冻水；冰袋提前冻好，分别置于易腐食物上方和下方。",
+      "source_id": "fact-lunch-transport"
+    },
+    {
+      "statement": "到公司后，有冰箱或冷藏箱就继续冷藏保存。",
+      "source_id": "fact-lunch-arrival"
+    },
+    {
+      "statement": "冷食应持续保持在40°F或以下（约4.4℃），用食品温度计确认；仅放入冰袋不能证明温度达标，缺乏冷藏或持续保冷条件时不采用该易腐熟食带饭方案。",
+      "source_id": "fact-danger-zone"
+    },
+    {
+      "statement": "复热时食物内部温度至少达到165°F（约73.9℃），须用食品温度计确认，不能以摸饭盒代替食品测温。",
+      "source_id": "fact-leftovers-reheat"
+    },
+    {
+      "statement": "微波复热加盖并转动食物，使加热均匀；加热后留出静置时间，再测食物多个位置。",
+      "source_id": "fact-leftovers-reheat"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fact-danger-zone",
+      "kind": "official_fact",
+      "title": "USDA FSIS: What is the Danger Zone?",
+      "url": "https://ask.fsis.usda.gov/article/What-is-the-Danger-Zone",
+      "updated_on": "2024-09-06",
+      "retrieved_on": "2026-11-05",
+      "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+      "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+    },
+    {
+      "id": "fact-leftovers-cooling",
+      "kind": "official_fact",
+      "title": "USDA FSIS: Can you put hot food in the refrigerator?",
+      "url": "https://ask.fsis.usda.gov/article/Can-you-put-hot-food-in-the-refrigerator",
+      "updated_on": "2024-08-13",
+      "retrieved_on": "2026-11-05",
+      "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+      "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+    },
+    {
+      "id": "fact-leftovers-reheat",
+      "kind": "official_fact",
+      "title": "USDA FSIS: How do I reheat leftover take out food?",
+      "url": "https://ask.fsis.usda.gov/article/How-do-I-reheat-leftover-take-out-food",
+      "updated_on": "2025-02-04",
+      "retrieved_on": "2026-11-05",
+      "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+      "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+    },
+    {
+      "id": "fact-leftovers-storage",
+      "kind": "official_fact",
+      "title": "USDA FSIS: How do I handle leftovers safely?",
+      "url": "https://ask.fsis.usda.gov/article/How-do-I-handle-leftovers-safely",
+      "updated_on": "2024-12-20",
+      "retrieved_on": "2026-11-05",
+      "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+      "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+    },
+    {
+      "id": "fact-lunch-arrival",
+      "kind": "official_fact",
+      "title": "FoodSafety.gov: Bag Lunches for School and Work",
+      "url": "https://www.foodsafety.gov/keep-food-safe/food-safety-by-events-and-seasons",
+      "updated_on": "2025-11-13 (Date Last Reviewed)",
+      "retrieved_on": "2026-11-05",
+      "provenance": "本轮web.run打开官方网页，Bag Lunches for School and Work连续原文，第34—40行。",
+      "applicability": "易腐午餐；到达后的冷藏/冷藏箱，不能把普通袋当冷藏箱。"
+    },
+    {
+      "id": "fact-lunch-transport",
+      "kind": "official_fact",
+      "title": "USDA FSIS: How do you keep a bag lunch safe?",
+      "url": "https://ask.fsis.usda.gov/article/How-do-you-keep-a-bag-lunch-safe",
+      "updated_on": "2025-03-07",
+      "retrieved_on": "2026-11-05",
+      "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+      "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+    }
+  ],
+  "audit_evidence_location": "research/agent-v3/run/ 内部调用与来源包；交付包不转载完整第三方原文。"
+}

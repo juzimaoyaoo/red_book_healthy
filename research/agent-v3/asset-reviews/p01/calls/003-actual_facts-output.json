@@ -1,0 +1,112 @@
+{
+  "receipt": {
+    "call_id": "003-actual_facts",
+    "role": "actual_facts",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 54.5,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 35686,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 1462,
+          "reasoning_output_tokens": 217
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "少量热食 → 可以直接冷藏\n大锅汤菜 → 分成小份、装浅盒，再冷藏",
+        "reason": "所附USDA热食冷藏原文直接支持份量区分及浅容器分装；冷藏温度、室温放置时限及换算也与所附原文一致。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "选择A：两个冷冻凝胶冰袋\n每个不小于5×3英寸（约12.7×7.6厘米）\n选择B：一个上述尺寸冰袋＋一瓶冻水",
+        "reason": "冷源数量、尺寸、组合及上下摆放均有所附USDA午餐保冷原文支持；未将冰袋配置说成温度达标保证。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "食物内部温度至少165°F（约73.9℃）\n用食品温度计确认。",
+        "reason": "165°F内部温度、温度计确认、微波加盖转动、静置后多点测温均获所附复热原文支持；摄氏换算正确。"
+      },
+      {
+        "dimension": "medical_boundary",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "没有冷藏或持续保冷条件，就不采用这套易腐熟食带饭方案。",
+        "reason": "明确易腐熟食及持续保冷条件，未涉及诊断、治疗或个体医疗建议，也未暗示复热可补救不当储存。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "不必等凉透，先看份量。",
+        "reason": "实际图以少量直接冷藏和大锅分装两条路径兑现判断，未画成整锅热食直接入冰箱。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "冰袋提前冻好；冷源分别放在易腐食物上、下方。",
+        "reason": "实际剖面图明确呈现上方冷源、冷食、下方冷源，与正文一致；下方文字保留到达后的冷藏及测温条件。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "原创测温位置示意，非实测；图中标点为示例位置",
+        "reason": "实际图将测温指向食物内部，并用多个点表示位置；未显示虚构读数或实测结果，示意属性标注清楚。"
+      },
+      {
+        "dimension": "source_attribution",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "依据：USDA FSIS热食冷藏、剩菜保存、午餐保冷及复热指导；FoodSafety.gov带饭指导。以上是家庭带饭建议，温度换算为约数。",
+        "reason": "公开稿明确机构、指导范围与换算属性；三张实际成图另列对应文章标题，未把参考博主或原创示意当作健康证据。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "热菜要等凉透再放冰箱吗？",
+        "reason": "缩略图中标题与份量判断突出；全图文字对比充分，流程关系清楚，无裁切或遮挡。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "通勤途中，上下各放一个冷源",
+        "reason": "缩略图可辨主张和上下关系；全图配置选项与保冷边界分区清晰。来源字号较小，但完整可读。"
+      },
+      {
+        "dimension": "legibility",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "午间复热：测食物，别只摸饭盒",
+        "reason": "标题、内部测温图和复热步骤层级明确；箭头串联步骤换行后仍可顺序阅读，未出现文字溢出。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "直接回答是否等凉透，并给出少量与大锅两种具体处理路径。",
+      "三页分别解决冷藏、通勤保冷和午间复热，具有独立信息贡献。",
+      "明确冰袋不等于温度达标、摸饭盒不等于测食物，提供可执行的判断标准。",
+      "区分原创示意与实测结果，保留适用条件及对应官方来源。"
+    ]
+  }
+}

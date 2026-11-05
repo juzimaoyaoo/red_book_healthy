@@ -1,0 +1,77 @@
+{
+  "receipt": {
+    "call_id": "034-blind_reader",
+    "role": "blind_reader",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 42.49,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 21476,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 982,
+          "reasoning_output_tokens": 134
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "reader_value",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "① 起床：每天固定时间，醒来并离床。\n② 放松：睡前至少留1小时，比如读书。\n③ 上床：有困意再上床，不要求自己到了某个钟点就必须睡着。",
+        "reason": "给提前躺下仍清醒的读者一个具体的小选择：分别安排起床、放松和上床，能直接用于调整日程，收获超出泛泛劝人早睡。"
+      },
+      {
+        "dimension": "whole_article",
+        "verdict": "PASS",
+        "location": "title",
+        "quote": "提前上床还是睡不着？把这3个时间分开安排",
+        "reason": "标题承诺的是三个时间的安排方法，正文和两页图文均围绕这一问题展开，没有承诺保证入睡或治疗失眠。"
+      },
+      {
+        "dimension": "whole_article",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "到了22点，有困意就上床；还不困，就继续在床外安静放松。不要把这段时间重新排成工作或刷手机。第二天仍按固定时间起床，不因前一晚没睡好而睡懒觉。",
+        "reason": "补全了计划时间到了却不困这一关键分支，也交代次日起床如何衔接；全文另有睡眠时长解释与求助提示，足以完成本篇限定的小题。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "起床｜固定时点\n每天同一时间醒来，并离床\n\n放松｜预留时段\n睡前至少留1小时，比如读书\n\n上床｜看困意\n困了 → 上床\n没困 → 在床外继续安静放松",
+        "reason": "首图把三个时间分别对应到固定时点、预留时段和判断困意，形成可独立理解的行动框架。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "22点到7点预留9小时，不等于实际睡了9小时；22点也不是统一入睡标准。",
+        "reason": "第二页以完整日程示范框架如何落地，并解释预留时间与实际睡眠的区别，补充求助条件；虽复现核心规则，但承担了应用与防误解的独立任务。"
+      },
+      {
+        "dimension": "natural_voice",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "你可以替换例子里的钟点，安排自己的放松时段，同时给睡眠留出时间。",
+        "reason": "用日常语言说明例子如何迁移到自己的生活，整体表达直接易懂，没有术语堆叠、虚构经历或夸张效果。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "保留三个时间分别安排的核心区分，具体且容易记住。",
+      "保留计划时间到了仍不困的处理分支，回应读者实际卡点。",
+      "保留可替换的白班日程示例，以及预留时间不等于实际睡眠的解释。",
+      "保留两页各自承担规则概览和日程应用的分工。"
+    ]
+  }
+}

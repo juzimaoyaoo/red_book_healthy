@@ -1,0 +1,45 @@
+{
+  "artifact_hash": "271871efa75c7c3c4677a8057fcac051681809a0967cf3fbc8e4fd2414b3ea3b",
+  "review": {
+    "verdict": "REVISE",
+    "checks": [
+      {
+        "dimension": "click_reason",
+        "verdict": "PASS",
+        "location": "public.title",
+        "quote": "明天带饭：热菜要等凉透再放冰箱吗？",
+        "reason": "明确锁定提前做午饭的上班族，提出当晚就要决定的具体问题；没有夸大风险或借热度制造点击理由。"
+      },
+      {
+        "dimension": "answer_payoff",
+        "verdict": "PASS",
+        "location": "public.cover",
+        "quote": "不必等凉透，先看份量。\\n少量热食 → 可以直接冷藏\\n大锅汤菜 → 分成小份、装浅盒，再冷藏",
+        "reason": "首屏直接回答问题，并提供按份量选择的两条操作路径。所给USDA原文支持这些做法；温度和室温时限也有对应依据，构成完整的小选择。"
+      },
+      {
+        "dimension": "reference_transfer",
+        "verdict": "PASS",
+        "location": "public.cover",
+        "quote": "左侧是一份热菜装在浅饭盒中，箭头指向冰箱；右侧是大锅汤菜先分到三个浅容器，再由箭头指向同一冰箱。",
+        "reason": "将参考中的直观比较、对象连线转化为分装决策示意，图片承担解释任务。没有复制鸡蛋实验照片、中央行走人物或紫色外框，也没有把参考互动数当正确性或需求证明。"
+      },
+      {
+        "dimension": "visual_hook",
+        "verdict": "PASS",
+        "location": "public.cover",
+        "quote": "用图形清楚表现份量与容器深浅的差异，不画整锅直接入冰箱。温度与室温时限集中放在底部独立提示带。",
+        "reason": "大小份量与分装动作形成可辨认的视觉差异，能帮助读者理解答案，并非重复文字卡。构图可执行；底部提示带的字号和手机端可读性留待实际成图审核。"
+      }
+    ],
+    "issues": [
+      "审读引用不是当前公开文字：public.title",
+      "审读引用不是当前公开文字：public.cover"
+    ],
+    "keep_strengths": [
+      "保留“少量直接冷藏、大锅先分装”的条件式答案，避免一概要求整锅趁热入冰箱。",
+      "保留两条操作路径，让图形交付实际判断依据。",
+      "保留室温时限是上限、不要等到时限再冷藏的提醒。"
+    ]
+  }
+}

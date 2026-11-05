@@ -1,0 +1,118 @@
+{
+  "time": "2026-11-05T12:22:33.082632+00:00",
+  "source_identity": {
+    "source_sha256": "876e5f524b8dacda950816a9d84eab6628b027e6fdb14dde3d03894686b5e7dd",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047.png": "e48fe547e4f08c1387446770521a8de837ba6b7f2965571136a5b49b63edeb2c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page2.png": "3868068f54597e460c204f596af8a9e607c51d6cd5c6a46b704496cf043d2122",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page3.png": "d3d99bbfd2c2f0fe311940e4b236839400c593dca091fdcf82882ca1d3841c02",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page4.png": "1b817f81b304e2cb014641e4f61b0dfebdf97ab0d1b038255dcda3dba4a58f65",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page5.png": "06fae49f73db2338ac98286e14eec1ed6faa11b23003722efc989e1578969c70",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page6.png": "544cda1210e589ab90efc93a0881cd4212d87795602a5718d429c07f2e1d98bc",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page7.png": "3fd2a913dd2684324abaafbe8b2c67074705a355aa28a1d9e5a3bc7bd1453d7a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page8.png": "7616ac04d209a736f37b7c8c3bbc79f0b2fe51dfb9ef8935e5fb2969621d3b5c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page9.png": "4aaa9f0e95ac332b772a4ad9553b51316bd5ff1ef15635769c7f8eb19389a313",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page10.png": "5ddab212557de236316eace42ffcd732aef6701727677318f847f7611f706d08",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page11.png": "ef004867807e6c6274dc78e530109af5ecb23c8b5b5c27258dbe858b32909971",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page12.png": "fd1ce7d201c0c5fb50ec0da5eb2997dc5d3bc67436766d052de69cb2888dc73f",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page13.png": "feb3a319065b6b56a6615e7d1ca43b59e580382dcd38520827619e517348747a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page14.png": "3935ebbbd3b044b519edb99b25583133d4985bc2c46e658a3de859c00fdbfcc6",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page15.png": "b193aadeb67b6ee42079c033f535fd9e52d08f2c94e68f7588c05108291da57d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n047-page16.png": "14f51222ec259ba486a5fe08fd3ea71d548e273ab22f8a70a69462a02740f2c1"
+    }
+  },
+  "receipt": {
+    "call_id": "004-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 341.23,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 157397,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 8028,
+          "reasoning_output_tokens": 116
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n047",
+    "title": "感受到寒意了吗？要早点注意啊",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：全部16张图片已提供并读取，含正文、总结和参考资料；输入body虽只有标签，但图片承载了实质全文。",
+    "reader_problem": "降温后仍想外出活动，却不知道应优先关注哪些身体状态、穿衣细节和日常习惯。",
+    "scene": "季节转冷，读者准备出门运动、运动后换衣，或在家取暖、安排饮食。",
+    "title_mechanic": "以身体可感知的寒意触发当下相关性，再用口语提醒建立关怀感；具体任务主要由首屏摘要补足。",
+    "title_promise_limits": "标题范围宽，正文覆盖运动、衣物、呼吸道、饮食和取暖，基本兑现综合提醒；首屏摘要只列部分重点，不是全文目录。提醒式标题不能代替具体适用人群及条件。",
+    "content_structure": [
+      "第1页：标题、篇幅提示及三条摘要。",
+      "第2—3页：先讨论已有心血管病人群，再解释运动时段、习惯和强度的条件差异。",
+      "第4—5页：把运动准备拆成动态热身、分层穿衣和末端保暖。",
+      "第6页：新增运动后湿衣处理，并切入饮酒暖身误区。",
+      "第7—8页：解释冷空气运动不适，给出需进一步就医判断的症状入口。",
+      "第8—10页：讨论维生素D、贴秋膘和饮水。",
+      "第11—12页：用简短总结回收重点，进入参考资料。",
+      "第12—16页：列出相关研究、指南和共识。"
+    ],
+    "answer_payoff": "读者获得按出门前、活动中、活动后和居家场景定位信息的路径；其主要可学价值是把抽象季节提醒展开为具体操作节点，医学内容仍待核。",
+    "visual_observation": "可观察：白底长文截图，黄色选区式强调，插图紧邻对应段落。第2页用两台血压计和条形图比较季节；第4页用箭头展示动作顺序；第5页拆分衣物层次；第6页并列主观暖感与体温提示；第8页用剖面图比较口鼻气流；第10页比较过去与现在的生活环境。机制推断：这些图分别承担比较、顺序、组成和过程解释，比通用装饰图更容易建立段落记忆。",
+    "observed_page_count": 16,
+    "source_and_claim_limits": "原文关于季节血压与死亡风险、运动时段、热身时长与动作、衣物散热、酒精体温调节、气道反应、维生素D缺乏及补充剂量、季节体重和饮水的因果与数值均待核。第9页出现每日2000 IU及检测建议，不能转为普遍建议；需另核当前指南、适用人群和总摄入。书目存在不代表本轮确认医学正确。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "宽泛的季节提醒需要首屏给出明确查用入口，让读者判断自己应继续看哪个部分。",
+        "observed_anchor": "太长不看",
+        "new_application": "为换季生活主题设置“出门准备、途中不适、回家处理”三个入口，并与正文小节一一对应。"
+      },
+      {
+        "stage": "content",
+        "rule": "在风险提醒之后交代条件差异，帮助读者判断自身是否属于当前段落的对象；第3页增加了既有运动习惯这一判断条件。",
+        "observed_anchor": "别因为怕出事",
+        "new_application": "讨论另一项户外活动时，先分清新手、已有习惯者和有明确疾病背景者，再列需要专业确认的信息。"
+      },
+      {
+        "stage": "visual",
+        "rule": "分层穿衣图把衣物与功能对应，读者能检查自己缺的是哪一层；图的任务是解释组成关系。",
+        "observed_anchor": "洋葱穿衣法",
+        "new_application": "制作出门装备检查图，把每件物品对应到防雨、携带或可见性任务，不仅展示一套好看的穿搭。"
+      },
+      {
+        "stage": "content",
+        "rule": "为行动结束后单设小节，可补足只讲开始步骤的教程缺口；第6页新增了运动停止后的处理节点。",
+        "observed_anchor": "运动之后及时换衣",
+        "new_application": "将通勤步行内容分为出发、途中、到达后三段，每段交付不同检查问题。"
+      },
+      {
+        "stage": "review",
+        "rule": "摘要、详细说明和末尾总结应保持相同的适用条件，避免总结压缩后变成人人适用的命令。",
+        "observed_anchor": "记得吃维生素D",
+        "new_application": "审稿时逐条回查摘要与结尾，确保原段落中的对象、条件及待核状态没有丢失。"
+      }
+    ],
+    "do_not_transfer": [
+      "不直接复用统一补充剂量、热身时间和训练动作。",
+      "不把特定疾病队列中的风险数字推广到所有人。",
+      "不把示意图画成个体风险预测。",
+      "不将原文建议压缩成无条件的补充剂口号。"
+    ],
+    "transformations": [
+      "面向陪父母出门的家属，改成行前沟通卡；证据换成待核的适用指南，决策改为哪些问题需要提前咨询。",
+      "面向步行通勤者，改成出发到抵达的场景流程；使用自有天气与装备观察，交付准备检查而非运动处方。",
+      "面向健康编辑，改成医学插图审校练习；以气流、衣物和图表为材料，判断图中是否丢失适用条件。"
+    ],
+    "limitations": [
+      "全部16页可见，参考资料中存在跨页续接；未打开或核验所引原文。",
+      "长文跨页切断部分段落，查用时需要来回翻页。",
+      "部分插图含风险数字及机制表达，只能视为原文主张的视觉化。",
+      "可见互动数不能用于推断摘要或插图带来的效果。"
+    ]
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "time": "2026-11-05T11:37:07.098489+00:00",
+  "source_identity": {
+    "source_sha256": "eebf11a4f9460f51fdf1654d95b2274c6ab8bfb281bb784675a523bf543b5483",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017.png": "9d7f064677cac3faec6d9000c19637107a0d678794bb73fe6cd37f4603a29afd",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page2.png": "92df6e01856e8acc191c6a30bcc2b76fe31731e7e1bf8e586075adfb4e337b59",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page3.png": "ddccd285aaf47884d402758b0e1ed72647a38c1376efabea4d3ecaf23c48b33b",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page4.png": "9fe9c28b0fdb36897f366bbd202a50e3355fa7a6f23f05b4750272cd43c70497",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page5.png": "56b622333e01f90d6b9b1dd38f6ae8d9d357644c8706c4076bdb1510447104a8",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page6.png": "d884fa8e688ad1c9d5966fd86952e563801b9e0908b529930e7bf45ed8ee7ae8",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page7.png": "37ea58be61aa60728086403b814ddd490de307c26e605fc2ed468208e3a1f92c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page8.png": "3d4ab00ca51900c4a07347517b16a689fd1a295e819717082b1ea71830ca8bb0",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page9.png": "4c4eba2a5ba3e6df9b2e6af2895cb990e1c60c8a7d33236686b5c10182bb751b",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page10.png": "75230860096978cc49bcc422c996d35a7ade27845a2e02ff8d0bd05c072def32",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page11.png": "cb94367359c74ab6ab4d72735307bcaa1a38ba0d52efae0fc949c93b12574e34",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page12.png": "e0dea982df74f9b69a1293670521088521ce9d68b7fce2cd7ddc260abb6af8b0",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page13.png": "244c2145367a14c559fff42f6672642d4cface914db348c9fdfd415d9b86a565",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page14.png": "0023b478dd957a483144c8b6b4e962855f4b8968f39e130ff993f77b62702701",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n017-page15.png": "933355a4bd547c732b4d37cae2edb5357c348c90338ab7b6f36cd32a4578714b"
+    }
+  },
+  "receipt": {
+    "call_id": "001-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 299.17,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 78785,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7728,
+          "reasoning_output_tokens": 62
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n017",
+    "title": "适合脑力劳动者的三餐搭配及一周食谱建议",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本。已读取全部15张图片及随附正文；主要实质内容位于图片，涵盖原则、三餐模板、晚间加餐、一周菜单及替换规则。",
+    "reader_problem": "学习或工作期间不知道三餐如何安排，希望减少选餐负担，并期待改善餐后困倦和精力状态。",
+    "scene": "覆盖日间脑力工作、学生晚自习、晚间加班、工作日备餐和周末运动；这些场景在内容中混合出现。",
+    "title_mechanic": "用职业任务人群限定适用对象，再以“三餐搭配＋一周食谱”承诺从原则到执行清单的完整答案。",
+    "title_promise_limits": "15页确实提供了三餐例子和周一至周日菜单，形式上兑现食谱承诺；但“脑力劳动者”的专属适配及改善精力的机制没有来源支持，正文又扩展到高三焦虑和减肥，超出标题的人群与任务边界。",
+    "content_structure": [
+      "第1页：食物照片配大标题，附全文字数和预计阅读时间。",
+      "第2页：提出稳血糖、精力平稳等目标，概括所谓底层逻辑和三餐口诀；开始通用饮食条目。",
+      "第3页：续列蛋白质、饮品、饮水、咖啡因条目，并转入分餐模板。",
+      "第4页：早餐目标、组合公式、三组示例和排除清单。",
+      "第5页：午餐目标、组合公式和三组示例。",
+      "第6页：午餐后续细节，转入晚餐目标及组合公式。",
+      "第7页：晚餐三组示例及固定时间、排除食物和饱腹程度要求。",
+      "第8页：学生及加班人群的晚间加餐三选一，随后引出容易忽略的细节。",
+      "第9页：进食速度、餐后活动、零食及鱼类相关解释；引入一周菜单，并夹入减肥替餐建议。",
+      "第10至13页：按星期列早餐、午餐、晚餐和晚自习加餐；部分星期内容跨页延续。",
+      "第14页：重复进食顺序、餐后动作、鱼类安排和食物排除条目。",
+      "第15页：按主食、蛋白质、蔬菜列替换规则。"
+    ],
+    "answer_payoff": "可观察的实用交付是分餐组合示例、七天菜单和替换入口，能支持查找“下一餐列了哪些食物”。改善困倦、专注力、情绪和睡眠的承诺没有随内容得到验证。",
+    "visual_observation": "封面为浅背景食物与相机照片，上半部黑色大标题突出人群和任务。内页主要为浅底黑字、编号和大段留白，第4至6页用绿色勾标记公式，第4页有红叉；第10至13页用红色竖线和粗体星期标题建立导航。第6页同时容纳午餐收尾和晚餐开头，第10至11页等存在跨页断句，第15页较疏。推断：星期标记有利于回查，但章节混页、重复规则和缺少食物示意使15页的定位成本偏高；勾叉强化了二元判断，无法呈现个体条件。",
+    "observed_page_count": 15,
+    "source_and_claim_limits": "本轮只分析表达，不认证医学正确性。待核内容包括：餐后困倦由大脑缺血或肠胃供血挤占大脑供氧导致；饮食组合能维持4小时精力、杜绝困倦、改善专注或睡眠；加工零食与B族维生素、神经紧张的因果；Omega-3与焦虑及脑力的效果。所有6～7分饱、主食半碗或减半、鸡蛋数量、咖啡因14点界限、晚餐18:30～19:00、餐后慢走5～10分钟、鱼类每周2～3次等统一数值及动作要求均待核，不转为建议。把晚加餐替代晚餐、把不同鱼类统称深海鱼并据此推导Omega-3，也需核验。截图未展示支持上述结论的来源。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "人群加任务型标题需要在正文中给出该人群特有的选择条件，否则容易成为通用清单换标签。",
+        "observed_anchor": "适合脑力劳动者",
+        "new_application": "把对象缩小为只能在食堂用餐的办公人群，按可选窗口、午休安排和食物可得性组织答案；不承诺改善脑力。"
+      },
+      {
+        "stage": "content",
+        "rule": "组合框架后接多组实例，再给替换入口，能分别回答“怎么组成”“可以选什么”和“缺食材怎么办”。",
+        "observed_anchor": "灵活替换原则",
+        "new_application": "用经过核验的分类依据制作组合说明、实例和替换页，并注明替换不自动意味着用量或营养等价。"
+      },
+      {
+        "stage": "visual",
+        "rule": "按星期查用的内容应以完整日期单元分页；跨页断句会让读者难以一次保存和回查。",
+        "observed_anchor": "周一",
+        "new_application": "每页完整容纳一天安排，另设总览索引；用一致的早餐、午餐、晚餐行标签定位。"
+      },
+      {
+        "stage": "review",
+        "rule": "公式旁的勾叉会把示例强化为普遍正确或错误，审稿时应核对视觉强调是否超过证据强度。",
+        "observed_anchor": "绝对避雷",
+        "new_application": "把二元排除图改成条件比较表，列出适用情境、可调整项和待核问题，让读者判断条件是否相符。"
+      },
+      {
+        "stage": "content",
+        "rule": "总结页应增加新的查用功能；重复前文条目会拉长篇幅，却不增加决策信息。",
+        "observed_anchor": "配套关键执行细则",
+        "new_application": "结尾改为按采购、准备和替换三个任务组织的索引，指向具体页码。"
+      }
+    ],
+    "do_not_transfer": [
+      "不复用“最优”“立竿见影”“杜绝”“保证”等效果承诺。",
+      "不转述大脑缺血、供氧争夺等解释为已证实机制。",
+      "不复制统一进食时间、固定份量、餐后动作剂量及减肥替餐要求。",
+      "不把食物勾叉当成适合所有人的健康判断。",
+      "不以字数、页数或互动数证明专业性。"
+    ],
+    "transformations": [
+      "面向食堂办公人群，改成按窗口选择的图解卡；以实际菜单照片和经核验的分类依据为证据，按可得食物做选择。",
+      "面向需要为家人备餐的人，改成可替换的采购模板；以成本、设备和准备步骤为证据，按家庭条件安排。",
+      "面向想观察餐后状态的成年人，改成饮食、睡眠和状态记录表；保留多个可能影响因素，以记录问题支持后续咨询，不预设饮食疗效。"
+    ],
+    "limitations": [
+      "全部15页可读，但截图中的个别文字跨页，需要合并理解，不能把单页当独立完整单元。",
+      "未见医学来源、个体评估、营养计算或效果测量。",
+      "“2695字、6分钟”是封面自报，未独立计数或计时。",
+      "不能从收藏和点赞数推断读者执行情况或健康收益。"
+    ]
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "verified_on": "2026-11-05",
+  "target_account": "2689093300",
+  "following_before": 28,
+  "following_after": 32,
+  "source": "Mobile MCP target account following list",
+  "accounts": [
+    {
+      "name": "养生搭子小满",
+      "verified_following": true,
+      "screen_lines": [
+        "@e107 TextView text=\"养生搭子小满\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=210,1314 size=264x59",
+        "@e112 TextView text=\"已关注\" at=734,1344 size=173x77"
+      ]
+    },
+    {
+      "name": "茶茶",
+      "verified_following": true,
+      "screen_lines": [
+        "@e118 TextView text=\"茶茶\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=210,1545 size=88x59",
+        "@e123 TextView text=\"已关注\" at=734,1575 size=173x77"
+      ]
+    },
+    {
+      "name": "摸鱼养生专业户",
+      "verified_following": true,
+      "screen_lines": [
+        "@e129 TextView text=\"摸鱼养生专业户\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=210,1788 size=308x59",
+        "@e130 TextView text=\"摸鱼养生专业户\\n一半摸鱼，一半养生\\n松弛度日，悄悄变元气\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=210,1852 size=330x45"
+      ]
+    },
+    {
+      "name": "丁香医生",
+      "verified_following": true,
+      "screen_lines": [
+        "@e140 TextView text=\"丁香医生  \" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=210,2007 size=223x59",
+        "@e145 TextView text=\"已关注\" at=734,2037 size=173x77"
+      ]
+    }
+  ]
+}

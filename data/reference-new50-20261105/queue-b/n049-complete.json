@@ -1,0 +1,39 @@
+{
+  "id": "n049",
+  "query": "营养师顾中一个人页",
+  "theme": "运动与久坐",
+  "title": "协和专家说「存肌肉」上热搜",
+  "author": "营养师顾中一",
+  "body": "35岁后每年掉1%肌力；每周2次力量+每餐1掌心高蛋白就够了\n#女性健康howto #我的存肌肉经验库 #存肌肉怎么吃 #健康科普 #中年养生 #存肌肉就是存未来 #多吃蛋白质 ",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356 disabled\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=246x56\n@e47 TextView text=\"营养师顾中一\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=246x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1904\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1904\n@e56 FrameLayout label=\"图片,第1张,共15张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1882\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1882\n@e62 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=956,262 size=96x66\n@e65 TextView text=\"1/15\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=956,262 size=96x66\n@e66 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,2138 size=1080x218\n@e67 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,2152 size=1080x204\n@e68 TextView text=\"协和专家说「存肌肉」上热搜\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,2166 size=998x63\n@e69 TextView text=\"35岁后每年掉1%肌力；每周2次力量+每餐1掌心高蛋白就够了\\n#女性健康howto #我的存肌肉经验库 #存肌肉怎么吃 #健康科普 #中年养生 #存肌肉就是存未来 #多吃蛋白质 \" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,2257 size=998x99\n@e73 Button label=\"点赞 881\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=508,2202 size=188x154\n@e76 Button label=\"收藏 557\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=696,2202 size=190x154\n@e79 Button label=\"评论 131\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=886,2202 size=194x154",
+  "image_count": 15,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部15张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e73 Button label=\"点赞 881\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=508,2202 size=188x154",
+    "@e76 Button label=\"收藏 557\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=696,2202 size=190x154",
+    "@e79 Button label=\"评论 131\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=886,2202 size=194x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page2.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page3.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page4.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page5.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page6.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page7.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page8.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page9.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page10.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page11.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page12.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page13.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page14.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n049-page15.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

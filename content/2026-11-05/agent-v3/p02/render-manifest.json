@@ -1,0 +1,9 @@
+{
+  "renderer": "tools/render_agent_cards.py",
+  "normalization": "literal \\n rendered as line breaks; wording unchanged",
+  "image_count": 2,
+  "images": {
+    "content/2026-11-05/agent-v3/p02/images/01.png": "00acef41c0c957839e1fecda9e15955649a20671998995c99ab7e5d7d2ff7053",
+    "content/2026-11-05/agent-v3/p02/images/02.png": "7363a136b98e20e48984d1fb4e367b116217edbfce7b6471fd7c0ca2fa437e29"
+  }
+}

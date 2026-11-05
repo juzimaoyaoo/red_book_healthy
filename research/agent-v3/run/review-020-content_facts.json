@@ -1,0 +1,73 @@
+{
+  "artifact_hash": "25895e57c780f555dc0759c8df8fb15f1e8aff9225b2fd826e3ee41b19274601",
+  "review": {
+    "verdict": "REVISE",
+    "checks": [
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "title",
+        "quote": "提前上床还是睡不着？把这3个时间分开安排",
+        "reason": "正文兑现了起床、放松和上床三个时间的安排，没有承诺必然入睡或治疗失眠。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "成人平均需要7—9小时睡眠，每个人需要的量不同。",
+        "reason": "所给NHS原文支持成人平均睡眠需求、个体差异，以及固定起床、睡前放松至少1小时和有困意再上床等建议。"
+      },
+      {
+        "dimension": "medical_boundary",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "如果改变睡眠习惯没有帮助，睡眠困难已持续数月，或已经影响日常生活到难以应付，找医生评估。困倦时不要驾驶。",
+        "reason": "求助条件和驾驶提醒均有原文支持；公开稿限定白班成年人，并明确示例钟点不是统一标准，没有替代诊断或用药指导。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "上床｜看困意\n困了 → 上床\n没困 → 在床外继续安静放松",
+        "reason": "与正文决策一致。第一页提供三个时间的区别，第二页提供具体排程和分支处理，重复承担提示作用，未出现单纯凑页的文字卡。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "成人平均需要7—9小时睡眠，个体需要不同。\n22点到7点预留9小时，不等于实际睡了9小时；22点也不是统一入睡标准。",
+        "reason": "数值、单位和示例性质与正文一致，清楚区分预留时间与实际睡眠，没有把22点暗示为人人适用的标准。"
+      },
+      {
+        "dimension": "asset_truth",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "依据：英国国民医疗服务体系（NHS）《Insomnia》，2024年3月19日更新。原创示意。",
+        "reason": "明确标为示意，当前画面文案没有伪装实拍、作者亲历或改善结果；本阶段无需以缺少最终PNG退稿。来源日期措辞另列修订。"
+      },
+      {
+        "dimension": "asset_truth",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "钟点为编辑排程示例，非统一作息要求。",
+        "reason": "编辑举例与权威建议的边界清楚，时间轴及箭头表达行为选择，没有暗示已经验证疗效。"
+      },
+      {
+        "dimension": "source_attribution",
+        "verdict": "REVISE",
+        "location": "body",
+        "quote": "依据：英国国民医疗服务体系（NHS）《Insomnia》，页面更新于2024年3月19日。https://www.nhs.uk/conditions/insomnia/",
+        "reason": "机构、标题和链接对应原文，但原文标注的是“Page last reviewed”，不能直接写成页面更新日期。改为“页面最后审核于2024年3月19日”，两张图中的“更新”同步修改。"
+      }
+    ],
+    "issues": [
+      "source_attribution：机构、标题和链接对应原文，但原文标注的是“Page last reviewed”，不能直接写成页面更新日期。改为“页面最后审核于2024年3月19日”，两张图中的“更新”同步修改。",
+      "正文及两张图将NHS的最后审核日期写为更新日期；统一改为“页面最后审核于2024年3月19日”。"
+    ],
+    "keep_strengths": [
+      "把固定起床、提前放松与有困意再上床分开，回答了提前躺下仍清醒的具体困惑。",
+      "排程示例给出了到点仍不困时的选择，读者能够据此调整自己的日程。",
+      "明确区分预留9小时和实际睡眠9小时，并保留就医及困倦驾驶边界。"
+    ]
+  }
+}

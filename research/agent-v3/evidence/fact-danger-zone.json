@@ -1,0 +1,11 @@
+{
+  "id": "fact-danger-zone",
+  "kind": "official_fact",
+  "title": "USDA FSIS: What is the Danger Zone?",
+  "url": "https://ask.fsis.usda.gov/article/What-is-the-Danger-Zone",
+  "updated_on": "2024-09-06",
+  "retrieved_on": "2026-11-05",
+  "text": "The Danger Zone is the temperature range between 40 °F (4.4 ºC) and 140 °F (60 ºC) in which bacteria can grow rapidly. To keep food out of the Danger Zone, keep cold food cold, at or below 40 °F (4.4 ºC), and hot food hot, at or above 140 °F (60 ºC). Keep cold food in the refrigerator, in coolers, or in containers on ice. Keep hot cooked food in the oven, in heated chafing dishes, or in preheated steam tables, warming trays and/or slow cookers. Use a food thermometer to verify temperatures. Never leave food in the Danger Zone over 2 hours; 1 hour if outside temperature is above 90 °F (32.2 ºC).",
+  "provenance": "本轮web.run官方域名搜索返回完整Knowledge Article段落；直接open部分超时，未伪称直接HTTPS成功。空白合并，保留原文拼写。",
+  "applicability": "美国USDA家庭熟食/易腐午餐安全指导；不是中国餐饮业法规。温度换算须说明约数。"
+}

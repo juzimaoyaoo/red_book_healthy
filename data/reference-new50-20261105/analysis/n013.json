@@ -1,0 +1,98 @@
+{
+  "time": "2026-11-05T11:24:39.153526+00:00",
+  "source_identity": {
+    "source_sha256": "7f37944efb7f4184ad928f632bf78f4de61568615d4a8faf334c9917ff4e8a5d",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n013.png": "d922d03a98ba6c9c368cf133e69be216a6d0937e72f3f59773199fb5d0a81774",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n013-page2.png": "86d838bdb922a19338c8595c096da0a949f2a09cdf61c863d86bde72f83aa596",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n013-page3.png": "dd52e6c549b1e271061c81e6fd18dd22a8b4f141319ef567633b44c9e95b2867",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n013-page4.png": "1e3e9128f847e1d6ea4476476b26152dfeb433c7afd6b2af20d49fe91815b9dd",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n013-page5.png": "7691e0eccbad6f63c6a0f4dac1d97599c2873affa7fd2bc9f20a4f69008ac400"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.42,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 80152,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7489,
+          "reasoning_output_tokens": 117
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n013",
+    "title": "答案恐怕会让你很意外",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：正文和全部5页图片已提供，核心内容可读。",
+    "reader_problem": "计划睡觉后仍继续刷手机，反复自责；期待找到能改变行为的具体办法。",
+    "scene": "白天被工作占满，夜里通过刷剧、短视频和游戏延长个人时间。",
+    "title_mechanic": "正文标题隐藏答案，封面补充“如何才能戒掉熬夜”的任务；第2页立即以“先放弃戒掉熬夜”形成反转。",
+    "title_promise_limits": "封面承诺解决行为问题，实际主要交付减少自责的解释与态度。反转有阅读张力，但缺少如何识别不同情况及如何推进改变的答案。",
+    "content_structure": [
+      "第1页：提出戒掉熬夜的问题，以娱乐、奖赏和清醒构成循环示意。",
+      "第2页：提前揭示反转答案，给晚睡贴上心理与行为概念标签。",
+      "第3页：新增对白天缺乏掌控感、夜间争取自由的解释。",
+      "第4页：提出强迫早睡可能引发焦虑，并强调心理健康。",
+      "第5页：以接纳、自我和解和不着急改变收束。",
+      "正文：重复夜间娱乐场景和反转建议，另补睡眠障碍求助提示。"
+    ],
+    "answer_payoff": "读者可能获得被理解和减少道德自责的体验，但“如何戒掉”的查用需求没有充分兑现；接纳与持续改变之间缺少操作桥梁。",
+    "visual_observation": "封面为紫框白卡和黑色超大标题，下面用节点箭头画娱乐奖赏循环。内页浅灰底、黄色黑描边标题、紫色重点句，辅以疲惫和卧床照片。第2页已经给出反转，后续主要承担解释。照片表现疲惫或睡眠情境，无法证明对应心理机制。",
+    "observed_page_count": 5,
+    "source_and_claim_limits": "原作者把部分晚睡解释为心理顽疾、强迫性行为或报复性就寝拖延，并提出掌控感、奖赏系统、睡眠焦虑等机制，均待核，不能据此给读者贴诊断标签。“几乎肯定”引发焦虑及“不焦虑就是胜利”等结论缺少适用条件。末页接纳熬夜及接受代价是原作者立场，本轮不转为建议。正文求助提示未在图片结尾同等突出。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "反转答案应保留标题原本要解决的任务；若交付的是理解与减轻自责，就应在标题明确这一收益，避免让读者期待完整改变方案。",
+        "observed_anchor": "如何才能戒掉熬夜",
+        "new_application": "将新内容定位为晚间拖延的情境辨识，标题明确“先分清自己卡在哪里”。"
+      },
+      {
+        "stage": "content",
+        "rule": "答案可以在第2页提前给出，后续页必须逐页补充理由、适用条件和下一步判断，不能只换说法重复反转。",
+        "observed_anchor": "先放弃戒掉熬夜",
+        "new_application": "第2页给分类框架，第3页放不同情境，第4页解释分类限制，第5页整理可继续记录的问题。"
+      },
+      {
+        "stage": "visual",
+        "rule": "循环图适合呈现行为之间的反馈关系；图中节点必须区分可观察行为与待核解释，帮助读者看懂循环而非接受单一机制。",
+        "observed_anchor": "大脑奖赏系统",
+        "new_application": "只用计划睡觉、继续使用设备和事后感受画行为流程，将机制假设单列，不混入同一证据层。"
+      },
+      {
+        "stage": "review",
+        "rule": "轮播本身要包含关键适用边界，不能依赖正文末尾补齐；保存图片的读者也应能辨别内容没有覆盖的情况。",
+        "observed_anchor": "睡眠障碍",
+        "new_application": "末页同时列内容适用范围、未解决问题及需进一步专业评估的情境，避免安慰句成为唯一结论。"
+      }
+    ],
+    "do_not_transfer": [
+      "把晚睡直接称为心理顽疾或强迫性问题。",
+      "把缺乏白天掌控感当作所有晚睡者的原因。",
+      "用放弃改变替代具体问题分析。",
+      "把减少焦虑写成处理睡眠问题的充分条件。"
+    ],
+    "transformations": [
+      "面向育儿照护者，改成夜间个人时间的情境漫画，以虚构时间分配案例替代普遍心理归因。改变受众、证据和形式。",
+      "面向大学生，制作晚睡原因分支卡，区分外部任务、主动娱乐和想睡却睡不着等自述情境，不给诊断。改变受众、证据和决策方式。",
+      "面向健康编辑，制作反转标题审稿表，用标题任务与实际交付逐格对照。改变受众、证据和形式。"
+    ],
+    "limitations": [
+      "未提供心理与神经机制的来源，不能确认术语使用是否准确。",
+      "无法从通用场景判断任何读者的晚睡原因。",
+      "正文求助提示可读，但其实际传播触达与读者是否读到无法判断。"
+    ]
+  }
+}

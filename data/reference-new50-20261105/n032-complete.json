@@ -1,0 +1,28 @@
+{
+  "id": "n032",
+  "query": "午睡 多久",
+  "theme": "睡眠与节律",
+  "title": "真的，我的午睡只要15分钟",
+  "author": "🌟早睡吧阿星",
+  "body": "坚持九点半早睡五个多月后，我现在午休质量真的太好了。 每天中午我只给自己留十五分钟午睡，其实有时候只是想放松一下眼睛，闭",
+  "raw_a11y": "@e32 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2400\n@e33 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e34 FrameLayout id=\"android:id/content\" at=0,0 size=1080x2356\n@e35 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e36 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x2356\n@e37 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e38 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x234\n@e39 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e40 RelativeLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=1080x154\n@e41 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,80 size=246x154\n@e42 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,132 size=27x49\n@e43 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=81,80 size=165x154\n@e44 ImageView id=\"com.xingin.xhs:id/avatarLayout\" at=81,80 size=165x154\n@e45 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=480x56\n@e46 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=246,129 size=256x56\n@e47 TextView text=\"🌟早睡吧阿星\" id=\"com.xingin.xhs:id/nickNameTV\" at=246,129 size=256x56\n@e48 FrameLayout at=759,118 size=173x77\n@e49 TextView text=\"关注\" at=759,118 size=173x77\n@e50 ImageView id=\"com.xingin.xhs:id/moreOperateIV\" at=965,121 size=71x71\n@e51 View id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,0 size=1080x80\n@e52 ViewGroup id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e53 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x2122\n@e54 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1515\n@e55 LinearLayout id=\"com.xingin.xhs:id/noteContentLayout\" at=0,234 size=1080x1515\n@e56 FrameLayout label=\"图片,第1张,共4张,双指左划或右划即可查看更多内容\" at=0,234 size=1080x1440\n@e57 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e58 RecyclerView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e59 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e60 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e61 ImageView id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x1440\n@e62 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x121\n@e63 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,234 size=1080x275\n@e64 LinearLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1749 size=1080x607\n@e65 FrameLayout id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=0,1763 size=1080x299\n@e66 TextView text=\"真的，我的午睡只要15分钟\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1777 size=998x63\n@e67 TextView text=\"坚持九点半早睡五个多月后，我现在午休质量真的太好了。 每天中午我只给自己留十五分钟午睡，其实有时候只是想放松一下眼睛，闭\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=41,1868 size=998x194\n@e81 Button label=\"点赞 1342\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=495,2202 size=208x154\n@e84 Button label=\"收藏 864\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=703,2202 size=194x154\n@e87 Button label=\"评论 45\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=897,2202 size=183x154",
+  "image_count": 4,
+  "cover_screenshot": "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032.png",
+  "visual_observation": null,
+  "classification": "candidate",
+  "retrieved_on": "2026-11-05",
+  "url": null,
+  "scope": "全部4张逐张打开并保存截图；实质文字在图片时交给拆解模型全量读取，模型回执前不标分析完成。",
+  "visible_metrics": [
+    "@e81 Button label=\"点赞 1342\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=495,2202 size=208x154",
+    "@e84 Button label=\"收藏 864\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=703,2202 size=194x154",
+    "@e87 Button label=\"评论 45\" id=\"com.xingin.xhs:id/0_resource_name_obfuscated\" at=897,2202 size=183x154"
+  ],
+  "page_screenshots": [
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032-page2.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032-page3.png",
+    "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n032-page4.png"
+  ],
+  "model_analysis_status": "PENDING"
+}

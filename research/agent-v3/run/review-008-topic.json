@@ -1,0 +1,86 @@
+{
+  "artifact_hash": "e3d540325e07396f856ab4c2d5efc1ed738a8be3a972d82156afb26a9dde7de9",
+  "review": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "reader_need",
+        "verdict": "PASS",
+        "location": "topic:p01",
+        "quote": "晚上做好第二天的午饭，什么时候冷藏、通勤怎么保冷、到公司和午饭前分别怎么处理？",
+        "reason": "明确解决忙碌带饭者从晚间备餐到午间食用的具体困惑，不是泛泛倡导健康饮食。"
+      },
+      {
+        "dimension": "promise_specificity",
+        "verdict": "PASS",
+        "location": "topic:p01",
+        "quote": "先回答：不必等凉透。少量热食可以直接放冰箱；大锅汤菜先分成小份、装浅容器再冷藏，食物加盖保存。",
+        "reason": "直接回答标题，并区分少量热食与大锅食物，提纲能够兑现承诺。"
+      },
+      {
+        "dimension": "reference_transfer",
+        "verdict": "PASS",
+        "location": "topic:p01",
+        "quote": "计划以三幅承担不同任务的操作画面组成图文：分装比较、保冷袋剖面、复热测温。",
+        "reason": "将参考中的状态比较和对象关系转为分装、保冷与测温的操作图，新增运输和复热决策，未沿用参考的独特画面或恐吓表达。"
+      },
+      {
+        "dimension": "priority",
+        "verdict": "PASS",
+        "location": "topic:p01",
+        "quote": "没有冷藏或保冷条件时，不采用这套易腐熟食带饭方案。",
+        "reason": "选题围绕一次完整带饭决策，既给操作也给停止条件，收获超过“先做一点”。优先制作有场景依据，但不代表需求或增长效果已验证。"
+      },
+      {
+        "dimension": "facts_feasibility",
+        "verdict": "PASS",
+        "location": "topic:p01",
+        "quote": "中心温度至少达到165°F（约73.9℃），用食品温度计确认。",
+        "reason": "所给USDA已读材料支持冷藏、浅盒分装、双冷源、温度维持和复热测温；换算为约数，未把放入冰袋等同于温度达标。现有证据足以支持提纲。"
+      },
+      {
+        "dimension": "reader_need",
+        "verdict": "PASS",
+        "location": "topic:p02",
+        "quote": "为了早睡提前躺下却不困，到底应该固定上床时间、关灯时间，还是起床时间？今晚怎么安排？",
+        "reason": "问题具体，针对提前躺下仍清醒的白班成年人，能帮助读者处理相互混淆的作息建议。"
+      },
+      {
+        "dimension": "promise_specificity",
+        "verdict": "PASS",
+        "location": "topic:p02",
+        "quote": "每天固定起床并离床的时间；睡前至少留1小时放松；有困意再上床，不用统一的22点关灯要求自己立刻睡着。",
+        "reason": "三个节点各有不同安排原则，直接兑现标题，没有承诺必然入睡或治疗失眠。"
+      },
+      {
+        "dimension": "reference_transfer",
+        "verdict": "PASS",
+        "location": "topic:p02",
+        "quote": "上床节点画成条件分支，不能画成必须按点完成的打卡任务。",
+        "reason": "把参考的固定时刻清单改为条件决策，用权威建议替代明星作息论证；视觉承担时间关系解释，具备实质转换。"
+      },
+      {
+        "dimension": "priority",
+        "verdict": "PASS",
+        "location": "topic:p02",
+        "quote": "两幅图分别交付时间关系与实际排程，不另加重复开场卡、睡眠危害清单或总结卡。",
+        "reason": "一个概念辨别加一个可替换排程，信息贡献明确，回应旧稿重复、收获薄的问题。制作优先级来自读者任务适配，不来自少数高赞样本。"
+      },
+      {
+        "dimension": "facts_feasibility",
+        "verdict": "PASS",
+        "location": "topic:p02",
+        "quote": "如果改变习惯没有帮助、睡眠困难已持续数月，或已经明显影响日常生活，就寻求医生评估；困倦时不要驾驶。",
+        "reason": "NHS已读原文支持固定起床、困时上床、睡前放松、成人平均睡眠需要及就医边界；22点被明确限定为示例，现有证据足以支持制作。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "带饭题保留少量与大锅分装的区别，以及运输、到公司、复热的连续操作链。",
+      "保留保冷温度条件和缺乏冷藏条件时的停止分支。",
+      "睡眠题保留固定起床、提前放松、困时上床三者的区别，避免统一关灯时刻。",
+      "两篇按操作与决策分配画面，封面合并核心答案，不用重复文字卡增加页数。",
+      "本次仅通过选题与证据可行性关卡，后续仍需独立核对公开成稿和实际成图。"
+    ]
+  }
+}

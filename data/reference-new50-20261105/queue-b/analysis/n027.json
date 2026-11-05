@@ -1,0 +1,92 @@
+{
+  "time": "2026-11-05T11:57:01.155154+00:00",
+  "source_identity": {
+    "source_sha256": "adf6b36eef0898fcf5f3806616ec6349f568de390374c4fa4b616df9faa8f704",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n027.png": "4b8c003644fc1f993f85345b3514898ea19a5d773a8c4816def14a126d77f72d",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n027-page2.png": "38bdae4885a27e1f80bd8af3502253fc9a353bb456141dd856396f86a0163444"
+    }
+  },
+  "receipt": {
+    "call_id": "002-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 257.51,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 75839,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 6148,
+          "reasoning_output_tokens": 88
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n027",
+    "title": "记录减肥最好的运动：走路",
+    "usable_as": "contrast",
+    "completeness": "全部2张实质文字图片均已提供且可读；图片内容比输入body摘要更完整，按图片读取。",
+    "reader_problem": "希望找到容易持续的减重活动，并想知道他人如何安排、实际感受如何。",
+    "scene": "作者以早晨穿运动服时察觉四肢变化为起点，记录日常步行安排及10多天内的主观感受。",
+    "title_mechanic": "用记录口吻建立个人叙述，再用最好的运动作强比较结论，直接点明走路。",
+    "title_promise_limits": "未比较其他运动，也没有体重、围度、饮食或其他变量记录，无法支持最好和显著瘦腿。个人感受不能推广为统一结果。",
+    "content_structure": [
+      "第1页先写早晨察觉四肢紧实，作为继续走路的动机。",
+      "第1—3项交代每天10公里、可分两段、个人速度及准备门槛。",
+      "第4—5项补经期感受、可持续时间及曾走3小时的经历。",
+      "第2页第6—10项补排便、肤色、腿部感受、日晒及积极情绪。"
+    ],
+    "answer_payoff": "两页提供了个人安排与感受的完整列表，便于读者理解作者具体做了什么；没有足够材料判断减重效果、因果或与其他运动的优劣。",
+    "visual_observation": "两页均白底黑字。第1页上方留白较大，粗体标题占据显著位置，下方为开场和1—5项；第2页无重复大标题，以6—10项续接，文字集中上部。编号清楚表明续页关系，但第2页新增的是感受条目，没有新增测量证据。",
+    "observed_page_count": 2,
+    "source_and_claim_limits": "原作者报告每天10公里、每小时5公里、可分段及曾走3小时，这些是个人叙述，未经独立验证，不构成训练处方。四肢紧实、经期身体变暖、排便增加、皮肤变亮、瘦腿、日晒补充维生素及情绪改善的因果均待核；10多天也不是效果保证周期。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "个人记录标题应交代记录对象和观察范围；最高级比较必须有比较材料，否则读者会把单人体验误读为普遍排名。",
+        "observed_anchor": "减肥最好的运动",
+        "new_application": "改为资料分析标题，明确讨论某份记录能回答哪些问题，并展示尚缺的比较指标。"
+      },
+      {
+        "stage": "content",
+        "rule": "先交代实际安排，再呈现感受，能让读者区分做了什么与觉得怎样；编辑时应把两类信息明确分组。",
+        "observed_anchor": "可以5公里+5公里",
+        "new_application": "将记录表拆成活动记录、主观感受、同期变化三栏，使读者能检查混杂因素。"
+      },
+      {
+        "stage": "visual",
+        "rule": "跨页连续编号能帮助读者确认内容是否读全；续页还应说明新增信息的类别。",
+        "observed_anchor": "记录这10多天",
+        "new_application": "第1页展示记录方法，第2页展示观察结果，页眉分别标记方法与观察，避免把新增条目误当新增证据。"
+      },
+      {
+        "stage": "review",
+        "rule": "检查每个结果是否有对应记录，尤其识别主观强调词与测量材料之间的空缺。",
+        "observed_anchor": "真瘦腿的",
+        "new_application": "用证据缺口卡标明需要什么测量、比较和背景信息，暂不下效果结论。"
+      }
+    ],
+    "do_not_transfer": [
+      "不将作者的步行距离、速度、时长及经期安排转为本号建议。",
+      "不冒用作者的10多天体验和身体变化。",
+      "不以重复感叹号或个人确信代替效果证据。"
+    ],
+    "transformations": [
+      "面向减重记录新手，制作空白观察表，使用明确来源的记录方法并加入同期饮食等背景项；改变受众、证据和形式。",
+      "面向健康内容读者，制作两页辨读题，让读者给原始记录、感受和因果判断分类；改变受众、决策方式和形式。",
+      "面向准备向专业人士咨询的人，整理活动安排与身体感受的提问清单，以个人真实记录支持咨询；改变受众、证据和决策方式。"
+    ],
+    "limitations": [
+      "已读全两张文字图片，未获得原作者记录或测量底稿。",
+      "图片未展示体重、围度及同期生活变量，不能计算或归因效果。",
+      "截图中的互动数量不能证明最好这一比较判断。"
+    ]
+  }
+}

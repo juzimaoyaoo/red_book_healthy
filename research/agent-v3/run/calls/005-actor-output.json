@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "005-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 19.43,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 39598,
+          "cached_input_tokens": 18944,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 130,
+          "reasoning_output_tokens": 24
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"ids\":[\"fact-leftovers-cooling\",\"fact-leftovers-storage\",\"fact-lunch-transport\",\"fact-leftovers-reheat\",\"fact-danger-zone\"]}",
+    "reason": "补证已返回索引，需实际读取冷却、冷藏、通勤保冷和复热的权威原文及条件，才能与已读睡眠证据比较并提交两篇具体选题。"
+  }
+}

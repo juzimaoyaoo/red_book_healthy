@@ -1,0 +1,64 @@
+{
+  "artifact_hash": "b29a2bb234dd2847542fd03e686843df984a3f81ed743cf8fb2d02fae242555d",
+  "review": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "reader_value",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "先看份量：少量热食可以直接冷藏；一大锅汤菜先分成小份、装进浅容器，再冷藏，食物加盖保存。",
+        "reason": "把常见困惑转成按份量判断的具体做法，读者知道今晚如何处理饭菜，收获不止于“及时冷藏”。"
+      },
+      {
+        "dimension": "whole_article",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "① 晚上：分装后及时冷藏",
+        "reason": "全文按晚上、通勤、午间展开，覆盖同一份隔夜带饭的连续操作；各段分别解决降温、保冷和复热问题，没有用重复段落扩充篇幅。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "少量热食 → 可以直接冷藏\n大锅汤菜 → 分成小份、装浅盒，再冷藏",
+        "reason": "第一页提供份量分支比较，直接回答标题，并补充冷藏条件与室温放置上限。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "冰袋提前冻好；冷源分别放在易腐食物上、下方。",
+        "reason": "第二页新增保冷袋装法、冷源选择、到公司后的处理和适用边界，承担独立操作任务。"
+      },
+      {
+        "dimension": "page_contribution",
+        "verdict": "PASS",
+        "location": "image:3",
+        "quote": "微波复热：加盖 → 转动食物，使加热均匀 → 留出静置时间 → 测多个位置",
+        "reason": "第三页新增复热顺序与测温判断，明确不能靠饭盒触感判断，与前两页互补。"
+      },
+      {
+        "dimension": "reference_transfer",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "三幅图依次是分装比较、保冷袋剖面和复热测温示意。均为原创操作示意，不代表实测结果。",
+        "reason": "公开稿已把比较关系和对象位置关系落实为三种不同的信息组织方式，对应参考中的比较与连线解释机制；未移植原参考的健康结论或冒充实拍实验。本阶段的画面文案足以支持这一判断。"
+      },
+      {
+        "dimension": "title_payoff",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "晚上做好明天的午饭，不必在灶台上等它凉透。",
+        "reason": "开篇立即回答标题问题，紧接着区分少量热食与大锅汤菜，答案明确且保留操作条件。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "保留“少量直接冷藏、大锅分小份装浅盒”的明确分支。",
+      "保留三页各自承担分装、保冷、复热任务的结构。",
+      "保留“放了冰袋不等于温度达标”和不具备保冷条件时不采用该方案的边界。",
+      "保留原创示意与实测结果的明确区分。"
+    ]
+  }
+}

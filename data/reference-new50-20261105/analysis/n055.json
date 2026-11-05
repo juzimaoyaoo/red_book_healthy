@@ -1,0 +1,107 @@
+{
+  "time": "2026-11-05T12:27:34.158423+00:00",
+  "source_identity": {
+    "source_sha256": "c650d2ea715bf3c34a56a0713164f18ab025886daaca62b87a66b702b3652754",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055.png": "7672e9f50990861ecfa5e974b924abe1647d5042182f2a5c046e0f1630d5661c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055-page2.png": "b351d6d9cdf1c6104b2591218fe4a5e19e77e64c1adae1ef456afb35579d6ecc",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055-page3.png": "4eaa0f01de4850384b949636b8310c14d043feb904fa16253daa5c029973e540",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055-page4.png": "0fedcb835f0bbb67b734f7ad2c35d4590050c35ed8e78a5c85888ea8690e7b78",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055-page5.png": "a631944f2c38db938999810a819c33f7953bff76fc96e21616f42bb9cfdb3379",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055-page6.png": "7c31915a61d44f4a324958d96c02c531bc862ad3aab1c056ebd829b371d04c35",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055-page7.png": "cc3826c61e0bc5a622fa6dc111fe159e34075ca38560cda663176e0dd713332a",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n055-page8.png": "fe77cdab9e9ca4841deb1f5d65e575ef5af326e5a66f679e07503ac72e317d45"
+    }
+  },
+  "receipt": {
+    "call_id": "007-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 300.78,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 91905,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7399,
+          "reasoning_output_tokens": 77
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n055",
+    "title": "适合既要健身也要生活的上班族｜健身周计划",
+    "usable_as": "contrast",
+    "completeness": "完整内容样本：虽然正文只有标签，但全部8张实质图片已提供且可读，包含封面及周一至周日安排。",
+    "reader_problem": "希望兼顾健身与下班生活，需要了解一周如何安排、要花多少时间以及需要什么设备。",
+    "scene": "早餐前活动、下班后居家自由重量训练、周五健身房训练及周日放松。",
+    "title_mechanic": "以“既要健身也要生活”命名时间冲突，再承诺一份适合上班族的周计划；封面叠加增肌、增力、减脂、节时和减少睡眠影响等收益。",
+    "title_promise_limits": "没有定义适用训练经验、可用设备和时间预算；多重效果及节时承诺缺少证据，且计划本身安排较密，未证明兼顾生活。",
+    "content_structure": [
+      "第1页：周计划封面，列出多项预期收益及下班时间宝贵的理由。",
+      "第2页：周一，早餐前空腹有氧及下班后背部训练，列动作、组次和目标部位。",
+      "第3页：周二，重复早餐前安排，增加胸部训练与大重量描述。",
+      "第4页：周三，重复早餐前安排，列腿部动作和组次。",
+      "第5页：周四，重复早餐前安排，列肩部动作和组次。",
+      "第6页：周五，重复早餐前安排，改为健身房器械训练，按单双周分配内容。",
+      "第7页：周六，重复周四的肩部动作及组次，仍使用下班后措辞。",
+      "第8页：周日放松，可加入徒步、骑车、轮滑等活动。"
+    ],
+    "answer_payoff": "读者能逐日查到动作名称和组次，但无法据此判断实际耗时、负荷适配和如何临时删减。答案提供了训练表，尚未充分回答如何保留下班生活。",
+    "visual_observation": "可观察：白底黑字，黄色圈标星期和训练部位，绿色荧光底标动作，封面另有粉色、绿色重点块和杠铃人物插图。机制推断：固定模板有利于按星期定位，但周一至周六重复占据上半页的早餐前安排，压缩了当天差异信息；颜色主要强调名词，没有解释总耗时与生活安排的关系。",
+    "observed_page_count": 8,
+    "source_and_claim_limits": "所有空腹活动安排、组次、次数、重量、休息时间和单双周训练分配均列待核。增肌、增力、减脂及减少睡眠影响的因果未提供证据。引体向上等动作的目标部位标注也不能直接作为知识沉淀。作者账号名称及可见互动数均不能证明训练方案专业或适用。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "标题承诺兼顾两个目标时，正文需要展示两者如何分配资源，单独列其中一项的清单不足以兑现。",
+        "observed_anchor": "既要健身也要生活",
+        "new_application": "制作工作与兴趣安排案例时，同时列出占用时段、保留空档和取消条件，让读者核对是否真的兼顾。"
+      },
+      {
+        "stage": "content",
+        "rule": "周计划要说明适用条件和缩减方式，读者才能判断自己是否具备执行前提。",
+        "observed_anchor": "一周健身计划",
+        "new_application": "改为按可用设备和可支配时段选择的空白规划表，训练内容经另行核验后填写。"
+      },
+      {
+        "stage": "visual",
+        "rule": "固定模板应突出每天新增的信息，共同规则集中展示，减少逐页重复带来的查阅成本。",
+        "observed_anchor": "早餐前10min空腹有氧",
+        "new_application": "把共用说明放在独立页，日历页只呈现当天差异、所需条件与未安排时段。"
+      },
+      {
+        "stage": "review",
+        "rule": "跨页重复必须检查是否有解释；同一部位和相同内容再次出现时，要交代安排依据，防止模板复制掩盖缺口。",
+        "observed_anchor": "下班后肩膀自由重量",
+        "new_application": "排期审稿时逐日比较任务、资源和重复原因，对无法说明的重复项保留待核标记。"
+      }
+    ],
+    "do_not_transfer": [
+      "不照搬空腹有氧及连续多日训练安排。",
+      "不复用大重量、组次、次数或短休息处方。",
+      "不宣称该计划兼顾减脂、增肌、增力和睡眠。",
+      "不把居家训练视为无需设备前提。",
+      "不将周四与周六相同安排自行解释为合理周期设计。"
+    ],
+    "transformations": [
+      "面向刚开始规划业余时间的上班族，以一周实际时间记录为证据，做训练之外还剩多少空档的预算表，改变受众、证据与决策方式。",
+      "面向只有有限设备的人，以设备清单和居住条件为证据，制作执行前提问答卡，暂不提供动作剂量，改变受众、证据与形式。",
+      "面向已有专业训练方案的人，以其现有方案和工作日历为输入，制作可移动的周历卡，只处理排期冲突和生活空档，改变受众、证据与形式。"
+    ],
+    "limitations": [
+      "全部8页已见，因此正文仅标签不影响本样本的内容完整性。",
+      "没有单次总时长、组间休息全量信息和实际完成记录，不能验证节时承诺。",
+      "没有训练经验、器械条件、健康状况或动作教学资料。",
+      "周六页面沿用下班后措辞，但无法确认作者是否周六上班。",
+      "周四和周六内容重复是可观察事实，重复原因未说明。",
+      "不能从可见点赞、收藏和评论数推断计划效果或读者实际执行情况。"
+    ]
+  }
+}

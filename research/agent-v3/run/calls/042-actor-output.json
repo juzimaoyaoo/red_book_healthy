@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "042-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 19.59,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 48049,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 280,
+          "reasoning_output_tokens": 89
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "finish",
+    "args_json": "{\"post_ids\":[\"p01\",\"p02\"],\"status\":\"READY_FOR_ASSETS\",\"packages\":[{\"post_id\":\"p01\",\"title\":\"明天带饭：热菜要等凉透再放冰箱吗？\",\"image_count\":3},{\"post_id\":\"p02\",\"title\":\"提前上床还是睡不着？把这3个时间分开安排\",\"image_count\":2}],\"remaining_work\":\"宿主生成最终图片并完成全图审读；当前不代表已成图或已发布。\"}",
+    "reason": "当前两篇整包均已获接受，未解决问题为空。睡眠稿的来源日期已改为最后审核日期，逐字引用问题已修正并重审通过；结束本轮文字制作，交接实际成图。"
+  }
+}

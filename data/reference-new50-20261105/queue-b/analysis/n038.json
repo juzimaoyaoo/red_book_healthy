@@ -1,0 +1,115 @@
+{
+  "time": "2026-11-05T12:07:35.862821+00:00",
+  "source_identity": {
+    "source_sha256": "19758e80d9284ef6995e28fcfef1fb19026bd011058c2c77b30d68713044225e",
+    "images": {
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038.png": "d80aac7647a844c26a4b00b21cba6619856c25488870d7ed0a4f4b0f920fa2d3",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page2.png": "d8091efaf6e70ff73bbba97fcbe650f73f695da6287b3712a7c370ee9cc248ee",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page3.png": "098fa5c2f3b3fbc75b5b5af34a0da9de30a9e7b55f67f7746ed849f9826af1cc",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page4.png": "4cd58309e45b405abbaaee18d07197d8dd7a6e4604e074855c02af7fbb7fbe94",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page5.png": "97ecf3b3829f742535fa84162e70cf3180d952fb56520109259e54fa0ed8969c",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page6.png": "caae26a41a031d9ec96483784b42db34b8066ce80c491efd5a00308e9bdd1e28",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page7.png": "a840ba9b2df5ae4c285b633d4c08a6e86bd0c1b899ba102f213255edb0d4017b",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page8.png": "11061b3165db4c9fa9f7e99b8b0cc1c181e749a3bcc85959cf7c67d54875ff13",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page9.png": "a5ba0a5abb927d3fccfed19aff9e7c4f1b13e3a7be4db6d3bb8551531111a207",
+      "/Users/mac/work/ai/red_book_healthy/data/reference-new50-20261105/covers/n038-page10.png": "98ab6eb427962b9ee22f8bac3ba4dc14c116ae495fb0bb65164793ea34099a4d"
+    }
+  },
+  "receipt": {
+    "call_id": "003-reference_deconstruction",
+    "role": "reference_deconstruction",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 284.12,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 85105,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 7338,
+          "reasoning_output_tokens": 87
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "analysis": {
+    "id": "n038",
+    "title": "打工人一周备菜🍲第38周-本周花费75.35元",
+    "usable_as": "positive_editorial",
+    "completeness": "完整内容样本：完整正文及全部10张图片已提供。菜单和采购表可辨认主要项目，部分票签细字不足以独立复核总账。",
+    "reader_problem": "下班后不想再花精力决定吃什么、买什么、如何处理食材，希望提前组织工作日晚餐。",
+    "scene": "做饭新手在周末规划和采购，工作日下班后使用预先处理的食材。",
+    "title_mechanic": "以打工人限定受众，以一周备菜限定任务，以连续周次建立栏目识别，再用金额提供具体浏览理由；封面追加开饭时间，展示采购、处理和成餐状态。",
+    "title_promise_limits": "金额被正文限定为本次备菜采购支出，并明确不等于全部餐饮花费，边界较清楚。但标题与封面金额不一致，开饭时间没有完整计时证据，不能外推为读者都能达到。",
+    "content_structure": [
+      "第1页：四格拼图同时展示购物、原料、分装和成餐，预告全过程。",
+      "第2页：提供工作日菜单与采购清单，先说明买菜依据。",
+      "第3页：购物车展示集中采购及部分价格标签。",
+      "第4页：食材平铺配总额及分类费用，补充花费说明。",
+      "第5页：展示清洗步骤。",
+      "第6页：展示沥干步骤，补充储存理由。",
+      "第7页：切分装盒，并在不同食材旁标注原作者的保存时长。",
+      "第8页：展示加盖后的收纳状态，区分蔬菜与肉类的存放方式。",
+      "第9页：展示下班后的成餐结果，回应封面的便捷承诺。",
+      "第10页：用户外生活照片和祝福结束。",
+      "正文：补充新手感受、费用口径，以及其他餐饮支出。"
+    ],
+    "answer_payoff": "交付了从菜单到成餐的可见流程，以及菜单、采购单和费用分类等可回看资料。机制推断：读者可能分别保存菜单页用于采购、流程页用于组织操作；实际省时、省钱与储存安全未被这些照片充分验证。",
+    "visual_observation": "采用生活实拍，封面把四个阶段压缩成四格，内页用白色黑描边大字和黄色底纹标出步骤。第7页文字贴近对应食材，解释“哪条备注属于哪一盒”；第8页用堆叠盒展示收纳结果，第9页用成餐图闭合流程。",
+    "observed_page_count": 10,
+    "source_and_claim_limits": "原作者关于健康、省钱、保存更久、各食材保存天数、冷藏冷冻方式以及开饭时间的结论均未核源或实测。保存天数缺少温度、清洁、加工及容器条件，不能迁移为食品安全建议。标题写75.35元，封面及费用页写75.32元；分类金额为整数，无法与小数总额直接核对。正文声称其他餐饮支出另计，有助于理解统计范围，但不是经审计账目。餐盘照片不能证明营养均衡或减脂效果；互动数不证明流程有效。",
+    "transferable_rules": [
+      {
+        "stage": "title",
+        "rule": "栏目标题同时交代使用人群、任务周期和本期变量，读者能判断这期是否适合自己的安排；具体数字必须注明统计范围并保持一致。",
+        "observed_anchor": "第38周",
+        "new_application": "为合租厨房设计“本周两次采购安排”，用采购次数作为本期变量，并明确人数和覆盖餐次。"
+      },
+      {
+        "stage": "content",
+        "rule": "流程先展示计划依据，再展示执行过程，使读者知道购物清单如何从菜单产生，而非仅模仿一堆食材。",
+        "observed_anchor": "周中列好菜谱",
+        "new_application": "用可勾选菜单把每道菜链接到共用原料，帮助读者判断哪些采购可以合并。"
+      },
+      {
+        "stage": "visual",
+        "rule": "封面用多个阶段预告流程，内页逐一展开；每页增加一个可见状态变化，最后用结果图回应起点。",
+        "observed_anchor": "下班直接开火炒菜",
+        "new_application": "记录一次双人晚餐准备，以清单、采购、分装和出餐四种状态组织图组，并附实际过程记录。"
+      },
+      {
+        "stage": "visual",
+        "rule": "对象较多时，把备注放到对应对象旁，图形解释的是“这条信息属于谁”，比集中列出一段备注更便于查找。",
+        "observed_anchor": "切菜装盒",
+        "new_application": "在分装照片旁标菜名、计划使用顺序和记录日期；涉及安全时长的内容另行核源后再决定是否加入。"
+      },
+      {
+        "stage": "content",
+        "rule": "成本内容应主动交代未包含的支出，读者才能判断数字能否用于自己的预算比较。",
+        "observed_anchor": "并不是我一周",
+        "new_application": "制作家庭采购记账页，分开显示本次购买、家中存量和未覆盖餐次，避免把局部采购额写成全部伙食费。"
+      }
+    ],
+    "do_not_transfer": [
+      "把作者的采购经历、连续周次或生活感受写成本号经历。",
+      "复制食材保存天数和统一储存方式。",
+      "把某次采购额写成所有人一周都能达到的费用。",
+      "照搬未经计时的开饭时间或宣称流程必然带来健康效果。"
+    ],
+    "transformations": [
+      "面向合租上班族，以共用冰箱空间记录和容器尺寸为证据，制作“空间不足时怎么取舍”的分支清单；改变受众、证据与决策方式。",
+      "面向两人家庭，以真实采购账和覆盖餐次为证据，制作预算拆分表，帮助选择采购组合；改变受众、证据、决策方式与形式。",
+      "面向做饭新手，以一次完整操作记录为证据，做“今晚要做哪些准备”的任务卡，减少对固定周末大备菜的依赖；改变证据、决策方式与形式。"
+    ],
+    "limitations": [
+      "照片覆盖全部10页，但不是连续操作或完整计时记录。",
+      "采购标签仅部分清楚，未提供可核对的完整小票。",
+      "没有储存环境及后续食材状态记录，不能确认保存效果。",
+      "第10页只承担生活情绪收尾，没有新增备菜操作信息。"
+    ]
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "receipt": {
+    "call_id": "021-actor",
+    "role": "actor",
+    "model": "gpt-6.1-sol",
+    "reasoning_effort": "medium",
+    "transport": "codex_exec_existing_login",
+    "elapsed_seconds": 19.06,
+    "events": [
+      {
+        "type": "turn.completed",
+        "usage": {
+          "input_tokens": 46454,
+          "cached_input_tokens": 0,
+          "cache_write_input_tokens": 0,
+          "output_tokens": 186,
+          "reasoning_output_tokens": 78
+        }
+      }
+    ],
+    "status": "COMPLETED"
+  },
+  "result": {
+    "action": "read_sources",
+    "args_json": "{\"ids\":[\"s061\",\"fact-leftovers-cooling\",\"fact-leftovers-storage\",\"fact-lunch-transport\",\"fact-leftovers-reheat\",\"fact-danger-zone\"]}",
+    "reason": "两篇选题与首屏已通过。先读取带饭稿所需原文，核对分装、保冷和复热的完整条件及连续引文，再提交实际正文和逐图文案。"
+  }
+}

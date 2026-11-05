@@ -1,0 +1,85 @@
+{
+  "artifact_hash": "3c7b01053efb07d9d701a287ab9ac505812e6f5073a1e8e8e978dba6dbaea36e",
+  "review": {
+    "verdict": "GO",
+    "checks": [
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "title",
+        "quote": "提前上床还是睡不着？把这3个时间分开安排",
+        "reason": "正文兑现起床、放松、上床三项安排；标题没有承诺治愈失眠或保证入睡。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "① 起床：每天固定时间，醒来并离床。\n② 放松：睡前至少留1小时，比如读书。\n③ 上床：有困意再上床，不要求自己到了某个钟点就必须睡着。",
+        "reason": "三项建议均有已提供的NHS原文直接支持。固定起床、提前放松和依困意上床的区别明确，提供了完整的小选择。"
+      },
+      {
+        "dimension": "claim_support",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "成人平均需要7—9小时睡眠，个体需要不同。\n22点到7点预留9小时，不等于实际睡了9小时；22点也不是统一入睡标准。",
+        "reason": "成人平均睡眠需要与原文一致，单位明确；9小时计算正确，并区分预留时段、实际睡眠与个体需要。"
+      },
+      {
+        "dimension": "medical_boundary",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "如果改变睡眠习惯没有帮助，睡眠困难已持续数月，或已经影响日常生活到难以应付，找医生评估。困倦时不要驾驶。",
+        "reason": "就医条件和驾驶提醒均对应NHS原文；未以生活建议替代持续睡眠困难的评估，也未提供诊断或用药指导。"
+      },
+      {
+        "dimension": "medical_boundary",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "给提前躺下仍清醒、想调整作息的白班成年人",
+        "reason": "公开限定白班成年人和具体作息困惑，没有将固定钟点推广给轮班者或所有人。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "上床｜看困意\n困了 → 上床\n没困 → 在床外继续安静放松",
+        "reason": "与正文的困意判断一致，箭头表达行动分支，没有暗示行动必然带来入睡结果。"
+      },
+      {
+        "dimension": "caption_image_consistency",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "21点：开始放松，比如读书\n22点：计划入睡，到时先看困意\n有困意 → 上床\n还不困 → 在床外继续安静放松，不转去工作或刷手机",
+        "reason": "准确展开正文示例。第一页给决策规则，第二页增加具体排程、未困时的处理及边界，重复部分承担示例对应作用。"
+      },
+      {
+        "dimension": "asset_truth",
+        "verdict": "PASS",
+        "location": "image:1",
+        "quote": "原创示意。",
+        "reason": "明确标为示意，当前图中文字没有实拍、个人实测或疗效结果的声称。"
+      },
+      {
+        "dimension": "asset_truth",
+        "verdict": "PASS",
+        "location": "image:2",
+        "quote": "钟点为编辑排程示例，非统一作息要求。原创示意。",
+        "reason": "明确披露钟点为编辑示例，没有把排程包装成研究结果或作者亲历。"
+      },
+      {
+        "dimension": "source_attribution",
+        "verdict": "PASS",
+        "location": "body",
+        "quote": "依据：英国国民医疗服务体系（NHS）《Insomnia》，页面最后审核于2024年3月19日。\nhttps://www.nhs.uk/conditions/insomnia/",
+        "reason": "机构、文章、链接和页面审核日期与所给原文一致；两页也保留同一来源，未将参考笔记或互动数据当作医学证据。"
+      }
+    ],
+    "issues": [],
+    "keep_strengths": [
+      "把固定起床时间、睡前放松时段和依困意上床分开，直接解决提前躺下仍清醒的具体困惑。",
+      "示例包含到点仍不困时的行动分支，具有实际决策价值。",
+      "明确区分预留9小时与实际睡眠，避免把22点塑造成统一标准。",
+      "两页分别承担规则和应用示例，并保留适用人群、就医与驾驶边界。"
+    ]
+  }
+}
