@@ -4,7 +4,7 @@
 
 定位、操作授权和发布要求见 [AGENTS.md](AGENTS.md)，受众假设和实验见 [ACCOUNT_DNA.md](ACCOUNT_DNA.md)。
 
-迁移到新电脑请先读 [HANDOFF.md](HANDOFF.md)。本分支为健康项目的独立私有备份。
+迁移到新电脑请先读 [HANDOFF.md](HANDOFF.md)。误推到其他工作区的远程分支已撤销；当前仅保留本地交接工程，独立私有仓库尚待建立。
 
 ## 当前生产入口（v4）
 
